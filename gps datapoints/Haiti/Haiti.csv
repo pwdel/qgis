@@ -1,0 +1,89 @@
+﻿
+metadata
+ID,name,desc,time,keywords,minlat,minlon,maxlat,maxlon,
+1,,,2021-06-09T17:12:58Z,,18.229831550270319,-72.321727517992258,18.512353487312794,-71.976383300498128,
+
+author
+ID,name,email,
+
+copyright
+year,license,author,
+
+link
+metadataID,authorID,wptID,rteptID,trkptID,rteID,trkID,text,type,href,
+1,,,,,,,"Garmin International",,http://www.garmin.com,
+
+rte
+ID,name,cmt,desc,src,number,type,IsAutoNamed,DisplayColor,TransportationMode,TripName,Date,DayNumber,
+
+rtept
+ID,rteID,lat,lon,ele,time,magvar,geoidheight,name,cmt,desc,src,sym,type,fix,sat,hdop,vdop,pdop,ageofdgpsdata,dgpsid,DepartureTime,StopDuration,ArrivalTime,CalculationMode,ElevationMode,NamedRoad_Name,NamedRoad_Id,NamedRoad_ProductId,TransportationMode,
+
+wpt
+ID,lat,lon,ele,time,magvar,geoidheight,name,cmt,desc,src,sym,type,fix,sat,hdop,vdop,pdop,ageofdgpsdata,dgpsid,Proximity,Temperature,Depth,DisplayMode,Samples,Expiration,CreationTime,
+1,18.295198157429695,-72.051712470129132,1034.256103515625,2021-06-09T16:58:39Z,,,"001","09-DEC-12 9:07:34AM","09-DEC-12 9:07:34AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+2,18.305639242753386,-72.056070305407047,,2021-06-09T16:58:39Z,,,"002","09-DEC-12 10:42:48AM","09-DEC-12 10:42:48AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+3,18.315882347524166,-72.057736795395613,1430.556884765625,2021-06-09T16:58:39Z,,,"003","09-DEC-12 11:21:24AM","09-DEC-12 11:21:24AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+4,18.27499995008111,-72.054461063817143,-0.1143798828125,2021-06-09T16:58:39Z,,,"Bel Air (Aprx)","Bel Air (Aprx)","Bel Air (Aprx)",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+5,18.265892425552011,-72.052283864468336,564.17529296875,2021-06-09T16:58:39Z,,,"Bell Air M","09-DEC-12 6:33:48AM","09-DEC-12 6:33:48AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+6,18.235888900235295,-72.067759707570076,-0.1143798828125,2021-06-09T16:58:39Z,,,"Belle Anse Por","Belle Anse Port","Belle Anse Port",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+7,18.29166661016643,-72.050783419981599,-0.1143798828125,2021-06-09T16:58:39Z,,,"Bois Conte (Ap","Bois Conte (Aprx)","Bois Conte (Aprx)",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+8,18.312499998137355,-72.058333251625299,-0.1143798828125,2021-06-09T16:58:39Z,,,"Bois De Hommes","Bois De Hommes (Aprx)","Bois De Hommes (Aprx)",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+9,18.32501107826829,-72.070938879624009,-0.1143798828125,2021-06-09T16:58:39Z,,,"Bois Paul (Apr","Bois Paul (Aprx)","Bois Paul (Aprx)",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+10,18.485239204019308,-72.312526702880859,-0.1143798828125,2021-06-09T16:58:39Z,,,"Fermate","Fermate","Fermate",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+11,18.34935556165874,-72.023569392040372,-0.1143798828125,2021-06-09T16:58:39Z,,,"Footpath","Footpath","Footpath",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+12,18.343411451205611,-72.001014947891235,-0.1143798828125,2021-06-09T16:58:39Z,,,"Footpath Switc","Footpath Switchback","Footpath Switchback",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+13,18.350811749696732,-72.027153158560395,-0.1143798828125,2021-06-09T16:58:39Z,,,"Footpath.1","Footpath","Footpath",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+14,18.347791414707899,-72.033680062741041,-0.1143798828125,2021-06-09T16:58:39Z,,,"Footpath.2","Footpath","Footpath",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+15,18.348685260862112,-72.009868584573269,-0.1143798828125,2021-06-09T16:58:39Z,,,"Footpath.3","Footpath","Footpath",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+16,18.348006410524249,-72.016384927555919,-0.1143798828125,2021-06-09T16:58:39Z,,,"Footpath.4","Footpath","Footpath",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+17,18.341373642906547,-72.04619281925261,-0.1143798828125,2021-06-09T16:58:39Z,,,"Footpath.5","Footpath","Footpath",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+18,18.449521064758301,-72.284360993653536,-0.1143798828125,2021-06-09T16:58:39Z,,,"Kenscoff","Kenscoff","Kenscoff",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+19,18.339162832126021,-72.097403733059764,-0.1143798828125,2021-06-09T16:58:39Z,,,"Main Road","Main Road","Main Road",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+20,18.32008964382112,-72.16933362185955,-0.1143798828125,2021-06-09T16:58:39Z,,,"Main Road.1","Main Road","Main Road",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+21,18.337433477863669,-72.274663718417287,-0.1143798828125,2021-06-09T16:58:39Z,,,"Main Road.2","Main Road","Main Road",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+22,18.325279299169779,-72.262261686846614,-0.1143798828125,2021-06-09T16:58:39Z,,,"Main Road.3","Main Road","Main Road",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+23,18.302863826975226,-72.053044438362122,-0.1143798828125,2021-06-09T16:58:39Z,,,"Mapou (Aprx)","Mapou (Aprx)","Mapou (Aprx)",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+24,18.315070057287812,-72.237131064757705,-0.1143798828125,2021-06-09T16:58:39Z,,,"Marche","Marche","Marche",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+25,18.338959068059921,-72.054551588371396,1945.5791015625,2021-06-09T16:58:39Z,,,"Mare R","09-DEC-12 1:13:50PM","09-DEC-12 1:13:50PM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+26,18.341347659006715,-72.055169753730297,-0.1143798828125,2021-06-09T16:58:39Z,,,"Mare Rouge Cle","Mare Rouge Clearing","Mare Rouge Clearing",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+27,18.342255167663097,-71.994079425930977,-0.1143798828125,2021-06-09T16:58:39Z,,,"Mare Rouge Pat","Mare Rouge Pathway Meetup","Mare Rouge Pathway Meetup",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+28,18.229831550270319,-72.321727517992258,2.5291748046875,2021-06-09T16:58:39Z,,,"Marigot Port","08-DEC-12 12:55:58PM","08-DEC-12 12:55:58PM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+29,18.305051503702998,-72.056006602942944,1210.656982421875,2021-06-09T16:58:39Z,,,"Mr Path","09-DEC-12 10:31:04AM","09-DEC-12 10:31:04AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+30,18.264556936919689,-72.04907082952559,-0.1143798828125,2021-06-09T16:58:39Z,,,"Path","Path","Path",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+31,18.3237533736974,-72.044589444994926,-0.1143798828125,2021-06-09T16:58:39Z,,,"Path End (Aprx","Path End (Aprx)","Path End (Aprx)",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+32,18.258473183959723,-72.04856850206852,-0.1143798828125,2021-06-09T16:58:39Z,,,"Pathway Meetup","Pathway Meetup","Pathway Meetup",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+33,18.512353487312794,-72.283325409516692,-0.1143798828125,2021-06-09T16:58:39Z,,,"Petionville","Petionville","Petionville",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+34,18.342566471546888,-72.055719355121255,1988.1171875,2021-06-09T16:58:39Z,,,"Pic start","09-DEC-12 2:22:39PM","09-DEC-12 2:22:39PM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+35,18.359999991953373,-71.976383300498128,1990.7607421875,2021-06-09T16:58:39Z,,,"Piclaselle","09-DEC-12 5:12:33PM","09-DEC-12 5:12:33PM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+36,18.261531740427017,-72.052635569125414,417.5751953125,2021-06-09T16:58:39Z,,,"Pics1","09-DEC-12 6:03:38AM","09-DEC-12 6:03:38AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+37,18.325086096301675,-72.06656469963491,1622.33837890625,2021-06-09T16:58:39Z,,,"Rest","09-DEC-12 12:05:57PM","09-DEC-12 12:05:57PM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+38,18.346524573862553,-72.069425443187356,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Interse 1","Road Intersection","Road Intersection",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+39,18.321765186265111,-72.216126099228859,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Interse 2","Road Intersection","Road Intersection",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+40,18.333089724183083,-72.138148583471775,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Interse 3","Road Intersection","Road Intersection",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+41,18.334221951663494,-72.144785039126873,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Interse 4","Road Intersection","Road Intersection",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+42,18.321265457198024,-72.227428760379553,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Interse 5","Road Intersection","Road Intersection",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+43,18.327410649508238,-72.158546280115843,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Interse 6","Road Intersection","Road Intersection",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+44,18.343310030177236,-72.084531141445041,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Intersect","Road Intersection","Road Intersection",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+45,18.24184357188642,-72.066460009664297,-0.1143798828125,2021-06-09T16:58:39Z,,,"Road Start Bel","Road Start Belle Anse","Road Start Belle Anse",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+46,18.296137433499098,-72.051752116531134,1050.8388671875,2021-06-09T16:58:39Z,,,"Short To Ls","09-DEC-12 9:10:20AM","09-DEC-12 9:10:20AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+47,18.248473154380918,-72.057796306908131,-0.1143798828125,2021-06-09T16:58:39Z,,,"Shortcut","Shortcut","Shortcut",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+48,18.35871278308332,-71.982432771474123,2576.920166015625,2021-06-09T16:58:39Z,,,"View","10-DEC-12 9:01:37AM","10-DEC-12 9:01:37AM",,"Flag, Blue","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+
+Address
+wptID,StreetAddress1,StreetAddress2,City,State,Country,PostalCode,
+
+PhoneNumber
+wptID,Category,value,
+
+Categories
+wptID,Category,
+
+trk
+ID,name,cmt,desc,src,number,type,DisplayColor,
+
+trkseg
+ID,trkID,
+
+trkpt
+ID,trksegID,lat,lon,ele,time,magvar,geoidheight,name,cmt,desc,src,sym,type,fix,sat,hdop,vdop,pdop,ageofdgpsdata,dgpsid,Temperature,Depth,wtemp,hr,cad,

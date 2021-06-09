@@ -1,0 +1,43 @@
+﻿
+metadata
+ID,name,desc,time,keywords,minlat,minlon,maxlat,maxlon,
+1,,,2021-06-09T17:16:51Z,,66.015421953052282,-21.410254687070847,66.023599924519658,-21.399816619232297,
+
+author
+ID,name,email,
+
+copyright
+year,license,author,
+
+link
+metadataID,authorID,wptID,rteptID,trkptID,rteID,trkID,text,type,href,
+1,,,,,,,"Garmin International",,http://www.garmin.com,
+
+rte
+ID,name,cmt,desc,src,number,type,IsAutoNamed,DisplayColor,TransportationMode,TripName,Date,DayNumber,
+
+rtept
+ID,rteID,lat,lon,ele,time,magvar,geoidheight,name,cmt,desc,src,sym,type,fix,sat,hdop,vdop,pdop,ageofdgpsdata,dgpsid,DepartureTime,StopDuration,ArrivalTime,CalculationMode,ElevationMode,NamedRoad_Name,NamedRoad_Id,NamedRoad_ProductId,TransportationMode,
+
+wpt
+ID,lat,lon,ele,time,magvar,geoidheight,name,cmt,desc,src,sym,type,fix,sat,hdop,vdop,pdop,ageofdgpsdata,dgpsid,Proximity,Temperature,Depth,DisplayMode,Samples,Expiration,CreationTime,
+1,66.015421953052282,-21.410254687070847,85.6824951171875,2021-06-09T16:58:39Z,,,"Com Tower","05-SEP-18 5:50:27AM","05-SEP-18 5:50:27AM",,"Radio Beacon","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+2,66.023599924519658,-21.399816619232297,83.5196533203125,2021-06-09T16:58:39Z,,,"Reyk","05-SEP-18 6:00:14AM","05-SEP-18 6:00:14AM",,"Civil","user",,,,,,,,,,,SymbolAndName,,,2021-06-09T16:58:39Z,
+
+Address
+wptID,StreetAddress1,StreetAddress2,City,State,Country,PostalCode,
+
+PhoneNumber
+wptID,Category,value,
+
+Categories
+wptID,Category,
+
+trk
+ID,name,cmt,desc,src,number,type,DisplayColor,
+
+trkseg
+ID,trkID,
+
+trkpt
+ID,trksegID,lat,lon,ele,time,magvar,geoidheight,name,cmt,desc,src,sym,type,fix,sat,hdop,vdop,pdop,ageofdgpsdata,dgpsid,Temperature,Depth,wtemp,hr,cad,
