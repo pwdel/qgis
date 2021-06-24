@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1UlixmavTWRIzCLELcGue_TUmUFApVMHO">
+	<name>Peru Tres Pasos Hike</name>
+	<gx:CascadingStyle kml:id="__managed_style_24FFCB8D8E1B6A09ABCD">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2174&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1678BBA6351B6A09ABCD">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2174&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_001351660F1B6A09ABCD">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1678BBA6351B6A09ABCD</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_24FFCB8D8E1B6A09ABCD</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1F815924B41B6A02E68F">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0D2AC6C11F1B6A02E690">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A293610C71B6A02E68F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1F815924B41B6A02E68F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0D2AC6C11F1B6A02E690</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2F6C0DCA7D1B6A02A9D0">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1800582C2F1B6A02A9D0">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_082AE9E2421B6A02A9D0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1800582C2F1B6A02A9D0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2F6C0DCA7D1B6A02A9D0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0E523408861B5FEC5E34">
+		<name>Estimated Start</name>
+		<LookAt>
+			<longitude>-77.34764853367938</longitude>
+			<latitude>-9.526165489093437</latitude>
+			<altitude>4271.877079883733</altitude>
+			<heading>0.5333864289495381</heading>
+			<tilt>9.735309267357923</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1325.764153292257</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_082AE9E2421B6A02A9D0</styleUrl>
+		<Point>
+			<coordinates>-77.35021049359348,-9.527747327205139,4262.112195456296</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00D353E5651B5FFA5400">
+		<name>Laguna Rajucolta</name>
+		<LookAt>
+			<longitude>-77.34283012308182</longitude>
+			<latitude>-9.521328563544609</latitude>
+			<altitude>4267.838425312206</altitude>
+			<heading>0.5333786135461335</heading>
+			<tilt>9.740313344582232</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4619.236588589265</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_082AE9E2421B6A02A9D0</styleUrl>
+		<Point>
+			<coordinates>-77.34275807232223,-9.52338939888736,4272.622913556736</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0369A6F81D1B600684AA">
+		<name>GPS Location</name>
+		<LookAt>
+			<longitude>-77.42421000006081</longitude>
+			<latitude>-9.353555591991986</latitude>
+			<altitude>5049.38358469958</altitude>
+			<heading>33.12731760950528</heading>
+			<tilt>42.54932766524237</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1025.496592088894</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_082AE9E2421B6A02A9D0</styleUrl>
+		<Point>
+			<coordinates>-77.425195,-9.353892999999999,5040.143531870363</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04F0E86BB81B6A02E68A">
+		<name>Refugio Perú - Pisco</name>
+		<gx:mid>/g/11cnbx2s8t</gx:mid>
+		<gx:fid>0x91a94ba21660fff1:0x63d3a03e16b817ed</gx:fid>
+		<LookAt>
+			<longitude>-77.6294358</longitude>
+			<latitude>-9.029743400000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1041.898334268388</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A293610C71B6A02E68F</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.6294358,-9.029743399999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E59D7C0AD1B6A073A3B">
+		<name>Vivaque Longoni</name>
+		<gx:mid>/g/11j5b53r7n</gx:mid>
+		<gx:fid>0x91a917915ce1215f:0x26485ab99e724123</gx:fid>
+		<LookAt>
+			<longitude>-77.4166891</longitude>
+			<latitude>-9.387376299999998</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1040.719721484513</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A293610C71B6A02E68F</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.4166891,-9.3873763,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09769FCDEB1B6A08FBD6">
+		<name>Refugio Don Bosco - Huascarán</name>
+		<gx:mid>/g/11b6xx_1km</gx:mid>
+		<gx:fid>0x91a948bc6cd39fc3:0xb64ab430896d7e9d</gx:fid>
+		<LookAt>
+			<longitude>-77.63549970000001</longitude>
+			<latitude>-9.138833100000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1041.543602550982</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_001351660F1B6A09ABCD</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.63549970000001,-9.138833099999999,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
