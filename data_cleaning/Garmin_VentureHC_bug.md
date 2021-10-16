@@ -74,7 +74,7 @@ The most basic code demonstration using gpxpy is the following (there are many m
 import gpxpy
 import gpxpy.gpx
 
-gpx_file = open('Quilcayhuanca-Cojup_2021[COPY].gpx', 'r')
+gpx_file = open('work/Quilcayhuanca-Cojup_2021[COPY].gpx', 'r')
 
 gpx = gpxpy.parse(gpx_file)
 
