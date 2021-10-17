@@ -47,7 +47,7 @@ print('the first timestamp entry is: ',pd_first_timestamp)
 print('the datatype of the first timestamp entry is now: ',type(pd_first_timestamp))
 
 # enter the first corrected timestamp
-corrected_timestamp = '2021-09-16 06:45:00+0000'
+corrected_timestamp = '2021-05-14 15:45:00+0000'
 print('the datatype of corrected_timestamp is: ',type(corrected_timestamp))
 
 # get the time difference between the in a new dataframe
@@ -86,15 +86,20 @@ df_allgpxentries['updatedtimestamps'] = timedelta_pd + df_allgpxentries['timesta
 
 #---- Timezone Stuff ----
 
+# Check Data type
+print("df_allgpxentries['updatedtimestamps'] type is",type(df_allgpxentries['updatedtimestamps']))
+print("df_allgpxentries['updatedtimestamps'][0] type  is",type(df_allgpxentries['updatedtimestamps'][0]))
+print("df_allgpxentries['updatedtimestamps'][0] value is",df_allgpxentries['updatedtimestamps'][0])
+
 # apply lambda function on entire column
 # only apply to df_allgpxentries['updatedtimestamps'] column
 # .astimezone method on timestamp(s), convert from already time aware UTC to America/Lima
-df_allgpxentries['updatedtimestamps'] = df_allgpxentries['updatedtimestamps'].apply(lambda x: x.astimezone(tz='America/Lima'))
+df_allgpxentries['updatedtimestamps'] = df_allgpxentries['updatedtimestamps'].apply(lambda x: x.astimezone(tz='America/Los_Angeles'))
 
 # shift time timezone from UTC
 # enter timezone as int
 # number of hours to add to get back to UTC, opposite of timezone conversion
-timezone_delta = int(5)
+timezone_delta = int(7)
 print(timezone_delta)
 # convert to timestamp format
 timezonedelta_df = pd.Timedelta(hours=timezone_delta)
