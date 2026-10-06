@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Approximate summit reference",
+        "status": "published coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.41688515284652,
+          48.20848493084628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Summit notch",
+        "status": "feature confirmed by user; coordinate approximate, not surveyed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.41693023898385,
+          48.20876896485377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terrain transect",
+        "status": "not a verified hiking route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -121.41693183741896,
+            48.208935435784994
+          ],
+          [
+            -121.41693710504752,
+            48.20876456079997
+          ],
+          [
+            -121.41691296774358,
+            48.208674255968326
+          ],
+          [
+            -121.41688515284652,
+            48.20848493084628
+          ]
+        ]
+      }
+    }
+  ]
+}

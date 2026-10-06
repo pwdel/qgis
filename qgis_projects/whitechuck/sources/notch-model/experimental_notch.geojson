@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Experimental notch cue",
+        "drop_m": 7.5,
+        "rule": "At least 3 m below preceding 10 m and following 15 m on one local analytical line",
+        "status": "fit to this example; not independently validated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.41693703573695,
+          48.20876680915507
+        ]
+      }
+    }
+  ]
+}

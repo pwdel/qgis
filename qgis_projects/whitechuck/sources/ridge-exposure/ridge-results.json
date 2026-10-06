@@ -1,0 +1,14 @@
+{
+  "point_count": 1667884,
+  "directly_populated_fraction": 0.9999712643678161,
+  "modeled_fraction": 1.0,
+  "extent_utm": [
+    617440,
+    5340610,
+    617730,
+    5340850
+  ],
+  "grid_spacing_m": 1,
+  "vertical_exaggeration": 1,
+  "highlight": "GPX portions north of UTM northing 5340735 within displayed crop; approximate reported scree approach, not field-confirmed limits"
+}

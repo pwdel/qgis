@@ -1,0 +1,127 @@
+[
+  {
+    "path": "images/white-chuck-summit-map.png",
+    "bytes": 880716,
+    "sha256": "d6d75b5c860cb438261bbc6e0c460da4dd2d291bbadc6250c7ebd1b807e4d240"
+  },
+  {
+    "path": "images/notch-profile-explainer.png",
+    "bytes": 1237862,
+    "sha256": "c496d3ee3db73ffb72495b4d841f48c1b85c8501d1e88e02d0e97d07b8ce6706"
+  },
+  {
+    "path": "images/gap-explanation.png",
+    "bytes": 225950,
+    "sha256": "6f63df3ae78563706eefdd04e37d0a7c8712cec04d4f9c84ad3037297c823599"
+  },
+  {
+    "path": "white-chuck-summit-map.pdf",
+    "bytes": 300264,
+    "sha256": "add17cff4e8238c3030150b79d9296f6553e9f4f5092f0bdb449f152bb59c4e3"
+  },
+  {
+    "path": "images/notch-rock-model.png",
+    "bytes": 679283,
+    "sha256": "db845ecd2fd634ff0e41517766d829bf8fd2b7e98ce82194d80b2399e3ea3d38"
+  },
+  {
+    "path": "images/ridge-four-perspectives.png",
+    "bytes": 818702,
+    "sha256": "1b7d9a74f711d1881e0a9856a300e34d53a11df3e3b8aa3f6eb47655f0ce9ca0"
+  },
+  {
+    "path": "images/ridge-rotation.gif",
+    "bytes": 1639401,
+    "sha256": "c1a29182049dada753d0c036189188894ca68d17763ee0c6daf24dd788c39280"
+  },
+  {
+    "path": "interactive/notch-3d.html",
+    "bytes": 8326619,
+    "sha256": "9ca092530bd57edafd6c5b5e928883637077e0d53e5cbece9fc27c2b4e375617"
+  },
+  {
+    "path": "interactive/ridge-3d.html",
+    "bytes": 5718349,
+    "sha256": "344fe31afb4127eb472ab9100a9fe86fa02e5e0107981bd0413a8156bd16e584"
+  },
+  {
+    "path": "sources/hillshade.tif",
+    "bytes": 425734,
+    "sha256": "e1316702b4ceaccc42ad9bda782e609a4e8d9ba1754dc646e070b799275085af"
+  },
+  {
+    "path": "sources/source.json",
+    "bytes": 1596,
+    "sha256": "651b7ce5f8e8efac1dadeb5e91eec0a7bfd150f0ba15fffad3c7cac263cd540b"
+  },
+  {
+    "path": "sources/terrain_transect.csv",
+    "bytes": 19815,
+    "sha256": "7268d2872e83e2fb4d555ef1b5ed7b12f78f4cc4de380cd80379aae001330939"
+  },
+  {
+    "path": "sources/styled_slope.tif",
+    "bytes": 248609,
+    "sha256": "dd1a291db6de08e65455e8645dc3b58eb7a79533f4477345ba3bb9c33da87711"
+  },
+  {
+    "path": "sources/terrain_1m.tif",
+    "bytes": 348302,
+    "sha256": "f279c41bc84b74f7da44faee23b2f3e4fda387ca66ad67bed416e7bebf3f8466"
+  },
+  {
+    "path": "sources/ground_points_per_m2.tif",
+    "bytes": 102190,
+    "sha256": "11c099fe1e332e0e74dc89fc5e4158ec695a5e9ceec9be6b5187a77a8292bab5"
+  },
+  {
+    "path": "sources/slope_degrees.tif",
+    "bytes": 416098,
+    "sha256": "fe0f85238227a2c49a9c945f464037aa2c1a82ad2182b8da95ff874f62bd6537"
+  },
+  {
+    "path": "sources/annotations.geojson",
+    "bytes": 1289,
+    "sha256": "2202e2af93e768e092339a2c3fc550dd9d3b4bc785ccff7d813ab6f78cf22c54"
+  },
+  {
+    "path": "sources/notch-model/model-results.json",
+    "bytes": 2585,
+    "sha256": "09c351d0899b59f856968d26610c5c9d46a2d1681cac38453dc346b44346401e"
+  },
+  {
+    "path": "sources/notch-model/experimental_slope_degrees.tif",
+    "bytes": 62695,
+    "sha256": "6d662ca04a7c558d324e5a073c71d591d42c894f2f50d02e5809658eea40b846"
+  },
+  {
+    "path": "sources/notch-model/experimental_notch.geojson",
+    "bytes": 504,
+    "sha256": "3fa306fde4805e3cf0c5ee923db0936518f540b1a2ff4027bb1957d259705041"
+  },
+  {
+    "path": "sources/notch-model/experimental_rock_surface_50cm.tif",
+    "bytes": 44044,
+    "sha256": "519d9ef559110602217fbd4923306b46dfc06fbb11e3a24c39380b1ad2d9aa0a"
+  },
+  {
+    "path": "sources/notch-model/returns_per_50cm_cell.tif",
+    "bytes": 12982,
+    "sha256": "65cb1e67f5eeec0178122bdfc0c766eaae65ac3a4195e1bc43bdc00d30003cd8"
+  },
+  {
+    "path": "sources/notch-model/distance_to_nearest_return_m.tif",
+    "bytes": 49368,
+    "sha256": "e4c246767baba3b3ea94b05dd4ea34f6feb8c7b3778e3be52c3b3b55ff8e8b08"
+  },
+  {
+    "path": "sources/ridge-exposure/ridge-results.json",
+    "bytes": 381,
+    "sha256": "84234d5e29d59c412f9e0fba75c143ed34791aa508c58d3542ffaeb4852c0aaa"
+  },
+  {
+    "path": "sources/ridge-exposure/experimental_ridge_surface_1m.tif",
+    "bytes": 201451,
+    "sha256": "7e1df51a6cf81630f62d422775846e2fc6bdb25ce08024c2aa7672637096a81a"
+  }
+]

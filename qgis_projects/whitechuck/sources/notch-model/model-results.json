@@ -1,0 +1,126 @@
+{
+  "assumption": "Class 1 and 2 are treated as local rock based on user field observation; class 7 excluded. No source classifications changed.",
+  "count": 95573,
+  "class_counts": {
+    "1": 71182,
+    "2": 24391
+  },
+  "occupied_fraction": 0.9981707317073171,
+  "modeled_fraction": 1.0,
+  "resolution_m": 0.5,
+  "max_fill_distance_m": 1,
+  "measurements": [
+    {
+      "east_offset_m": -1,
+      "lip_distance_m": 10.25,
+      "trough_distance_m": 19.25,
+      "drop_m": 9.030638478999663,
+      "descent_horizontal_m": 9.0,
+      "rise_next_15m_m": 11.243331116989339,
+      "trough_elevation_m": 2111.408493654202
+    },
+    {
+      "east_offset_m": -0.5,
+      "lip_distance_m": 9.75,
+      "trough_distance_m": 19.25,
+      "drop_m": 8.234802978464813,
+      "descent_horizontal_m": 9.5,
+      "rise_next_15m_m": 11.129267783671366,
+      "trough_elevation_m": 2111.639329154737
+    },
+    {
+      "east_offset_m": 0,
+      "lip_distance_m": 8.75,
+      "trough_distance_m": 18.75,
+      "drop_m": 7.5,
+      "descent_horizontal_m": 10.0,
+      "rise_next_15m_m": 11.013584744249329,
+      "trough_elevation_m": 2111.544132133202
+    },
+    {
+      "east_offset_m": 0.5,
+      "lip_distance_m": 8.25,
+      "trough_distance_m": 18.25,
+      "drop_m": 7.322500000000218,
+      "descent_horizontal_m": 10.0,
+      "rise_next_15m_m": 11.179973864953809,
+      "trough_elevation_m": 2111.1016321332017
+    },
+    {
+      "east_offset_m": 1,
+      "lip_distance_m": 8.25,
+      "trough_distance_m": 18.25,
+      "drop_m": 7.202500000000327,
+      "descent_horizontal_m": 10.0,
+      "rise_next_15m_m": 11.715932872275062,
+      "trough_elevation_m": 2110.416632133202
+    }
+  ],
+  "cue_threshold_m": 3,
+  "cue_distances_m": [
+    11.25,
+    11.5,
+    11.75,
+    12.0,
+    12.25,
+    12.5,
+    12.75,
+    13.0,
+    13.25,
+    13.5,
+    13.75,
+    14.0,
+    14.25,
+    14.5,
+    14.75,
+    15.0,
+    15.25,
+    15.5,
+    15.75,
+    16.0,
+    16.25,
+    16.5,
+    16.75,
+    17.0,
+    17.25,
+    17.5,
+    17.75,
+    18.0,
+    18.25,
+    18.5,
+    18.75,
+    19.0,
+    19.25,
+    19.5,
+    19.75,
+    20.0,
+    20.25,
+    20.5,
+    20.75,
+    21.0,
+    21.25,
+    21.5
+  ],
+  "five_meter_drop_sensitivity": [
+    {
+      "east_offset_m": -1,
+      "drop_m": 4.970638478999717
+    },
+    {
+      "east_offset_m": -0.5,
+      "drop_m": 4.50480297846525
+    },
+    {
+      "east_offset_m": 0,
+      "drop_m": 4.522500000000036
+    },
+    {
+      "east_offset_m": 0.5,
+      "drop_m": 4.7775000000001455
+    },
+    {
+      "east_offset_m": 1,
+      "drop_m": 5.212500000000091
+    }
+  ]
+}
