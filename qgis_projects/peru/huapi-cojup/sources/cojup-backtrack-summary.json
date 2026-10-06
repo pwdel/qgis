@@ -1,0 +1,12 @@
+{
+  "turnaround_lonlat": [
+    -77.38886224105954,
+    -9.419393353164196
+  ],
+  "turnaround_track_index": 1520,
+  "return_end_track_index": 1583,
+  "backtrack_gps_length_m": 283.16110071997446,
+  "remaining_recorded_length_m": 10839.504580309382,
+  "cliff_evidence": "User report; no mapped edge or surveyed cliff height",
+  "terrain": "Copernicus GLO-30, ~30 m; full valley display samples every second grid cell (60 m)"
+}

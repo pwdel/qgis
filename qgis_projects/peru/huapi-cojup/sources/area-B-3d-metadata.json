@@ -1,0 +1,38 @@
+{
+  "area": "B",
+  "extent_utm18s": [
+    237604.50251938796,
+    239284.50251938796,
+    8957772.858323244,
+    8958636.858323244
+  ],
+  "grid_shape": [
+    31,
+    58
+  ],
+  "views": [
+    {
+      "azimuth": -135,
+      "elevation": 35,
+      "name": "FROM SOUTHWEST \u00b7 LOOKING NORTHEAST"
+    },
+    {
+      "azimuth": 45,
+      "elevation": 35,
+      "name": "FROM NORTHEAST \u00b7 LOOKING SOUTHWEST"
+    },
+    {
+      "azimuth": -45,
+      "elevation": 35,
+      "name": "FROM SOUTHEAST \u00b7 LOOKING NORTHWEST"
+    },
+    {
+      "azimuth": 135,
+      "elevation": 35,
+      "name": "FROM NORTHWEST \u00b7 LOOKING SOUTHEAST"
+    }
+  ],
+  "vertical_exaggeration": 1,
+  "orthographic": true,
+  "route_overlay": "Always visible; 4 m geometric lift plus draw-order overlay"
+}
