@@ -22,8 +22,10 @@ Peter's center, radius, dates, rig dimensions and final applications have not be
 2. [x] Create a local, versioned equestrian evidence profile using GeoJSON properties and source IDs. Critical water, turnaround, grade and exposure claims retain verification state and scope. Record explicit unknowns and conflicting/expired sources.
 3. [x] Build native QGIS project and four layouts. Use EPSG:26912 for metric maps; preserve WGS84 GeoJSON. Include north, scales, readable legends, source links, known hazards and missing checks on every sheet. Terrain must disclose source resolution versus exported pixel size.
 4. [x] Verify every layer after reopening and relocating the project; validate source hashes, geometry, evidence links, PDF dimensions and page counts. Render and inspect every final page; repair overlap or illegibility.
-5. [ ] Publish the reviewed artifacts and documentation to qgis_projects/Utah/paria-river-ranch and add a repository index link. Verify remote commit and public artifact path.
+5. [x] Publish the reviewed artifacts and documentation to qgis_projects/Utah/paria-river-ranch and add a repository index link. Verify remote commit and public artifact path.
 
 ## Additional terrain pages
 
 Do not manufacture precise avoidance polygons. First inspect lidar coverage and source availability. Additional perspectives require an identified feature, native-resolution terrain and explicit explanation of what the model can and cannot support. If only a service mosaic is used in this pass, retain four sheets and document native lidar analysis as the next terrain task.
+
+Publication verified on GitHub main at commit `e449aa5f5125a4da3cf9f09a92c6338d35798f36`: combined PDF (13,121,329 bytes) and linked source registry are present.
