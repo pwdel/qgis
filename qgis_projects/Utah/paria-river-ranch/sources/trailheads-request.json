@@ -1,0 +1,11 @@
+{
+  "urls": [
+    "https://services1.arcgis.com/99lidPhWCzftIe9K/ArcGIS/rest/services/UtahTrailheads/FeatureServer/0/query?f=json&where=1%3D1&geometry=-112.95%2C36.95%2C-111.65%2C37.97&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "https://services1.arcgis.com/99lidPhWCzftIe9K/ArcGIS/rest/services/UtahTrailheads/FeatureServer/0/query?f=geojson&objectIds=82%2C83%2C84%2C85%2C94%2C95%2C96%2C132%2C154%2C258%2C259%2C260%2C261%2C262%2C271%2C395%2C503%2C504%2C505%2C506%2C507%2C566%2C567%2C568&outFields=%2A&outSR=4326&returnGeometry=true"
+  ],
+  "bbox_wgs84": "-112.95,36.95,-111.65,37.97",
+  "retrieved_at": "2026-10-07T22:03:10.117235+00:00",
+  "requested_count": 24,
+  "received_count": 24,
+  "object_id_field": "OBJECTID"
+}

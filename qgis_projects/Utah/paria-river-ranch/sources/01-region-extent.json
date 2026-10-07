@@ -1,0 +1,17 @@
+{
+  "id": "01-region",
+  "center_wgs84": [
+    -112.25,
+    37.43
+  ],
+  "bbox_utm12": [
+    319407.0349994616,
+    4095859.033783483,
+    459407.0349994616,
+    4190758.362642543
+  ],
+  "crs": "EPSG:26912",
+  "width_m": 140000,
+  "height_m": 94899.3288590604,
+  "extent_basis": "provisional editorial extent; Peter extent not supplied"
+}

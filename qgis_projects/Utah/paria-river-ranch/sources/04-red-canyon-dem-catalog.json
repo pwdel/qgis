@@ -1,0 +1,459 @@
+{
+  "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/query?f=json&where=1%3D1&geometry=375387.7418846864%2C4173734.570413887%2C397387.7418846864%2C4188647.322091739&inSR=26912&spatialRel=esriSpatialRelIntersects&geometryType=esriGeometryEnvelope&outFields=OBJECTID%2CName%2CLowPS%2CHighPS%2CDEM_Type%2CVerticalDatum%2CAcquisitionDate%2CURL%2Ctitle%2CStartDate%2CEndDate&returnGeometry=false",
+  "response": {
+    "objectIdFieldName": "OBJECTID",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "Name",
+        "type": "esriFieldTypeString",
+        "alias": "Name",
+        "domain": null,
+        "length": 200
+      },
+      {
+        "name": "LowPS",
+        "type": "esriFieldTypeDouble",
+        "alias": "LowPS",
+        "domain": null
+      },
+      {
+        "name": "HighPS",
+        "type": "esriFieldTypeDouble",
+        "alias": "HighPS",
+        "domain": null
+      },
+      {
+        "name": "DEM_Type",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "DEM_Type",
+        "domain": null
+      },
+      {
+        "name": "VerticalDatum",
+        "type": "esriFieldTypeString",
+        "alias": "VerticalDatum",
+        "domain": null,
+        "length": 100
+      },
+      {
+        "name": "AcquisitionDate",
+        "type": "esriFieldTypeDate",
+        "alias": "AcquisitionDate",
+        "domain": null,
+        "length": 8
+      },
+      {
+        "name": "URL",
+        "type": "esriFieldTypeString",
+        "alias": "URL",
+        "domain": null,
+        "length": 1000
+      },
+      {
+        "name": "title",
+        "type": "esriFieldTypeString",
+        "alias": "title",
+        "domain": null,
+        "length": 256
+      },
+      {
+        "name": "StartDate",
+        "type": "esriFieldTypeInteger",
+        "alias": "StartDate",
+        "domain": null
+      },
+      {
+        "name": "EndDate",
+        "type": "esriFieldTypeString",
+        "alias": "EndDate",
+        "domain": null,
+        "length": 50
+      }
+    ],
+    "features": [
+      {
+        "attributes": {
+          "OBJECTID": 1468,
+          "Name": "n38w113",
+          "LowPS": 30.92208098137158,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n38w113/USGS_1_n38w113.tif",
+          "title": "USGS 1 Arc Second n38w113 20240614",
+          "StartDate": 19730101,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 5516,
+          "Name": "n38w113",
+          "LowPS": 10.307360350155633,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/n38w113/USGS_13_n38w113.tif",
+          "title": "USGS 1/3 Arc Second n38w113 20240614",
+          "StartDate": 19730101,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 35983,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 45049,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y418_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 65626,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x39y418_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x39y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 79317,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x38y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 103102,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x38y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 103136,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x39y418 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 112574,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y419_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y419 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 113916,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x37y418_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x37y418 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 116266,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y418_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 128731,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y419_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x38y419 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 135532,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y418_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 137146,
+          "Name": "Ov_i02_L01_R0000005A_C00000013.tif",
+          "LowPS": 75,
+          "HighPS": 75,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 137974,
+          "Name": "Ov_i02_L02_R0000002D_C00000009.tif",
+          "LowPS": 150,
+          "HighPS": 150,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138219,
+          "Name": "Ov_i02_L03_R00000016_C00000004.tif",
+          "LowPS": 300,
+          "HighPS": 300,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138311,
+          "Name": "Ov_i02_L04_R0000000B_C00000002.tif",
+          "LowPS": 600,
+          "HighPS": 600,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138352,
+          "Name": "Ov_i02_L05_R00000005_C00000001.tif",
+          "LowPS": 1200,
+          "HighPS": 1200,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138378,
+          "Name": "Ov_i02_L06_R00000002_C00000000.tif",
+          "LowPS": 2400,
+          "HighPS": 2400,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138399,
+          "Name": "Ov_i02_L07_R00000001_C00000000.tif",
+          "LowPS": 4800,
+          "HighPS": 4800,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138416,
+          "Name": "Ov_i02_L08_R00000000_C00000000.tif",
+          "LowPS": 9598.805966464251,
+          "HighPS": 9598.805966464251,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138433,
+          "Name": "Ov_i02_L09_R00000000_C00000000.tif",
+          "LowPS": 19193.014803634218,
+          "HighPS": 19193.014803634218,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138450,
+          "Name": "Ov_i02_L0A_R00000000_C00000000.tif",
+          "LowPS": 38386.029607268436,
+          "HighPS": 38386.029607268436,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138467,
+          "Name": "Ov_i02_L0B_R00000000_C00000000.tif",
+          "LowPS": 76772.05921453687,
+          "HighPS": 76772.05921453687,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138484,
+          "Name": "Ov_i02_L0C_R00000000_C00000000.tif",
+          "LowPS": 153544.11842907374,
+          "HighPS": 153544.11842907374,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      }
+    ]
+  },
+  "complete": true,
+  "interpretation": "Candidate catalog query only; exact contributing DEM per pixel unresolved."
+}

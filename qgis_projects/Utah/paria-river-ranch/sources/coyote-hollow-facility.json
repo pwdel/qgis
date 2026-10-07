@@ -1,0 +1,182 @@
+{
+  "url": "https://www.recreation.gov/api/camps/campgrounds/10381898",
+  "response": {
+    "campground": {
+      "facility_id": "10381898",
+      "parent_asset_id": "1031",
+      "inventory_type_id": "3",
+      "facility_type": "STANDARD",
+      "order_components": {
+        "camping_equipment": true,
+        "group_leader_details": true,
+        "group_size": true,
+        "num_vehicles": true,
+        "pass": true
+      },
+      "facility_lookups": null,
+      "facility_description_map": {
+        "Contact Info": "For facility specific information, please call (801) 226-3564.",
+        "Facilities": "<p></p><ul><li><p>campsites with picnic tables, fire pits, and tent pads</p></li><li><p>Vault toilet</p></li><li><p>No garbage disposal, please pack it out</p></li><li><p>Four water hydrants of seasonal non-potable water may be available for horse use only, water not for human consumption.</p></li></ul>",
+        "Overview": "<p>This small campground with only four sites provides easy access to Thunder Mountain Trailhead. This trail is a very popular hiking, biking, horseback riding trail. Anyone can stay in this campground; there is no condition that you must have a horse, however priority use is given to equestrian users until 04:00 p.m.. This quaint little campground sits in ponderosa pine forests on the beautiful Paunsaugunt plateau with easy access to many sightseeing locations and trail systems.</p>"
+      },
+      "facility_name": "Coyote Hollow",
+      "city": "",
+      "state": "",
+      "facility_adaaccess": "",
+      "facility_directions": "<p>This campground is located 1 mile from SR 12 on Coyote Hollow road No.113</p>",
+      "facility_email": "Help.Dixie.Powell@Americanll.com",
+      "facility_email_display": false,
+      "facility_map_url": "",
+      "facility_latitude": 37.716588,
+      "facility_longitude": -112.269271,
+      "facility_phone": "435 676-2676",
+      "facility_reservation_url": "",
+      "facility_use_fee_description": "",
+      "cancellation_description": "",
+      "stay_limit": "",
+      "fee_model": 1,
+      "links": [],
+      "attributes": null,
+      "activities": [
+        {
+          "activity_id": 0,
+          "activity_name": "Biking",
+          "activity_description": "Biking",
+          "activity_fee_description": "",
+          "is_deactivated": false
+        },
+        {
+          "activity_id": 0,
+          "activity_name": "Hiking",
+          "activity_description": "Hiking",
+          "activity_fee_description": "",
+          "is_deactivated": false
+        },
+        {
+          "activity_id": 0,
+          "activity_name": "Backpacking",
+          "activity_description": "Backpacking",
+          "activity_fee_description": "",
+          "is_deactivated": false
+        },
+        {
+          "activity_id": 0,
+          "activity_name": "Camping",
+          "activity_description": "Camping",
+          "activity_fee_description": "",
+          "is_deactivated": false
+        },
+        {
+          "activity_id": 0,
+          "activity_name": "Horseback Riding",
+          "activity_description": "Horseback Riding",
+          "activity_fee_description": "",
+          "is_deactivated": false
+        }
+      ],
+      "addresses": [],
+      "notices": [
+        {
+          "notice_type": "warning",
+          "notice_text": "<p><strong>All Sites Reservable-Priority to Equestrian Users: </strong>After 4:00pm unoccupied/reserved sites are available to non-equestrian users for one night only.</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Check in: 2:00 p.m.; Check-out: 11:00 a.m.</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Quiet hours are 10:00 p.m. until 6:00 a.m., no generators during that time, open late spring to late fall.</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Non-potable stock water may be available from late May until the water supply is exhausted, late summer, early fall. Water not for human consumption. When water is not available, campers may access potable water at the dump station from the nearby Red Canyon Campground.</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Any accepted passes must be entered for the discount at the time of booking for single sites only.\u00a0</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Campfires in developed fire pits only</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Fireworks are prohibited</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Dogs must be on leash</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Maximum length of stay: 14 days</p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p><strong>Don't Move Firewood:</strong> Help prevent the spread of tree-killing pests in our national forests by obtaining firewood near your destination and burning it on-site. For more information visit <a href=\"http://dontmovefirewood.org\" rel=\"nofollow\"><strong>dontmovefirewood.org</strong></a><a href=\"http://www.dontmovefirewood.org/\" rel=\"nofollow\"><strong>.</strong></a></p>",
+          "hide_on_permit": false,
+          "active": true
+        },
+        {
+          "notice_type": "warning",
+          "notice_text": "<p>Customer Service Please Contact 801-226-3564 or Help.Dixie.Powell@AmericanLL.com</p>",
+          "hide_on_permit": false,
+          "active": true
+        }
+      ],
+      "org_id": "131",
+      "org_code": "FS",
+      "facility_time_zone": "",
+      "is_commercially_managed": false,
+      "legacy_facility_id": "10381898",
+      "certification_log": {
+        "log": [
+          {
+            "account_id": "4e3e5497-ee5c-4042-82a2-2fa4d39ff0f0",
+            "date": "2026-06-19T14:55:21.762Z",
+            "has_certified_content": true,
+            "has_certified_geospatial": true
+          }
+        ],
+        "is_content_certified": true,
+        "content_certification_date": "2026-06-19T14:55:21.762Z",
+        "is_geospatial_certified": true,
+        "geospatial_certification_date": "2026-06-19T14:55:21.762Z"
+      },
+      "amenities": {
+        "Fire Pit": "Fire Pit",
+        "Non-Potable Water": "Non-Potable Water",
+        "Picnic Tables": "Picnic Tables",
+        "Tent Pads": "Tent Pads",
+        "Vault Toilets": "Vault Toilets"
+      },
+      "is_deactivated": false,
+      "activated_date": "2026-06-23T17:17:06.531603949Z",
+      "created_by": "NewInventoryImport",
+      "created_date": "2026-02-03T17:50:09.349712033Z",
+      "updated_by": "3b3324f7-3866-48d4-b122-7098440f4a18",
+      "updated_date": "2026-08-10T22:39:23.750063316Z",
+      "receipt_autoprint": false,
+      "receipt_custom_text": ""
+    }
+  }
+}

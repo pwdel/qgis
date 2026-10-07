@@ -1,0 +1,11 @@
+{
+  "urls": [
+    "https://services1.arcgis.com/99lidPhWCzftIe9K/ArcGIS/rest/services/LiDAR_Extents/FeatureServer/0/query?f=json&where=1%3D1&geometry=-112.95%2C36.95%2C-111.65%2C37.97&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnIdsOnly=true",
+    "https://services1.arcgis.com/99lidPhWCzftIe9K/ArcGIS/rest/services/LiDAR_Extents/FeatureServer/0/query?f=geojson&objectIds=3%2C8%2C43%2C44%2C67%2C68%2C81%2C82%2C83%2C84%2C85%2C86%2C99%2C100%2C106%2C107%2C108%2C109%2C110%2C111%2C129&outFields=%2A&outSR=4326&returnGeometry=true"
+  ],
+  "bbox_wgs84": "-112.95,36.95,-111.65,37.97",
+  "retrieved_at": "2026-10-07T22:03:13.777648+00:00",
+  "requested_count": 21,
+  "received_count": 21,
+  "object_id_field": "OBJECTID"
+}

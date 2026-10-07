@@ -1,0 +1,325 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "sources/01-region-dem-catalog.json",
+      "bytes": 188364,
+      "sha256": "6f69b36975be4a0da3f67198022f2377ece3f14eea6cf93e74dedebed58c0ac5"
+    },
+    {
+      "path": "sources/01-region-dem-request.json",
+      "bytes": 1188,
+      "sha256": "7492c0ed1050010ee92fb973b100d13f1bd3f2fe974f844cfee4a0bb05b47256"
+    },
+    {
+      "path": "sources/01-region-dem.tif",
+      "bytes": 14158664,
+      "sha256": "ad0bdaa2cc8d82c2eccfc086a7da9f27a2bf045bd6d364f7d746b39935095743"
+    },
+    {
+      "path": "sources/01-region-extent.json",
+      "bytes": 339,
+      "sha256": "a5b1bbcb19887af89b7c62097ae67d214c4123ad046d3dfad446ba70dabeeb85"
+    },
+    {
+      "path": "sources/01-region-topo-request.json",
+      "bytes": 965,
+      "sha256": "96d271cea3a53701cd1c6656879a0b20932d587d17cb8f9a191ab1c4594f1813"
+    },
+    {
+      "path": "sources/01-region-topo.tif",
+      "bytes": 19707530,
+      "sha256": "b98b19ac3d0bb741f44effe95060d789a942b7b095483f3d92226c7bfb72d387"
+    },
+    {
+      "path": "sources/02-ranch-dem-catalog.json",
+      "bytes": 14519,
+      "sha256": "d78265fa920d7d1b6baedc21b260ef939c4b0d63e2acac96e5c8510ec65f4deb"
+    },
+    {
+      "path": "sources/02-ranch-dem-request.json",
+      "bytes": 1197,
+      "sha256": "bf760d5a48496eaa104f96b9ad6e21f0fed2346528a5de1d0b619f506571c1f9"
+    },
+    {
+      "path": "sources/02-ranch-dem.tif",
+      "bytes": 14158664,
+      "sha256": "2e2da90eaa9f73af0365fb17611ad8d79dc3dccff2de429f393fd21dea649fee"
+    },
+    {
+      "path": "sources/02-ranch-extent.json",
+      "bytes": 344,
+      "sha256": "8ad2bd9058021d81911495c4426a72db46acc1876fa89ec4dfc06bf6a9931222"
+    },
+    {
+      "path": "sources/02-ranch-topo-request.json",
+      "bytes": 977,
+      "sha256": "4790a6693cd5ca21d5c924619721df68ad3a20f8ca23fa65a5b3b13feaa770b9"
+    },
+    {
+      "path": "sources/02-ranch-topo.tif",
+      "bytes": 16632287,
+      "sha256": "1c1158d2a0380c3a7d7e8f8bda291cacda3c3e722c2e0dab246b137b4ba43c70"
+    },
+    {
+      "path": "sources/03-mount-carmel-dem-catalog.json",
+      "bytes": 15314,
+      "sha256": "9942035e1856436bbf7b9e9410435007d7cd0a0d24f2fc3a57593cd64b4b37af"
+    },
+    {
+      "path": "sources/03-mount-carmel-dem-request.json",
+      "bytes": 1191,
+      "sha256": "1bcb43aa84b6fb476446ccb7940228d24228e3cc8f777dc141299acd80d85339"
+    },
+    {
+      "path": "sources/03-mount-carmel-dem.tif",
+      "bytes": 7669808,
+      "sha256": "118d3be7a2d4abd4662ed574dd0e0241f3100741ca3da9905d1cfbb23b4c180f"
+    },
+    {
+      "path": "sources/03-mount-carmel-extent.json",
+      "bytes": 348,
+      "sha256": "310e738c95f010cc165bb3131e6a0449828bbe524b5640c9846fc0d5547dddf8"
+    },
+    {
+      "path": "sources/03-mount-carmel-topo-request.json",
+      "bytes": 968,
+      "sha256": "749dfbaf6e7f9d329fd4e669022f0e021484591143066af310564e827aff60ba"
+    },
+    {
+      "path": "sources/03-mount-carmel-topo.tif",
+      "bytes": 15353556,
+      "sha256": "11466fc4f4f96f1eafa2b3fb1a9019bd76e66f8369fb3858d2eb48994bc575f6"
+    },
+    {
+      "path": "sources/04-red-canyon-dem-catalog.json",
+      "bytes": 14529,
+      "sha256": "f22bbf01e2d57e159661aba5e0d6e3f583631e4586481593f4323d233e5b03e5"
+    },
+    {
+      "path": "sources/04-red-canyon-dem-request.json",
+      "bytes": 1187,
+      "sha256": "5b760688a3b15c8fa87693df99a924f119ab51432c71dbc4dd911c22a03c7e56"
+    },
+    {
+      "path": "sources/04-red-canyon-dem.tif",
+      "bytes": 7669808,
+      "sha256": "9716fd245b1e38a748fa6b5a81773fc3bcc93d64adffee1a40660f76049fd890"
+    },
+    {
+      "path": "sources/04-red-canyon-extent.json",
+      "bytes": 344,
+      "sha256": "15f79a9df53a5582c62397f512dc4b416a3ca40d98eaa1ab007b3c988a444b76"
+    },
+    {
+      "path": "sources/04-red-canyon-topo-request.json",
+      "bytes": 968,
+      "sha256": "9560865b45e2d7068d42c6d91bdc834279f85101a66b6c92e4fea2c6d15f2eb5"
+    },
+    {
+      "path": "sources/04-red-canyon-topo.tif",
+      "bytes": 17766502,
+      "sha256": "a50594c53a3b32907a25a0e66e8b6d325dc4281238e9c4d16573c0e5a4b87ab2"
+    },
+    {
+      "path": "sources/coyote-hollow-facility.json",
+      "bytes": 7480,
+      "sha256": "70975845ba76325949b6f4d3ec20369fa24815a2d39b3eed9190c8ca89273eab"
+    },
+    {
+      "path": "sources/dem-service.json",
+      "bytes": 14092,
+      "sha256": "3a2d488d3a9f4c5d8d1b5a590897e674b1cc2a17d0d4812c9086bee3a72c0bc6"
+    },
+    {
+      "path": "sources/evidence.json",
+      "bytes": 12539,
+      "sha256": "729bf53ec2576a213ddd2c233d91ca78d6529fedc919cf505c6dd191fd991911"
+    },
+    {
+      "path": "sources/lidar-coverage-ids.json",
+      "bytes": 233,
+      "sha256": "7d957a7ddc822ef1016919d54db7dc524a70dab87b60f7d93ac36435574948af"
+    },
+    {
+      "path": "sources/lidar-coverage-request.json",
+      "bytes": 757,
+      "sha256": "a3712b07b86fb55e83ce986bb49bcf3add5a951bbf9b6f7d68d5649a56278c1d"
+    },
+    {
+      "path": "sources/lidar-coverage-service.json",
+      "bytes": 19141,
+      "sha256": "44f4ca6283fab6911f930b8392378f7f0bade5e484f6ba1579b37c6367de03dc"
+    },
+    {
+      "path": "sources/lidar-coverage.geojson",
+      "bytes": 4822780,
+      "sha256": "3a556420f7b7103467725d148547c0a2782d9fcffeb9477ca13d98e30c53de45"
+    },
+    {
+      "path": "sources/native-lidar-catalog.json",
+      "bytes": 8903,
+      "sha256": "1c778f70733c153e705a64431435002176b4786890336919499c791f86a8d2bb"
+    },
+    {
+      "path": "sources/planning-points.geojson",
+      "bytes": 13662,
+      "sha256": "a5f29f0b6363b552c793068346ae2b14c9735dc6c4c416a5279cfff424a23486"
+    },
+    {
+      "path": "sources/roads-ids.json",
+      "bytes": 175255,
+      "sha256": "9958c671fcb378e5cff9666e9d677b5d9eaca0754ae1f96e3002766858b46b18"
+    },
+    {
+      "path": "sources/roads-request.json",
+      "bytes": 162503,
+      "sha256": "58d67db301ae2a5e28863843b58251c2fb8a5f1569f08b59930e3e13dbfd285d"
+    },
+    {
+      "path": "sources/roads-service.json",
+      "bytes": 367693,
+      "sha256": "4f0052e43f5eaee072bd970d52c242760a0f85f225551ed1bf6fe556632dc064"
+    },
+    {
+      "path": "sources/roads.geojson",
+      "bytes": 42533305,
+      "sha256": "259c825d159cbfb115f86673115bcde27a2eb745f31df591b559dfdcc7691935"
+    },
+    {
+      "path": "sources/state-trails-ids.json",
+      "bytes": 23568,
+      "sha256": "497675112ec99c55dcce91688914935d6a89a087c331510bc9068dbf728306a9"
+    },
+    {
+      "path": "sources/state-trails-request.json",
+      "bytes": 22280,
+      "sha256": "82fc196b6a10468215460e824ffabd430e7edd750795d4cdd3fa4845dd1cfbab"
+    },
+    {
+      "path": "sources/state-trails-service.json",
+      "bytes": 18585,
+      "sha256": "41326efb88f6ca59b9ee5d80b013a9979641ef7f45d2cd2e9bbbdc495bc6bbcd"
+    },
+    {
+      "path": "sources/state-trails.geojson",
+      "bytes": 7369059,
+      "sha256": "5f6e6cd338c32b4f37544c2a94da611993aa3bcd0e9cce9dad3e8d93033a776d"
+    },
+    {
+      "path": "sources/thunder-native-1m.tif",
+      "bytes": 12922969,
+      "sha256": "9b1ca77345bc2cad8f9448e33efd636402ab0e44cbb8114af4fd4606aa812032"
+    },
+    {
+      "path": "sources/thunder-native-request.json",
+      "bytes": 4199,
+      "sha256": "1bff5687ff46d2209779bf260be26b4c233cbb64ac4b86d19ab655d499328f1f"
+    },
+    {
+      "path": "sources/topo-service.json",
+      "bytes": 7642,
+      "sha256": "b28ce909d326df7c70429507e48f0d6d1bb55b629550063a664075407f07d96b"
+    },
+    {
+      "path": "sources/trailheads-ids.json",
+      "bytes": 268,
+      "sha256": "6db58bc782883ad508a6018e9656c966005567fdec66fba513064b09393e28cd"
+    },
+    {
+      "path": "sources/trailheads-request.json",
+      "bytes": 785,
+      "sha256": "a7d55d5d3184c8217207e6e30970ed703269ab0ec26af617a49dc688237c053b"
+    },
+    {
+      "path": "sources/trailheads-service.json",
+      "bytes": 11178,
+      "sha256": "ef3f4ee140d0f2d9d632cfe1f8cd10519e02872d320bfd8686e9fe7288d5157f"
+    },
+    {
+      "path": "sources/trailheads.geojson",
+      "bytes": 13392,
+      "sha256": "4d61273e56b465e55b31c7517a6ca957c14c32588801b191da72b4e68e814a5e"
+    },
+    {
+      "path": "sources/usfs-trails-ids.json",
+      "bytes": 5363,
+      "sha256": "c0830277bc7971fc402d08589272d7cac6902a471837943c4c34b4fa5d1b16fb"
+    },
+    {
+      "path": "sources/usfs-trails-request.json",
+      "bytes": 4901,
+      "sha256": "ca1e8c8dd6065c929c469b5357a28999f420f60821eb02c40d8b8cd4243e28a3"
+    },
+    {
+      "path": "sources/usfs-trails-service.json",
+      "bytes": 32199,
+      "sha256": "0cff6ea62fa544ae4abb37cab495434222e976f3ba8b3919ef778d11628e4822"
+    },
+    {
+      "path": "sources/usfs-trails.geojson",
+      "bytes": 7854557,
+      "sha256": "1f0d6258eeae46f9b3dfafbc6450020c26548341c5fd2ef8160176e51b853017"
+    },
+    {
+      "path": "derived/01-region-hillshade.tif",
+      "bytes": 2740433,
+      "sha256": "9469b30ffc3fa17411430e32e89d962519270ec3fdbb6b347860762be75b8c25"
+    },
+    {
+      "path": "derived/01-region-slope-degrees.tif",
+      "bytes": 11848742,
+      "sha256": "b46efd475c2bdbd895d41da7353b04d9e87299ab760ed130ef7318336a4bfbbe"
+    },
+    {
+      "path": "derived/02-ranch-hillshade.tif",
+      "bytes": 2599494,
+      "sha256": "95b46761ed678fdc408d1b7285c58e04c4d4476e4e43c1fb4ef8559d54ec76b0"
+    },
+    {
+      "path": "derived/02-ranch-slope-degrees.tif",
+      "bytes": 11894094,
+      "sha256": "474be2cb0de7295778b4d4041ddff5fb43aa0ae73988fb2ae76be13a76714c5a"
+    },
+    {
+      "path": "derived/03-mount-carmel-hillshade.tif",
+      "bytes": 1425111,
+      "sha256": "f7570650b46ece3b2b8ecf0943ab8aedd83f6070a1bc005086a9a7608952a7dc"
+    },
+    {
+      "path": "derived/03-mount-carmel-slope-degrees.tif",
+      "bytes": 6278576,
+      "sha256": "0a92f7367c373e7ac9a6d44721822a47e12159d05f1d1b67dbfba67b3d3a9a44"
+    },
+    {
+      "path": "derived/04-red-canyon-hillshade.tif",
+      "bytes": 1311790,
+      "sha256": "e5b72b56ce277f611b6b3ba129d307191aa89c333d8d9f3fc9eaa4d60d035b12"
+    },
+    {
+      "path": "derived/04-red-canyon-slope-degrees.tif",
+      "bytes": 6289745,
+      "sha256": "e745c81fc05844761d5932fb9a40e28ba551e4b9e5e711a434c340f79eae7f79"
+    },
+    {
+      "path": "derived/atlas.gpkg",
+      "bytes": 24977408,
+      "sha256": "b174398202f210b20a3a595598e895258c2b0608fc43b870d190ebdaf57e4ed4"
+    },
+    {
+      "path": "derived/thunder-native-hillshade.tif",
+      "bytes": 6372115,
+      "sha256": "eef808392f5d7eb6d7259675b2eebda43e3ab474259262efa638bede8426709a"
+    },
+    {
+      "path": "derived/thunder-native-slope-degrees.tif",
+      "bytes": 24701393,
+      "sha256": "ee6c6e458cba9244e47b2c53143b3c013f968b7db6cf849f37e6980ab4b10e1c"
+    },
+    {
+      "path": "derived/thunder-slope-screen.tif",
+      "bytes": 964422,
+      "sha256": "d00b99a8a0b409b1f786155df735d2caf78633488a265b5bcf395df5abe78668"
+    }
+  ]
+}

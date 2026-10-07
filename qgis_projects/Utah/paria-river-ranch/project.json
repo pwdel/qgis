@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "title": "Paria River Ranch horse-riding atlas",
+  "category": "horse-riding",
+  "region": "Utah",
+  "status": "planning-draft",
+  "research_date": "2026-10-07",
+  "page_count": 4,
+  "project_crs": "EPSG:26912",
+  "qgis_project": "paria-river-ranch.qgz",
+  "combined_pdf": "output/pdf/paria-river-ranch-four-sheets.pdf",
+  "evidence_registry": "sources/evidence.json",
+  "governance": "docs/GOVERNANCE.md",
+  "validation": "docs/validation.json",
+  "avenza_status": "second-pass-not-georeferenced",
+  "scope_status": "provisional-extents-awaiting-Peter",
+  "field_verified": false
+}

@@ -1,0 +1,378 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "R1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.912501,
+          37.106604
+        ]
+      },
+      "properties": {
+        "id": "R1",
+        "name": "Paria River Ranch",
+        "label": "R1 Paria River Ranch",
+        "feature_type": "Ranch",
+        "evidence_ids": [
+          "E01",
+          "E02"
+        ],
+        "coordinate_evidence_id": "E02",
+        "water_status": "AdvertisedPotable",
+        "trailer_status": "FacilityAdvertisesRigs",
+        "horse_status": "PublishedYes",
+        "criticality": "Critical",
+        "verification_status": "PublisherStatement",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 150,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "Primary base. Water advertised for horses and people. Ask about exact rig, stalls, tank fill and supply. Marker is not a hydrant.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "M1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.6868,
+          37.222
+        ]
+      },
+      "properties": {
+        "id": "M1",
+        "name": "Barracks staging lead",
+        "label": "M1 Barracks staging lead",
+        "feature_type": "Trailhead",
+        "evidence_ids": [
+          "E05"
+        ],
+        "coordinate_evidence_id": "E05",
+        "water_status": "SurfaceWaterUnverified",
+        "trailer_status": "HistoricalStagingLead",
+        "horse_status": "Unknown",
+        "criticality": "Critical",
+        "verification_status": "HistoricalReport",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 650,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "Approximate area inferred from 2022 written directions, not a confirmed entrance. Guide warns against hauling farther downroad. Verify landowner permission.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "M2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.687328,
+          37.2117092
+        ]
+      },
+      "properties": {
+        "id": "M2",
+        "name": "Belly of the Dragon",
+        "label": "M2 Belly of the Dragon",
+        "feature_type": "Landmark",
+        "evidence_ids": [
+          "E07"
+        ],
+        "coordinate_evidence_id": "E07",
+        "water_status": "Unknown",
+        "trailer_status": "Unknown",
+        "horse_status": "Unknown",
+        "criticality": "Critical",
+        "verification_status": "Conflict",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 500,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "Hiking/drainage tunnel; not a verified horse route. Conflicting tourism coordinates. Do not infer a trailer staging area.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "M3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.7433,
+          37.1803
+        ]
+      },
+      "properties": {
+        "id": "M3",
+        "name": "Bay Bill Canyon",
+        "label": "M3 Bay Bill Canyon",
+        "feature_type": "CanyonReference",
+        "evidence_ids": [
+          "E05",
+          "E17"
+        ],
+        "coordinate_evidence_id": "E17",
+        "water_status": "SurfaceWaterUnverified",
+        "trailer_status": "Unknown",
+        "horse_status": "Unknown",
+        "criticality": "Critical",
+        "verification_status": "HistoricalReport",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 500,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "Approximate canyon reference. Historical riding lead via the East Fork Virgin River; flash-flood and narrow-turning hazards. No traced route is invented.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.333649939365,
+          37.7697376527421
+        ]
+      },
+      "properties": {
+        "id": "D1",
+        "name": "Losee trailhead",
+        "label": "D1 Losee trailhead",
+        "feature_type": "Trailhead",
+        "evidence_ids": [
+          "E08",
+          "E10"
+        ],
+        "coordinate_evidence_id": "E08",
+        "water_status": "Unknown",
+        "trailer_status": "Unknown",
+        "horse_status": "PublishedYes",
+        "criticality": "Critical",
+        "verification_status": "PublisherStatement",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 150,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "UGRC trailhead reference; HorseAllowed comes from separate state trail records. Parking capacity, turning and campsite permission are unverified.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature.",
+        "source_feature_id": 261
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.332004429682,
+          37.7839857681182
+        ]
+      },
+      "properties": {
+        "id": "D2",
+        "name": "Casto trailhead",
+        "label": "D2 Casto trailhead",
+        "feature_type": "Trailhead",
+        "evidence_ids": [
+          "E08",
+          "E10"
+        ],
+        "coordinate_evidence_id": "E08",
+        "water_status": "Unknown",
+        "trailer_status": "Unknown",
+        "horse_status": "PublishedYes",
+        "criticality": "Critical",
+        "verification_status": "PublisherStatement",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 150,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "UGRC trailhead reference; HorseAllowed comes from separate state trail records. Parking capacity, turning and campsite permission are unverified.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature.",
+        "source_feature_id": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.329443137873,
+          37.7437000291398
+        ]
+      },
+      "properties": {
+        "id": "D3",
+        "name": "Thunder Mountain trailhead",
+        "label": "D3 Thunder Mountain trailhead",
+        "feature_type": "Trailhead",
+        "evidence_ids": [
+          "E08",
+          "E10",
+          "E06",
+          "E11"
+        ],
+        "coordinate_evidence_id": "E08",
+        "water_status": "Unknown",
+        "trailer_status": "Unknown",
+        "horse_status": "PublishedYes",
+        "criticality": "Critical",
+        "verification_status": "PublisherStatement",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 150,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "UGRC trailhead reference; HorseAllowed comes from separate state trail records. Parking capacity, turning and campsite permission are unverified.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature.",
+        "source_feature_id": 260
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.269271,
+          37.716588
+        ]
+      },
+      "properties": {
+        "id": "D4",
+        "name": "Coyote Hollow camp",
+        "label": "D4 Coyote Hollow camp",
+        "feature_type": "Campground",
+        "evidence_ids": [
+          "E03"
+        ],
+        "coordinate_evidence_id": "E03",
+        "water_status": "SeasonalStockOnly",
+        "trailer_status": "Unknown",
+        "horse_status": "PublishedYes",
+        "criticality": "Critical",
+        "verification_status": "PublisherStatement",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 200,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "Recreation.gov facility coordinate, not hydrant position. Seasonal horse-only water may be exhausted. Camp site lengths and actual rig fit still need checking.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.250765730731,
+          37.7279834059707
+        ]
+      },
+      "properties": {
+        "id": "D5",
+        "name": "Tom Best road lead",
+        "label": "D5 Tom Best road lead",
+        "feature_type": "RoadReference",
+        "evidence_ids": [
+          "E09",
+          "E16",
+          "E19"
+        ],
+        "coordinate_evidence_id": "E09",
+        "water_status": "Unknown",
+        "trailer_status": "Unknown",
+        "horse_status": "Unknown",
+        "criticality": "Critical",
+        "verification_status": "PublisherStatement",
+        "observed_at": null,
+        "retrieved_at": "2026-10-07",
+        "coordinate_precision": "ApproximateFacilityOrAreaReference",
+        "location_uncertainty_m": 200,
+        "uncertainty_basis": "Editorial caution radius, not measured positional accuracy",
+        "rig_length_m": null,
+        "turnaround_diameter_m": null,
+        "entrance_width_m": null,
+        "road_grade_percent": null,
+        "water_flow_lpm": null,
+        "water_refill_permission": "Unknown",
+        "current_conditions": "Unknown",
+        "notes": "Road reference only, not an approved campsite. User-reported 7700 ft/snow is unverified. Historic 2021 camping order expired; current restrictions unresolved.",
+        "recheck": "Confirm with manager/owner for trip date, actual rig and intended activity before relying on this feature.",
+        "source_feature_id": 119531
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "profile_version": "1.0",
+  "feature_type": [
+    "Ranch",
+    "Trailhead",
+    "Campground",
+    "WaterFacility",
+    "CanyonReference",
+    "Landmark",
+    "RoadReference"
+  ],
+  "water_status": [
+    "AdvertisedPotable",
+    "SeasonalStockOnly",
+    "SurfaceWaterUnverified",
+    "NoSupplyDocumented",
+    "Unknown"
+  ],
+  "trailer_status": [
+    "Unknown",
+    "HistoricalStagingLead",
+    "FacilityAdvertisesRigs",
+    "HighClearanceSourceFlag"
+  ],
+  "horse_status": [
+    "PublishedYes",
+    "PublishedRestricted",
+    "Unknown",
+    "Conflicting"
+  ],
+  "verification_status": [
+    "PublisherStatement",
+    "HistoricalReport",
+    "DerivedModel",
+    "Unknown",
+    "Conflict"
+  ],
+  "criticality": [
+    "Critical",
+    "Context"
+  ]
+}

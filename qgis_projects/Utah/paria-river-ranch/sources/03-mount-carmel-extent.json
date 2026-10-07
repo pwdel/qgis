@@ -1,0 +1,17 @@
+{
+  "id": "03-mount-carmel",
+  "center_wgs84": [
+    -112.73,
+    37.211
+  ],
+  "bbox_utm12": [
+    338491.4597146199,
+    4114258.661581976,
+    354491.4597146199,
+    4125104.2991658687
+  ],
+  "crs": "EPSG:26912",
+  "width_m": 16000,
+  "height_m": 10845.637583892618,
+  "extent_basis": "provisional editorial extent; Peter extent not supplied"
+}

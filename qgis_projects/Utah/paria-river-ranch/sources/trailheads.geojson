@@ -1,0 +1,557 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.751643866291,
+          37.4972721144119
+        ]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "PrimaryName": "Cascade Falls",
+        "TrailheadID": "OV3108860",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseHIKE",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.701374776304,
+          37.4377822411788
+        ]
+      },
+      "properties": {
+        "OBJECTID": 83,
+        "PrimaryName": "Virgin River Rim (Strawberry)",
+        "TrailheadID": "OV3185759",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.848698037335,
+          37.6919387685248
+        ]
+      },
+      "properties": {
+        "OBJECTID": 84,
+        "PrimaryName": "Brian Head Bike Park",
+        "TrailheadID": "OV3477679",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.848643752142,
+          37.7035795593821
+        ]
+      },
+      "properties": {
+        "OBJECTID": 85,
+        "PrimaryName": "Brian Head",
+        "TrailheadID": "OV3480542",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.255948408947,
+          37.7190598150264
+        ]
+      },
+      "properties": {
+        "OBJECTID": 94,
+        "PrimaryName": "Coyote Hollow Lower",
+        "TrailheadID": "OV4885024",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.254662099614,
+          37.6095311705711
+        ]
+      },
+      "properties": {
+        "OBJECTID": 95,
+        "PrimaryName": "King Creek (Tropic)",
+        "TrailheadID": "OV4911899",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.332004429682,
+          37.7839857681182
+        ]
+      },
+      "properties": {
+        "OBJECTID": 96,
+        "PrimaryName": "Casto",
+        "TrailheadID": "OV5090078",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.860359904369,
+          37.5934244759662
+        ]
+      },
+      "properties": {
+        "OBJECTID": 132,
+        "PrimaryName": "Blowhard",
+        "TrailheadID": "OV6629782",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.916418673194,
+          37.5942067861056
+        ]
+      },
+      "properties": {
+        "OBJECTID": 154,
+        "PrimaryName": "Virgin River Rim",
+        "TrailheadID": "OV6848751",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.819382720882,
+          37.6869766139092
+        ]
+      },
+      "properties": {
+        "OBJECTID": 258,
+        "PrimaryName": "Brian Head Peak",
+        "TrailheadID": "OV7352839",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.301664640343,
+          37.7449217511366
+        ]
+      },
+      "properties": {
+        "OBJECTID": 259,
+        "PrimaryName": "Cassidy",
+        "TrailheadID": "OV7397731",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.329443137873,
+          37.7437000291398
+        ]
+      },
+      "properties": {
+        "OBJECTID": 260,
+        "PrimaryName": "Thunder Mountain",
+        "TrailheadID": "OV7398036",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 261,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.333649939365,
+          37.7697376527421
+        ]
+      },
+      "properties": {
+        "OBJECTID": 261,
+        "PrimaryName": "Losee",
+        "TrailheadID": "OV7398038",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.808903299967,
+          37.5298077504614
+        ]
+      },
+      "properties": {
+        "OBJECTID": 262,
+        "PrimaryName": "Navajo Lake",
+        "TrailheadID": "OV7399941",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.279374365008,
+          37.7026157240701
+        ]
+      },
+      "properties": {
+        "OBJECTID": 271,
+        "PrimaryName": "Coyote Hollow Upper",
+        "TrailheadID": "OV7402999",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 395,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.877464791271,
+          37.234184996199
+        ]
+      },
+      "properties": {
+        "OBJECTID": 395,
+        "PrimaryName": "East Rim South",
+        "TrailheadID": "OV9208181",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseHIKE",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 503,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.318898617847,
+          37.745672146915
+        ]
+      },
+      "properties": {
+        "OBJECTID": 503,
+        "PrimaryName": "Red Canyon",
+        "TrailheadID": "OV9547831",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 504,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.11027365348,
+          37.6658040526168
+        ]
+      },
+      "properties": {
+        "OBJECTID": 504,
+        "PrimaryName": "Mossy Cave",
+        "TrailheadID": "OV9549041",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseHIKE",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 505,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.172012567762,
+          37.5522729711505
+        ]
+      },
+      "properties": {
+        "OBJECTID": 505,
+        "PrimaryName": "Sheep Creek",
+        "TrailheadID": "OV9551511",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 506,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2132698756,
+          37.5876371361522
+        ]
+      },
+      "properties": {
+        "OBJECTID": 506,
+        "PrimaryName": "Swamp Canyon",
+        "TrailheadID": "OV9551512",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseHIKE",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 507,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.298131404634,
+          37.4421732341758
+        ]
+      },
+      "properties": {
+        "OBJECTID": 507,
+        "PrimaryName": "Crawford Pass",
+        "TrailheadID": "OV9554800",
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseMTB",
+        "DataSource": "OrbitalView",
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.939455063153,
+          37.2708600044382
+        ]
+      },
+      "properties": {
+        "OBJECTID": 566,
+        "PrimaryName": "Weeping Rock",
+        "TrailheadID": null,
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseHIKE",
+        "DataSource": null,
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 567,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.946502481304,
+          37.2727941272725
+        ]
+      },
+      "properties": {
+        "OBJECTID": 567,
+        "PrimaryName": "Big Bend",
+        "TrailheadID": null,
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseHIKE",
+        "DataSource": null,
+        "LastUpdate": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 568,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9475336143,
+          37.2852485362438
+        ]
+      },
+      "properties": {
+        "OBJECTID": 568,
+        "PrimaryName": "Temple of Sinawava",
+        "TrailheadID": null,
+        "Features": null,
+        "PrimaryMaintenance": null,
+        "SeasonalRestriction": null,
+        "InfoURL": null,
+        "Comments": "OVPrimaryUseHIKE",
+        "DataSource": null,
+        "LastUpdate": null
+      }
+    }
+  ]
+}

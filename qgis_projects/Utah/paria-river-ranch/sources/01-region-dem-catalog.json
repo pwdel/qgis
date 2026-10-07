@@ -1,0 +1,4929 @@
+{
+  "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/query?f=json&where=1%3D1&geometry=319407.0349994616%2C4095859.033783483%2C459407.0349994616%2C4190758.362642543&inSR=26912&spatialRel=esriSpatialRelIntersects&geometryType=esriGeometryEnvelope&outFields=OBJECTID%2CName%2CLowPS%2CHighPS%2CDEM_Type%2CVerticalDatum%2CAcquisitionDate%2CURL%2Ctitle%2CStartDate%2CEndDate&returnGeometry=false",
+  "response": {
+    "objectIdFieldName": "OBJECTID",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "Name",
+        "type": "esriFieldTypeString",
+        "alias": "Name",
+        "domain": null,
+        "length": 200
+      },
+      {
+        "name": "LowPS",
+        "type": "esriFieldTypeDouble",
+        "alias": "LowPS",
+        "domain": null
+      },
+      {
+        "name": "HighPS",
+        "type": "esriFieldTypeDouble",
+        "alias": "HighPS",
+        "domain": null
+      },
+      {
+        "name": "DEM_Type",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "DEM_Type",
+        "domain": null
+      },
+      {
+        "name": "VerticalDatum",
+        "type": "esriFieldTypeString",
+        "alias": "VerticalDatum",
+        "domain": null,
+        "length": 100
+      },
+      {
+        "name": "AcquisitionDate",
+        "type": "esriFieldTypeDate",
+        "alias": "AcquisitionDate",
+        "domain": null,
+        "length": 8
+      },
+      {
+        "name": "URL",
+        "type": "esriFieldTypeString",
+        "alias": "URL",
+        "domain": null,
+        "length": 1000
+      },
+      {
+        "name": "title",
+        "type": "esriFieldTypeString",
+        "alias": "title",
+        "domain": null,
+        "length": 256
+      },
+      {
+        "name": "StartDate",
+        "type": "esriFieldTypeInteger",
+        "alias": "StartDate",
+        "domain": null
+      },
+      {
+        "name": "EndDate",
+        "type": "esriFieldTypeString",
+        "alias": "EndDate",
+        "domain": null,
+        "length": 50
+      }
+    ],
+    "features": [
+      {
+        "attributes": {
+          "OBJECTID": 1468,
+          "Name": "n38w113",
+          "LowPS": 30.92208098137158,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n38w113/USGS_1_n38w113.tif",
+          "title": "USGS 1 Arc Second n38w113 20240614",
+          "StartDate": 19730101,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 1640,
+          "Name": "n37w114",
+          "LowPS": 30.922081050466897,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n37w114/USGS_1_n37w114.tif",
+          "title": "USGS 1 Arc Second n37w114 20240614",
+          "StartDate": 19580101,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 1855,
+          "Name": "n37w112",
+          "LowPS": 30.92208098137158,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1694822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n37w112/USGS_1_n37w112.tif",
+          "title": "USGS 1 Arc Second n37w112 20260601",
+          "StartDate": 20180810,
+          "EndDate": "20230916"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 2003,
+          "Name": "n38w114",
+          "LowPS": 30.92208098137158,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1694563200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n38w114/USGS_1_n38w114.tif",
+          "title": "USGS 1 Arc Second n38w114 20260520",
+          "StartDate": 20110101,
+          "EndDate": "20230913"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 2870,
+          "Name": "n37w113",
+          "LowPS": 30.92208098137158,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1727395200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n37w113/USGS_1_n37w113.tif",
+          "title": "USGS 1 Arc Second n37w113 20260601",
+          "StartDate": 19660101,
+          "EndDate": "20240927"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 3462,
+          "Name": "n38w112",
+          "LowPS": 30.92208098137158,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1729036800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n38w112/USGS_1_n38w112.tif",
+          "title": "USGS 1 Arc Second n38w112 20260701",
+          "StartDate": 20180427,
+          "EndDate": "20241016"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 4415,
+          "Name": "n37w112",
+          "LowPS": 10.307360350155633,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1694822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/n37w112/USGS_13_n37w112.tif",
+          "title": "USGS 1/3 Arc Second n37w112 20260601",
+          "StartDate": 20180810,
+          "EndDate": "20230916"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 4416,
+          "Name": "n38w114",
+          "LowPS": 10.307360350155633,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1694563200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/n38w114/USGS_13_n38w114.tif",
+          "title": "USGS 1/3 Arc Second n38w114 20260519",
+          "StartDate": 20110101,
+          "EndDate": "20230913"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 5498,
+          "Name": "n37w113",
+          "LowPS": 10.307360350155633,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1727395200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/n37w113/USGS_13_n37w113.tif",
+          "title": "USGS 1/3 Arc Second n37w113 20260601",
+          "StartDate": 19820101,
+          "EndDate": "20240927"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 5499,
+          "Name": "n37w114",
+          "LowPS": 10.307360350155633,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/n37w114/USGS_13_n37w114.tif",
+          "title": "USGS 1/3 Arc Second n37w114 20240614",
+          "StartDate": 19660101,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 5516,
+          "Name": "n38w113",
+          "LowPS": 10.307360350155633,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/n38w113/USGS_13_n38w113.tif",
+          "title": "USGS 1/3 Arc Second n38w113 20240614",
+          "StartDate": 19730101,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 5672,
+          "Name": "n38w112",
+          "LowPS": 10.307360350155633,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1694822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/n38w112/USGS_13_n38w112.tif",
+          "title": "USGS 1/3 Arc Second n38w112 20260630",
+          "StartDate": 20180427,
+          "EndDate": "20230916"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 9068,
+          "Name": "ned19_n38x00_w113x00_ut_cedarvalley_2011",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1319673600000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n38x00_w113x00_ut_cedarvalley_2011.zip",
+          "title": "USGS NED ned19_n38x00_w113x00_ut_cedarvalley_2011 1/9 arc-second 2012 15 x 15 minute IMG",
+          "StartDate": 20111024,
+          "EndDate": "20111027"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 9069,
+          "Name": "ned19_n38x00_w113x00_ut_ironco_2006",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1388534400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n38x00_w113x00_ut_ironco_2006.zip",
+          "title": "USGS NED ned19_n38x00_w113x00_ut_ironco_2006 1/9 arc-second 2009 15 x 15 minute IMG",
+          "StartDate": 2009,
+          "EndDate": "2014"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 9070,
+          "Name": "ned19_n38x00_w113x25_ut_cedarvalley_2011",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1319673600000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n38x00_w113x25_ut_cedarvalley_2011.zip",
+          "title": "USGS NED ned19_n38x00_w113x25_ut_cedarvalley_2011 1/9 arc-second 2012 15 x 15 minute IMG",
+          "StartDate": 20111024,
+          "EndDate": "20111027"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 9071,
+          "Name": "ned19_n38x00_w113x25_ut_ironco_2006",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1388534400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n38x00_w113x25_ut_ironco_2006.zip",
+          "title": "USGS NED ned19_n38x00_w113x25_ut_ironco_2006 1/9 arc-second 2009 15 x 15 minute IMG",
+          "StartDate": 2009,
+          "EndDate": "2014"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 11040,
+          "Name": "ned19_n37x50_w113x25_ut_hurricanefault_2011",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1388534400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n37x50_w113x25_ut_hurricanefault_2011.zip",
+          "title": "USGS NED ned19_n37x50_w113x25_ut_hurricanefault_2011 1/9 arc-second 2013 15 x 15 minute IMG",
+          "StartDate": 2013,
+          "EndDate": "2014"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 11042,
+          "Name": "ned19_n37x75_w113x00_ut_cedarvalley_2011",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1319673600000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n37x75_w113x00_ut_cedarvalley_2011.zip",
+          "title": "USGS NED ned19_n37x75_w113x00_ut_cedarvalley_2011 1/9 arc-second 2012 15 x 15 minute IMG",
+          "StartDate": 20111024,
+          "EndDate": "20111027"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 11043,
+          "Name": "ned19_n37x75_w113x25_ut_cedarvalley_2011",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1319673600000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n37x75_w113x25_ut_cedarvalley_2011.zip",
+          "title": "USGS NED ned19_n37x75_w113x25_ut_cedarvalley_2011 1/9 arc-second 2012 15 x 15 minute IMG",
+          "StartDate": 20111024,
+          "EndDate": "20111027"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 11044,
+          "Name": "ned19_n37x75_w113x25_ut_hurricanefault_2011",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1388534400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n37x75_w113x25_ut_hurricanefault_2011.zip",
+          "title": "USGS NED ned19_n37x75_w113x25_ut_hurricanefault_2011 1/9 arc-second 2013 15 x 15 minute IMG",
+          "StartDate": 2013,
+          "EndDate": "2014"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 11045,
+          "Name": "ned19_n37x75_w113x25_ut_ironco_2006",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1388534400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n37x75_w113x25_ut_ironco_2006.zip",
+          "title": "USGS NED ned19_n37x75_w113x25_ut_ironco_2006 1/9 arc-second 2009 15 x 15 minute IMG",
+          "StartDate": 2009,
+          "EndDate": "2014"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 16687,
+          "Name": "ned19_n38x00_w112x75_ut_cedarvalley_2011",
+          "LowPS": 3.435786885024356,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1319673600000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/19/IMG/ned19_n38x00_w112x75_ut_cedarvalley_2011.zip",
+          "title": "USGS NED ned19_n38x00_w112x75_ut_cedarvalley_2011 1/9 arc-second 2012 15 x 15 minute IMG",
+          "StartDate": 20111024,
+          "EndDate": "20111027"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 17454,
+          "Name": "AZ_NorthEast_D23",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1694822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_NorthEast_D23/TIFF/USGS_1M_12_x44y410_AZ_NorthEast_D23.tif",
+          "title": "USGS 1 Meter 12 x44y410 AZ_NorthEast_D23",
+          "StartDate": 20230528,
+          "EndDate": "20230916"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 18206,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x45y417_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x45y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 18278,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x40y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x40y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 18620,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x32y411_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x32y411 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 18681,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x34y415_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x34y415 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 18790,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y410_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 20491,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 20655,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x35y416_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x35y416 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 22687,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x40y418_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x40y418 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 23610,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x39y417_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x39y417 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 23641,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x37y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 24139,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x32y410_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x32y410 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 24201,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x39y417_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x39y417 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 24215,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y417_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x40y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 24385,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x32y415_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x32y415 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 24630,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x36y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 25597,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x43y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x43y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 25764,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y417_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x36y417 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 25826,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x33y419_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 26394,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y420_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x38y420 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 26559,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x36y419_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x36y419 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 27699,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x34y420_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x34y420 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 28480,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x45y420_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x45y420 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 28793,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 29020,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y415_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 29436,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x33y416_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 29728,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x33y410_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x33y410 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 30090,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x31y415_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x31y415 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 30203,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x34y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x34y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 30850,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y420_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y420 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 31133,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x36y412_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x36y412 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 31196,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x32y415_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x32y415 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 31367,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y417_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 31522,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x33y412_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 32394,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x33y418_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y418 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 32612,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x32y416_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x32y416 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 32690,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x45y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x45y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 33356,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x43y419_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x43y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 33625,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x45y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x45y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 34687,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 34705,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y412_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 35715,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x32y410_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x32y410 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 35983,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 36353,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x31y414_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x31y414 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 36831,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x33y412_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x33y412 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 37290,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x44y410_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x44y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 37300,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x31y413_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x31y413 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 37595,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x45y420_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x45y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 37966,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x34y413_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x34y413 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 38030,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x37y412_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x37y412 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 39403,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x39y415_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x39y415 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 39633,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x34y414_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x34y414 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 39729,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x45y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x45y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 39857,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x33y419_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x33y419 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 39877,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x43y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 40184,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x44y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x44y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 40742,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x35y410_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x35y410 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 41551,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x33y413_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x33y413 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 42378,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x34y417_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x34y417 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 42397,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y415_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y415 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 42455,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y415_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 42791,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 42822,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y411_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x36y411 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 42977,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x34y420_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 43047,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x33y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 43130,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x37y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 44070,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y415_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 44428,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y417_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x37y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 44611,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x33y410_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x33y410 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 45049,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y418_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 45303,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x34y418_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x34y418 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 45718,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y418_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x36y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 45954,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x41y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 46050,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x31y413_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x31y413 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 46176,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y419_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x40y419 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 47404,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x35y420_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x35y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 47499,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x40y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 47647,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x31y412_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x31y412 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 48618,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y411_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x35y411 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 49013,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x36y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x36y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 49072,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y416_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y416 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 49088,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x31y414_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x31y414 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 50047,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x33y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 50181,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x33y414_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x33y414 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 51130,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x37y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 51646,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x34y411_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x34y411 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 52062,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x41y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 52974,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x37y417_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x37y417 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 53041,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x42y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x42y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 53381,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y410_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x43y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 53772,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x36y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 53858,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y417_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x41y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 54152,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x44y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x44y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 54335,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 0.9999999999999535,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x31y420_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x31y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 54893,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y417_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y417 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 55052,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x34y411_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x34y411 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 55627,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x34y416_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 56166,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x34y415_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 57006,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x34y415_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x34y415 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 57024,
+          "Name": "UT_ZionNP_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL1_2016/TIFF/USGS_one_meter_x32y412_UT_ZionNP_QL1_2016.tif",
+          "title": "USGS one meter x32y412 UT ZionNP QL1 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 57188,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x31y413_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x31y413 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 57215,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x36y410_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x36y410 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 58534,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x34y412_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 58813,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 59733,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x31y419_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x31y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 60238,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x44y419_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x44y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 60682,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y415_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x36y415 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 60825,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x37y410_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x37y410 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 61467,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x45y412_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x45y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 61716,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x31y416_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x31y416 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 61830,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y416_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x37y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 62019,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x34y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 62334,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x36y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 62454,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x34y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 62792,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x33y415_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 65262,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x37y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x37y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 65626,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x39y418_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x39y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 66327,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y418_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x40y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 66366,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x33y417_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x33y417 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 66629,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x32y417_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x32y417 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 66680,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y417_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x36y417 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 67044,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x33y415_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x33y415 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 67100,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x35y419_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x35y419 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 67672,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x34y419_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 68306,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x34y410_AZ_Fredonia_QL1_2016.tif",
+          "title": "USGS one meter x34y410 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 68329,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x33y415_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x33y415 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 68532,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x42y420_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 69391,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x43y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 69415,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y412_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x37y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 70207,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x40y417_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x40y417 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 70715,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x32y414_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x32y414 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 71310,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x44y417_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x44y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 71377,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y410_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 72355,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 72550,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x36y420_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x36y420 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 72823,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y411_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 72909,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x31y415_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x31y415 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 74185,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x44y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x44y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 74277,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y410_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x41y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 74350,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y417_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 75038,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y420_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x40y420 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 75060,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x33y416_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y416 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 75154,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x32y410_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x32y410 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 76652,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y416_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x41y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 77290,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x45y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 77355,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "20200330",
+          "title": "USGS one meter x31y411 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 77403,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x34y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 78469,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x34y412 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 78519,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "20240105",
+          "title": "USGS 1 Meter 12 x32y416 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 78838,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x42y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 79109,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x39y420 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 79317,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x38y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 79831,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x34y416 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 79901,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x45y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 80501,
+          "Name": "UT_ZionNP_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "20200330",
+          "title": "USGS one meter x32y413 UT ZionNP QL1 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 80565,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x41y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 80780,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "20240226",
+          "title": "USGS 1 Meter 12 x36y418 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 82356,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x37y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 83083,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x31y416 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 84147,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x32y415 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 84328,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "20200330",
+          "title": "USGS one meter x35y411 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 84989,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x36y419 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 85551,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x36y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 85776,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x40y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 85935,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "20240226",
+          "title": "USGS 1 Meter 12 x36y419 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 85982,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x40y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 86205,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "20240226",
+          "title": "USGS 1 Meter 12 x35y417 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 86343,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x40y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 86539,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x44y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 86543,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x42y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 86559,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "20240614",
+          "title": "USGS 1 Meter 12 x41y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 87002,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "20240614",
+          "title": "USGS 1 Meter 12 x32y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 87403,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "20200330",
+          "title": "USGS one meter x33y416 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 87703,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "20240105",
+          "title": "USGS 1 Meter 12 x31y411 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 87861,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x40y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 87967,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x44y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 88341,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x33y417 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 89543,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "20240226",
+          "title": "USGS 1 Meter 12 x35y415 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 89581,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x38y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 89893,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x43y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 89915,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "20240105",
+          "title": "USGS 1 Meter 12 x31y415 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 90034,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x38y415 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 90264,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x40y420 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 90265,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x41y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 90573,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x44y411 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 90585,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x38y420 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 90691,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x38y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 90935,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x42y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 91212,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "20200330",
+          "title": "USGS one meter x33y412 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 91501,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x36y420 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 91876,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x43y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 92456,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "20240614",
+          "title": "USGS 1 Meter 12 x31y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 92815,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x35y414 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 92976,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x32y411 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 93718,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "20240614",
+          "title": "USGS 1 Meter 12 x39y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 94849,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x36y413 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 95723,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x31y418 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 97567,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x36y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 98686,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x45y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 98723,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x43y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 99745,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x43y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 100921,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x35y415 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 101053,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "20240226",
+          "title": "USGS 1 Meter 12 x35y418 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 101145,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "20240614",
+          "title": "USGS 1 Meter 12 x38y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 101238,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x31y417 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 101273,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x40y417 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 101450,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x42y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 101954,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x41y420 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 102044,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "20200330",
+          "title": "USGS one meter x31y415 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 102196,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x45y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 102817,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x44y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 103102,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "20200330",
+          "title": "USGS one meter x38y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 103136,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x39y418 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 103810,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x45y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 104141,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x34y419 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 104637,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "20200330",
+          "title": "USGS one meter x36y411 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 104746,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x43y417 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 104850,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 0.9999999999999535,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x32y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 105284,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "20200330",
+          "title": "USGS one meter x32y412 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 105314,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x37y420 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 105406,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "20200330",
+          "title": "USGS one meter x32y415 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 105516,
+          "Name": "AZ_Fredonia_QL1_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1507766400000,
+          "URL": "20200330",
+          "title": "USGS one meter x37y411 AZ Fredonia QL1 2016",
+          "StartDate": 20161015,
+          "EndDate": "20171210"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 105648,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "20200330",
+          "title": "USGS one meter x35y418 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 106095,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "20211217",
+          "title": "USGS 1 Meter 12 x41y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 106464,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "20210611",
+          "title": "USGS 1 Meter 12 x44y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 107832,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y420_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y420 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 108214,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y418_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x41y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 108240,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x33y416_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x33y416 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 108529,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y420_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x41y420 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 109356,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y415_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x40y415 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 110084,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x34y413_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x34y413 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 110132,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y417_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x38y417 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 111277,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x33y416_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x33y416 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 111896,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x38y416_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x38y416 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 112469,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x33y414_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x33y414 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 112492,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y415_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x36y415 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 112574,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y419_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y419 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 112632,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y412_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x43y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 112989,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x32y416_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x32y416 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 113916,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x37y418_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x37y418 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 113981,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y416_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 114243,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y417_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x41y417 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 115247,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x31y412_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x31y412 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 115732,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y414_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y414 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 116007,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x32y418_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x32y418 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 116266,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y418_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x37y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 116974,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x33y412_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x33y412 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 117006,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x32y414_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x32y414 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 117211,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x40y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 117360,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x31y410_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x31y410 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 117597,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x33y411_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x33y411 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 118033,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y419_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x41y419 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 118249,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x39y416_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x39y416 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 119430,
+          "Name": "UT_StateWide_2018_A18",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1536451200000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y416_UT_StateWide_2018_A18.tif",
+          "title": "USGS 1 Meter 12 x36y416 UT_StateWide_2018_A18",
+          "StartDate": 20180908,
+          "EndDate": "20180909"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 120957,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y412_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x35y412 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 121120,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y420_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x35y420 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 121351,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 0.9999999999999535,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x33y420_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y420 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 121771,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x31y412_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x31y412 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 122736,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y416_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x40y416 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 123868,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x33y410_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x33y410 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 124139,
+          "Name": "UT_FEMA_FS_FlamingGorge_2020_B20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1605830400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_FEMA_FS_FlamingGorge_2020_B20/TIFF/USGS_1M_12_x32y412_UT_FEMA_FS_FlamingGorge_2020_B20.tif",
+          "title": "USGS 1 Meter 12 x32y412 UT_FEMA_FS_FlamingGorge_2020_B20",
+          "StartDate": 20200808,
+          "EndDate": "20201120"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 124445,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y419_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x35y419 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 124817,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x45y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x45y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 125032,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y416_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x36y416 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 125203,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y418_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x40y418 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 125399,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x32y419_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x32y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 126412,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x42y419_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y419 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 126810,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x31y411_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x31y411 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 127022,
+          "Name": "AZ_NorthEast_D23",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1694822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_NorthEast_D23/TIFF/USGS_1M_12_x45y410_AZ_NorthEast_D23.tif",
+          "title": "USGS 1 Meter 12 x45y410 AZ_NorthEast_D23",
+          "StartDate": 20230528,
+          "EndDate": "20230916"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 127587,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x44y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x44y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 127786,
+          "Name": "AZ_CentralCoconino_B22",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1668038400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x33y410_AZ_CentralCoconino_B22.tif",
+          "title": "USGS 1 Meter 12 x33y410 AZ_CentralCoconino_B22",
+          "StartDate": 20220628,
+          "EndDate": "20221011"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 127907,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x31y412_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x31y412 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 127976,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x32y414_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x32y414 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 128731,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y419_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x38y419 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 129055,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x31y416_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x31y416 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 129073,
+          "Name": "UT_StatewideSouth_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1598140800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x32y416_UT_StatewideSouth_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x32y416 UT_StatewideSouth_2020_A20",
+          "StartDate": 20200502,
+          "EndDate": "20200823"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 130029,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y416_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x43y416 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 130828,
+          "Name": "UT_WashingtonCo_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1499990400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_WashingtonCo_2016/TIFF/USGS_one_meter_x32y411_UT_WashingtonCo_2016.tif",
+          "title": "USGS one meter x32y411 UT WashingtonCo 2016",
+          "StartDate": 20170108,
+          "EndDate": "20170714"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 131529,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y416_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x35y416 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 131617,
+          "Name": "UT_ZionNP_QL2_2016",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1452124800000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_ZionNP_QL2_2016/TIFF/USGS_one_meter_x32y412_UT_ZionNP_QL2_2016.tif",
+          "title": "USGS one meter x32y412 UT ZionNP QL2 2016",
+          "StartDate": 20151201,
+          "EndDate": "20160701"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 131877,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y415_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x35y415 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 132377,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y419_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x42y419 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 132562,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x33y418_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x33y418 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 132604,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x40y416_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x40y416 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 132886,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y416_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x41y416 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 133068,
+          "Name": "UT_Southern_QL1_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1532822400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y417_UT_Southern_QL1_2018.tif",
+          "title": "USGS one meter x35y417 UT Southern QL1 2018",
+          "StartDate": 20180427,
+          "EndDate": "20180729"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 134585,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y412_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x38y412 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 135171,
+          "Name": "UT_Southern_B2_2018",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1544400000000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y413_UT_Southern_B2_2018.tif",
+          "title": "USGS one meter x35y413 UT Southern B2 2018",
+          "StartDate": 20180427,
+          "EndDate": "20181012"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 135532,
+          "Name": "UT_StatewideKane_2020_A20",
+          "LowPS": 1,
+          "HighPS": 16,
+          "DEM_Type": 1,
+          "VerticalDatum": "North American Vertical Datum of 1988 (NAVD 88)",
+          "AcquisitionDate": 1573862400000,
+          "URL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y418_UT_StatewideKane_2020_A20.tif",
+          "title": "USGS 1 Meter 12 x39y418 UT_StatewideKane_2020_A20",
+          "StartDate": 20191011,
+          "EndDate": "20191116"
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 137146,
+          "Name": "Ov_i02_L01_R0000005A_C00000013.tif",
+          "LowPS": 75,
+          "HighPS": 75,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 137974,
+          "Name": "Ov_i02_L02_R0000002D_C00000009.tif",
+          "LowPS": 150,
+          "HighPS": 150,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138219,
+          "Name": "Ov_i02_L03_R00000016_C00000004.tif",
+          "LowPS": 300,
+          "HighPS": 300,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138311,
+          "Name": "Ov_i02_L04_R0000000B_C00000002.tif",
+          "LowPS": 600,
+          "HighPS": 600,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138352,
+          "Name": "Ov_i02_L05_R00000005_C00000001.tif",
+          "LowPS": 1200,
+          "HighPS": 1200,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138378,
+          "Name": "Ov_i02_L06_R00000002_C00000000.tif",
+          "LowPS": 2400,
+          "HighPS": 2400,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138399,
+          "Name": "Ov_i02_L07_R00000001_C00000000.tif",
+          "LowPS": 4800,
+          "HighPS": 4800,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138416,
+          "Name": "Ov_i02_L08_R00000000_C00000000.tif",
+          "LowPS": 9598.805966464251,
+          "HighPS": 9598.805966464251,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138433,
+          "Name": "Ov_i02_L09_R00000000_C00000000.tif",
+          "LowPS": 19193.014803634218,
+          "HighPS": 19193.014803634218,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138450,
+          "Name": "Ov_i02_L0A_R00000000_C00000000.tif",
+          "LowPS": 38386.029607268436,
+          "HighPS": 38386.029607268436,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138467,
+          "Name": "Ov_i02_L0B_R00000000_C00000000.tif",
+          "LowPS": 76772.05921453687,
+          "HighPS": 76772.05921453687,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      },
+      {
+        "attributes": {
+          "OBJECTID": 138484,
+          "Name": "Ov_i02_L0C_R00000000_C00000000.tif",
+          "LowPS": 153544.11842907374,
+          "HighPS": 153544.11842907374,
+          "DEM_Type": null,
+          "VerticalDatum": null,
+          "AcquisitionDate": null,
+          "URL": null,
+          "title": null,
+          "StartDate": null,
+          "EndDate": null
+        }
+      }
+    ]
+  },
+  "complete": true,
+  "interpretation": "Candidate catalog query only; exact contributing DEM per pixel unresolved."
+}

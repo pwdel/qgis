@@ -1,0 +1,49 @@
+{
+  "01-region": {
+    "pixel_size_m": [
+      63.64810788669356,
+      63.648107886693545
+    ],
+    "valid_fraction": 1.0,
+    "min_m": 1101.4000244140625,
+    "max_m": 3445.36669921875,
+    "native_resolution": "Unresolved service mosaic"
+  },
+  "02-ranch": {
+    "pixel_size_m": [
+      15.002768287577597,
+      15.00276828757759
+    ],
+    "valid_fraction": 1.0,
+    "min_m": 1290.3470458984375,
+    "max_m": 2066.7216796875,
+    "native_resolution": "Unresolved service mosaic"
+  },
+  "03-mount-carmel": {
+    "pixel_size_m": [
+      10.0,
+      10.0
+    ],
+    "valid_fraction": 1.0,
+    "min_m": 1443.31201171875,
+    "max_m": 2104.01611328125,
+    "native_resolution": "Unresolved service mosaic"
+  },
+  "04-red-canyon": {
+    "pixel_size_m": [
+      13.75,
+      13.75
+    ],
+    "valid_fraction": 1.0,
+    "min_m": 2000.64990234375,
+    "max_m": 2928.995361328125,
+    "native_resolution": "Unresolved service mosaic"
+  },
+  "native": {
+    "pixel_size_m": 1,
+    "valid_fraction": 0.67180634765625,
+    "over_30_fraction": 0.31151860429924744,
+    "over_45_fraction": 0.04339702152705429,
+    "interpretation": "Whole crop terrain cell slopes; not trail grade or a recommended avoidance boundary."
+  }
+}
