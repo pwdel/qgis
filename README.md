@@ -2,6 +2,10 @@
 
 ![](/qgis_projects/peru/images/overalltreksdisplay.png)
 
+## Canoe maps
+
+- [Boundary Waters — 2008 canoe route atlas](qgis_projects/boundary-waters/README.md): six pages with DNR depth maps, dated fisheries and stocking records, an editable QGIS project, and experimental lidar portage-approach views.
+
 ## Horse-riding maps
 
 - [Utah — Paria River Ranch](qgis_projects/Utah/paria-river-ranch/README.md): four-sheet planning atlas with source-linked water and trailer-access evidence, local lidar terrain screening, and an editable QGIS project. Avenza export is a separate second pass.

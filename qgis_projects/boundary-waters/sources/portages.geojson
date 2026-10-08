@@ -1,0 +1,2313 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9663828,
+        "trail_name": "MOSS LAKE-HUNGRY JACK LAKE",
+        "trail_type": "TERRA",
+        "trail_cn": "5227.007601",
+        "bmp": 0.0,
+        "emp": 0.086,
+        "segment_length": 0.086,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "3",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG01 - +0-5%",
+        "typical_tread_width": null,
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC3",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "321",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": null,
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": "01/01-12/31",
+        "bicycle_restricted": null,
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2250",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.087,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{A41E70E4-CBBE-4753-A8E9-80D3AAE0A4A7}",
+        "st_length(shape)": 0.001524853126965119,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.4682310989292,
+              48.06364779380711
+            ],
+            [
+              -90.46817411089806,
+              48.06356105679932
+            ],
+            [
+              -90.46815267388212,
+              48.06350209679275
+            ],
+            [
+              -90.46805986883926,
+              48.063410069786826
+            ],
+            [
+              -90.4679480547733,
+              48.063209648767426
+            ],
+            [
+              -90.46778432470211,
+              48.0630755667608
+            ],
+            [
+              -90.46772469167875,
+              48.06304275876059
+            ],
+            [
+              -90.467593470629,
+              48.06298137776158
+            ],
+            [
+              -90.46741602356,
+              48.062887483761386
+            ],
+            [
+              -90.46716637546372,
+              48.062760503761865
+            ],
+            [
+              -90.46708577643186,
+              48.06271463576135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9633960,
+        "trail_name": "DUNCAN-MOSS",
+        "trail_type": "TERRA",
+        "trail_cn": "22465010602",
+        "bmp": 0.0,
+        "emp": 0.162,
+        "segment_length": 0.162,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2078",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.167,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{5641911B-3683-4522-A44E-7CAEA9757AB7}",
+        "st_length(shape)": 0.002953757593713601,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.4682860299089,
+              48.06970916863108
+            ],
+            [
+              -90.46788256283172,
+              48.06999720669924
+            ],
+            [
+              -90.46780033381205,
+              48.070031385709775
+            ],
+            [
+              -90.46762643575704,
+              48.070018552720484
+            ],
+            [
+              -90.46750662171722,
+              48.06999791472619
+            ],
+            [
+              -90.467373839672,
+              48.06996799173159
+            ],
+            [
+              -90.46718785560891,
+              48.06992789773938
+            ],
+            [
+              -90.46708101157458,
+              48.06991654274543
+            ],
+            [
+              -90.46698625454822,
+              48.069932448754365
+            ],
+            [
+              -90.46693040453812,
+              48.06997620676432
+            ],
+            [
+              -90.46684640952364,
+              48.07004633777993
+            ],
+            [
+              -90.4668419955366,
+              48.07013622079252
+            ],
+            [
+              -90.46684790256273,
+              48.070289317813014
+            ],
+            [
+              -90.46683272656374,
+              48.070324974818966
+            ],
+            [
+              -90.4666227365276,
+              48.07050030285787
+            ],
+            [
+              -90.46651633249193,
+              48.07047995886274
+            ],
+            [
+              -90.46636704845164,
+              48.07051265687783
+            ],
+            [
+              -90.46633448746019,
+              48.07062891289605
+            ],
+            [
+              -90.46632830647829,
+              48.07075474891368
+            ],
+            [
+              -90.46638697252351,
+              48.070927004933004
+            ],
+            [
+              -90.46639464354453,
+              48.07104414894844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9634578,
+        "trail_name": "ROSE-DUNCAN",
+        "trail_type": "TERRA",
+        "trail_cn": "22464010602",
+        "bmp": 0.0,
+        "emp": 0.2428,
+        "segment_length": 0.2428,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2076",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.248,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{BD527AD9-6D33-496A-8D92-B4B03916E217}",
+        "st_length(shape)": 0.004128662746616736,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.44538150271836,
+              48.09356852052394
+            ],
+            [
+              -90.44535956969582,
+              48.09346905451195
+            ],
+            [
+              -90.44528174366323,
+              48.093413335509865
+            ],
+            [
+              -90.4452030266332,
+              48.0933755925103
+            ],
+            [
+              -90.44507420757628,
+              48.0932647505044
+            ],
+            [
+              -90.44499593654497,
+              48.09321801950362
+            ],
+            [
+              -90.44496147951577,
+              48.09310027849
+            ],
+            [
+              -90.44497756951212,
+              48.09304664848151
+            ],
+            [
+              -90.44503479951831,
+              48.09297593746779
+            ],
+            [
+              -90.44509069252842,
+              48.09293219145781
+            ],
+            [
+              -90.44513316953439,
+              48.0928881464488
+            ],
+            [
+              -90.44513762452141,
+              48.09279826543619
+            ],
+            [
+              -90.44507366149165,
+              48.09273385643197
+            ],
+            [
+              -90.44496900445083,
+              48.09267754043176
+            ],
+            [
+              -90.44491756642779,
+              48.09263140542914
+            ],
+            [
+              -90.44493365642413,
+              48.09257777542066
+            ],
+            [
+              -90.44497479643398,
+              48.092560695415365
+            ],
+            [
+              -90.44510895947535,
+              48.09256367940625
+            ],
+            [
+              -90.4452158445098,
+              48.09257505540014
+            ],
+            [
+              -90.44529500553848,
+              48.092603810398444
+            ],
+            [
+              -90.44532050255067,
+              48.09263137140033
+            ],
+            [
+              -90.44538802957008,
+              48.09262387639451
+            ],
+            [
+              -90.44540233657163,
+              48.092606198391074
+            ],
+            [
+              -90.44540411856644,
+              48.09257024638603
+            ],
+            [
+              -90.44533881854055,
+              48.0925328013856
+            ],
+            [
+              -90.44518717946373,
+              48.092340470370175
+            ],
+            [
+              -90.44513707843683,
+              48.092267371363754
+            ],
+            [
+              -90.44514153342391,
+              48.092177490351155
+            ],
+            [
+              -90.44514745542283,
+              48.09215962634833
+            ],
+            [
+              -90.44517237542055,
+              48.092097194338045
+            ],
+            [
+              -90.44527118943525,
+              48.09200041531771
+            ],
+            [
+              -90.44535391345364,
+              48.09195726530597
+            ],
+            [
+              -90.44543752846943,
+              48.09189613929167
+            ],
+            [
+              -90.44554842149218,
+              48.09182662227421
+            ],
+            [
+              -90.44561861950383,
+              48.09176519726081
+            ],
+            [
+              -90.44567540251133,
+              48.091703474248334
+            ],
+            [
+              -90.44569460849864,
+              48.09158692723106
+            ],
+            [
+              -90.44575406349836,
+              48.091471276211045
+            ],
+            [
+              -90.44576074447895,
+              48.09133645419214
+            ],
+            [
+              -90.44573836645776,
+              48.091245977181444
+            ],
+            [
+              -90.44567574042412,
+              48.0911546041734
+            ],
+            [
+              -90.44553351036308,
+              48.09104346416837
+            ],
+            [
+              -90.44533761728546,
+              48.090931130167036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9634539,
+        "trail_name": "ROSE-ROVE",
+        "trail_type": "TERRA",
+        "trail_cn": "21963010602",
+        "bmp": 0.0,
+        "emp": 2.0771,
+        "segment_length": 2.0771,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2075",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 2.009,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{473C7A33-F8B2-4D47-A0DA-601A16BB4F0B}",
+        "st_length(shape)": 0.038189430426843175,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.39816082069524,
+              48.10226674408097
+            ],
+            [
+              -90.39737926541672,
+              48.10201508610232
+            ],
+            [
+              -90.39670384116954,
+              48.10175683011522
+            ],
+            [
+              -90.39519582459876,
+              48.10106128112782
+            ],
+            [
+              -90.39415059920306,
+              48.10057866913646
+            ],
+            [
+              -90.3934348699384,
+              48.100287986147805
+            ],
+            [
+              -90.39307879880629,
+              48.10014043415306
+            ],
+            [
+              -90.3924949726239,
+              48.10011368319102
+            ],
+            [
+              -90.39082190107575,
+              48.09987772627807
+            ],
+            [
+              -90.38992528174668,
+              48.099528923294365
+            ],
+            [
+              -90.38897545334186,
+              48.098805485263306
+            ],
+            [
+              -90.38813382702833,
+              48.09844892027462
+            ],
+            [
+              -90.38770223186786,
+              48.09826814128069
+            ],
+            [
+              -90.38663876847157,
+              48.097816538294836
+            ],
+            [
+              -90.38624278324991,
+              48.09718216223645
+            ],
+            [
+              -90.3860350550457,
+              48.096295627130125
+            ],
+            [
+              -90.385942351937,
+              48.09578962606761
+            ],
+            [
+              -90.38534181660219,
+              48.09483565998009
+            ],
+            [
+              -90.38449429624252,
+              48.09419999395369
+            ],
+            [
+              -90.38378958094204,
+              48.093662054930405
+            ],
+            [
+              -90.3828385205676,
+              48.09313199392583
+            ],
+            [
+              -90.38027545365743,
+              48.092326714998485
+            ],
+            [
+              -90.37879928117944,
+              48.09215356008003
+            ],
+            [
+              -90.37806211292606,
+              48.09197476610816
+            ],
+            [
+              -90.37768823176842,
+              48.09170078709734
+            ],
+            [
+              -90.3774270886392,
+              48.09138888907337
+            ],
+            [
+              -90.37717654247756,
+              48.0908522820179
+            ],
+            [
+              -90.37721876944774,
+              48.09058330497812
+            ],
+            [
+              -90.37701929540685,
+              48.09070922100955
+            ],
+            [
+              -90.37595858311353,
+              48.09090094111136
+            ],
+            [
+              -90.37544202395686,
+              48.09090713314901
+            ],
+            [
+              -90.37444589758134,
+              48.090456954158455
+            ],
+            [
+              -90.37392925844325,
+              48.090580112212116
+            ],
+            [
+              -90.37340096827506,
+              48.09053653624381
+            ],
+            [
+              -90.37301591511756,
+              48.09028478123682
+            ],
+            [
+              -90.37234965792395,
+              48.09034602129269
+            ],
+            [
+              -90.3715687836628,
+              48.09020217732866
+            ],
+            [
+              -90.37039446237223,
+              48.0906296944708
+            ],
+            [
+              -90.36896662698335,
+              48.09092541961295
+            ],
+            [
+              -90.36882727096175,
+              48.091057197640865
+            ],
+            [
+              -90.36882629801931,
+              48.091421596690765
+            ],
+            [
+              -90.36811054488608,
+              48.091958574815095
+            ],
+            [
+              -90.36785188090404,
+              48.092569013916965
+            ],
+            [
+              -90.36788933795557,
+              48.09282181794885
+            ],
+            [
+              -90.36819885807692,
+              48.09299087694987
+            ],
+            [
+              -90.36814824013274,
+              48.093439619014816
+            ],
+            [
+              -90.36840947027984,
+              48.0938640160542
+            ],
+            [
+              -90.3683698772969,
+              48.09404756908209
+            ],
+            [
+              -90.36817311325612,
+              48.094169032112696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9634468,
+        "trail_name": "WATAP-MOUTAIN",
+        "trail_type": "TERRA",
+        "trail_cn": "21996010602",
+        "bmp": 0.0,
+        "emp": 0.2784,
+        "segment_length": 0.2784,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2081",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.268,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{8C95A0E0-007A-45B8-8545-77B5D6BA6F31}",
+        "st_length(shape)": 0.00576962664302829,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.30376114715705,
+              48.104061840051905
+            ],
+            [
+              -90.30345630205134,
+              48.10398269806277
+            ],
+            [
+              -90.3030829569288,
+              48.103928940082014
+            ],
+            [
+              -90.30252364674298,
+              48.10383482010892
+            ],
+            [
+              -90.3022341046363,
+              48.103720042113835
+            ],
+            [
+              -90.30191584652648,
+              48.10364058012565
+            ],
+            [
+              -90.30163784142911,
+              48.10356206313466
+            ],
+            [
+              -90.30124096228927,
+              48.10344476014691
+            ],
+            [
+              -90.30061692807631,
+              48.10330411917206
+            ],
+            [
+              -90.29993922684676,
+              48.10316221320088
+            ],
+            [
+              -90.2995275237066,
+              48.1030715502178
+            ],
+            [
+              -90.29926058761976,
+              48.10303827823224
+            ],
+            [
+              -90.29888819749463,
+              48.10296653324892
+            ],
+            [
+              -90.29870318042887,
+              48.10290819225411
+            ],
+            [
+              -90.2983887023088,
+              48.102756824255806
+            ],
+            [
+              -90.29820745723273,
+              48.10262658725089
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9634283,
+        "trail_name": "MOUNTAIN-CLEARWATER",
+        "trail_type": "TERRA",
+        "trail_cn": "21997010602",
+        "bmp": 0.0,
+        "emp": 0.2656,
+        "segment_length": 0.2656,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2082",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.256,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{DD142D7F-DAA9-423D-B953-E7104E72927B}",
+        "st_length(shape)": 0.004410198386737047,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.29122823498741,
+              48.09560561178728
+            ],
+            [
+              -90.29115388394585,
+              48.09548688177634
+            ],
+            [
+              -90.29102492589028,
+              48.0953848607716
+            ],
+            [
+              -90.29086724883152,
+              48.09531815377365
+            ],
+            [
+              -90.29065638275493,
+              48.09524119377812
+            ],
+            [
+              -90.29036266265983,
+              48.09520726979439
+            ],
+            [
+              -90.28993148253218,
+              48.09523308682858
+            ],
+            [
+              -90.28962434743289,
+              48.095198843845715
+            ],
+            [
+              -90.2895189153946,
+              48.09516036284796
+            ],
+            [
+              -90.28936265933206,
+              48.09506669284626
+            ],
+            [
+              -90.2892781232852,
+              48.09493422483417
+            ],
+            [
+              -90.28925090327036,
+              48.09489309083045
+            ],
+            [
+              -90.28923163624162,
+              48.09474866581209
+            ],
+            [
+              -90.28928606421567,
+              48.094480006771455
+            ],
+            [
+              -90.28926679718687,
+              48.09433558275308
+            ],
+            [
+              -90.2892230641434,
+              48.0941455897302
+            ],
+            [
+              -90.28917980409867,
+              48.093946609706066
+            ],
+            [
+              -90.28920409107336,
+              48.09374022667614
+            ],
+            [
+              -90.28932322807457,
+              48.09351808563723
+            ],
+            [
+              -90.2894630491007,
+              48.093413408612996
+            ],
+            [
+              -90.28950707510292,
+              48.09334246260016
+            ],
+            [
+              -90.2894193150572,
+              48.093223415590124
+            ],
+            [
+              -90.28910397893974,
+              48.093089998594266
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9634434,
+        "trail_name": "CLEARWATER-WEST PIKE",
+        "trail_type": "TERRA",
+        "trail_cn": "21993010602",
+        "bmp": 0.0,
+        "emp": 0.2715,
+        "segment_length": 0.2715,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2083",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.259,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{3425197A-E790-41CE-B8D8-228F93957D3B}",
+        "st_length(shape)": 0.005732417985204775,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.25899582456307,
+              48.08565364371719
+            ],
+            [
+              -90.25884494152636,
+              48.08571302873602
+            ],
+            [
+              -90.2586801684868,
+              48.08578108075706
+            ],
+            [
+              -90.25838461539679,
+              48.085783022778315
+            ],
+            [
+              -90.2580497802918,
+              48.08576602879976
+            ],
+            [
+              -90.25767614217047,
+              48.08572111382016
+            ],
+            [
+              -90.25738058908047,
+              48.08572305284146
+            ],
+            [
+              -90.25706875499398,
+              48.08577859187123
+            ],
+            [
+              -90.25676889691546,
+              48.08586140990383
+            ],
+            [
+              -90.25652651584335,
+              48.08587361492275
+            ],
+            [
+              -90.25630640477166,
+              48.085845860934604
+            ],
+            [
+              -90.2560968246869,
+              48.085714877931544
+            ],
+            [
+              -90.25567840055037,
+              48.08565988795373
+            ],
+            [
+              -90.25515603238662,
+              48.08563390498729
+            ],
+            [
+              -90.25496873732726,
+              48.085620429998755
+            ],
+            [
+              -90.25441021118009,
+              48.08576904305879
+            ],
+            [
+              -90.25393503005016,
+              48.085865658105824
+            ],
+            [
+              -90.25373336398924,
+              48.085869833120725
+            ],
+            [
+              -90.25346607190366,
+              48.08584544313635
+            ],
+            [
+              -90.25338599087523,
+              48.08582014513856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9634308,
+        "trail_name": "EAST PIKE-WEST PIKE",
+        "trail_type": "TERRA",
+        "trail_cn": "22561010602",
+        "bmp": 0.0,
+        "emp": 0.5434,
+        "segment_length": 0.5434,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2093A",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.537,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{AEBA56BD-344C-425F-819A-F484E3E19B8B}",
+        "st_length(shape)": 0.011194475000061089,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.16699748464441,
+              48.08062668155846
+            ],
+            [
+              -90.16692035157719,
+              48.08035033252607
+            ],
+            [
+              -90.1668845655533,
+              48.08026846551737
+            ],
+            [
+              -90.16684828553069,
+              48.080195583509976
+            ],
+            [
+              -90.16678518549979,
+              48.080122041504374
+            ],
+            [
+              -90.16672159247017,
+              48.08005748450007
+            ],
+            [
+              -90.1665541763984,
+              48.07992737749408
+            ],
+            [
+              -90.16648910237255,
+              48.07988977849354
+            ],
+            [
+              -90.16636989433137,
+              48.079859842497854
+            ],
+            [
+              -90.1663167483135,
+              48.079849532500205
+            ],
+            [
+              -90.16625068629018,
+              48.07982990550222
+            ],
+            [
+              -90.16619754127231,
+              48.07981959550459
+            ],
+            [
+              -90.16613147924897,
+              48.079799968506556
+            ],
+            [
+              -90.16606640522318,
+              48.07976236950603
+            ],
+            [
+              -90.16601474120148,
+              48.07972510150459
+            ],
+            [
+              -90.16596357217853,
+              48.07967884750186
+            ],
+            [
+              -90.16591141415807,
+              48.07965056450167
+            ],
+            [
+              -90.16583342512685,
+              48.07960364850078
+            ],
+            [
+              -90.16572861608729,
+              48.07955607050169
+            ],
+            [
+              -90.16563573505567,
+              48.079535780505466
+            ],
+            [
+              -90.16555478203202,
+              48.079542780512206
+            ],
+            [
+              -90.16542018899176,
+              48.079548456522524
+            ],
+            [
+              -90.16528609095023,
+              48.07954514553158
+            ],
+            [
+              -90.16519271591989,
+              48.07953384253665
+            ],
+            [
+              -90.16511324489244,
+              48.07951388353955
+            ],
+            [
+              -90.16502135285829,
+              48.0794756215408
+            ],
+            [
+              -90.16498260584201,
+              48.079447670539714
+            ],
+            [
+              -90.16490412381204,
+              48.079409739540075
+            ],
+            [
+              -90.16485196679159,
+              48.07938145653988
+            ],
+            [
+              -90.16443520862701,
+              48.0791462095372
+            ],
+            [
+              -90.16432743659502,
+              48.07915254554573
+            ],
+            [
+              -90.16417844755316,
+              48.07917586055944
+            ],
+            [
+              -90.16382682845276,
+              48.079221164590614
+            ],
+            [
+              -90.16369223641249,
+              48.07922683860088
+            ],
+            [
+              -90.16351791035852,
+              48.07922253161268
+            ],
+            [
+              -90.16333017430033,
+              48.07921789362534
+            ],
+            [
+              -90.16318266725469,
+              48.07921424963529
+            ],
+            [
+              -90.16302224420356,
+              48.07920128764492
+            ],
+            [
+              -90.16283549714284,
+              48.07917867665502
+            ],
+            [
+              -90.16271481010547,
+              48.07917569466316
+            ],
+            [
+              -90.1625802180652,
+              48.07918136667351
+            ],
+            [
+              -90.16245854203036,
+              48.07919635568417
+            ],
+            [
+              -90.1623100459872,
+              48.079210682696704
+            ],
+            [
+              -90.16181240283736,
+              48.07922537673394
+            ],
+            [
+              -90.16142549971177,
+              48.07917981975516
+            ],
+            [
+              -90.16130530767313,
+              48.07916784976203
+            ],
+            [
+              -90.16116027462114,
+              48.07911927276562
+            ],
+            [
+              -90.16104057758122,
+              48.07909831677127
+            ],
+            [
+              -90.16094621455339,
+              48.07910498177889
+            ],
+            [
+              -90.16082503251728,
+              48.07911098278828
+            ],
+            [
+              -90.16070335648244,
+              48.079125970798984
+            ],
+            [
+              -90.16052754543223,
+              48.07914861781453
+            ],
+            [
+              -90.16038003938651,
+              48.07914496982446
+            ],
+            [
+              -90.16031348536448,
+              48.07913432582773
+            ],
+            [
+              -90.16023451233578,
+              48.079105377829336
+            ],
+            [
+              -90.16011630029205,
+              48.07905746283118
+            ],
+            [
+              -90.15994643022667,
+              48.078972276831564
+            ],
+            [
+              -90.15979095916286,
+              48.078869449828446
+            ],
+            [
+              -90.15969857712999,
+              48.07884016983101
+            ],
+            [
+              -90.15956596608468,
+              48.07880989483623
+            ],
+            [
+              -90.15943434603682,
+              48.07876164783894
+            ],
+            [
+              -90.159288820986,
+              48.078722053843855
+            ],
+            [
+              -90.15918302994902,
+              48.07869244184729
+            ],
+            [
+              -90.15906382990781,
+              48.07866249785163
+            ],
+            [
+              -90.15891880085577,
+              48.07861391785526
+            ],
+            [
+              -90.15877476180125,
+              48.07854736585632
+            ],
+            [
+              -90.15873552378625,
+              48.07852839885654
+            ],
+            [
+              -90.1586044007371,
+              48.07847116385794
+            ],
+            [
+              -90.15852840070073,
+              48.078388298852005
+            ],
+            [
+              -90.15841118165453,
+              48.07832241085127
+            ],
+            [
+              -90.1583197926191,
+              48.0782751578513
+            ],
+            [
+              -90.15826714459995,
+              48.078255857852355
+            ],
+            [
+              -90.1581737745696,
+              48.07824454885743
+            ],
+            [
+              -90.15800093751183,
+              48.0782132758654
+            ],
+            [
+              -90.15781419645113,
+              48.078190656875535
+            ],
+            [
+              -90.15758673237923,
+              48.07817602788961
+            ],
+            [
+              -90.15742631532815,
+              48.078163057899225
+            ],
+            [
+              -90.15716110023746,
+              48.078102501909726
+            ],
+            [
+              -90.1568934081531,
+              48.07808687592656
+            ],
+            [
+              -90.1566540220733,
+              48.078044954937795
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9633930,
+        "trail_name": "WEST PIKE-PINE",
+        "trail_type": "TERRA",
+        "trail_cn": "21972010602",
+        "bmp": 0.0,
+        "emp": 0.9908,
+        "segment_length": 0.9908,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2093",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 1.044,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{7210BF95-BAE5-4A7A-A0D4-DBA80AD0BEDC}",
+        "st_length(shape)": 0.01536896361412468,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.16699748464441,
+              48.08062668155846
+            ],
+            [
+              -90.16741798246422,
+              48.07867094126059
+            ],
+            [
+              -90.16801985037291,
+              48.07692663297878
+            ],
+            [
+              -90.16851291328844,
+              48.075436087739526
+            ],
+            [
+              -90.16882909823364,
+              48.074476573585514
+            ],
+            [
+              -90.16899800720503,
+              48.07396783950378
+            ],
+            [
+              -90.16984971827496,
+              48.072760577277904
+            ],
+            [
+              -90.1708823942923,
+              48.07086940194537
+            ],
+            [
+              -90.17203758739514,
+              48.06928267664595
+            ],
+            [
+              -90.1730921675151,
+              48.06799940239521
+            ],
+            [
+              -90.17372628055746,
+              48.067038704218554
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "objectid": 9634010,
+        "trail_name": "CLEARWATER LAKE-CARIBOU LAKE",
+        "trail_type": "TERRA",
+        "trail_cn": "21967010602",
+        "bmp": 0.0,
+        "emp": 0.45,
+        "segment_length": 0.45,
+        "admin_org": "090902",
+        "managing_org": "090902",
+        "security_id": "0909",
+        "attributesubset": "TrailNFS_MGMT",
+        "national_trail_designation": 1,
+        "trail_class": "2",
+        "accessibility_status": "NOT ACCESSIBLE",
+        "trail_surface": "NATIVE MATERIAL",
+        "surface_firmness": null,
+        "typical_trail_grade": "TG05 - +12-20%",
+        "typical_tread_width": "TW03 - 18-24 INCHES",
+        "minimum_trail_width": null,
+        "typical_tread_cross_slope": null,
+        "special_mgmt_area": null,
+        "terra_base_symbology": "TC1-2",
+        "mvum_symbol": null,
+        "terra_motorized": "N",
+        "snow_motorized": null,
+        "water_motorized": null,
+        "allowed_terra_use": "1",
+        "allowed_snow_use": null,
+        "hiker_pedestrian_managed": "01/01-12/31",
+        "hiker_pedestrian_accpt": null,
+        "hiker_pedestrian_disc": null,
+        "hiker_pedestrian_accpt_disc": null,
+        "hiker_pedestrian_restricted": null,
+        "pack_saddle_managed": null,
+        "pack_saddle_accpt": null,
+        "pack_saddle_disc": null,
+        "pack_saddle_accpt_disc": null,
+        "pack_saddle_restricted": "01/01-12/31 ",
+        "bicycle_managed": null,
+        "bicycle_accpt": null,
+        "bicycle_disc": null,
+        "bicycle_accpt_disc": null,
+        "bicycle_restricted": "01/01-12/31 ",
+        "motorcycle_managed": null,
+        "motorcycle_accpt": null,
+        "motorcycle_disc": null,
+        "motorcycle_accpt_disc": null,
+        "motorcycle_restricted": "01/01-12/31",
+        "atv_managed": null,
+        "atv_accpt": null,
+        "atv_disc": null,
+        "atv_accpt_disc": null,
+        "atv_restricted": "01/01-12/31",
+        "fourwd_managed": null,
+        "fourwd_accpt": null,
+        "fourwd_disc": null,
+        "fourwd_accpt_disc": null,
+        "fourwd_restricted": "01/01-12/31",
+        "trail_no": "2086",
+        "snowcoach_snowcat_managed": null,
+        "snowcoach_snowcat_accpt": null,
+        "snowcoach_snowcat_disc": null,
+        "snowcoach_snowcat_accpt_disc": null,
+        "snowcoach_snowcat_restricted": null,
+        "snowmobile_managed": null,
+        "snowmobile_accpt": null,
+        "snowmobile_disc": null,
+        "snowmobile_accpt_disc": null,
+        "snowmobile_restricted": null,
+        "snowshoe_managed": null,
+        "snowshoe_accpt": null,
+        "snowshoe_disc": null,
+        "snowshoe_accpt_disc": null,
+        "snowshoe_restricted": null,
+        "xcountry_ski_managed": null,
+        "xcountry_ski_accpt": null,
+        "xcountry_ski_disc": null,
+        "xcountry_ski_accpt_disc": null,
+        "xcountry_ski_restricted": null,
+        "motor_watercraft_managed": null,
+        "motor_watercraft_accpt": null,
+        "motor_watercraft_disc": null,
+        "motor_watercraft_accpt_disc": null,
+        "motor_watercraft_restricted": null,
+        "nonmotor_watercraft_managed": null,
+        "nonmotor_watercraft_accpt": null,
+        "nonmotor_watercraft_disc": null,
+        "nonmotor_watercraft_accpt_disc": null,
+        "nonmotor_watercraft_restricted": null,
+        "gis_miles": 0.463,
+        "e_bike_class1_managed": null,
+        "e_bike_class1_accpt": null,
+        "e_bike_class1_disc": null,
+        "e_bike_class1_restricted": null,
+        "e_bike_class2_managed": null,
+        "e_bike_class2_accpt": null,
+        "e_bike_class2_disc": null,
+        "e_bike_class2_restricted": null,
+        "e_bike_class3_managed": null,
+        "e_bike_class3_accpt": null,
+        "e_bike_class3_disc": null,
+        "e_bike_class3_restricted": null,
+        "globalid": "{86E4D21B-0479-460A-B3C4-196C43148A63}",
+        "st_length(shape)": 0.007274579807516396,
+        "source": "USFS National Forest System Trails",
+        "field_verified": false
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -90.27796685437725,
+              48.07945080451986
+            ],
+            [
+              -90.27896861250547,
+              48.07832728429484
+            ],
+            [
+              -90.27957809555501,
+              48.07746440713343
+            ],
+            [
+              -90.28026877160482,
+              48.07644598194488
+            ],
+            [
+              -90.28089438766366,
+              48.07561047378608
+            ],
+            [
+              -90.28133730770878,
+              48.075040580676536
+            ],
+            [
+              -90.28181465375175,
+              48.07439051855364
+            ],
+            [
+              -90.28242666783198,
+              48.07371664641791
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

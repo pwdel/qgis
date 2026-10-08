@@ -1,0 +1,242 @@
+[
+  {
+    "name": "little-caribou-c0359010",
+    "source": "sources/depth-scans/little-caribou-c0359010.pdf",
+    "image": "derived/depth-scans/little-caribou-c0359010.png",
+    "size": [
+      5538,
+      5204
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      12,
+      0,
+      5550,
+      5204
+    ]
+  },
+  {
+    "name": "pine-b0090010",
+    "source": "sources/depth-scans/pine-b0090010.pdf",
+    "image": "derived/depth-scans/pine-b0090010.png",
+    "size": [
+      10025,
+      6587
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      420,
+      35,
+      10445,
+      6622
+    ]
+  },
+  {
+    "name": "east-pike-b0412010",
+    "source": "sources/depth-scans/east-pike-b0412010.pdf",
+    "image": "derived/depth-scans/east-pike-b0412010.png",
+    "size": [
+      10434,
+      6772
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      289,
+      296,
+      10723,
+      7068
+    ]
+  },
+  {
+    "name": "hungry-jack-c0279010",
+    "source": "sources/depth-scans/hungry-jack-c0279010.pdf",
+    "image": "derived/depth-scans/hungry-jack-c0279010.png",
+    "size": [
+      7045,
+      5358
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      274,
+      17,
+      7319,
+      5375
+    ]
+  },
+  {
+    "name": "moss-c0310010",
+    "source": "sources/depth-scans/moss-c0310010.pdf",
+    "image": "derived/depth-scans/moss-c0310010.png",
+    "size": [
+      6000,
+      5204
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      0,
+      0,
+      6000,
+      5204
+    ]
+  },
+  {
+    "name": "clearwater-b0076010",
+    "source": "sources/depth-scans/clearwater-b0076010.pdf",
+    "image": "derived/depth-scans/clearwater-b0076010.png",
+    "size": [
+      5505,
+      14988
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      172,
+      116,
+      5677,
+      15104
+    ]
+  },
+  {
+    "name": "rove-c0334010",
+    "source": "sources/depth-scans/rove-c0334010.pdf",
+    "image": "derived/depth-scans/rove-c0334010.png",
+    "size": [
+      5600,
+      5075
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      0,
+      0,
+      5600,
+      5075
+    ]
+  },
+  {
+    "name": "mountain-b0427010",
+    "source": "sources/depth-scans/mountain-b0427010.pdf",
+    "image": "derived/depth-scans/mountain-b0427010.png",
+    "size": [
+      8808,
+      17589
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      114,
+      217,
+      8922,
+      17806
+    ]
+  },
+  {
+    "name": "caribou-c0238010",
+    "source": "sources/depth-scans/caribou-c0238010.pdf",
+    "image": "derived/depth-scans/caribou-c0238010.png",
+    "size": [
+      9190,
+      5514
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      6,
+      0,
+      9196,
+      5514
+    ]
+  },
+  {
+    "name": "clearwater-b0076020",
+    "source": "sources/depth-scans/clearwater-b0076020.pdf",
+    "image": "derived/depth-scans/clearwater-b0076020.png",
+    "size": [
+      5581,
+      15800
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      614,
+      307,
+      6195,
+      16107
+    ]
+  },
+  {
+    "name": "duncan-b0081010",
+    "source": "sources/depth-scans/duncan-b0081010.pdf",
+    "image": "derived/depth-scans/duncan-b0081010.png",
+    "size": [
+      5640,
+      4998
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      858,
+      302,
+      6498,
+      5300
+    ]
+  },
+  {
+    "name": "west-pike-b0353010",
+    "source": "sources/depth-scans/west-pike-b0353010.pdf",
+    "image": "derived/depth-scans/west-pike-b0353010.png",
+    "size": [
+      10120,
+      6252
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      414,
+      149,
+      10534,
+      6401
+    ]
+  },
+  {
+    "name": "duncan-b0081011",
+    "source": "sources/depth-scans/duncan-b0081011.pdf",
+    "image": "derived/depth-scans/duncan-b0081011.png",
+    "size": [
+      9986,
+      6725
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      453,
+      175,
+      10439,
+      6900
+    ]
+  },
+  {
+    "name": "rose-b0093010",
+    "source": "sources/depth-scans/rose-b0093010.pdf",
+    "image": "derived/depth-scans/rose-b0093010.png",
+    "size": [
+      9821,
+      6582
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      508,
+      111,
+      10329,
+      6693
+    ]
+  },
+  {
+    "name": "hungry-jack-b0532010",
+    "source": "sources/depth-scans/hungry-jack-b0532010.pdf",
+    "image": "derived/depth-scans/hungry-jack-b0532010.png",
+    "size": [
+      10292,
+      6911
+    ],
+    "georeferenced": false,
+    "crop_pixels": [
+      379,
+      158,
+      10671,
+      7069
+    ]
+  }
+]

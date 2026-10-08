@@ -1,0 +1,362 @@
+[
+  {
+    "lake": "hungry-jack",
+    "image": "derived/depth-panels/hungry-jack.png",
+    "source": "sources/depth-scans/hungry-jack-b0532010.pdf",
+    "dimensions": [
+      9984,
+      2902
+    ],
+    "depth_units": "feet",
+    "contour_interval": "See contour labels",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.015,
+      0.24,
+      0.985,
+      0.66
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16022700",
+    "verified_source_caption": "HUNGRY JACK LAKE (16-227)",
+    "survey_year": 1986,
+    "survey_date_as_printed": "8-12,13,14,15-86",
+    "map_drawn_date_as_printed": "4-14-87",
+    "map_id": "B0532",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0532010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "moss",
+    "image": "derived/depth-panels/moss.png",
+    "source": "sources/depth-scans/moss-c0310010.pdf",
+    "dimensions": [
+      4320,
+      1562
+    ],
+    "depth_units": "feet",
+    "contour_interval": "10 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.17,
+      0.1,
+      0.89,
+      0.4
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16023400",
+    "verified_source_caption": "MOSS LAKE 16-234",
+    "survey_year": null,
+    "survey_date_as_printed": null,
+    "map_drawn_date_as_printed": null,
+    "map_id": "C0310",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0310010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "No explicit survey date legible on selected sheet; not inferred from copyright, map creation, or download date."
+  },
+  {
+    "lake": "duncan",
+    "image": "derived/depth-panels/duncan.png",
+    "source": "sources/depth-scans/duncan-b0081010.pdf",
+    "dimensions": [
+      4794,
+      3873
+    ],
+    "depth_units": "feet",
+    "contour_interval": "10 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.01,
+      0.14,
+      0.86,
+      0.915
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16023200",
+    "verified_source_caption": "DUNCAN LAKE",
+    "survey_year": null,
+    "survey_date_as_printed": null,
+    "map_drawn_date_as_printed": null,
+    "map_id": "B0081",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0081010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "No explicit survey date legible on selected sheet; not inferred from copyright, map creation, or download date."
+  },
+  {
+    "lake": "rose",
+    "image": "derived/depth-panels/rose.png",
+    "source": "sources/depth-scans/rose-b0093010.pdf",
+    "dimensions": [
+      9674,
+      4377
+    ],
+    "depth_units": "feet",
+    "contour_interval": "See contour labels",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.01,
+      0.175,
+      0.995,
+      0.84
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16023000",
+    "verified_source_caption": "SOUNDING MAP / ROSE LAKE / NEAR GRAND MARAIS-COOK CO.",
+    "survey_year": 1935,
+    "survey_date_as_printed": "CCC 1935",
+    "map_drawn_date_as_printed": "9-24-54",
+    "map_id": "B0093",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0093010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "rove",
+    "image": "derived/depth-panels/rove.png",
+    "source": "sources/depth-scans/rove-c0334010.pdf",
+    "dimensions": [
+      4032,
+      786
+    ],
+    "depth_units": "feet",
+    "contour_interval": "5 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.17,
+      0.235,
+      0.89,
+      0.39
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16013700",
+    "verified_source_caption": "ROVE LAKE 16-137",
+    "survey_year": 1939,
+    "survey_date_as_printed": "8-1-39",
+    "map_drawn_date_as_printed": null,
+    "map_id": "C0334",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0334010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "mountain",
+    "image": "derived/depth-panels/mountain.png",
+    "source": "sources/depth-scans/mountain-b0427010.pdf",
+    "dimensions": [
+      17413,
+      3611
+    ],
+    "depth_units": "feet",
+    "contour_interval": "20 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.46,
+      0.005,
+      0.87,
+      0.995
+    ],
+    "rotation_counterclockwise_degrees": 90,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16009300",
+    "verified_source_caption": "MOUNTAIN LAKE",
+    "survey_year": 1939,
+    "survey_date_as_printed": "8/2-3-4/39",
+    "map_drawn_date_as_printed": null,
+    "map_id": "B0427",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0427010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "clearwater",
+    "image": "derived/depth-panels/clearwater.png",
+    "source": "sources/depth-scans/clearwater-b0076010.pdf",
+    "dimensions": [
+      14298,
+      4625
+    ],
+    "depth_units": "feet",
+    "contour_interval": "10 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.07,
+      0.028,
+      0.91,
+      0.982
+    ],
+    "rotation_counterclockwise_degrees": 90,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16013900",
+    "verified_source_caption": "CLEARWATER LAKE",
+    "survey_year": null,
+    "survey_date_as_printed": null,
+    "map_drawn_date_as_printed": null,
+    "map_id": "B0076",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0076010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "No explicit survey date legible on selected sheet; not inferred from copyright, map creation, or download date."
+  },
+  {
+    "lake": "west-pike",
+    "image": "derived/depth-panels/west-pike.png",
+    "source": "sources/depth-scans/west-pike-b0353010.pdf",
+    "dimensions": [
+      9665,
+      1938
+    ],
+    "depth_units": "feet",
+    "contour_interval": "10 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.025,
+      0.14,
+      0.98,
+      0.45
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16008600",
+    "verified_source_caption": "WEST PIKE LAKE",
+    "survey_year": 1939,
+    "survey_date_as_printed": "8/4,6/39",
+    "map_drawn_date_as_printed": null,
+    "map_id": "B0353",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0353010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "east-pike",
+    "image": "derived/depth-panels/east-pike.png",
+    "source": "sources/depth-scans/east-pike-b0412010.pdf",
+    "dimensions": [
+      7721,
+      5587
+    ],
+    "depth_units": "feet",
+    "contour_interval": "See contour labels",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.045,
+      0.025,
+      0.785,
+      0.85
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16004200",
+    "verified_source_caption": "EAST PIKE LAKE (16-42)",
+    "survey_year": 1971,
+    "survey_date_as_printed": "8-26-71",
+    "map_drawn_date_as_printed": "3-10-72",
+    "map_id": "B0412",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0412010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "pine",
+    "image": "derived/depth-panels/pine.png",
+    "source": "sources/depth-scans/pine-b0090010.pdf",
+    "dimensions": [
+      9875,
+      1680
+    ],
+    "depth_units": "feet",
+    "contour_interval": "See contour labels",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.005,
+      0.315,
+      0.99,
+      0.57
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16004100",
+    "verified_source_caption": "PINE LAKE / COOK COUNTY",
+    "survey_year": 1957,
+    "survey_date_as_printed": "8-27-57",
+    "map_drawn_date_as_printed": "12-16-57",
+    "map_id": "B0090",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0090010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "caribou",
+    "image": "derived/depth-panels/caribou.png",
+    "source": "sources/depth-scans/caribou-c0238010.pdf",
+    "dimensions": [
+      8730,
+      2260
+    ],
+    "depth_units": "feet",
+    "contour_interval": "10 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.045,
+      0.12,
+      0.995,
+      0.53
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16014100",
+    "verified_source_caption": "CARIBOU LAKE 16-141",
+    "survey_year": 1939,
+    "survey_date_as_printed": "8/7-8/39",
+    "map_drawn_date_as_printed": null,
+    "map_id": "C0238",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0238010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  },
+  {
+    "lake": "little-caribou",
+    "image": "derived/depth-panels/little-caribou.png",
+    "source": "sources/depth-scans/little-caribou-c0359010.pdf",
+    "dimensions": [
+      2603,
+      1354
+    ],
+    "depth_units": "feet",
+    "contour_interval": "5 ft",
+    "georeferenced": false,
+    "crop_fraction": [
+      0.44,
+      0.125,
+      0.91,
+      0.385
+    ],
+    "rotation_counterclockwise_degrees": 0,
+    "caption": "Historic Minnesota DNR depth scan; depths in feet. Independent inset, not georeferenced.",
+    "lake_id": "16014200",
+    "verified_source_caption": "LITTLE CARIBOU LAKE 16-142",
+    "survey_year": 1939,
+    "survey_date_as_printed": "8/8/39",
+    "map_drawn_date_as_printed": null,
+    "map_id": "C0359",
+    "source_url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0359010.pdf",
+    "identity_verified": true,
+    "identity_verification": "Source title and DNR LakeFinder lake-specific index; numeric lake ID also checked where printed.",
+    "survey_year_note": "Printed depth survey or fieldwork date; not copyright date."
+  }
+]

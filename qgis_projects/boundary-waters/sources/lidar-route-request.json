@@ -1,0 +1,32 @@
+{
+  "url": "https://enterprise.gisdata.mn.gov/agsimg/rest/services/MnTopo/2nd_Generation_Seamless_Lidar_DEM/ImageServer/exportImage?f=json&bbox=683704%2C5319808%2C720776%2C5337216&bboxSR=26915&imageSR=26915&size=4634%2C2176&format=tiff&pixelType=F32&interpolation=RSP_BilinearInterpolation&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D",
+  "parameters": {
+    "f": "json",
+    "bbox": "683704,5319808,720776,5337216",
+    "bboxSR": 26915,
+    "imageSR": 26915,
+    "size": "4634,2176",
+    "format": "tiff",
+    "pixelType": "F32",
+    "interpolation": "RSP_BilinearInterpolation",
+    "renderingRule": "{\"rasterFunction\": \"None\"}"
+  },
+  "response": {
+    "href": "https://enterprise.gisdata.mn.gov/agsimg/rest/directories/arcgisoutput/MnTopo/2nd_Generation_Seamless_Lidar_DEM_ImageServer/_ags_898aedd1_c316_4824_8bb9_bd4d17e627e3.tif",
+    "width": 4634,
+    "height": 2176,
+    "extent": {
+      "xmin": 683704,
+      "ymin": 5319808,
+      "xmax": 720776,
+      "ymax": 5337216,
+      "spatialReference": {
+        "wkid": 26915,
+        "latestWkid": 26915
+      }
+    },
+    "scale": 0
+  },
+  "native_pixel_m": 0.5,
+  "output_pixel_m": 8
+}
