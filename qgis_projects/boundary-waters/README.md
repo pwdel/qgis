@@ -2,7 +2,9 @@
 
 A six-page, **17 × 11 inch landscape** atlas based on the supplied “2008 Boundary Waters Trip” KML. It pairs the historical route with Minnesota DNR lake-depth maps, dated fish-survey and stocking evidence, and twelve experimental canoe-eye terrain views. Source review: **October 8, 2026 UTC**.
 
-**[Download the six-page PDF](output/pdf/boundary-waters-six-page-atlas.pdf)** · **[Open the editable QGIS project](boundary-waters.qgz)** · [Source register](docs/SOURCES.md) · [Validation](docs/validation.json)
+**[Download the iPhone-friendly PDF](output/pdf/boundary-waters-iphone.pdf)** (8.6 MB; flattened page images, no attachments or clickable links). All six pages were verified with Apple PDFKit on macOS; a physical iPhone was not directly tested. This avoids the original PDF incompatibility reproduced with Apple’s renderer.
+
+**[Download the full six-page PDF](output/pdf/boundary-waters-six-page-atlas.pdf)** · **[Open the editable QGIS project](boundary-waters.qgz)** · [Source register](docs/SOURCES.md) · [Validation](docs/validation.json)
 
 ![Route overview](previews/01-overview.png)
 
