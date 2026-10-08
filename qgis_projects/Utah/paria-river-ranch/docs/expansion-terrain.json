@@ -1,0 +1,137 @@
+{
+  "02-ranch": {
+    "cell_m": 15.002768287577597,
+    "corridor_distance_m": 150,
+    "drop_search_radius_m": 100,
+    "trail_corridor_valid_slope_fraction": 0.9944247125407081,
+    "review_points": [
+      {
+        "x": 424043.4461669157,
+        "y": 4119003.99834287,
+        "area": "02-ranch",
+        "id": "A",
+        "label": "A / ~70m lower ground",
+        "drop_m_rounded_5": 70,
+        "radius_m": 100,
+        "cell_m": 15.002768287577597,
+        "cell_slope_percent": 60.3,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      },
+      {
+        "x": 419767.6572049561,
+        "y": 4122679.6765733263,
+        "area": "02-ranch",
+        "id": "B",
+        "label": "B / ~65m lower ground",
+        "drop_m_rounded_5": 65,
+        "radius_m": 100,
+        "cell_m": 15.002768287577597,
+        "cell_slope_percent": 44.1,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      },
+      {
+        "x": 424898.60395930766,
+        "y": 4122274.6018295614,
+        "area": "02-ranch",
+        "id": "C",
+        "label": "C / ~50m lower ground",
+        "drop_m_rounded_5": 50,
+        "radius_m": 100,
+        "cell_m": 15.002768287577597,
+        "cell_slope_percent": 5.4,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      }
+    ],
+    "source": "sources/02-ranch-dem-request.json"
+  },
+  "03-mount-carmel": {
+    "cell_m": 10.0,
+    "corridor_distance_m": 150,
+    "drop_search_radius_m": 100,
+    "trail_corridor_valid_slope_fraction": 0.9981775551529362,
+    "review_points": [
+      {
+        "x": 343316.4597146199,
+        "y": 4115821.4803739223,
+        "area": "03-mount-carmel",
+        "id": "A",
+        "label": "A / ~95m lower ground",
+        "drop_m_rounded_5": 95,
+        "radius_m": 100,
+        "cell_m": 10.0,
+        "cell_slope_percent": 19.6,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      },
+      {
+        "x": 340286.4597146199,
+        "y": 4118471.4803739223,
+        "area": "03-mount-carmel",
+        "id": "B",
+        "label": "B / ~80m lower ground",
+        "drop_m_rounded_5": 80,
+        "radius_m": 100,
+        "cell_m": 10.0,
+        "cell_slope_percent": 141.5,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      },
+      {
+        "x": 347966.4597146199,
+        "y": 4123711.4803739223,
+        "area": "03-mount-carmel",
+        "id": "C",
+        "label": "C / ~50m lower ground",
+        "drop_m_rounded_5": 50,
+        "radius_m": 100,
+        "cell_m": 10.0,
+        "cell_slope_percent": 27.7,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      }
+    ],
+    "source": "sources/03-mount-carmel-dem-request.json"
+  },
+  "04-red-canyon": {
+    "cell_m": 13.75,
+    "corridor_distance_m": 150,
+    "drop_search_radius_m": 100,
+    "trail_corridor_valid_slope_fraction": 0.9982530462506005,
+    "review_points": [
+      {
+        "x": 383465.8668846864,
+        "y": 4175690.946252813,
+        "area": "04-red-canyon",
+        "id": "A",
+        "label": "A / ~65m lower ground",
+        "drop_m_rounded_5": 65,
+        "radius_m": 100,
+        "cell_m": 13.75,
+        "cell_slope_percent": 13.9,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      },
+      {
+        "x": 386917.1168846864,
+        "y": 4184463.446252813,
+        "area": "04-red-canyon",
+        "id": "B",
+        "label": "B / ~60m lower ground",
+        "drop_m_rounded_5": 60,
+        "radius_m": 100,
+        "cell_m": 13.75,
+        "cell_slope_percent": 60.9,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      },
+      {
+        "x": 388333.3668846864,
+        "y": 4181452.196252813,
+        "area": "04-red-canyon",
+        "id": "C",
+        "label": "C / ~60m lower ground",
+        "drop_m_rounded_5": 60,
+        "radius_m": 100,
+        "cell_m": 13.75,
+        "cell_slope_percent": 35.4,
+        "interpretation": "Trail raster-cell elevation minus lowest modeled ground within 100m; not cliff height or trail grade."
+      }
+    ],
+    "source": "sources/04-red-canyon-dem-request.json"
+  }
+}

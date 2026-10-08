@@ -1,0 +1,48 @@
+{
+  "url": "https://gis.trustlands.utah.gov/mapping/rest/services/Land_Ownership/FeatureServer/0/query?where=1%3D1&geometry=395863.79105503653%2C4101893.3411108875%2C428863.79105503653%2C4124262.4686276657&geometryType=esriGeometryEnvelope&inSR=26912&spatialRel=esriSpatialRelIntersects&f=geojson&outFields=%2A&outSR=4326&returnGeometry=true&resultRecordCount=2000",
+  "retrieved": "2026-10-08",
+  "bbox": [
+    395863.79105503653,
+    4101893.3411108875,
+    428863.79105503653,
+    4124262.4686276657
+  ],
+  "bbox_crs": "EPSG:26912",
+  "extent_source": "../02-ranch-extent.json",
+  "clip": "intersects with exact projected map extent; complete source features retained, not clipped",
+  "warning": "Ownership is not camping permission",
+  "verification": {
+    "returnIdsOnly": {
+      "objectIdFieldName": "objectid",
+      "objectIds": [
+        4545143,
+        4543862,
+        4543808,
+        4543832,
+        4543828,
+        4543829,
+        4543830,
+        4543873,
+        4543874,
+        4544091,
+        4548363,
+        4548364,
+        4548366,
+        4548368,
+        4548371,
+        4548372,
+        4548373,
+        4550378,
+        4550379,
+        4556114,
+        4556308,
+        4556475,
+        4556747
+      ]
+    },
+    "count": 23,
+    "returned_count": 23,
+    "object_id_sets_equal": true,
+    "exceededTransferLimit": false
+  }
+}

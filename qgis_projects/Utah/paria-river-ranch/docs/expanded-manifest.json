@@ -1,0 +1,564 @@
+{
+  "files": [
+    {
+      "path": "sources/expansion-snow/CODE-LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "564edb9cd71c4029dd8a587be6b4e5c9fb5ba4b74477cb79c0d61b70f3757f8a"
+    },
+    {
+      "path": "sources/expansion-snow/Normals_Calculation_Methodology_2020.pdf",
+      "bytes": 945869,
+      "sha256": "c73ff14c49571c0425d0f736094c6aa9bba2fefd6a83779a9b139a4f1d52d2a9"
+    },
+    {
+      "path": "sources/expansion-snow/Normals_DLY_Documentation_1991-2020.pdf",
+      "bytes": 131167,
+      "sha256": "bbf3c7f9ef6cd73a63becf074b2a13d951fcd580cba2cc18ae11c43b798da3bc"
+    },
+    {
+      "path": "sources/expansion-snow/Normals_MLY_Documentation_1991-2020.pdf",
+      "bytes": 133893,
+      "sha256": "b12c9aee6770f84b5fa902740413bffca5cbf9a83bbebcf7e73306f46168ffc6"
+    },
+    {
+      "path": "sources/expansion-snow/Readme_By-Variable_By-Station_Normals_Files.txt",
+      "bytes": 39945,
+      "sha256": "feb4e1dd5914c8d35eccd017e114c6e5d352b1e217602cb622a67ad6670c3c21"
+    },
+    {
+      "path": "sources/expansion-snow/codeberg-contents.json",
+      "bytes": 6161,
+      "sha256": "5dc881325e7528ec76cc97f7f765bfe13e29c95c1b3c58028a3cb20fe54e4aff"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00024849.csv",
+      "bytes": 574968,
+      "sha256": "6014892a62e608d6d3ccf7f97dd8c6faf50ec9c1b9f3fc801cbd2a7f95dec9bd"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00026180.csv",
+      "bytes": 661816,
+      "sha256": "4514bb0734560e4abf5bb9d86512dc4123bb6e43bd8808fe2c75520176da146e"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00420086.csv",
+      "bytes": 662182,
+      "sha256": "5194be3db59e2d737f6cc98a662415542621206e6cddc8c6e7ef5f572d71aa8a"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00421008.csv",
+      "bytes": 667672,
+      "sha256": "dfec3748bb9fe7c6bb3c0bcfa70b4a73569290559f41ffb5e6f972eb369dc0fb"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00422592.csv",
+      "bytes": 663646,
+      "sha256": "8e5d8bb3f1d5a6d40b207b86697bc80fcc7cece4a2ffbe6f755d00895611993b"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00424508.csv",
+      "bytes": 662182,
+      "sha256": "d7513ef49805ace6ddc6f601fe2b64f0e1f10bd343c09f005158a2908334ceb2"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00424755.csv",
+      "bytes": 668038,
+      "sha256": "ef7603dfb804168b960a2fadde4a55ca91c503f5be95dfb4c5f7b03aca805b32"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USC00426601.csv",
+      "bytes": 574602,
+      "sha256": "94b7528a6baf3349fdf7279569cc09eafbabd862fb6a0126f4bcb40d7694552f"
+    },
+    {
+      "path": "sources/expansion-snow/daily-USW00023159.csv",
+      "bytes": 461076,
+      "sha256": "390d7028363ccd6632a2990b0eaa3c62a8ddc859a0a2a2d04b7d58991e108dea"
+    },
+    {
+      "path": "sources/expansion-snow/gridded-snow-metadata.json",
+      "bytes": 5123,
+      "sha256": "95cf03aba0319ab07e1929105799cd8861e092d07febb860c5b394072db92237"
+    },
+    {
+      "path": "sources/expansion-snow/inventory_30yr.txt",
+      "bytes": 1342890,
+      "sha256": "c9f5f0f3c38b89410b75d03267bf05fb53f6ba4b6623d22411be2df2bfe01bdb"
+    },
+    {
+      "path": "sources/expansion-snow/manifest.json",
+      "bytes": 8770,
+      "sha256": "352494368440499e048eb838b5ae7e25399131b1939f32a9846833c9e9f6a734"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00024849.csv",
+      "bytes": 38644,
+      "sha256": "7bd70f54ef31eddfb6aefedba110402ef899cb5a6f295365575da7a7894f6efc"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00026180.csv",
+      "bytes": 41498,
+      "sha256": "01107c9a28ebf066a7384f36fe47ebb02296e67b8970fb29b949e63f0b38d428"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00420086.csv",
+      "bytes": 41510,
+      "sha256": "9f6e0a5aaf4bf19b7ea0f07bfda33cddfd7857248d8e5a00adc46bc58c56534a"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00421008.csv",
+      "bytes": 41690,
+      "sha256": "94710b135109c9a4631012d9158c2155565b37e835becc9e0abe07f4fd277aff"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00422592.csv",
+      "bytes": 41558,
+      "sha256": "7190e89fbc15dbf69a8b2c37f69f21a306db596ccb540ac0f38bbc29ecff19dd"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00424508.csv",
+      "bytes": 41510,
+      "sha256": "73a92bb9b45251a3957cfe8e25c2c3cd57a5780871ad7c0c6eae93527c2917bf"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00424755.csv",
+      "bytes": 41702,
+      "sha256": "7c227c5480196fc7f389ab1a9ec7cc232a83aeef0359c157bd26b1878a291779"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USC00426601.csv",
+      "bytes": 38632,
+      "sha256": "a1664c877a5c82ab948d8b8cb23c0eb058dabc0316de3720b1076b6019cd4ad0"
+    },
+    {
+      "path": "sources/expansion-snow/monthly-USW00023159.csv",
+      "bytes": 31500,
+      "sha256": "1d2a9a1f396f376743fa5a2de1ab0fea50c912849fab6f0a58c9765c77c9df1a"
+    },
+    {
+      "path": "sources/expansion-snow/snow-climatology.json",
+      "bytes": 138014,
+      "sha256": "76c718122d7c18de6227c402a2287ce2d52792df70570bc37c4956d7649e932f"
+    },
+    {
+      "path": "sources/expansion-snow/snow-stations.geojson",
+      "bytes": 18210,
+      "sha256": "8a4b1f8622ba8635333d294c17b99d1a634e9da54b61f88f2ec4b337de7552e4"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-01.tif",
+      "bytes": 57394,
+      "sha256": "caf53f1a7513778131a55ec883adf0debe552d6cfcc65b644b2a882112cfaf4b"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-01.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "736f90231ac7f49d7de942cbec857170f0e75d54d4bd03fb01abefeb16c8d3ca"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-02.tif",
+      "bytes": 50190,
+      "sha256": "e37ff903001d7e6d2ffef1c903223b10a791fa24212806a77d0ddf9b8a875a2d"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-02.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "d05baf5c991f34e8ebbcb88f6bf98b48b36015e14169d30b0f28d0c0fc6f1e99"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-03.tif",
+      "bytes": 41380,
+      "sha256": "974f78e03a42424e38e8e793f6d2b034fc2af9295533136c3fcd1425abf56168"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-03.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "ff0879e75ce78709afed1fb5a639e77e23ff68678f3bac349278ad40a1503725"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-04.tif",
+      "bytes": 17982,
+      "sha256": "e34f4c5b31ffcffe21e6abda4559b8f571657c3c506706e9c02d1b84a84c38ff"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-04.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "fd32b66bc7ee1383f65af9b62a5b06d442c97c8dfe6105abb31c033e0e6301ee"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-05.tif",
+      "bytes": 5688,
+      "sha256": "e5e6e770b7f3d71864f6c145337959f613a7ffefb8f19ff0954bf0d4173f0e78"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-05.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "87e9f4333b84f0d40fb88cb4b09620ffdc694d7ccf8fc1db5dd3ce2970d4045d"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-06.tif",
+      "bytes": 1139,
+      "sha256": "e3c5eecc85dec4d38610e520164961188ff905f2f46c6538982cf08864dd2be8"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-06.tif.aux.xml",
+      "bytes": 364,
+      "sha256": "763b2a2ee0dac687ecfff9e65932e7302c72915588c89aeb7a11e9da8943a18f"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-07.tif",
+      "bytes": 1948,
+      "sha256": "62370724976c01502d69b8fd3e32698342564e18544e7429dbe96143aef3b319"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-07.tif.aux.xml",
+      "bytes": 363,
+      "sha256": "d495ba46818960ef99f4d8d3b1a43f177d1451d20ce0f110589d0480f47c8832"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-08.tif",
+      "bytes": 2724,
+      "sha256": "028273b3e3c962205ebd469be510e71e773e22940ceb30fb074bb63b3bdcaf0d"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-08.tif.aux.xml",
+      "bytes": 363,
+      "sha256": "aafd3aaf4c6423b8f54b6778903138563394c9987082688b42eab3307f0a1296"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-09.tif",
+      "bytes": 2533,
+      "sha256": "36390928dacc07753fac41d4bf6d5284900031708ef504bcc2c9d2c8edfed106"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-09.tif.aux.xml",
+      "bytes": 363,
+      "sha256": "1f46b544ce153339a3c2391f6dff14edb8d27efe7a791e9187945fa89a0dbdef"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-10.tif",
+      "bytes": 6479,
+      "sha256": "f0e25b5799cffcd488dc4b89e95ab34709fda6aba6a02bf557c97ef24796b779"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-10.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "ae7547adfd6f85d6dc850222153bb399f69421f1b48277b3d9b607a28cbd3ef8"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-11.tif",
+      "bytes": 26540,
+      "sha256": "f0e3c6937337d2427f9dafa20424778a55ee609de4dcc7062ab9d19271aeaa5d"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-11.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "88068bf224829569e9af1b51af7f348d29295f1361cf10a6ad1d27416b41c3ba"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-12.tif",
+      "bytes": 56447,
+      "sha256": "379ebab8971471a0e507530bc6306d3e2e62a96461a39f33adbf2951d468b86a"
+    },
+    {
+      "path": "sources/expansion-snow/snowcover-ensemble-p50-12.tif.aux.xml",
+      "bytes": 360,
+      "sha256": "d523ce3ff36b82bd330dc2846371d46f078216a975b3f5b03d74f5dadc26840c"
+    },
+    {
+      "path": "sources/expansion-snow/zenodo-20610475.json",
+      "bytes": 23187,
+      "sha256": "b6824ce1a483a2db038065bf571b968c4515938c0f794086a8be742a07b82f17"
+    },
+    {
+      "path": "sources/expansion-snow/zenodo-README.md",
+      "bytes": 6364,
+      "sha256": "423a79617734a066d2bfffde08c29f59b7a855a6773777aab025eb2f393a04e5"
+    },
+    {
+      "path": "sources/expansion-snow/zenodo-ensemble_esa_dlr_longterm.ipynb",
+      "bytes": 9757,
+      "sha256": "32b225de963b3c4a95622929e00c20ad5164eca2ed4e78bf7d729218849cc627"
+    },
+    {
+      "path": "sources/expansion-snow/zenodo-snowcover_esacci.ipynb",
+      "bytes": 34528,
+      "sha256": "c43d57bf6da7077dc9e50e933dbce97edff95c2818caf924bf908638075e50f5"
+    },
+    {
+      "path": "sources/expansion-snow/zenodo-snowpack_dlr.ipynb",
+      "bytes": 29975,
+      "sha256": "b15655ce366e9bc0e925a3e0baf00b58d664d2525268148fdfebbfc4205bcd7c"
+    },
+    {
+      "path": "sources/expansion-camping/barracks-ownership.geojson",
+      "bytes": 291177,
+      "sha256": "fea9893e98d99de7cec59034fd86ca2ab76a862b0eae9d860613c9e2cb91f540"
+    },
+    {
+      "path": "sources/expansion-camping/barracks-query.json",
+      "bytes": 1381,
+      "sha256": "de7c8d9ecf26ebe17436ca301b11b8f7ae57bbc725d78b7a957604752df7dab5"
+    },
+    {
+      "path": "sources/expansion-camping/camping-evidence.json",
+      "bytes": 10056,
+      "sha256": "67f4ef42f6ec3536c61f4f617c5ea1b87a3f401ea0682dc3d4dc2842423a6f2b"
+    },
+    {
+      "path": "sources/expansion-camping/camping-points.geojson",
+      "bytes": 604,
+      "sha256": "8fb59df714918fadf9276b1fbb0c73934f1b2fa29ad51e4a18e263602f9cf4aa"
+    },
+    {
+      "path": "sources/expansion-camping/cedar-city-and-powell-ranger-districts-water-sources-camping-restrictions.html",
+      "bytes": 215804,
+      "sha256": "1aea84e16feda47462b29555cbe279fbbe5648551183f6669adf1a8a9ecdde12"
+    },
+    {
+      "path": "sources/expansion-camping/cedar-city-and-powell-ranger-districts-water-sources-camping-restrictions.txt",
+      "bytes": 6615,
+      "sha256": "89e008614504ef91aae3f66f0c44cb117130802279d49add857ae81c157a6148"
+    },
+    {
+      "path": "sources/expansion-camping/corral-order-2026.pdf",
+      "bytes": 5955099,
+      "sha256": "d586262cecb0ba87382dd2cb39d3c1cbb53e4a8fd8ffb565f763f90f491a1008"
+    },
+    {
+      "path": "sources/expansion-camping/corral-order-2026.txt",
+      "bytes": 4552,
+      "sha256": "bee662f951f87dbf5488af5f591e1fbf29a94264a9c6a23f74ed0187fe0a2136"
+    },
+    {
+      "path": "sources/expansion-camping/daves-hollow-current-map.jpg",
+      "bytes": 3457334,
+      "sha256": "ee34238178bdd3500b3383b45a4bebc74b6bb69055e3bb51f32b008210506e98"
+    },
+    {
+      "path": "sources/expansion-camping/dixie-alerts.html",
+      "bytes": 241431,
+      "sha256": "9586a259cae4be09717dad239651aa79bb1732324d424739872e8b314806ee1c"
+    },
+    {
+      "path": "sources/expansion-camping/manifest.json",
+      "bytes": 3917,
+      "sha256": "e0d690832451738580b0cafa11e33e433aa3094b136a6ae784451de4e8061a28"
+    },
+    {
+      "path": "sources/expansion-camping/ownership-service.json",
+      "bytes": 44520,
+      "sha256": "7a46ba458641c0de88878e1c55efeee5d33096892d8641df0ea3160ad5f6d71a"
+    },
+    {
+      "path": "sources/expansion-camping/ownership-summary.json",
+      "bytes": 796,
+      "sha256": "a8d0d361e3f5c6f631cd4d0f88b0f085f4b7915c11cd613fd3d18e363c1527d4"
+    },
+    {
+      "path": "sources/expansion-camping/powell-daves-hollow-camping-restrictions-order-0407-22-03.html",
+      "bytes": 217323,
+      "sha256": "b5f38ef2f63023b550ba400940bf7598b9a63f3971d4373c505e60b4499a4faf"
+    },
+    {
+      "path": "sources/expansion-camping/powell-daves-hollow-camping-restrictions-order-0407-22-03.txt",
+      "bytes": 7582,
+      "sha256": "323b6d9262469f735b1280e7e4151b9a41d72b5c5fb6cd6f08ced28f9b515ba0"
+    },
+    {
+      "path": "sources/expansion-camping/powell-east-fork-sevier-river-camping-restrictions-order-0407-21-12.html",
+      "bytes": 216117,
+      "sha256": "edae684255d5ca19a139da480746b7031ced98be3ec5bc6666472bc3ca064328"
+    },
+    {
+      "path": "sources/expansion-camping/powell-east-fork-sevier-river-camping-restrictions-order-0407-21-12.txt",
+      "bytes": 6889,
+      "sha256": "29f93638f82102eae9f34f20870409896ddf10342b2294e9178d1a91eea6a667"
+    },
+    {
+      "path": "sources/expansion-camping/ranch-ownership.geojson",
+      "bytes": 2713955,
+      "sha256": "0893fb9485279604210fb004109ede29cc6b2a27f2ded56eb49800e37fcec448"
+    },
+    {
+      "path": "sources/expansion-camping/ranch-query.json",
+      "bytes": 1363,
+      "sha256": "ec59c4e1a462386404bea7d9ea1ff44548a0cdb61250d6e1f229d225b8dc9638"
+    },
+    {
+      "path": "sources/expansion-camping/red-canyon-ownership.geojson",
+      "bytes": 201121,
+      "sha256": "774d1176619dec5b9c065020328c89927ecd57d65f1f1f315603f912f0d487e3"
+    },
+    {
+      "path": "sources/expansion-camping/red-canyon-query.json",
+      "bytes": 1394,
+      "sha256": "c54bbc36af9bec26afaed6bb7fc1976076d874a61f93ca7f576314ee69e4be13"
+    },
+    {
+      "path": "sources/expansion-camping/seasonal-camping-restrictions-livestock-corrals.html",
+      "bytes": 214751,
+      "sha256": "133b0f1b0625eed4a074a23513805e37c3f2a3b8e53f9d67399cf979b72f6e69"
+    },
+    {
+      "path": "sources/expansion-camping/seasonal-camping-restrictions-livestock-corrals.txt",
+      "bytes": 6717,
+      "sha256": "3d6be8e26d092c796f5f6c218f58cda628851974e7c7af716a2c4b6c724d05dc"
+    },
+    {
+      "path": "sources/expansion-camping/water-sources-order-2026.pdf",
+      "bytes": 127023,
+      "sha256": "039bd71029a6f395ce5d91aa94358c54a423baa0cb05856434cb9b9bac533d8b"
+    },
+    {
+      "path": "sources/expansion-camping/water-sources-powell-map.jpg",
+      "bytes": 7157287,
+      "sha256": "8af28f56424a3d487d404391f8f59ceb1143ef1873593ecade5a37691a7369c7"
+    },
+    {
+      "path": "derived/expansion/02-ranch-lower-ground-100m.tif",
+      "bytes": 9945569,
+      "sha256": "c25195a6404f34a9ad62d5f432aa5f83b0f8cd35872b937dad2d0e52e8e607c6"
+    },
+    {
+      "path": "derived/expansion/02-ranch-slope-overlay.tif",
+      "bytes": 103870,
+      "sha256": "8f423fb1bd4457e313090d8c57e4e7ccd6d2551ddad94ee4ca9e8ae87b3ffcea"
+    },
+    {
+      "path": "derived/expansion/02-ranch-slope-percent.tif",
+      "bytes": 11903193,
+      "sha256": "8a05f21d0c0776e4d5eb6022f2612e9091165002c6481d7d3cad7ee88b69d6d0"
+    },
+    {
+      "path": "derived/expansion/02-ranch-trail-corridor.tif",
+      "bytes": 29485,
+      "sha256": "712906fc37f94c506ed5d619576bf65633a0c6098e6acc2786a1311d3b5b3ac5"
+    },
+    {
+      "path": "derived/expansion/03-mount-carmel-lower-ground-100m.tif",
+      "bytes": 5322828,
+      "sha256": "1e558cef214e146690717552c85043ebef7f54b0c3bf9690716df39b7b913e18"
+    },
+    {
+      "path": "derived/expansion/03-mount-carmel-slope-overlay.tif",
+      "bytes": 76218,
+      "sha256": "d37eb6dd32fde0eee3d8d19625caf2b5dbd0363725cdfd137ea5f5652da722c1"
+    },
+    {
+      "path": "derived/expansion/03-mount-carmel-slope-percent.tif",
+      "bytes": 6305656,
+      "sha256": "925c5f891a484c54c914aa896407ea9d1963bcd5ec17979ba709781db3e829ea"
+    },
+    {
+      "path": "derived/expansion/03-mount-carmel-trail-corridor.tif",
+      "bytes": 15521,
+      "sha256": "6f790a9dd1cf530247bfe07f6fefa5489df88d1e70d107211a7fda353582690b"
+    },
+    {
+      "path": "derived/expansion/04-red-canyon-lower-ground-100m.tif",
+      "bytes": 5052982,
+      "sha256": "28d0d50c017846ff839efe21addef0122120140db1f062fe91ef75f79a8dda18"
+    },
+    {
+      "path": "derived/expansion/04-red-canyon-slope-overlay.tif",
+      "bytes": 122387,
+      "sha256": "adeba8038a142aae93ec2843e3a4748c3a6cfe37dcb8c8a6e9eb847d59ea0cad"
+    },
+    {
+      "path": "derived/expansion/04-red-canyon-slope-percent.tif",
+      "bytes": 6308400,
+      "sha256": "7b1d280c60aeb89a4426937bd370cfe28e3369715405525aae00d231e247a358"
+    },
+    {
+      "path": "derived/expansion/04-red-canyon-trail-corridor.tif",
+      "bytes": 31648,
+      "sha256": "87408537d80400d3fe6786d71f53aaa2a64880a16f1157bb094ecd9e94424f94"
+    },
+    {
+      "path": "derived/expansion/atlas-context.gpkg",
+      "bytes": 24977408,
+      "sha256": "a62b02b86fa3d69b423671835330c710965194e56b2c83501624e1cb9d582cbf"
+    },
+    {
+      "path": "derived/expansion/grade-key.svg",
+      "bytes": 1406,
+      "sha256": "57f84ef7c484a5532708d740dfcbe9960e35b3976a7d16e2c751f24bd7954b53"
+    },
+    {
+      "path": "derived/expansion/review-points.geojson",
+      "bytes": 3702,
+      "sha256": "84f724d57cf2a318da15a2df4341ac6f503cd2b8f35a1343253d686d8e72366b"
+    },
+    {
+      "path": "output/pdf/expanded/01-regional-overview.pdf",
+      "bytes": 2394092,
+      "sha256": "67f6b39132761991674f539907226d26aeff75a092aac3f3a90e66f4c7495694"
+    },
+    {
+      "path": "output/pdf/expanded/02-ranch-access.pdf",
+      "bytes": 2185337,
+      "sha256": "85d82340899d8bd382cd903a5e7080bd19318835d5f709457dad0326f8e02273"
+    },
+    {
+      "path": "output/pdf/expanded/03-ranch-terrain.pdf",
+      "bytes": 2258967,
+      "sha256": "9b894845991b451af14d9ca986552524dd775e039be4b627b8be9cb2dc400ccf"
+    },
+    {
+      "path": "output/pdf/expanded/04-ranch-snow.pdf",
+      "bytes": 1959972,
+      "sha256": "f40cad39fe0a19f2558895a33c12bee0d53290684bdb4329f09c2de7687a6b98"
+    },
+    {
+      "path": "output/pdf/expanded/05-ranch-camping.pdf",
+      "bytes": 2184845,
+      "sha256": "339ddd0f98140607349e7caf815b3382cd6b9261016376e4008d72d7983aa55e"
+    },
+    {
+      "path": "output/pdf/expanded/06-mount-carmel-access.pdf",
+      "bytes": 1654649,
+      "sha256": "778549096a98d7b674436b91a36f0e674e8051b24bbfbc7fdeb6e3edf221847c"
+    },
+    {
+      "path": "output/pdf/expanded/07-mount-carmel-terrain.pdf",
+      "bytes": 2045865,
+      "sha256": "a1d9a5d5d4dd6c3821062f8f32880acfa04fe34e794c903364a2d2220375e133"
+    },
+    {
+      "path": "output/pdf/expanded/08-mount-carmel-snow.pdf",
+      "bytes": 1741877,
+      "sha256": "43002d54015e7e338c2924829ee80eb102f928381324953ecb5e4db9c637b376"
+    },
+    {
+      "path": "output/pdf/expanded/09-mount-carmel-camping.pdf",
+      "bytes": 1694558,
+      "sha256": "7a27dc9aef15c8d321a58a7b938f05c980f6868b34a3d292f1500c76e8ded99d"
+    },
+    {
+      "path": "output/pdf/expanded/10-red-canyon-access.pdf",
+      "bytes": 2092186,
+      "sha256": "29d80ba86bdcffc620c2ec5bf994cb9b549385a42886fd665ef78ac510175b17"
+    },
+    {
+      "path": "output/pdf/expanded/11-red-canyon-terrain.pdf",
+      "bytes": 2471161,
+      "sha256": "38522905c15f7b308eb4c83e3d61744d6cf18945fc98ba5ecec0a2aa3d50af00"
+    },
+    {
+      "path": "output/pdf/expanded/12-red-canyon-snow.pdf",
+      "bytes": 1931635,
+      "sha256": "1f42331c6f8b545684bec2f382c5559c2f833be03c1457c8753a771b252d3e61"
+    },
+    {
+      "path": "output/pdf/expanded/13-red-canyon-camping.pdf",
+      "bytes": 1987230,
+      "sha256": "20de79300ec5fde2415c0245c034cda7f7902e13d7af6c8c4eaccbcb0f0fed53"
+    },
+    {
+      "path": "output/pdf/expanded/paria-river-ranch-expanded-atlas.pdf",
+      "bytes": 26596944,
+      "sha256": "b0d7460c81516401adb73d66efc6fb22ab2a32a8471e7bfaad6450fcf53e388f"
+    }
+  ]
+}

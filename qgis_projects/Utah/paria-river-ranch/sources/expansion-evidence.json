@@ -1,0 +1,71 @@
+{
+  "profile_version": "1.1",
+  "records": [
+    {
+      "id": "T01",
+      "title": "Trail-adjacent terrain screening",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+      "publisher": "USGS 3DEP / UGRC; atlas derivation",
+      "supported_claim": "Percent cell slope within150m of mapped trails and terrain below selected trail raster cells within100m.",
+      "limitations": "10-15m output service cells; native contributing resolution unresolved. Not trail-tread grade, surveyed cliff height or horse-safety classification.",
+      "criticality": "Critical",
+      "medium": "DerivedModel",
+      "retrieved_at": "2026-10-08",
+      "processed_at": "2026-10-08",
+      "observed_at": null,
+      "published_at": null,
+      "retrieval_status": "Retrieved",
+      "recheck": "Use current terrain/route observations, snow conditions and manager advice before a trip; this dated planning product does not establish safe passage."
+    },
+    {
+      "id": "S01",
+      "title": "NOAA station snow normals",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "publisher": "NOAA NCEI",
+      "supported_claim": "1991-2020 monthly snowfall normals and midmonth probability of observed depth>=1inch; station elevations and completeness flags.",
+      "limitations": "Point data, varying valid year counts; not spatial interpolation or trip probability.",
+      "criticality": "Critical",
+      "medium": "PublishedDataset",
+      "retrieved_at": "2026-10-08",
+      "processed_at": "2026-10-08",
+      "observed_at": null,
+      "published_at": null,
+      "retrieval_status": "Retrieved",
+      "recheck": "Use current terrain/route observations, snow conditions and manager advice before a trip; this dated planning product does not establish safe passage."
+    },
+    {
+      "id": "S02",
+      "title": "Monthly satellite snow-cover ensemble",
+      "url": "https://doi.org/10.5281/zenodo.20610475",
+      "publisher": "Celik & Hengl / OpenGeoHub",
+      "supported_claim": "Published monthly p50 snow-cover ensemble of DLR and ESA inputs, clipped without resampling.",
+      "limitations": "Exploratory, initial accuracy; average of source medians; component periods differ; ESA processing partly unreproduced; not calibrated snow-day chance or snow depth.",
+      "criticality": "Critical",
+      "medium": "DerivedModel",
+      "retrieved_at": "2026-10-08",
+      "processed_at": "2026-10-08",
+      "observed_at": null,
+      "published_at": "2026-06-09",
+      "retrieval_status": "Retrieved",
+      "recheck": "Use current terrain/route observations, snow conditions and manager advice before a trip; this dated planning product does not establish safe passage."
+    },
+    {
+      "id": "S03",
+      "title": "ENSO context for Utah",
+      "url": "https://statesummaries.ncics.org/chapter/ut/",
+      "publisher": "NOAA / NCICS",
+      "supported_claim": "El Nino and La Nina can affect broad winter patterns; Utah response is inconsistent.",
+      "limitations": "No route-specific October forecast or numeric ENSO adjustment is supported.",
+      "criticality": "Context",
+      "medium": "PublishedDataset",
+      "retrieved_at": "2026-10-08",
+      "processed_at": "2026-10-08",
+      "observed_at": null,
+      "published_at": null,
+      "retrieval_status": "Retrieved",
+      "recheck": "Use current terrain/route observations, snow conditions and manager advice before a trip; this dated planning product does not establish safe passage."
+    }
+  ],
+  "camping_registry": "expansion-camping/camping-evidence.json",
+  "original_registry": "evidence.json"
+}

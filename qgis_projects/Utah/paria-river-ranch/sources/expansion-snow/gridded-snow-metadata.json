@@ -1,0 +1,164 @@
+{
+  "title": "Long-term Monthly ESA CCI\u2013DLR Average Snow Cover Probability, 2000\u20132025 at 500 m resolution",
+  "doi": "10.5281/zenodo.20610475",
+  "source_url": "https://zenodo.org/records/20610475",
+  "authors": [
+    "Mehmet Furkan \u00c7elik",
+    "Tomislav Hengl"
+  ],
+  "license": "CC-BY-4.0",
+  "publisher": "OpenGeoHub foundation",
+  "published": "2026-06-09",
+  "accessed": "2026-10-08",
+  "role": "Exploratory spatial context, not calibrated route snow probability",
+  "recommended_map_title": "Typical monthly snow cover \u2014 satellite ensemble (%)",
+  "statistic": "p50 ensemble: equal-weight average of DLR and ESA CCI long-term calendar-month medians where both are valid at Utah latitude. One-source valid pixels use that source.",
+  "period_label": "2000\u20132025 (DLR); ESA CCI component through 2023",
+  "units": "percent (0\u2013100); nodata 255",
+  "crs": "EPSG:4326",
+  "pixel_size_degrees": 0.004166666666666667,
+  "pixel_size_label": "nominal 500 m; ESA source 1 km resampled to match DLR",
+  "bbox": [
+    -112.95,
+    36.75,
+    -111.4,
+    38.0
+  ],
+  "method_notes": [
+    "DLR: monthly percent of valid land observations classified snow-covered; water/invalid observations omitted from denominator.",
+    "Publisher describes ESA monthly snow-day fraction with a 10% snow-cover threshold; repository also computes mean daily snow-cover fraction. The published repository does not include the ESA long-term quantile step, so the precise ESA input variant is not independently reproduced.",
+    "The ensemble averages source medians, not a median of an annual combined dataset. It is not the pooled percentage of all calendar days, nor a trip probability.",
+    "Publisher README identifies the ESA component as 2000\u20132023 and DLR as 2000\u20132025. Do not claim both components cover all26 years.",
+    "No calibrated physical snow-depth threshold; never label this >=1 inch or compare numerically as same variable as NOAA station snow depth.",
+    "Zero median may occur despite snow in occasional years. Coarse pixels miss narrow shaded terrain and do not establish trail safety.",
+    "Publisher calls results initial with limited accuracy and potential location/harmonization errors; no local validation or count-of-valid-years raster supplied."
+  ],
+  "source_product_urls": [
+    "https://download.geoservice.dlr.de/GSP/files/daily/",
+    "https://data.ceda.ac.uk/neodc/esacci/snow/data/scfg/MODIS/v4.0"
+  ],
+  "code_url": "https://codeberg.org/openlandmap/snow_cover",
+  "retrieval": "gdal_translate -projwin -112.95 38.0 -111.4 36.75 -co COMPRESS=DEFLATE /vsicurl/<Zenodo API file content URL> <output>; no reprojection/resampling; HTTP byte ranges avoid full global downloads",
+  "rasters": [
+    {
+      "month": 1,
+      "file": "snowcover-ensemble-p50-01.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 43.497,
+      "nodata": 255
+    },
+    {
+      "month": 2,
+      "file": "snowcover-ensemble-p50-02.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 33.191,
+      "nodata": 255
+    },
+    {
+      "month": 3,
+      "file": "snowcover-ensemble-p50-03.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 21.033,
+      "nodata": 255
+    },
+    {
+      "month": 4,
+      "file": "snowcover-ensemble-p50-04.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 6.31,
+      "nodata": 255
+    },
+    {
+      "month": 5,
+      "file": "snowcover-ensemble-p50-05.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 88.0,
+      "mean": 0.908,
+      "nodata": 255
+    },
+    {
+      "month": 6,
+      "file": "snowcover-ensemble-p50-06.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 17.0,
+      "mean": 0.001,
+      "nodata": 255
+    },
+    {
+      "month": 7,
+      "file": "snowcover-ensemble-p50-07.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 13.0,
+      "mean": 0.008,
+      "nodata": 255
+    },
+    {
+      "month": 8,
+      "file": "snowcover-ensemble-p50-08.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 22.0,
+      "mean": 0.02,
+      "nodata": 255
+    },
+    {
+      "month": 9,
+      "file": "snowcover-ensemble-p50-09.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 15.0,
+      "mean": 0.016,
+      "nodata": 255
+    },
+    {
+      "month": 10,
+      "file": "snowcover-ensemble-p50-10.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 26.0,
+      "mean": 0.46,
+      "nodata": 255
+    },
+    {
+      "month": 11,
+      "file": "snowcover-ensemble-p50-11.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 6.612,
+      "nodata": 255
+    },
+    {
+      "month": 12,
+      "file": "snowcover-ensemble-p50-12.tif",
+      "width": 372,
+      "height": 300,
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 31.981,
+      "nodata": 255
+    }
+  ]
+}

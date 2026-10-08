@@ -1,0 +1,49 @@
+{
+  "url": "https://gis.trustlands.utah.gov/mapping/rest/services/Land_Ownership/FeatureServer/0/query?where=1%3D1&geometry=338491.4597146199%2C4114258.661581976%2C354491.4597146199%2C4125104.2991658687&geometryType=esriGeometryEnvelope&inSR=26912&spatialRel=esriSpatialRelIntersects&f=geojson&outFields=%2A&outSR=4326&returnGeometry=true&resultRecordCount=2000",
+  "retrieved": "2026-10-08",
+  "bbox": [
+    338491.4597146199,
+    4114258.661581976,
+    354491.4597146199,
+    4125104.2991658687
+  ],
+  "bbox_crs": "EPSG:26912",
+  "extent_source": "../03-mount-carmel-extent.json",
+  "clip": "intersects with exact projected map extent; complete source features retained, not clipped",
+  "warning": "Ownership is not camping permission",
+  "verification": {
+    "returnIdsOnly": {
+      "objectIdFieldName": "objectid",
+      "objectIds": [
+        4541329,
+        4541432,
+        4545178,
+        4545199,
+        4545194,
+        4545389,
+        4551640,
+        4549295,
+        4550130,
+        4551603,
+        4551614,
+        4551617,
+        4551628,
+        4551631,
+        4551642,
+        4555674,
+        4555675,
+        4555724,
+        4555725,
+        4556193,
+        4556194,
+        4556897,
+        4556906,
+        4557051
+      ]
+    },
+    "count": 24,
+    "returned_count": 24,
+    "object_id_sets_equal": true,
+    "exceededTransferLimit": false
+  }
+}

@@ -14,5 +14,15 @@
   "validation": "docs/validation.json",
   "avenza_status": "second-pass-not-georeferenced",
   "scope_status": "provisional-extents-awaiting-Peter",
-  "field_verified": false
+  "field_verified": false,
+  "expanded_edition": {
+    "research_date": "2026-10-08",
+    "page_count": 13,
+    "qgis_project": "paria-river-ranch-expanded.qgz",
+    "pdf": "output/pdf/expanded/paria-river-ranch-expanded-atlas.pdf",
+    "evidence": "docs/EXPANSION-SOURCES.md",
+    "status": "planning-draft",
+    "terrain": "cell slopes and nearby lower ground; not trail-grade or cliff survey",
+    "snow": "exploratory spatial ensemble plus independently defined station normals"
+  }
 }

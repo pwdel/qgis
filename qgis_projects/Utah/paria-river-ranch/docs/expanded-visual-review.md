@@ -1,0 +1,11 @@
+# Expanded atlas visual review — October 8, 2026
+
+Inspected all13 pages rendered from the final combined PDF with Poppler at1800px width. The retained previews are `previews/expanded/sheet-01.png` through `sheet-13.png`. Titles, page numbers, narrative panels, selected feature labels, seasonal thumbnails, numerical tables, source footers and ownership keys were reviewed. No clipped narrative blocks or missing map frames remain.
+
+The overview references pages2/6/10 correctly. Terrain sheets show two enlarged cutouts each, visible source cell size, graded colors, nearby-lower-ground labels and the illustrated percent/angle key. Cutouts were moved away from raster boundaries; their deliberately visible10–15m pixels are not represented as finer data. Snow sheets show all12 months on one consistent color scale, clearly separate exploratory satellite cover from NOAA station probabilities, and retain provisional-data marks. Camping sheets include every rendered ownership category, the official Barracks kiosk, and current/expired rule distinctions.
+
+Independent review identified a wrong DEM source ID and an omitted Bankhead-Jones legend item; both were corrected. Ownership queries were refreshed against the exact projected map bounds and independently checked against server object IDs/counts (23/24/25). Four analytical terrain tests passed. Automated expansion verification passed873 checks, including original source/derived snapshot hashes, new source hashes, raster values, PDFs, source-link annotations, and valid QGIS layers/features/pictures after relocation.
+
+QGIS3.22 emitted SQLite feature-iterator warnings during project save. The saved project subsequently reopened successfully, every vector layer returned features, every raster was valid, all17 layouts were present, and those checks also passed after copying the whole project to another directory. The expansion uses a separate context GeoPackage because QGIS can change SQLite journal headers when opening a file; original snapshots remain unchanged. macOS QGIS4 GUI and Avenza were not certified.
+
+The atlas remains a planning product: actual trail tread grade, exact cliff height/edge clearance, horse footing, calibrated route-level snow probability and legal trailer-camp fit are unresolved. The map labels state those distinctions.

@@ -1,6 +1,20 @@
 # Paria River Ranch — Utah horse-riding atlas
 
-**First-pass planning draft, researched October 7, 2026.** Four printable sheets focused on Paria River Ranch and the requested regional riding leads. This is the horse-riding category of the map collection.
+**Expanded planning edition, researched October 8, 2026.**
+
+**[Download the 13-page expanded atlas](output/pdf/expanded/paria-river-ranch-expanded-atlas.pdf)** · [Expanded QGIS project](paria-river-ranch-expanded.qgz) · [Expanded sources](docs/EXPANSION-SOURCES.md)
+
+The expanded edition adds terrain, snow and camping sheets for each area. Terrain colors show percent cell slope near mapped trails; two cutouts per area and nearby-lower-ground estimates support closer review. They do not measure trail tread grade or exact cliff height. Snow pages compare all twelve months, emphasize October, and show NOAA station snowfall/elevations and historical depth probabilities. The satellite overlay is explicitly exploratory snow-cover context, not a calibrated chance of snow. Ownership maps distinguish the actual camping patchwork and cite current and expired orders.
+
+| Area | Access | Terrain | Snow | Camping |
+| --- | --- | --- | --- | --- |
+| Paria River Ranch | 2 | 3 | 4 | 5 |
+| Mount Carmel / Bay Bill | 6 | 7 | 8 | 9 |
+| Red Canyon / plateau | 10 | 11 | 12 | 13 |
+
+Page1 is the regional overview. The expanded QGIS project retains original layouts and adds13 named expanded layouts; all local layers remain editable. [Expansion validation](docs/expanded-validation.json) and [visual review](docs/expanded-visual-review.md) document checks. For rebuilding, run `scripts/expansion_terrain.py`, then `scripts/build_expanded_atlas.py`, then `scripts/validate_expanded_atlas.py` in the same GIS environment described below.
+
+**Original four-page edition, researched October 7, 2026.** Four printable sheets focused on Paria River Ranch and the requested regional riding leads. This is the horse-riding category of the map collection.
 
 **[Download the four-page PDF](output/pdf/paria-river-ranch-four-sheets.pdf)** · **[Open the QGIS project](paria-river-ranch.qgz)** · [Sources](docs/SOURCES.md) · [Critical-evidence governance](docs/GOVERNANCE.md)
 

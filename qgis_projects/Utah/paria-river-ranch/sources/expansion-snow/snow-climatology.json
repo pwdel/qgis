@@ -1,0 +1,4555 @@
+{
+  "metadata": {
+    "title": "Nearby station snow climatology; point observations, no interpolated surface",
+    "normal_period": "1991-2020",
+    "month_order": "January through December",
+    "retrieved": "2026-10-08",
+    "snowfall_definition": "Normal monthly sum of new snowfall; inches. This is not standing snow depth.",
+    "snow_depth_frequency_definition": "100 * NOAA normal monthly days with observed snow depth >=1 inch / average calendar days in that month over 1991-2020; station day frequency, not probability that a trip or entire month has snow.",
+    "midmonth_probability_definition": "NOAA DLY-SNWD-PCTALL-GE001WI for the 15th: smoothed historical probability (%) of snow depth >=1 inch in 29-day windows centered on that calendar day. Not probability of at least one snow day during a 29-day visit.",
+    "missing_definition": "null means NOAA does not supply the variable or marks it missing/insufficient/inconsistent. A rounded zero does not imply impossibility. All source measurement and completeness flags and contributing year counts retained per quantity.",
+    "completeness_flags": {
+      "S": "Standard: WMO data availability for 24 or more years",
+      "R": "Representative: 10 or more years; gaps estimated from surrounding stations",
+      "P": "Provisional: 10 or more years; gaps cannot be filled",
+      "E": "Estimated: 2 or more years plus nearby standard stations"
+    },
+    "limitations": [
+      "Station values apply at station elevations and exposure, not route segments. No lapse-rate interpolation is defensible from these sparse snow statistics.",
+      "Do not multiply daily probabilities into trip probabilities: snow persistence and weather days are dependent.",
+      "Snowfall and standing snow differ because of melting, settling, wind, exposure and timing.",
+      "1991-2020 product does not guarantee 30 valid years for every variable; use per-month years and completeness flags.",
+      "A separate exploratory satellite ensemble is available: see gridded-snow-metadata.json. It differs from station snow-depth frequency and is not locally validated."
+    ],
+    "enso_footnote": "El Ni\u00f1o/La Ni\u00f1a can alter broad seasonal precipitation patterns, but Utah impacts are inconsistent; neither phase reliably predicts October snow on an individual route. These normals combine all ENSO phases and are not a seasonal forecast.",
+    "enso_sources": [
+      "https://statesummaries.ncics.org/chapter/ut/",
+      "https://www.weather.gov/twc/enso"
+    ],
+    "documentation_urls": [
+      "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/doc/Readme_By-Variable_By-Station_Normals_Files.txt",
+      "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/doc/Normals_MLY_Documentation_1991-2020.pdf",
+      "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/doc/Normals_DLY_Documentation_1991-2020.pdf"
+    ]
+  },
+  "stations": [
+    {
+      "id": "USC00024849",
+      "name": "LEES FERRY, AZ US",
+      "latitude": 36.8644,
+      "longitude": -111.6022,
+      "elevation_m": 978.4,
+      "elevation_ft": 3210,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00024849.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00024849.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 11,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 15,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 17,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 17,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 17,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 15,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 16,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 14,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.4,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 15,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.1
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 0.3
+    },
+    {
+      "id": "USC00026180",
+      "name": "PAGE, AZ US",
+      "latitude": 36.9208,
+      "longitude": -111.4483,
+      "elevation_m": 1301.5,
+      "elevation_ft": 4270,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00026180.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00026180.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 1.4,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.8,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 17,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 18,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 0.4,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": "Z",
+            "completeness_flag": null,
+            "years": 0,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.645,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.4,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": "X",
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": true
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 17,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 1.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.6,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 18,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.323,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        1.4,
+        0.4,
+        0.2,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        0.0,
+        0.0,
+        0.645,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.323
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        0.0,
+        null,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 3.1
+    },
+    {
+      "id": "USC00420086",
+      "name": "ALTON, UT US",
+      "latitude": 37.4403,
+      "longitude": -112.4819,
+      "elevation_m": 2163.5,
+      "elevation_ft": 7098,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00420086.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00420086.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 17.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 25,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 5.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 21.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 70.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 68.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 18.7,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 5.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 18.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 66.863,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 67.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 12.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 3.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 13.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 44.839,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 45.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 5.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 2.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 7.333,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 8.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 0.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": "Z",
+            "completeness_flag": null,
+            "years": 0,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 2.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 1.935,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 1.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 6.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 3.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 11.667,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 11.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 14.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 4.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 14.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 46.129,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 44.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        17.8,
+        18.7,
+        12.6,
+        5.2,
+        0.3,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        6.4,
+        14.1
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        70.0,
+        66.863,
+        44.839,
+        7.333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.935,
+        11.667,
+        46.129
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        68.8,
+        67.0,
+        45.1,
+        8.1,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.4,
+        11.7,
+        44.5
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 77.5
+    },
+    {
+      "id": "USC00421008",
+      "name": "BRYCE CANYON NP HQRS, UT US",
+      "latitude": 37.6411,
+      "longitude": -112.1703,
+      "elevation_m": 2404.9,
+      "elevation_ft": 7890,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00421008.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00421008.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 19.8,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 6.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 29.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 94.516,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 93.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 18.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 24,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 7.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 25.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 91.627,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 91.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 13.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 5.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 22.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 71.613,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 72.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 5.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 25,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 3.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 5.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 19.667,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 21.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 1.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 1.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 1.935,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 2.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": "Z",
+            "completeness_flag": null,
+            "years": 0,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": "Z",
+            "completeness_flag": null,
+            "years": 0,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 3.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 1.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 1.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 3.548,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 3.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 9.7,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 3.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 9.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 31.333,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 31.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 15.3,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 5.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 25.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 81.613,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 79.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        19.8,
+        18.1,
+        13.2,
+        5.9,
+        1.5,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        9.7,
+        15.3
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        94.516,
+        91.627,
+        71.613,
+        19.667,
+        1.935,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.548,
+        31.333,
+        81.613
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        93.4,
+        91.2,
+        72.0,
+        21.4,
+        2.3,
+        null,
+        0.0,
+        0.0,
+        null,
+        3.3,
+        31.6,
+        79.9
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 86.7
+    },
+    {
+      "id": "USC00422592",
+      "name": "ESCALANTE, UT US",
+      "latitude": 37.7686,
+      "longitude": -111.5978,
+      "elevation_m": 1770.9,
+      "elevation_ft": 5810,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00422592.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00422592.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 8.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 11.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 38.387,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 36.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 5.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 5.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 20.873,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 21.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 2.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 1.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 1.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 3.548,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 4.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 1.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.333,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": "Z",
+            "completeness_flag": null,
+            "years": 0,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 1.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 2.667,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 2.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 5.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 5.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 19.032,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 18.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        8.9,
+        5.8,
+        2.2,
+        1.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        1.9,
+        5.2
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        38.387,
+        20.873,
+        3.548,
+        0.333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.667,
+        19.032
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        36.7,
+        21.1,
+        4.8,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        2.8,
+        18.8
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 25.5
+    },
+    {
+      "id": "USC00424508",
+      "name": "KANAB, UT US",
+      "latitude": 37.0286,
+      "longitude": -112.5361,
+      "elevation_m": 1493.5,
+      "elevation_ft": 4900,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00424508.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00424508.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 5.4,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 4.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 15.806,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 14.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 5.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 24,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 1.9,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 6.722,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 7.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 1.8,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 1.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 2.258,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 2.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 1.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 24,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.667,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": "X",
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": true
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 1.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 2.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 1.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 5.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 3.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 10.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 10.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        5.4,
+        5.8,
+        1.8,
+        1.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        1.8,
+        5.3
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        15.806,
+        6.722,
+        2.258,
+        0.667,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        10.0
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        14.7,
+        7.6,
+        2.6,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        1.8,
+        10.0
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 22.1
+    },
+    {
+      "id": "USC00424755",
+      "name": "KODACHROME BASIN PARK, UT US",
+      "latitude": 37.5142,
+      "longitude": -111.9883,
+      "elevation_m": 1769.4,
+      "elevation_ft": 5805,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00424755.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00424755.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 5.9,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 11.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 36.774,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 34.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 5.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 4.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 16.274,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 16.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 26,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 2.3,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 25,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 1.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 1.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 5.161,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 6.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 1.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": "Z",
+            "completeness_flag": null,
+            "years": 0,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 27,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.0,
+            "measurement_flag": "X",
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": true
+          },
+          "snow_depth_day_frequency_pct": 0.0,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 29,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 1.5,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 0.5,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 1.667,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 2.0,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 6.9,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.6,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": 6.1,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 28,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": 19.677,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": 19.4,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 30,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        5.9,
+        5.2,
+        2.3,
+        1.5,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        1.5,
+        6.9
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        36.774,
+        16.274,
+        5.161,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.667,
+        19.677
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        34.1,
+        16.4,
+        6.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        2.0,
+        19.4
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 23.7
+    },
+    {
+      "id": "USC00426601",
+      "name": "PANGUITCH, UT US",
+      "latitude": 37.8156,
+      "longitude": -112.4389,
+      "elevation_m": 2026.0,
+      "elevation_ft": 6647,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USC00426601.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USC00426601.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": 7.8,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 14,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 3.7,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": 6.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 15,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 3.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": 3.3,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 1.7,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 24,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": 1.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.8,
+            "measurement_flag": null,
+            "completeness_flag": "S",
+            "years": 24,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": 0.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": "X",
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": true
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": "X",
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": true
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 23,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 20,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 21,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 19,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 0.2,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": 2.1,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 12,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 1.7,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": 4.0,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 13,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": 2.9,
+            "measurement_flag": null,
+            "completeness_flag": "P",
+            "years": 22,
+            "missing": false,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        7.8,
+        6.1,
+        3.3,
+        1.1,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        2.1,
+        4.0
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": 24.7
+    },
+    {
+      "id": "USW00023159",
+      "name": "BRYCE CANYON AP, UT US",
+      "latitude": 37.7064,
+      "longitude": -112.1456,
+      "elevation_m": 2312.2,
+      "elevation_ft": 7586,
+      "normal_period": "1991-2020",
+      "source_urls": {
+        "monthly": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USW00023159.csv",
+        "daily": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00023159.csv"
+      },
+      "months": [
+        {
+          "month": 1,
+          "month_name": "January",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 2,
+          "month_name": "February",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 3,
+          "month_name": "March",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 4,
+          "month_name": "April",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 6,
+          "month_name": "June",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 7,
+          "month_name": "July",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 8,
+          "month_name": "August",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 9,
+          "month_name": "September",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 10,
+          "month_name": "October",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 11,
+          "month_name": "November",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "snowfall_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snowfall_days_ge_0_1_inches": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_days_ge_1_inch": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          },
+          "snow_depth_day_frequency_pct": null,
+          "midmonth_snow_depth_ge_1_inch_pct": {
+            "value": null,
+            "measurement_flag": null,
+            "completeness_flag": null,
+            "years": null,
+            "missing": true,
+            "nonzero_rounded_to_zero": false
+          }
+        }
+      ],
+      "monthly_snowfall_inches": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "monthly_snow_depth_day_frequency_pct": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "monthly_midmonth_snow_depth_probability_pct": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "annual_snowfall_inches_sum_of_monthly_normals": null
+    }
+  ]
+}

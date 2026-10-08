@@ -1,0 +1,3 @@
+# Preserve byte-for-byte public-source snapshots, including fixed-width padding.
+sources/expansion-snow/** -whitespace
+sources/expansion-camping/** -whitespace
