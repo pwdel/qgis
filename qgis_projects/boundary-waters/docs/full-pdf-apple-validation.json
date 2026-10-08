@@ -1,0 +1,23 @@
+{
+  "file": "output/pdf/boundary-waters-six-page-atlas.pdf",
+  "sha256": "3235e575eeabf70d2f89b99d1c02b5e6c0d8b7649efbc5898f97fa6ce435218e",
+  "bytes": 19697709,
+  "platform": "macOS Apple PDFKit",
+  "pages_opened": 6,
+  "pages_rendered_nonblank": 6,
+  "strict_parser": "pypdf 6.10.0",
+  "searchable_text_characters_by_page": [
+    1031,
+    1434,
+    1408,
+    1427,
+    1448,
+    2447
+  ],
+  "clickable_links": 25,
+  "embedded_original_depth_maps": 12,
+  "rasterized": false,
+  "root_cause": "Embedded attachment streams were direct objects; PDF streams must be indirect objects. Assembly now creates indirect streams and file specifications.",
+  "original_github_bytes_matched_local": true,
+  "physical_iphone_tested": false
+}
