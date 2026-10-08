@@ -7,7 +7,7 @@ from qgis.PyQt.QtCore import Qt
 from qgis.PyQt.QtGui import QColor,QFont
 from osgeo import gdal
 from pypdf import PdfReader,PdfWriter
-from pypdf.generic import DictionaryObject,NameObject,ArrayObject,FloatObject,TextStringObject
+from pypdf.generic import DictionaryObject,NameObject,ArrayObject,FloatObject,TextStringObject,DecodedStreamObject
 ROOT=Path(__file__).resolve().parents[1];S=ROOT/'sources';D=ROOT/'derived';O=ROOT/'output/pdf';P=ROOT/'previews'
 O.mkdir(parents=True,exist_ok=True);P.mkdir(exist_ok=True)
 app=QgsApplication([],False);app.initQgis();pr=QgsProject.instance();pr.setCrs(QgsCoordinateReferenceSystem('EPSG:26915'));pr.setFilePathStorage(Qgis.FilePathType.Relative)
@@ -151,11 +151,17 @@ for ref in links:
  x,y,w,h=ref['rect_mm'];scale=72/25.4;rect=[x*scale,(279.4-y-h)*scale,(x+w)*scale,(279.4-y)*scale]
  ann=DictionaryObject({NameObject('/Type'):NameObject('/Annot'),NameObject('/Subtype'):NameObject('/Link'),NameObject('/Rect'):ArrayObject([FloatObject(v) for v in rect]),NameObject('/Border'):ArrayObject([FloatObject(0)]*3),NameObject('/A'):DictionaryObject({NameObject('/S'):NameObject('/URI'),NameObject('/URI'):TextStringObject(ref['url'])})})
  writer.add_annotation(ref['page'],ann)
+# PDF streams must be indirect objects. pypdf 3.4 add_attachment writes a
+# direct embedded stream, which Poppler tolerates but Apple PDFKit rejects.
 attachment_names=[]
 for slug in sorted([s for group in depth_groups for s in group]):
- p=ROOT/panel[slug]['source'];writer.add_attachment(slug+'-original-depth-map.pdf',p.read_bytes())
- attachment_names.extend(writer._root_object['/Names']['/EmbeddedFiles']['/Names'])
-writer._root_object['/Names']['/EmbeddedFiles'][NameObject('/Names')]=ArrayObject(attachment_names)
+ p=ROOT/panel[slug]['source'];name=slug+'-original-depth-map.pdf'
+ stream=DecodedStreamObject();stream.set_data(p.read_bytes());stream[NameObject('/Type')]=NameObject('/EmbeddedFile')
+ stream_ref=writer._add_object(stream)
+ spec=DictionaryObject({NameObject('/Type'):NameObject('/Filespec'),NameObject('/F'):TextStringObject(name),NameObject('/UF'):TextStringObject(name),NameObject('/EF'):DictionaryObject({NameObject('/F'):stream_ref})})
+ attachment_names.extend([TextStringObject(name),writer._add_object(spec)])
+ names=writer._root_object.setdefault(NameObject('/Names'),DictionaryObject())
+names[NameObject('/EmbeddedFiles')]=writer._add_object(DictionaryObject({NameObject('/Names'):ArrayObject(attachment_names)}))
 writer.add_metadata({'/Title':'Boundary Waters | 2008 canoe route atlas','/Author':'pwdel/qgis','/Subject':'Historical trip, fisheries evidence, depth scans and experimental bare-earth portage views'})
 with open(O/'boundary-waters-six-page-atlas.pdf','wb') as f:writer.write(f)
 (D/'layouts.json').write_text(json.dumps(layout_records,indent=2));print('Saved project and six-page PDF',flush=True)

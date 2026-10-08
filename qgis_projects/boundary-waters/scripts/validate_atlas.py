@@ -4,6 +4,7 @@ from pathlib import Path
 os.environ.setdefault('QT_QPA_PLATFORM','offscreen')
 from qgis.core import QgsApplication,QgsProject,QgsLayoutItemMap,QgsCoordinateReferenceSystem,QgsCoordinateTransform,QgsPointXY
 from pypdf import PdfReader
+from pypdf.generic import IndirectObject
 ROOT=Path(__file__).resolve().parents[1];S=ROOT/'sources';D=ROOT/'derived'
 checks=[]
 def check(name,ok):
@@ -46,7 +47,9 @@ attachments=r.trailer['/Root']['/Names']['/EmbeddedFiles']['/Names']
 check('Twelve full original depth maps embedded',len(attachments)==24)
 panel_by_slug={v['lake']:v for v in json.loads((D/'depth-panels.json').read_text())}
 for i in range(0,len(attachments),2):
- slug=str(attachments[i]).replace('-original-depth-map.pdf','');data=attachments[i+1].get_object()['/EF']['/F'].get_object().get_data()
+ slug=str(attachments[i]).replace('-original-depth-map.pdf','');spec=attachments[i+1].get_object()
+ check(slug+' attachment stream is an indirect PDF object',isinstance(spec['/EF'].raw_get('/F'),IndirectObject))
+ data=spec['/EF']['/F'].get_object().get_data()
  check(slug+' embedded PDF identical to source',data==(ROOT/panel_by_slug[slug]['source']).read_bytes())
 check('Twenty-five clickable report/map citations',sum(len(pg.get('/Annots',[])) for pg in r.pages)>=25)
 fish=json.loads((S/'fisheries.json').read_text());check('Thirteen dated lake fish records',len(fish)==13 and all(f['survey_year'] and f['source_url'].startswith('https://www.dnr.state.mn.us/') for f in fish))
