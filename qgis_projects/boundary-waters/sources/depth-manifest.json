@@ -1,0 +1,311 @@
+[
+  {
+    "lake": "hungry-jack",
+    "lake_id": "16022700",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16022700",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0532010.pdf",
+        "file": "sources/depth-scans/hungry-jack-b0532010.pdf",
+        "bytes": 243372
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0279010.pdf",
+        "file": "sources/depth-scans/hungry-jack-c0279010.pdf",
+        "bytes": 146704
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/hungry-jack-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/hungry-jack-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "moss",
+    "lake_id": "16023400",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16023400",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0310010.pdf",
+        "file": "sources/depth-scans/moss-c0310010.pdf",
+        "bytes": 123695
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/moss-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/moss-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "duncan",
+    "lake_id": "16023200",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16023200",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0081010.pdf",
+        "file": "sources/depth-scans/duncan-b0081010.pdf",
+        "bytes": 62958
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0081011.pdf",
+        "file": "sources/depth-scans/duncan-b0081011.pdf",
+        "bytes": 189869
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/duncan-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/duncan-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "rose",
+    "lake_id": "16023000",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16023000",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0093010.pdf",
+        "file": "sources/depth-scans/rose-b0093010.pdf",
+        "bytes": 152880
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/rose-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/rose-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "rove",
+    "lake_id": "16013700",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16013700",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0334010.pdf",
+        "file": "sources/depth-scans/rove-c0334010.pdf",
+        "bytes": 90076
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/rove-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/rove-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "watap",
+    "lake_id": "16013800",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16013800",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/watap-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/watap-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "mountain",
+    "lake_id": "16009300",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16009300",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0427010.pdf",
+        "file": "sources/depth-scans/mountain-b0427010.pdf",
+        "bytes": 382789
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/mountain-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/mountain-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "clearwater",
+    "lake_id": "16013900",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16013900",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0076010.pdf",
+        "file": "sources/depth-scans/clearwater-b0076010.pdf",
+        "bytes": 211582
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0076020.pdf",
+        "file": "sources/depth-scans/clearwater-b0076020.pdf",
+        "bytes": 194937
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/clearwater-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/clearwater-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "west-pike",
+    "lake_id": "16008600",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16008600",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0353010.pdf",
+        "file": "sources/depth-scans/west-pike-b0353010.pdf",
+        "bytes": 218040
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/west-pike-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/west-pike-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "east-pike",
+    "lake_id": "16004200",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16004200",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0412010.pdf",
+        "file": "sources/depth-scans/east-pike-b0412010.pdf",
+        "bytes": 161214
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/east-pike-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/east-pike-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "pine",
+    "lake_id": "16004100",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16004100",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/b0090010.pdf",
+        "file": "sources/depth-scans/pine-b0090010.pdf",
+        "bytes": 187650
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/pine-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/pine-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "caribou",
+    "lake_id": "16014100",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16014100",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0238010.pdf",
+        "file": "sources/depth-scans/caribou-c0238010.pdf",
+        "bytes": 192694
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/caribou-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/caribou-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  },
+  {
+    "lake": "little-caribou",
+    "lake_id": "16014200",
+    "index_url": "https://www.dnr.state.mn.us/lakefind/showmap.html?downum=16014200",
+    "files": [
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/c0359010.pdf",
+        "file": "sources/depth-scans/little-caribou-c0359010.pdf",
+        "bytes": 80642
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend1.pdf",
+        "file": "sources/depth-scans/little-caribou-lakemap_legend1.pdf",
+        "bytes": 59417
+      },
+      {
+        "url": "https://files.dnr.state.mn.us/lakefind/data/lakemaps/lakemap_legend2.pdf",
+        "file": "sources/depth-scans/little-caribou-lakemap_legend2.pdf",
+        "bytes": 58953
+      }
+    ],
+    "georeferenced": false
+  }
+]

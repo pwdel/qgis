@@ -1,0 +1,18 @@
+{
+  "retrieved_utc": "2026-10-08T00:33:53.587216+00:00",
+  "urls": {
+    "layer": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/12?f=pjson",
+    "query": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/12/query?f=geojson&where=1%3D1&geometry=-90.49%2C48.04%2C-90.075%2C48.13&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=%2A&returnGeometry=true"
+  },
+  "parameters": {
+    "f": "geojson",
+    "where": "1=1",
+    "geometry": "-90.49,48.04,-90.075,48.13",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": 4326,
+    "spatialRel": "esriSpatialRelIntersects",
+    "outSR": 4326,
+    "outFields": "*",
+    "returnGeometry": "true"
+  }
+}

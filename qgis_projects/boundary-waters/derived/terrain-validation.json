@@ -1,0 +1,9 @@
+{
+  "valid_fraction": 0.767075277996395,
+  "nodata_rule": "source zero or nonfinite; valid elevation 100..1000m in this local crop",
+  "source_native_pixel_m": 0.5,
+  "output_pixel_m": 8,
+  "valid_min_m": 419.3814697265625,
+  "valid_max_m": 674.5841064453125,
+  "coverage_note": "Minnesota crop only; Canada and other missing cells transparent"
+}

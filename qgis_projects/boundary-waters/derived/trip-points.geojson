@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.44649061,
+          48.05527413
+        ]
+      },
+      "properties": {
+        "name": "Hungry Jack Lake Entry Point",
+        "label": "ENTRY",
+        "kind": "other",
+        "description": "48.05527413,-90.44649061",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.40683171,
+          48.10187419
+        ]
+      },
+      "properties": {
+        "name": "First Night Campsite",
+        "label": "C1",
+        "kind": "camp",
+        "description": "48.10187419,-90.40683171",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.279961,
+          48.100086
+        ]
+      },
+      "properties": {
+        "name": "Second Night Campsite",
+        "label": "C2",
+        "kind": "camp",
+        "description": "",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12214773,
+          48.07761206
+        ]
+      },
+      "properties": {
+        "name": "Third & Fourth Night Campsite",
+        "label": "C3/4",
+        "kind": "camp",
+        "description": "48.07761206,-90.12214773",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.34500974,
+          48.08595316
+        ]
+      },
+      "properties": {
+        "name": "Fifth Night Campsite",
+        "label": "C5",
+        "kind": "camp",
+        "description": "48.08595316,-90.34500974",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3685425,
+          48.07519272
+        ]
+      },
+      "properties": {
+        "name": "Exit",
+        "label": "EXIT",
+        "kind": "other",
+        "description": "",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0960777,
+          48.0763107
+        ]
+      },
+      "properties": {
+        "name": "Berries",
+        "label": "B1",
+        "kind": "other",
+        "description": "Jim, Patrick, and Roman Picked Berries on this trail",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1143167,
+          48.0732712
+        ]
+      },
+      "properties": {
+        "name": "Big Bass",
+        "label": "F1",
+        "kind": "fish",
+        "description": "",
+        "source": "KML2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3625122,
+          48.0953231
+        ]
+      },
+      "properties": {
+        "name": "Tons of Bass",
+        "label": "F2",
+        "kind": "fish",
+        "description": "",
+        "source": "KML2008"
+      }
+    }
+  ]
+}

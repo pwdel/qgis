@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.435639,
+          48.058079
+        ]
+      },
+      "properties": {
+        "lake": "Hungry Jack",
+        "label": "Hungry Jack  [S]",
+        "id": "16022700",
+        "fish_ref": "L01",
+        "survey_year": 2020,
+        "stocked": true,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16022700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.480406,
+          48.066873
+        ]
+      },
+      "properties": {
+        "lake": "Moss",
+        "label": "Moss",
+        "id": "16023400",
+        "fish_ref": "L02",
+        "survey_year": 2016,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16023400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.466198,
+          48.080388
+        ]
+      },
+      "properties": {
+        "lake": "Duncan",
+        "label": "Duncan",
+        "id": "16023200",
+        "fish_ref": "L03",
+        "survey_year": 2018,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16023200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.445138,
+          48.10578
+        ]
+      },
+      "properties": {
+        "lake": "Rose",
+        "label": "Rose",
+        "id": "16023000",
+        "fish_ref": "L04",
+        "survey_year": 1987,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16023000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.355874,
+          48.094127
+        ]
+      },
+      "properties": {
+        "lake": "Rove",
+        "label": "Rove",
+        "id": "16013700",
+        "fish_ref": "L05",
+        "survey_year": 1991,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16013700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.324295,
+          48.101222
+        ]
+      },
+      "properties": {
+        "lake": "Watap",
+        "label": "Watap",
+        "id": "16013800",
+        "fish_ref": "L06",
+        "survey_year": 1991,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16013800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.222641,
+          48.109988
+        ]
+      },
+      "properties": {
+        "lake": "Mountain",
+        "label": "Mountain",
+        "id": "16009300",
+        "fish_ref": "L07",
+        "survey_year": 2011,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16009300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.320755,
+          48.080611
+        ]
+      },
+      "properties": {
+        "lake": "Clearwater",
+        "label": "Clearwater",
+        "id": "16013900",
+        "fish_ref": "L08",
+        "survey_year": 2020,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16013900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.205295,
+          48.085644
+        ]
+      },
+      "properties": {
+        "lake": "West Pike",
+        "label": "West Pike",
+        "id": "16008600",
+        "fish_ref": "L09",
+        "survey_year": 2023,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16008600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.116893,
+          48.078903
+        ]
+      },
+      "properties": {
+        "lake": "East Pike",
+        "label": "East Pike",
+        "id": "16004200",
+        "fish_ref": "L10",
+        "survey_year": 2002,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16004200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.174971,
+          48.061569
+        ]
+      },
+      "properties": {
+        "lake": "Pine",
+        "label": "Pine  [S]",
+        "id": "16004100",
+        "fish_ref": "L11",
+        "survey_year": 2023,
+        "stocked": true,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16004100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.308412,
+          48.069793
+        ]
+      },
+      "properties": {
+        "lake": "Caribou",
+        "label": "Caribou",
+        "id": "16014100",
+        "fish_ref": "L12",
+        "survey_year": 2000,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16014100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.263594,
+          48.068197
+        ]
+      },
+      "properties": {
+        "lake": "Little Caribou",
+        "label": "Little Caribou",
+        "id": "16014200",
+        "fish_ref": "L13",
+        "survey_year": 1996,
+        "stocked": false,
+        "source": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16014200"
+      }
+    }
+  ]
+}

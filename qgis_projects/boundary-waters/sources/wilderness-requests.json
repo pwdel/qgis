@@ -1,0 +1,11 @@
+{
+  "urls": [
+    "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/bdry_boundary_waters_canoe_area/FeatureServer/2/query?f=json&geometry=-90.51%2C48.025%2C-90.07%2C48.135&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&returnIdsOnly=true",
+    "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/bdry_boundary_waters_canoe_area/FeatureServer/2/query?f=geojson&objectIds=1%2C2&outFields=%2A&outSR=4326&returnGeometry=true"
+  ],
+  "object_ids": [
+    1,
+    2
+  ],
+  "count": 2
+}

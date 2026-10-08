@@ -1,0 +1,508 @@
+[
+  {
+    "lake": "Hungry Jack",
+    "id": "16022700",
+    "survey_year": 2020,
+    "survey_date": "2020-06-29",
+    "species": [
+      "bluegill",
+      "green sunfish",
+      "hybrid sunfish",
+      "northern pike",
+      "rainbow smelt",
+      "smallmouth bass",
+      "walleye",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "bluegill",
+      "green sunfish",
+      "hybrid sunfish",
+      "northern pike",
+      "smallmouth bass",
+      "walleye",
+      "yellow perch"
+    ],
+    "stocking_summary": "2025 Walleye (2,992 fingerlings); 2023 Walleye (9,650 fingerlings); 2022 Walleye (5,491 fingerlings); 2019 Walleye (12,437 fingerlings); 2017 Walleye (7,720 fingerlings)",
+    "stocking_records": [
+      {
+        "year": 2025,
+        "species": "Walleye",
+        "size": "fingerlings",
+        "number": 2992,
+        "pounds": 187.0
+      },
+      {
+        "year": 2023,
+        "species": "Walleye",
+        "size": "fingerlings",
+        "number": 9650,
+        "pounds": 386.0
+      },
+      {
+        "year": 2022,
+        "species": "Walleye",
+        "size": "fingerlings",
+        "number": 5491,
+        "pounds": 451.6
+      },
+      {
+        "year": 2019,
+        "species": "Walleye",
+        "size": "fingerlings",
+        "number": 12437,
+        "pounds": 384.4
+      },
+      {
+        "year": 2017,
+        "species": "Walleye",
+        "size": "fingerlings",
+        "number": 7720,
+        "pounds": 386.0
+      }
+    ],
+    "max_depth_ft": 71,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16022700",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16022700",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16022700",
+    "metadata_point": [
+      -90.435639,
+      48.058079
+    ],
+    "map_ids": [
+      "B0532",
+      "C0279"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.173220+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence."
+  },
+  {
+    "lake": "Moss",
+    "id": "16023400",
+    "survey_year": 2016,
+    "survey_date": "2016-09-26",
+    "species": [
+      "lake trout",
+      "smallmouth bass",
+      "white sucker"
+    ],
+    "game_species": [
+      "lake trout",
+      "smallmouth bass"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 86,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16023400",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16023400",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16023400",
+    "metadata_point": [
+      -90.480406,
+      48.066873
+    ],
+    "map_ids": [
+      "C0310"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.173567+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "Duncan",
+    "id": "16023200",
+    "survey_year": 2018,
+    "survey_date": "2018-09-10",
+    "species": [
+      "cisco species",
+      "green sunfish",
+      "lake trout",
+      "smallmouth bass",
+      "white sucker"
+    ],
+    "game_species": [
+      "green sunfish",
+      "lake trout",
+      "smallmouth bass"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 130,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16023200",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16023200",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16023200",
+    "metadata_point": [
+      -90.466198,
+      48.080388
+    ],
+    "map_ids": [
+      "B0081"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.173781+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "Rose",
+    "id": "16023000",
+    "survey_year": 1987,
+    "survey_date": "1987-07-13",
+    "species": [
+      "bluegill",
+      "lake trout",
+      "lake whitefish",
+      "rainbow smelt",
+      "smallmouth bass",
+      "tullibee (cisco)",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "bluegill",
+      "lake trout",
+      "smallmouth bass",
+      "yellow perch"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 90,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16023000",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16023000",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16023000",
+    "metadata_point": [
+      -90.445138,
+      48.10578
+    ],
+    "map_ids": [
+      "B0093"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.173996+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "Rove",
+    "id": "16013700",
+    "survey_year": 1991,
+    "survey_date": "1991-07-23",
+    "species": [
+      "green sunfish",
+      "smallmouth bass",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "green sunfish",
+      "smallmouth bass",
+      "yellow perch"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 30,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16013700",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16013700",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16013700",
+    "metadata_point": [
+      -90.355874,
+      48.094127
+    ],
+    "map_ids": [
+      "C0334"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.174128+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence."
+  },
+  {
+    "lake": "Watap",
+    "id": "16013800",
+    "survey_year": 1991,
+    "survey_date": "1991-07-22",
+    "species": [
+      "green sunfish",
+      "smallmouth bass",
+      "walleye",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "green sunfish",
+      "smallmouth bass",
+      "walleye",
+      "yellow perch"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 45,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16013800",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16013800",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16013800",
+    "metadata_point": [
+      -90.324295,
+      48.101222
+    ],
+    "map_ids": [],
+    "retrieved_utc": "2026-10-08T00:33:27.174238+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence."
+  },
+  {
+    "lake": "Mountain",
+    "id": "16009300",
+    "survey_year": 2011,
+    "survey_date": "2011-09-19",
+    "species": [
+      "lake trout",
+      "sculpin",
+      "smallmouth bass",
+      "white sucker"
+    ],
+    "game_species": [
+      "lake trout",
+      "smallmouth bass"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 210,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16009300",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16009300",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16009300",
+    "metadata_point": [
+      -90.222641,
+      48.109988
+    ],
+    "map_ids": [
+      "B0427"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.174620+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "Clearwater",
+    "id": "16013900",
+    "survey_year": 2020,
+    "survey_date": "2020-08-03",
+    "species": [
+      "burbot",
+      "cisco species",
+      "green sunfish",
+      "lake trout",
+      "smallmouth bass",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "green sunfish",
+      "lake trout",
+      "smallmouth bass",
+      "yellow perch"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 130,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16013900",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16013900",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16013900",
+    "metadata_point": [
+      -90.320755,
+      48.080611
+    ],
+    "map_ids": [
+      "B0076"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.174970+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "West Pike",
+    "id": "16008600",
+    "survey_year": 2023,
+    "survey_date": "2023-09-18",
+    "species": [
+      "burbot",
+      "lake trout",
+      "smallmouth bass",
+      "tullibee (cisco)",
+      "white sucker"
+    ],
+    "game_species": [
+      "lake trout",
+      "smallmouth bass"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 120,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16008600",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16008600",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16008600",
+    "metadata_point": [
+      -90.205295,
+      48.085644
+    ],
+    "map_ids": [
+      "B0353"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.175159+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "East Pike",
+    "id": "16004200",
+    "survey_year": 2002,
+    "survey_date": "2002-09-09",
+    "species": [
+      "lake whitefish",
+      "muskellunge",
+      "northern pike",
+      "smallmouth bass",
+      "tullibee (cisco)",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "muskellunge",
+      "northern pike",
+      "smallmouth bass",
+      "yellow perch"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 40,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16004200",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16004200",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16004200",
+    "metadata_point": [
+      -90.116893,
+      48.078903
+    ],
+    "map_ids": [
+      "B0412"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.175313+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "Pine",
+    "id": "16004100",
+    "survey_year": 2023,
+    "survey_date": "2023-09-11",
+    "species": [
+      "burbot",
+      "lake trout",
+      "lake whitefish",
+      "northern pike",
+      "smallmouth bass",
+      "tullibee (cisco)",
+      "walleye",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "lake trout",
+      "northern pike",
+      "smallmouth bass",
+      "walleye",
+      "yellow perch"
+    ],
+    "stocking_summary": "2022 Lake Trout (23,574 yearlings); 2019 Lake Trout (22,000 yearlings); 2016 Lake Trout (22,388 yearlings)",
+    "stocking_records": [
+      {
+        "year": 2022,
+        "species": "Lake Trout",
+        "size": "yearlings",
+        "number": 23574,
+        "pounds": 1621.3
+      },
+      {
+        "year": 2019,
+        "species": "Lake Trout",
+        "size": "yearlings",
+        "number": 22000,
+        "pounds": 2264.8
+      },
+      {
+        "year": 2016,
+        "species": "Lake Trout",
+        "size": "yearlings",
+        "number": 22388,
+        "pounds": 2100.2
+      }
+    ],
+    "max_depth_ft": 113,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16004100",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16004100",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16004100",
+    "metadata_point": [
+      -90.174971,
+      48.061569
+    ],
+    "map_ids": [
+      "B0090"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.175604+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "Caribou",
+    "id": "16014100",
+    "survey_year": 2000,
+    "survey_date": "2000-07-17",
+    "species": [
+      "burbot",
+      "lake whitefish",
+      "northern pike",
+      "smallmouth bass",
+      "walleye",
+      "white sucker"
+    ],
+    "game_species": [
+      "northern pike",
+      "smallmouth bass",
+      "walleye"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 65,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16014100",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16014100",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16014100",
+    "metadata_point": [
+      -90.308412,
+      48.069793
+    ],
+    "map_ids": [
+      "C0238"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.175769+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence. Newer targeted habitat surveys exist and are not substituted for fish-catch evidence."
+  },
+  {
+    "lake": "Little Caribou",
+    "id": "16014200",
+    "survey_year": 1996,
+    "survey_date": "1996-07-15",
+    "species": [
+      "northern pike",
+      "smallmouth bass",
+      "walleye",
+      "white sucker",
+      "yellow perch"
+    ],
+    "game_species": [
+      "northern pike",
+      "smallmouth bass",
+      "walleye",
+      "yellow perch"
+    ],
+    "stocking_summary": "No stocking data in the DNR last-10-years report; historical stocking status unknown.",
+    "stocking_records": [],
+    "max_depth_ft": 18,
+    "source_url": "https://www.dnr.state.mn.us/lakefind/showreport.html?downum=16014200",
+    "survey_api_url": "https://maps.dnr.state.mn.us/cgi-bin/lakefinder/detail.cgi?type=lake_survey&id=16014200",
+    "stocking_source_url": "https://www.dnr.state.mn.us/lakefind/showstocking.html?downum=16014200",
+    "metadata_point": [
+      -90.263594,
+      48.068197
+    ],
+    "map_ids": [
+      "C0359"
+    ],
+    "retrieved_utc": "2026-10-08T00:33:27.175894+00:00",
+    "notes": "Species are positive catches in the latest returned Standard Survey with fish catches; lake-wide evidence, not fishing locations. Absence from this survey is not proof of species absence."
+  }
+]

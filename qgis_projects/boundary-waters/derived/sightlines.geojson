@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.45871858,
+            48.05855908
+          ],
+          [
+            -90.46336484,
+            48.06033658
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.46826442,
+            48.06902578
+          ],
+          [
+            -90.4683286,
+            48.06969887
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P02"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.44823452,
+            48.08794155
+          ],
+          [
+            -90.44509295,
+            48.0909257
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.40360199,
+            48.10227982
+          ],
+          [
+            -90.39824553,
+            48.10229383
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.3085205,
+            48.10588178
+          ],
+          [
+            -90.30390538,
+            48.10407935
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.28839866,
+            48.09868174
+          ],
+          [
+            -90.29125924,
+            48.09563605
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.26347144,
+            48.08387901
+          ],
+          [
+            -90.25899214,
+            48.08572278
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.16943146,
+            48.08356682
+          ],
+          [
+            -90.166886,
+            48.08051116
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.15140272,
+            48.07833838
+          ],
+          [
+            -90.15675608,
+            48.07800616
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24731672,
+            48.06383972
+          ],
+          [
+            -90.25265486,
+            48.06426779
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.2644448,
+            48.06835878
+          ],
+          [
+            -90.26961965,
+            48.06933434
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.28005734,
+            48.07044581
+          ],
+          [
+            -90.28229174,
+            48.07377444
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P12"
+      }
+    }
+  ]
+}

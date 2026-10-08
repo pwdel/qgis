@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P01",
+        "label": "Hungry Jack \u2192 Moss",
+        "from_lake": "Hungry Jack",
+        "to_lake": "Moss",
+        "day": "Day 1",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9663828,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "low",
+        "field_verified": false,
+        "landing_lon": -90.46336484,
+        "landing_lat": 48.06033658,
+        "raw_endpoint_lon": -90.46708578,
+        "raw_endpoint_lat": 48.06271464,
+        "shore_snap_distance_m": 382.8,
+        "view_lon": -90.45871858,
+        "view_lat": 48.05855908,
+        "view_distance_m": 398.2,
+        "view_bearing_deg": 299.8,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction. USFS endpoint is about 383m inland from mapped Hungry Jack shore; this substantial gap lowers confidence and may reflect source mismatch or incomplete trail geometry."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.46336484,
+          48.06033658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P02",
+        "label": "Moss \u2192 Duncan",
+        "from_lake": "Moss",
+        "to_lake": "Duncan",
+        "day": "Day 1",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9633960,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.4683286,
+        "landing_lat": 48.06969887,
+        "raw_endpoint_lon": -90.46828603,
+        "raw_endpoint_lat": 48.06970917,
+        "shore_snap_distance_m": 3.4,
+        "view_lon": -90.46826442,
+        "view_lat": 48.06902578,
+        "view_distance_m": 75.0,
+        "view_bearing_deg": 356.3,
+        "view_method": "adjusted within approach lake",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4683286,
+          48.06969887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P03",
+        "label": "Duncan \u2192 Rose",
+        "from_lake": "Duncan",
+        "to_lake": "Rose",
+        "day": "Day 1",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634578,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.44509295,
+        "landing_lat": 48.0909257,
+        "raw_endpoint_lon": -90.44533762,
+        "raw_endpoint_lat": 48.09093113,
+        "shore_snap_distance_m": 18.2,
+        "view_lon": -90.44823452,
+        "view_lat": 48.08794155,
+        "view_distance_m": 405.9,
+        "view_bearing_deg": 35.2,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.44509295,
+          48.0909257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P04",
+        "label": "Rose \u2192 Rove",
+        "from_lake": "Rose",
+        "to_lake": "Rove",
+        "day": "Day 2",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634539,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.39824553,
+        "landing_lat": 48.10229383,
+        "raw_endpoint_lon": -90.39816082,
+        "raw_endpoint_lat": 48.10226674,
+        "shore_snap_distance_m": 7.0,
+        "view_lon": -90.40360199,
+        "view_lat": 48.10227982,
+        "view_distance_m": 398.5,
+        "view_bearing_deg": 89.8,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.39824553,
+          48.10229383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P05",
+        "label": "Watap \u2192 Mountain",
+        "from_lake": "Watap",
+        "to_lake": "Mountain",
+        "day": "Day 2",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634468,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.30390538,
+        "landing_lat": 48.10407935,
+        "raw_endpoint_lon": -90.30376115,
+        "raw_endpoint_lat": 48.10406184,
+        "shore_snap_distance_m": 10.9,
+        "view_lon": -90.3085205,
+        "view_lat": 48.10588178,
+        "view_distance_m": 397.6,
+        "view_bearing_deg": 120.3,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.30390538,
+          48.10407935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P06",
+        "label": "Mountain \u2192 Clearwater",
+        "from_lake": "Mountain",
+        "to_lake": "Clearwater",
+        "day": "Day 3",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634283,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.29125924,
+        "landing_lat": 48.09563605,
+        "raw_endpoint_lon": -90.29122823,
+        "raw_endpoint_lat": 48.09560561,
+        "shore_snap_distance_m": 4.1,
+        "view_lon": -90.28839866,
+        "view_lat": 48.09868174,
+        "view_distance_m": 400.0,
+        "view_bearing_deg": 212.1,
+        "view_method": "adjusted within approach lake",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.29125924,
+          48.09563605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P07",
+        "label": "Clearwater \u2192 West Pike",
+        "from_lake": "Clearwater",
+        "to_lake": "West Pike",
+        "day": "Day 3",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634434,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.25899214,
+        "landing_lat": 48.08572278,
+        "raw_endpoint_lon": -90.25899582,
+        "raw_endpoint_lat": 48.08565364,
+        "shore_snap_distance_m": 7.7,
+        "view_lon": -90.26347144,
+        "view_lat": 48.08387901,
+        "view_distance_m": 391.3,
+        "view_bearing_deg": 58.4,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25899214,
+          48.08572278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P08",
+        "label": "West Pike \u2192 East Pike",
+        "from_lake": "West Pike",
+        "to_lake": "East Pike",
+        "day": "Day 3",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634308,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.166886,
+        "landing_lat": 48.08051116,
+        "raw_endpoint_lon": -90.16699748,
+        "raw_endpoint_lat": 48.08062668,
+        "shore_snap_distance_m": 15.3,
+        "view_lon": -90.16943146,
+        "view_lat": 48.08356682,
+        "view_distance_m": 389.0,
+        "view_bearing_deg": 150.9,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.166886,
+          48.08051116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P09",
+        "label": "East Pike \u2192 Pine via West Pike junction",
+        "from_lake": "East Pike",
+        "to_lake": "Pine via West Pike junction",
+        "day": "Fourth Day",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634308,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.15675608,
+        "landing_lat": 48.07800616,
+        "raw_endpoint_lon": -90.15665402,
+        "raw_endpoint_lat": 48.07804495,
+        "shore_snap_distance_m": 8.7,
+        "view_lon": -90.15140272,
+        "view_lat": 48.07833838,
+        "view_distance_m": 400.0,
+        "view_bearing_deg": 264.7,
+        "view_method": "adjusted within approach lake",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction. East Pike-West Pike and West Pike-Pine trail features meet at a junction near West Pike shore. KML turns south there; no separate West Pike water approach is depicted."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.15675608,
+          48.07800616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P10",
+        "label": "Pine \u2192 Little Caribou",
+        "from_lake": "Pine",
+        "to_lake": "Little Caribou",
+        "day": "Fourth Day",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": null,
+        "evidence_method": "historical route crossing DNR shoreline only",
+        "confidence": "low",
+        "field_verified": false,
+        "landing_lon": -90.25265486,
+        "landing_lat": 48.06426779,
+        "raw_endpoint_lon": -90.25265486,
+        "raw_endpoint_lat": 48.06426779,
+        "shore_snap_distance_m": null,
+        "view_lon": -90.24731672,
+        "view_lat": 48.06383972,
+        "view_distance_m": 400.0,
+        "view_bearing_deg": 276.8,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "No corresponding trail in complete USFS query. Approximate historical route/shoreline candidate; trail and landing unresolved."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25265486,
+          48.06426779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P11",
+        "label": "Little Caribou \u2192 Caribou",
+        "from_lake": "Little Caribou",
+        "to_lake": "Caribou",
+        "day": "Fourth Day",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": null,
+        "evidence_method": "historical route crossing DNR shoreline only",
+        "confidence": "low",
+        "field_verified": false,
+        "landing_lon": -90.26961965,
+        "landing_lat": 48.06933434,
+        "raw_endpoint_lon": -90.26961965,
+        "raw_endpoint_lat": 48.06933434,
+        "shore_snap_distance_m": null,
+        "view_lon": -90.2644448,
+        "view_lat": 48.06835878,
+        "view_distance_m": 400.0,
+        "view_bearing_deg": 285.7,
+        "view_method": "adjusted within approach lake",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "No corresponding trail in complete USFS query. Approximate historical route/shoreline candidate; trail and landing unresolved."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.26961965,
+          48.06933434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P12",
+        "label": "Caribou \u2192 Clearwater",
+        "from_lake": "Caribou",
+        "to_lake": "Clearwater",
+        "day": "Fourth Day",
+        "source": "USFS National Forest System Trails; Minnesota DNR hydrography; historical user KML",
+        "usfs_objectid": 9634010,
+        "evidence_method": "USFS endpoint + DNR shoreline",
+        "confidence": "medium",
+        "field_verified": false,
+        "landing_lon": -90.28229174,
+        "landing_lat": 48.07377444,
+        "raw_endpoint_lon": -90.28242667,
+        "raw_endpoint_lat": 48.07371665,
+        "shore_snap_distance_m": 11.9,
+        "view_lon": -90.28005734,
+        "view_lat": 48.07044581,
+        "view_distance_m": 405.8,
+        "view_bearing_deg": 335.8,
+        "view_method": "incoming historical route",
+        "view_in_named_lake": true,
+        "sightline_in_water_2m_tolerance": true,
+        "notes": "USFS trail endpoint snapped to nearest shore of named approach lake; route coordinate order establishes direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.28229174,
+          48.07377444
+        ]
+      }
+    }
+  ]
+}
