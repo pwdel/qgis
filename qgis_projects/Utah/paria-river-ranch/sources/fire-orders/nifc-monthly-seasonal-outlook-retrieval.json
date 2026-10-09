@@ -1,0 +1,23 @@
+{
+  "url": "https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf",
+  "final_url": "https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf",
+  "retrieved": "2026-10-09",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Content-Length": "1409108",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "Last-Modified": "Thu, 01 Oct 2026 18:02:47 GMT",
+    "Accept-Ranges": "bytes",
+    "x-request-id": "v-1b300d7a-c3df-11f1-98c5-bb3a18baa6e7",
+    "x-ah-environment": "prod",
+    "Expires": "Fri, 09 Oct 2026 12:44:02 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Fri, 09 Oct 2026 12:44:02 GMT",
+    "Alt-Svc": "h3=\":443\"; ma=93600,h3-29=\":443\"; ma=93600",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=MISS"
+  },
+  "bytes": 1409108
+}

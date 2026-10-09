@@ -1,0 +1,16 @@
+{
+  "checked_count": 66,
+  "selected_count": 64,
+  "excluded_candidate_ids": [
+    86688,
+    1565428
+  ],
+  "all_selected_intersect_exact_utm_extent": true,
+  "crs": "EPSG:26912",
+  "bbox": [
+    375387.7418846864,
+    4173734.570413887,
+    397387.7418846864,
+    4188647.322091739
+  ]
+}

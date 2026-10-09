@@ -1,0 +1,623 @@
+{
+  "currentVersion": 11.5,
+  "cimVersion": "3.5.0",
+  "serviceDescription": "EDW_FireOccurrenceCurrentEdition_01 provides the current edition of Karen C. Short\u2019s Spatial wildfire occurrence data for the United States (FPA FOD). The service currently contains the Seventh Edition (FPA_FOD_20260615), which includes approximately 2.66 million georeferenced wildfire records from federal, state, and local reporting systems for the period 1992\u20132024. The source records were standardized where possible to National Wildfire Coordinating Group data standards, screened for basic errors, and deduplicated to the extent possible. Layer 0 provides the complete feature class, while the layers organized by year provide filtered views of the same source data. This service provides a stable REST endpoint for the current edition of the publication. When a newer edition is released, the service\u2019s data and metadata may be updated while its REST endpoint and established layer IDs remain unchanged. Users requiring a version-specific archive or citation should use the Forest Service Research Data Archive: https://doi.org/10.2737/RDS-2013-0009.7 Current metadata can be found on Layer 0: https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_FireOccurrenceCurrentEdition_01/MapServer/0/metadata?format=fgdc&output=html",
+  "mapName": "EDW_FireOccurrenceCurrentEdition_01",
+  "description": "EDW_FireOccurrenceCurrentEdition_01 provides the current edition of Karen C. Short\u2019s Spatial wildfire occurrence data for the United States (FPA FOD). The service currently contains the Seventh Edition (FPA_FOD_20260615), which includes approximately 2.66 million georeferenced wildfire records from federal, state, and local reporting systems for the period 1992\u20132024. The source records were standardized where possible to National Wildfire Coordinating Group data standards, screened for basic errors, and deduplicated to the extent possible. Layer 0 provides the complete feature class, while the layers organized by year provide filtered views of the same source data. This service provides a stable REST endpoint for the current edition of the publication. When a newer edition is released, the service\u2019s data and metadata may be updated while its REST endpoint and established layer IDs remain unchanged. Users requiring a version-specific archive or citation should use the Forest Service Research Data Archive: https://doi.org/10.2737/RDS-2013-0009.7Current metadata can be found on Layer 0: https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_FireOccurrenceCurrentEdition_01/MapServer/0/metadata?format=fgdc",
+  "copyrightText": "There are no credits for this item.",
+  "supportsDynamicLayers": true,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Fire_FPA_FOD_7th_Fires",
+      "parentLayerId": -1,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 3,
+      "name": "Fire Occurrence Locations by Year",
+      "parentLayerId": -1,
+      "defaultVisibility": false,
+      "subLayerIds": [
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017,
+        2016,
+        2015,
+        2014,
+        2013,
+        2012,
+        2011,
+        2010,
+        2009,
+        2008,
+        2007,
+        2006,
+        2005,
+        2004,
+        2003,
+        2002,
+        2001,
+        2000,
+        1999,
+        1998,
+        1997,
+        1996,
+        1995,
+        1994,
+        1993,
+        1992
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+    },
+    {
+      "id": 2024,
+      "name": "2024 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2023,
+      "name": "2023 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2022,
+      "name": "2022 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2021,
+      "name": "2021 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2020,
+      "name": "2020 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2019,
+      "name": "2019 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2018,
+      "name": "2018 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2017,
+      "name": "2017 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2016,
+      "name": "2016 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2015,
+      "name": "2015 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2014,
+      "name": "2014 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2013,
+      "name": "2013 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2012,
+      "name": "2012 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2011,
+      "name": "2011 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2010,
+      "name": "2010 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2009,
+      "name": "2009 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2008,
+      "name": "2008 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2007,
+      "name": "2007 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2006,
+      "name": "2006 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2005,
+      "name": "2005 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2004,
+      "name": "2004 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2003,
+      "name": "2003 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2002,
+      "name": "2002 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2001,
+      "name": "2001 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 2000,
+      "name": "2000 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1999,
+      "name": "1999 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1998,
+      "name": "1998 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1997,
+      "name": "1997 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1996,
+      "name": "1996 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1995,
+      "name": "1995 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1994,
+      "name": "1994 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1993,
+      "name": "1993 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    },
+    {
+      "id": 1992,
+      "name": "1992 Fire Occurrence Locations",
+      "parentLayerId": 3,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2311162.217155,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint",
+      "supportsDynamicLegends": true
+    }
+  ],
+  "tables": [
+    {
+      "id": 1,
+      "name": "Fire_FPA_FOD_7th_NWCG_Units",
+      "type": "Table"
+    }
+  ],
+  "spatialReference": {
+    "wkid": 4269,
+    "latestWkid": 4269,
+    "xyTolerance": 8.98315284119521e-09,
+    "zTolerance": 2,
+    "mTolerance": 2,
+    "falseX": -400,
+    "falseY": -400,
+    "xyUnits": 999999999.9999999,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "singleFusedMapCache": false,
+  "initialExtent": {
+    "xmin": -86.35229356167109,
+    "ymin": 36.26155427145393,
+    "xmax": -85.91558744923181,
+    "ymax": 36.65412401194024,
+    "spatialReference": {
+      "wkid": 4269,
+      "latestWkid": 4269,
+      "xyTolerance": 8.98315284119521e-09,
+      "zTolerance": 2,
+      "mTolerance": 2,
+      "falseX": -400,
+      "falseY": -400,
+      "xyUnits": 999999999.9999999,
+      "falseZ": 0,
+      "zUnits": 1,
+      "falseM": 0,
+      "mUnits": 1
+    }
+  },
+  "fullExtent": {
+    "xmin": -86.26427544776551,
+    "ymin": 36.2956470308071,
+    "xmax": -86.00360556313738,
+    "ymax": 36.62003125258707,
+    "spatialReference": {
+      "wkid": 4269,
+      "latestWkid": 4269,
+      "xyTolerance": 8.98315284119521e-09,
+      "zTolerance": 2,
+      "mTolerance": 2,
+      "falseX": -400,
+      "falseY": -400,
+      "xyUnits": 999999999.9999999,
+      "falseZ": 0,
+      "zUnits": 1,
+      "falseM": 0,
+      "mUnits": 1
+    }
+  },
+  "timeInfo": {
+    "timeExtent": [
+      694224000000,
+      1735603200000
+    ],
+    "timeReference": {
+      "timeZone": "",
+      "timeZoneIANA": "",
+      "respectsDaylightSaving": false
+    },
+    "timeRelation": "esriTimeRelationOverlaps",
+    "defaultTimeInterval": 32.60146938046657,
+    "defaultTimeIntervalUnits": "esriTimeUnitsYears",
+    "defaultTimeWindow": 32.60146938046657,
+    "defaultTimeWindowUnits": "esriTimeUnitsYears",
+    "hasLiveData": false,
+    "liveModeOffsetDirection": "past"
+  },
+  "datesInUnknownTimezone": false,
+  "minScale": 2311162.217155,
+  "maxScale": 0,
+  "units": "esriDecimalDegrees",
+  "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+  "documentInfo": {
+    "Title": "EDW_FireOccurrenceCurrentEdition_01",
+    "Author": "",
+    "Comments": "EDW_FireOccurrenceCurrentEdition_01 provides the current edition of Karen C. Short\u2019s Spatial wildfire occurrence data for the United States (FPA FOD). The service currently contains the Seventh Edition (FPA_FOD_20260615), which includes approximately 2.66 million georeferenced wildfire records from federal, state, and local reporting systems for the period 1992\u20132024. The source records were standardized where possible to National Wildfire Coordinating Group data standards, screened for basic errors, and deduplicated to the extent possible. Layer 0 provides the complete feature class, while the layers organized by year provide filtered views of the same source data. This service provides a stable REST endpoint for the current edition of the publication. When a newer edition is released, the service\u2019s data and metadata may be updated while its REST endpoint and established layer IDs remain unchanged. Users requiring a version-specific archive or citation should use the Forest Service Research Data Archive: https://doi.org/10.2737/RDS-2013-0009.7Current metadata can be found on Layer 0: https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_FireOccurrenceCurrentEdition_01/MapServer/0/metadata?format=fgdc",
+    "Subject": "Current edition of the Fire Program Analysis Fire-Occurrence Dataset (FPA FOD), which is the Seventh Edition (6th Update) and includes wildfires reported across the United States from 1992 through 2024.",
+    "Category": "",
+    "Version": "3.5.0",
+    "AntialiasingMode": "Fast",
+    "TextAntialiasingMode": "Force",
+    "Keywords": "There are no tags for this item."
+  },
+  "supportsQueryDomains": true,
+  "capabilities": "Map,Query,Data",
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "exportTilesAllowed": false,
+  "referenceScale": 0.0,
+  "datumTransformations": [
+    {
+      "geoTransforms": [
+        {
+          "wkid": 108190,
+          "latestWkid": 108190,
+          "transformForward": true,
+          "name": "WGS_1984_(ITRF00)_To_NAD_1983"
+        }
+      ]
+    },
+    {
+      "geoTransforms": [
+        {
+          "wkid": 108190,
+          "latestWkid": 108190,
+          "transformForward": false,
+          "name": "WGS_1984_(ITRF00)_To_NAD_1983"
+        }
+      ]
+    },
+    {
+      "geoTransforms": [
+        {
+          "wkid": 108190,
+          "latestWkid": 108190,
+          "transformForward": true,
+          "name": "WGS_1984_(ITRF00)_To_NAD_1983"
+        }
+      ]
+    },
+    {
+      "geoTransforms": [
+        {
+          "wkid": 108190,
+          "latestWkid": 108190,
+          "transformForward": false,
+          "name": "WGS_1984_(ITRF00)_To_NAD_1983"
+        }
+      ]
+    }
+  ],
+  "supportsDatumTransformation": true,
+  "archivingInfo": {
+    "supportsHistoricMoment": false
+  },
+  "supportsClipping": true,
+  "supportsSpatialFilter": true,
+  "supportsTimeRelation": true,
+  "supportsQueryDataElements": true,
+  "mapUnits": {
+    "uwkid": 9102
+  },
+  "maxSelectionCount": 2000,
+  "maxRecordCount": 2000,
+  "maxImageHeight": 4096,
+  "maxImageWidth": 4096,
+  "supportedExtensions": ""
+}

@@ -24,5 +24,16 @@
     "status": "planning-draft",
     "terrain": "cell slopes and nearby lower ground; not trail-grade or cliff survey",
     "snow": "exploratory spatial ensemble plus independently defined station normals"
+  },
+  "riding_edition": {
+    "research_date": "2026-10-09",
+    "page_count": 19,
+    "qgis_project": "paria-river-ranch-riding-atlas.qgz",
+    "pdf": "output/pdf/riding/paria-river-ranch-riding-atlas.pdf",
+    "evidence": "docs/RIDING-SOURCES.md",
+    "validation": "docs/riding-validation.json",
+    "status": "planning-draft",
+    "profiles": "modeled elevation along mapped geometry; not surveyed tread",
+    "fire": "history, annual model and dated restrictions are distinct"
   }
 }

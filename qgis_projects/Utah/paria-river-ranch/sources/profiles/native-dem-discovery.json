@@ -1,0 +1,2252 @@
+{
+  "url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=Digital+Elevation+Model+%28DEM%29+1+meter&bbox=-112.6%2C37.0%2C-111.7%2C37.95&max=500",
+  "retrieved": "2026-10-09",
+  "total": 187,
+  "items": [
+    {
+      "title": "USGS 1 Meter 12 x35y415 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.69661295099996,
+        "maxX": -112.58164828899999,
+        "minY": 37.39464117800003,
+        "maxY": 37.486309160000076
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x35y415_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 195213748,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x35y416 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.69865548299998,
+        "maxX": -112.58354637499997,
+        "minY": 37.48473919400004,
+        "maxY": 37.57641079000007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x35y416_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 167250060,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x35y417 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.70070713199999,
+        "maxX": -112.58545293099996,
+        "minY": 37.57483573800005,
+        "maxY": 37.66651095900005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x35y417_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 156635238,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x35y418 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.70276793899995,
+        "maxX": -112.58736799799999,
+        "minY": 37.664930808000065,
+        "maxY": 37.75660966500004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x35y418_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 62879571,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x35y419 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.70483794999996,
+        "maxX": -112.58929161399999,
+        "minY": 37.75502440300005,
+        "maxY": 37.846706905000076
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x35y419_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 3700556,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x35y420 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -112.70691720599996,
+        "maxX": -112.59122382099997,
+        "minY": 37.84511652000003,
+        "maxY": 37.93680268000003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x35y420_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 11941419,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x35y421 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -112.70900575399997,
+        "maxX": -112.59316465999996,
+        "minY": 37.93520715900007,
+        "maxY": 38.026896986000054
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x35y421_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 162031540,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -112.57413985299996,
+        "maxX": -112.46001199299997,
+        "minY": 36.94566877300008,
+        "maxY": 37.037217430000055
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x36y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 4498357,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.57600445399999,
+        "maxX": -112.46173588399995,
+        "minY": 37.035779139000056,
+        "maxY": 37.127331025000046
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 12097670,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.57787736699999,
+        "maxX": -112.46346745999995,
+        "minY": 37.12588805400003,
+        "maxY": 37.21744317800005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 175000464,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.579758632,
+        "maxX": -112.46520675599999,
+        "minY": 37.21599551500003,
+        "maxY": 37.30755388700004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 238277201,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.58164828899999,
+        "maxX": -112.46695380899996,
+        "minY": 37.30610152100007,
+        "maxY": 37.39766315000003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 198347533,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y415 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.58354637499997,
+        "maxX": -112.46870865399995,
+        "minY": 37.39620606900007,
+        "maxY": 37.48777096500004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y415_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 185041096,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.58354637499997,
+        "maxX": -112.46870865399995,
+        "minY": 37.39620606900007,
+        "maxY": 37.48777096500004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 27504161,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y416 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.58545293099996,
+        "maxX": -112.47047132899996,
+        "minY": 37.486309160000076,
+        "maxY": 37.57787733200007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y416_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 213141126,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y417 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.58736799799999,
+        "maxX": -112.47224186999995,
+        "minY": 37.57641079000007,
+        "maxY": 37.667982248000044
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y417_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 236644439,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y418 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.58929161399999,
+        "maxX": -112.47402031399997,
+        "minY": 37.66651095900005,
+        "maxY": 37.75808571300007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y418_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 188854311,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y419 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.59122382099997,
+        "maxX": -112.47580669899997,
+        "minY": 37.75660966500004,
+        "maxY": 37.84818772400007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x36y419_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 107254822,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y421 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.59511417099998,
+        "maxX": -112.47940344099999,
+        "minY": 37.93680268000003,
+        "maxY": 38.02838738000003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x36y421_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 21746184,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x36y421 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -112.59511417099998,
+        "maxX": -112.47940344099999,
+        "minY": 37.93680268000003,
+        "maxY": 38.02838738000003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x36y421_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 182919742,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -112.46173588399995,
+        "maxX": -112.34773280899998,
+        "minY": 36.94710239300008,
+        "maxY": 37.03854927500004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x37y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 138526155,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y410 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.46173588399995,
+        "maxX": -112.34773280899998,
+        "minY": 36.94710239300008,
+        "maxY": 37.03854927500004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y410_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 103063908,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.46346745999995,
+        "maxX": -112.34932422999998,
+        "minY": 37.037217430000055,
+        "maxY": 37.128667205000056
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 276281800,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.46520675599999,
+        "maxX": -112.35092274599998,
+        "minY": 37.127331025000046,
+        "maxY": 37.21878370300004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 280095386,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.46695380899996,
+        "maxX": -112.35252838899999,
+        "minY": 37.21744317800005,
+        "maxY": 37.30889876700007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 288300730,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.46870865399995,
+        "maxX": -112.35414119299998,
+        "minY": 37.30755388700004,
+        "maxY": 37.39901239500006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 276740112,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.47047132899996,
+        "maxX": -112.35576119099994,
+        "minY": 37.39766315000003,
+        "maxY": 37.48912458600006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 206292027,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y416 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.47224186999995,
+        "maxX": -112.35738841699998,
+        "minY": 37.48777096500004,
+        "maxY": 37.579235339000036
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y416_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 129833324,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y417 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.47402031399997,
+        "maxX": -112.35902290499996,
+        "minY": 37.57787733200007,
+        "maxY": 37.669344651000074
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x37y417_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 3685136,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y417 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.47402031399997,
+        "maxX": -112.35902290499996,
+        "minY": 37.57787733200007,
+        "maxY": 37.669344651000074
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y417_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 45331066,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y418 UT_StateWide_2018_A18",
+      "boundingBox": {
+        "minX": -112.47580669899997,
+        "maxX": -112.36066468999996,
+        "minY": 37.667982248000044,
+        "maxY": 37.75945252300005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StateWide_2018_A18/TIFF/USGS_1M_12_x37y418_UT_StateWide_2018_A18.tif",
+      "sizeInBytes": 3685136,
+      "publicationDate": "2024-02-26"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y421 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.48121387399999,
+        "maxX": -112.36563416699994,
+        "minY": 37.93828828000005,
+        "maxY": 38.02976747300005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x37y421_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 80238441,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x37y421 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -112.48121387399999,
+        "maxX": -112.36563416699994,
+        "minY": 37.93828828000005,
+        "maxY": 38.02976747300005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x37y421_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 1900793,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -112.34932422999998,
+        "maxX": -112.23544656399997,
+        "minY": 36.94842991300004,
+        "maxY": 37.03977465300005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x38y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 150265264,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y410 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.34932422999998,
+        "maxX": -112.23544656399997,
+        "minY": 36.94842991300004,
+        "maxY": 37.03977465300005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y410_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 133384870,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.35092274599998,
+        "maxX": -112.23690548199994,
+        "minY": 37.03854927500004,
+        "maxY": 37.129896571000074
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 287860566,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.35252838899999,
+        "maxX": -112.23837090399996,
+        "minY": 37.128667205000056,
+        "maxY": 37.22001706700007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 283268945,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.35414119299998,
+        "maxX": -112.23984286099994,
+        "minY": 37.21878370300004,
+        "maxY": 37.310136138000075
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 279721394,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.35576119099994,
+        "maxX": -112.24132138199997,
+        "minY": 37.30889876700007,
+        "maxY": 37.40025378200005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 281001882,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.35738841699998,
+        "maxX": -112.24280649899998,
+        "minY": 37.39901239500006,
+        "maxY": 37.49036999900005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 272747790,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y416 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.35902290499996,
+        "maxX": -112.24429824299995,
+        "minY": 37.48912458600006,
+        "maxY": 37.580484788000035
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y416_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 267218644,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y417 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.36066468999996,
+        "maxX": -112.24579664399994,
+        "minY": 37.579235339000036,
+        "maxY": 37.67059814500004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y417_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 256689943,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y418 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.36231380499999,
+        "maxX": -112.24730173399996,
+        "minY": 37.669344651000074,
+        "maxY": 37.76071007100006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y418_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 185628004,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y419 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.36397028599998,
+        "maxX": -112.24881354599995,
+        "minY": 37.75945252300005,
+        "maxY": 37.85082056400006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y419_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 167272069,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y420 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.36563416699994,
+        "maxX": -112.25033210899994,
+        "minY": 37.84955895100006,
+        "maxY": 37.940929622000056
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y420_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 138948024,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x38y421 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.36730548399998,
+        "maxX": -112.25185745799996,
+        "minY": 37.939663935000056,
+        "maxY": 38.03103724500005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x38y421_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 223276724,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -112.23690548199994,
+        "maxX": -112.12315384499999,
+        "minY": 36.94965131200007,
+        "maxY": 37.04089354300004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x39y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 151232829,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y410 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.23690548199994,
+        "maxX": -112.12315384499999,
+        "minY": 36.94965131200007,
+        "maxY": 37.04089354300004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y410_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 136297915,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.23837090399996,
+        "maxX": -112.12448022999996,
+        "minY": 37.03977465300005,
+        "maxY": 37.131019104000075
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 273652741,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.23984286099994,
+        "maxX": -112.12581252799998,
+        "minY": 37.129896571000074,
+        "maxY": 37.22114325000007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 293451616,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.24132138199997,
+        "maxX": -112.12715076799998,
+        "minY": 37.22001706700007,
+        "maxY": 37.31126598000003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 285468264,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.24280649899998,
+        "maxX": -112.12849497599996,
+        "minY": 37.310136138000075,
+        "maxY": 37.40138729200004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 288676721,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.24429824299995,
+        "maxX": -112.12984518099995,
+        "minY": 37.40025378200005,
+        "maxY": 37.491507185000046
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 283660702,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y416 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.24579664399994,
+        "maxX": -112.13120141099995,
+        "minY": 37.49036999900005,
+        "maxY": 37.581625658000064
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y416_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 247561610,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y417 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.24730173399996,
+        "maxX": -112.13256369399994,
+        "minY": 37.580484788000035,
+        "maxY": 37.671742710000046
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y417_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 136638769,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y418 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.24881354599995,
+        "maxX": -112.13393205799997,
+        "minY": 37.67059814500004,
+        "maxY": 37.761858338000025
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y418_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 136503419,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y419 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.25033210899994,
+        "maxX": -112.13530653399994,
+        "minY": 37.76071007100006,
+        "maxY": 37.851972542000055
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y419_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 257958814,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y420 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.25185745799996,
+        "maxX": -112.13668714899995,
+        "minY": 37.85082056400006,
+        "maxY": 37.942085321000036
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y420_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 269359154,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x39y421 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.25338962399996,
+        "maxX": -112.13807393199994,
+        "minY": 37.940929622000056,
+        "maxY": 38.032196672000055
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x39y421_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 273706352,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -112.12448022999996,
+        "maxX": -112.01085523999996,
+        "minY": 36.95076657000004,
+        "maxY": 37.04190592900005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x40y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 142514941,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y410 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.12448022999996,
+        "maxX": -112.01085523999996,
+        "minY": 36.95076657000004,
+        "maxY": 37.04190592900005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y410_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 150462530,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.12581252799998,
+        "maxX": -112.01204906399994,
+        "minY": 37.04089354300004,
+        "maxY": 37.13203478400004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 272272228,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.12715076799998,
+        "maxX": -112.01324821199995,
+        "minY": 37.131019104000075,
+        "maxY": 37.22216223300006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 278137623,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.12849497599996,
+        "maxX": -112.01445270599999,
+        "minY": 37.22114325000007,
+        "maxY": 37.312288274000025
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 305482312,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.12984518099995,
+        "maxX": -112.01566257299999,
+        "minY": 37.31126598000003,
+        "maxY": 37.40241290400007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 302933859,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.13120141099995,
+        "maxX": -112.01687783799997,
+        "minY": 37.40138729200004,
+        "maxY": 37.492536124000026
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 302589018,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y416 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.13256369399994,
+        "maxX": -112.01809852599996,
+        "minY": 37.491507185000046,
+        "maxY": 37.582657932000075
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y416_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 246845622,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y417 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.13393205799997,
+        "maxX": -112.01932466199997,
+        "minY": 37.581625658000064,
+        "maxY": 37.672778325000024
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y417_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 101238609,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y418 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.13530653399994,
+        "maxX": -112.02055627199996,
+        "minY": 37.671742710000046,
+        "maxY": 37.762897304000035
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y418_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 173050328,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y419 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.13668714899995,
+        "maxX": -112.02179338199994,
+        "minY": 37.761858338000025,
+        "maxY": 37.85301486600008
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y419_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 88937300,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y420 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.13807393199994,
+        "maxX": -112.02303601899996,
+        "minY": 37.851972542000055,
+        "maxY": 37.94313101100005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y420_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 157789994,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x40y421 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.13946691299998,
+        "maxX": -112.02428420799998,
+        "minY": 37.942085321000036,
+        "maxY": 38.03324573700007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x40y421_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 196993422,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -112.01204906399994,
+        "maxX": -111.89855133699996,
+        "minY": 36.95177566700005,
+        "maxY": 37.042811792000066
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x41y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 138716299,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y410 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.01204906399994,
+        "maxX": -111.89855133699996,
+        "minY": 36.95177566700005,
+        "maxY": 37.042811792000066
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y410_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 153959536,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.01324821199995,
+        "maxX": -111.89961257599998,
+        "minY": 37.04190592900005,
+        "maxY": 37.132943596000075
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 295196108,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.01445270599999,
+        "maxX": -111.90067854699998,
+        "minY": 37.13203478400004,
+        "maxY": 37.223074
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 295853077,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.01566257299999,
+        "maxX": -111.90174927199996,
+        "minY": 37.22216223300006,
+        "maxY": 37.31320300300007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 321085073,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.01687783799997,
+        "maxX": -111.90282477299996,
+        "minY": 37.312288274000025,
+        "maxY": 37.40333060300003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 310547768,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.01809852599996,
+        "maxX": -111.90390507199999,
+        "minY": 37.40241290400007,
+        "maxY": 37.49345680000005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 295583370,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y416 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.01932466199997,
+        "maxX": -111.90499019199996,
+        "minY": 37.492536124000026,
+        "maxY": 37.58358159000005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y416_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 268361536,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y417 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.02055627199996,
+        "maxX": -111.90608015599997,
+        "minY": 37.582657932000075,
+        "maxY": 37.67370497500008
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y417_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 242152500,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y418 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.02179338199994,
+        "maxX": -111.90717498599997,
+        "minY": 37.672778325000024,
+        "maxY": 37.763826951000055
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y418_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 279379510,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y419 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.02303601899996,
+        "maxX": -111.90827470499994,
+        "minY": 37.762897304000035,
+        "maxY": 37.85394751800004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y419_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 222391997,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y420 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -112.02428420799998,
+        "maxX": -111.90937933699996,
+        "minY": 37.85301486600008,
+        "maxY": 37.944066675000045
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x41y420_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 42483172,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y420 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -112.02428420799998,
+        "maxX": -111.90937933699996,
+        "minY": 37.85301486600008,
+        "maxY": 37.944066675000045
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x41y420_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 24646490,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x41y421 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -112.02553797599995,
+        "maxX": -111.91048890499997,
+        "minY": 37.94313101100005,
+        "maxY": 38.03418442000003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x41y421_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 12413975,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -111.89961257599998,
+        "maxX": -111.78624272399998,
+        "minY": 36.952678588000026,
+        "maxY": 37.04361111700007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x42y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 148308761,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y410 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.89961257599998,
+        "maxX": -111.78624272399998,
+        "minY": 36.952678588000026,
+        "maxY": 37.04361111700007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y410_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 156594310,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90067854699998,
+        "maxX": -111.78717135599999,
+        "minY": 37.042811792000066,
+        "maxY": 37.13374552400006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 274692362,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90174927199996,
+        "maxX": -111.78810412899998,
+        "minY": 37.132943596000075,
+        "maxY": 37.22387853600003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 287121228,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90282477299996,
+        "maxX": -111.78904106199997,
+        "minY": 37.223074,
+        "maxY": 37.31401015300003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 308617156,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90390507199999,
+        "maxX": -111.78998217399999,
+        "minY": 37.31320300300007,
+        "maxY": 37.404140374000065
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 298466531,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90499019199996,
+        "maxX": -111.79092748599999,
+        "minY": 37.40333060300003,
+        "maxY": 37.49426919600006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 299866051,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y416 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90608015599997,
+        "maxX": -111.79187701499995,
+        "minY": 37.49345680000005,
+        "maxY": 37.584396620000064
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y416_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 294433900,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y417 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90717498599997,
+        "maxX": -111.79283078299994,
+        "minY": 37.58358159000005,
+        "maxY": 37.674522643000046
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y417_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 282383245,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y418 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90827470499994,
+        "maxX": -111.79378880999997,
+        "minY": 37.67370497500008,
+        "maxY": 37.764647264000075
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y418_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 268870046,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y419 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.90937933699996,
+        "maxX": -111.79475111499994,
+        "minY": 37.763826951000055,
+        "maxY": 37.85477048300004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y419_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 98500325,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y419 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -111.90937933699996,
+        "maxX": -111.79475111499994,
+        "minY": 37.763826951000055,
+        "maxY": 37.85477048300004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x42y419_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 228512331,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y420 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.91048890499997,
+        "maxX": -111.79571771899998,
+        "minY": 37.85394751800004,
+        "maxY": 37.94489229800007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x42y420_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 7770508,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y420 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -111.91048890499997,
+        "maxX": -111.79571771899998,
+        "minY": 37.85394751800004,
+        "maxY": 37.94489229800007
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x42y420_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 320906921,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x42y421 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -111.91160343199999,
+        "maxX": -111.79668864199999,
+        "minY": 37.944066675000045,
+        "maxY": 38.03501270700008
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x42y421_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 309228771,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y410 AZ_CentralCoconino_B22",
+      "boundingBox": {
+        "minX": -111.78717135599999,
+        "maxX": -111.67392998999998,
+        "minY": 36.95347531800007,
+        "maxY": 37.04430389300006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_CentralCoconino_B22/TIFF/USGS_1M_12_x43y410_AZ_CentralCoconino_B22.tif",
+      "sizeInBytes": 142714987,
+      "publicationDate": "2024-06-14"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y410 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.78717135599999,
+        "maxX": -111.67392998999998,
+        "minY": 36.95347531800007,
+        "maxY": 37.04430389300006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y410_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 150086940,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y411 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.78810412899998,
+        "maxX": -111.67472599599995,
+        "minY": 37.04361111700007,
+        "maxY": 37.13444055400004
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y411_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 273114008,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y412 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.78904106199997,
+        "maxX": -111.67552555199995,
+        "minY": 37.13374552400006,
+        "maxY": 37.224575827000024
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y412_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 293897117,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y413 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.78998217399999,
+        "maxX": -111.67632867299994,
+        "minY": 37.22387853600003,
+        "maxY": 37.314709710000045
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y413_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 307337060,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y414 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.79092748599999,
+        "maxX": -111.67713537699996,
+        "minY": 37.31401015300003,
+        "maxY": 37.404842201000065
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y414_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 296958195,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y415 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.79187701499995,
+        "maxX": -111.67794568,
+        "minY": 37.404140374000065,
+        "maxY": 37.49497330000003
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y415_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 287840181,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y416 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.79283078299994,
+        "maxX": -111.67875959999998,
+        "minY": 37.49426919600006,
+        "maxY": 37.585103006000054
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y416_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 302152055,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y417 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.79378880999997,
+        "maxX": -111.67957715199998,
+        "minY": 37.584396620000064,
+        "maxY": 37.675231316000065
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y417_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 282250246,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y418 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.79475111499994,
+        "maxX": -111.68039835499997,
+        "minY": 37.674522643000046,
+        "maxY": 37.76535823000006
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y418_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 286640934,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y419 UT_StatewideKane_2020_A20",
+      "boundingBox": {
+        "minX": -111.79571771899998,
+        "maxX": -111.68122322599999,
+        "minY": 37.764647264000075,
+        "maxY": 37.85548374700005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideKane_2020_A20/TIFF/USGS_1M_12_x43y419_UT_StatewideKane_2020_A20.tif",
+      "sizeInBytes": 85571790,
+      "publicationDate": "2021-06-11"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y419 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -111.79571771899998,
+        "maxX": -111.68122322599999,
+        "minY": 37.764647264000075,
+        "maxY": 37.85548374700005
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x43y419_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 258925751,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y420 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -111.79668864199999,
+        "maxX": -111.68205178199997,
+        "minY": 37.85477048300004,
+        "maxY": 37.945607866000046
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x43y420_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 337562935,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS 1 Meter 12 x43y421 UT_StatewideSouth_2020_A20",
+      "boundingBox": {
+        "minX": -111.79766390599997,
+        "maxX": -111.68288403999998,
+        "minY": 37.94489229800007,
+        "maxY": 38.03573058400008
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_StatewideSouth_2020_A20/TIFF/USGS_1M_12_x43y421_UT_StatewideSouth_2020_A20.tif",
+      "sizeInBytes": 305896610,
+      "publicationDate": "2021-12-17"
+    },
+    {
+      "title": "USGS one meter x35y410 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.686615418,
+        "maxX": -112.572215055,
+        "minY": 36.945615598,
+        "maxY": 37.0342873713
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x35y410_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y411 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.68860185,
+        "maxX": -112.574071297,
+        "minY": 37.0357259683,
+        "maxY": 37.1243914145
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x35y411_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y411 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.68860185,
+        "maxX": -112.574071297,
+        "minY": 37.0357259683,
+        "maxY": 37.1243914145
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y411_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 83403735,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y412 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.690608629,
+        "maxX": -112.575935626,
+        "minY": 37.1258258758,
+        "maxY": 37.2145028427
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y412_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 330899128,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y413 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.692635434,
+        "maxX": -112.577808641,
+        "minY": 37.2159423514,
+        "maxY": 37.3046036322
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y413_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 350161469,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y414 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.694648466,
+        "maxX": -112.579678541,
+        "minY": 37.3060485116,
+        "maxY": 37.3946942659
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y414_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 381430006,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y415 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.696693318,
+        "maxX": -112.581579391,
+        "minY": 37.3961529137,
+        "maxY": 37.4847921154
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x35y415_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 63092818,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y415 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.696693318,
+        "maxX": -112.581579391,
+        "minY": 37.3961529137,
+        "maxY": 37.4847921154
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y415_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 107353211,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y416 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.69872463,
+        "maxX": -112.583477391,
+        "minY": 37.486256008,
+        "maxY": 37.5748888176
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y416_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 147366871,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y417 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.700776366,
+        "maxX": -112.58537254,
+        "minY": 37.5763577943,
+        "maxY": 37.6649838837
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y417_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 186279526,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y418 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.702848609,
+        "maxX": -112.58729884,
+        "minY": 37.6664578148,
+        "maxY": 37.7550773104
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y418_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 318012129,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y419 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.70490736,
+        "maxX": -112.589222369,
+        "minY": 37.7565565242,
+        "maxY": 37.845169588
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y419_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 429276529,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y420 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.70699808,
+        "maxX": -112.591143126,
+        "minY": 37.8466539223,
+        "maxY": 37.9352600579
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y420_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 428836127,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x35y421 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.709075342,
+        "maxX": -112.593095238,
+        "minY": 37.936749547,
+        "maxY": 38.0253493777
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x35y421_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 236841861,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y410 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.574208409,
+        "maxX": -112.459943595,
+        "minY": 36.9470491518,
+        "maxY": 37.03583231
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x36y410_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y411 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.576084348,
+        "maxX": -112.461667403,
+        "minY": 37.037164192,
+        "maxY": 37.1259410712
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x36y411_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y411 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.576084348,
+        "maxX": -112.461667403,
+        "minY": 37.037164192,
+        "maxY": 37.1259410712
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y411_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 46955233,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y412 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.57795736,
+        "maxX": -112.463398894,
+        "minY": 37.1272777912,
+        "maxY": 37.2160485279
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x36y412_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y412 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.57795736,
+        "maxX": -112.463398894,
+        "minY": 37.1272777912,
+        "maxY": 37.2160485279
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y412_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 150711828,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y413 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.579827633,
+        "maxX": -112.465138106,
+        "minY": 37.2173899477,
+        "maxY": 37.3061636905
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y413_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 93470065,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y414 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.581717186,
+        "maxX": -112.466885073,
+        "minY": 37.30750066,
+        "maxY": 37.3962592251
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y414_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 153228411,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y415 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.583626666,
+        "maxX": -112.468639833,
+        "minY": 37.3976099265,
+        "maxY": 37.4863621602
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y415_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 255611372,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y416 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.585522002,
+        "maxX": -112.470391114,
+        "minY": 37.4877178865,
+        "maxY": 37.5764639384
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y416_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 154958561,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y417 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.587437156,
+        "maxX": -112.472172876,
+        "minY": 37.577824116,
+        "maxY": 37.6665641033
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y417_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 88311071,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y418 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.589360859,
+        "maxX": -112.473939898,
+        "minY": 37.6679291777,
+        "maxY": 37.756662805
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y418_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 96563364,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y418 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.589360859,
+        "maxX": -112.473939898,
+        "minY": 37.6679291777,
+        "maxY": 37.756662805
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x36y418_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 6910116,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y419 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.591293154,
+        "maxX": -112.475737531,
+        "minY": 37.758032504,
+        "maxY": 37.8467600419
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y419_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 89443533,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y419 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.591293154,
+        "maxX": -112.475737531,
+        "minY": 37.758032504,
+        "maxY": 37.8467600419
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x36y419_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 160830587,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y420 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.593245457,
+        "maxX": -112.477531806,
+        "minY": 37.8481345186,
+        "maxY": 37.9368556583
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y420_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 101187584,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y420 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.593245457,
+        "maxX": -112.477531806,
+        "minY": 37.8481345186,
+        "maxY": 37.9368556583
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x36y420_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 325970821,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y421 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.595183876,
+        "maxX": -112.479334098,
+        "minY": 37.9382350783,
+        "maxY": 38.0269591243
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x36y421_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 8996782,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x36y421 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.595183876,
+        "maxX": -112.479334098,
+        "minY": 37.9382350783,
+        "maxY": 38.0269591243
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x36y421_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 184129946,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y410 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.461815606,
+        "maxX": -112.347664328,
+        "minY": 36.9483675941,
+        "maxY": 37.0372705286
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x37y410_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y411 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.463536026,
+        "maxX": -112.349255824,
+        "minY": 37.0384959707,
+        "maxY": 37.1273842591
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x37y411_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y412 AZ Fredonia QL1 2016",
+      "boundingBox": {
+        "minX": -112.465275407,
+        "maxX": -112.350854256,
+        "minY": 37.1286139044,
+        "maxY": 37.2174964085
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/AZ_Fredonia_QL1_2016/TIFF/USGS_one_meter_x37y412_AZ_Fredonia_QL1_2016.tif",
+      "sizeInBytes": null,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y415 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.470540236,
+        "maxX": -112.355692446,
+        "minY": 37.3989591042,
+        "maxY": 37.487824185
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y415_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 127213240,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y416 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.472310864,
+        "maxX": -112.357319586,
+        "minY": 37.4890712988,
+        "maxY": 37.5779305481
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y416_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 226649702,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y417 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.474089394,
+        "maxX": -112.358953989,
+        "minY": 37.5791820549,
+        "maxY": 37.6680354608
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y417_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 290319237,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y418 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.475875866,
+        "maxX": -112.360595687,
+        "minY": 37.669291371,
+        "maxY": 37.7581389216
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y418_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 314017055,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y419 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.477670317,
+        "maxX": -112.362244715,
+        "minY": 37.7593992457,
+        "maxY": 37.8482409289
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y419_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 301266371,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y420 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.479472784,
+        "maxX": -112.363901109,
+        "minY": 37.8495056775,
+        "maxY": 37.9383414814
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y420_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 285170729,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y420 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.479472784,
+        "maxX": -112.363901109,
+        "minY": 37.8495056775,
+        "maxY": 37.9383414814
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x37y420_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 7497318,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y421 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.481294877,
+        "maxX": -112.365564903,
+        "minY": 37.9396106649,
+        "maxY": 38.0284494437
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x37y421_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 252297871,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x37y421 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.481294877,
+        "maxX": -112.365564903,
+        "minY": 37.9396106649,
+        "maxY": 38.0284494437
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x37y421_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 18612224,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x38y415 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.357457247,
+        "maxX": -112.242726535,
+        "minY": 37.4002005434,
+        "maxY": 37.4891778732
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x38y415_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 55469670,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x38y416 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.359103144,
+        "maxX": -112.24422934,
+        "minY": 37.4903076334,
+        "maxY": 37.5792884921
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x38y416_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 82019615,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x38y417 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.360733693,
+        "maxX": -112.245727805,
+        "minY": 37.5804314363,
+        "maxY": 37.6693979318
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y417_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 28689039,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x38y418 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.362394244,
+        "maxX": -112.247221473,
+        "minY": 37.6705449171,
+        "maxY": 37.7595056684
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y418_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 134322586,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x38y419 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.364039463,
+        "maxX": -112.248744534,
+        "minY": 37.7606567264,
+        "maxY": 37.8496122246
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y419_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 164343316,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x38y420 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.365703432,
+        "maxX": -112.250263011,
+        "minY": 37.8507672224,
+        "maxY": 37.9397172052
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y420_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 201882337,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x38y421 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.367374837,
+        "maxX": -112.251776895,
+        "minY": 37.9408764049,
+        "maxY": 38.0298207401
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x38y421_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 93124035,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x39y415 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.244378305,
+        "maxX": -112.12977659,
+        "minY": 37.4013338671,
+        "maxY": 37.4904232348
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x39y415_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 61446554,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x39y416 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.245876806,
+        "maxX": -112.131132599,
+        "minY": 37.4914447515,
+        "maxY": 37.5805380194
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x39y416_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 127674614,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x39y417 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.247370659,
+        "maxX": -112.132483609,
+        "minY": 37.5815723481,
+        "maxY": 37.6706514936
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x39y417_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 30786191,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x39y417 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.247370659,
+        "maxX": -112.132483609,
+        "minY": 37.5815723481,
+        "maxY": 37.6706514936
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x39y417_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 224321864,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x39y418 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.248882557,
+        "maxX": -112.133863212,
+        "minY": 37.6716892939,
+        "maxY": 37.7607634164
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x39y418_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 154402816,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x39y418 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.248882557,
+        "maxX": -112.133863212,
+        "minY": 37.6716892939,
+        "maxY": 37.7607634164
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x39y418_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 10632561,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y416 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.132632591,
+        "maxX": -112.018029928,
+        "minY": 37.4924826355,
+        "maxY": 37.5816880887
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y416_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 90292879,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y416 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.132632591,
+        "maxX": -112.018029928,
+        "minY": 37.4924826355,
+        "maxY": 37.5816880887
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x40y416_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 8409580,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y417 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.134000905,
+        "maxX": -112.019255979,
+        "minY": 37.5826044456,
+        "maxY": 37.6717961254
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y417_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 200340931,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y417 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.134000905,
+        "maxX": -112.019255979,
+        "minY": 37.5826044456,
+        "maxY": 37.6717961254
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x40y417_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 93365207,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y418 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.135375466,
+        "maxX": -112.020476166,
+        "minY": 37.6727249401,
+        "maxY": 37.7619117509
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y418_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 110247281,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y418 UT Southern QL1 2018",
+      "boundingBox": {
+        "minX": -112.135375466,
+        "maxX": -112.020476166,
+        "minY": 37.6727249401,
+        "maxY": 37.7619117509
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_QL1_2018/TIFF/USGS_one_meter_x40y418_UT_Southern_QL1_2018.tif",
+      "sizeInBytes": 63501763,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y419 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.136756168,
+        "maxX": -112.021724529,
+        "minY": 37.7628438234,
+        "maxY": 37.8520259521
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y419_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 197740462,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y420 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.138154417,
+        "maxX": -112.022967079,
+        "minY": 37.8529613884,
+        "maxY": 37.9421386175
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y420_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 149023621,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x40y421 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.139536107,
+        "maxX": -112.024215182,
+        "minY": 37.9430775359,
+        "maxY": 38.0322500761
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x40y421_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 123459338,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x41y416 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.019404791,
+        "maxX": -111.904921673,
+        "minY": 37.4934032442,
+        "maxY": 37.5827203317
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y416_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 55899587,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x41y417 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.02062504,
+        "maxX": -111.906011552,
+        "minY": 37.5835280376,
+        "maxY": 37.6728318083
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y417_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 89737134,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x41y419 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.023104959,
+        "maxX": -111.908205931,
+        "minY": 37.7637734032,
+        "maxY": 37.8530683437
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y419_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 87136666,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x41y420 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.024364613,
+        "maxX": -111.909310477,
+        "minY": 37.8538939729,
+        "maxY": 37.9431843865
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y420_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 256219546,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x41y421 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -112.025618482,
+        "maxX": -111.910419959,
+        "minY": 37.9440131323,
+        "maxY": 38.0332991093
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x41y421_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 322405663,
+      "publicationDate": "2020-03-30"
+    },
+    {
+      "title": "USGS one meter x42y421 UT Southern B2 2018",
+      "boundingBox": {
+        "minX": -111.911672465,
+        "maxX": -111.796619777,
+        "minY": 37.9448386876,
+        "maxY": 38.0342379604
+      },
+      "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/UT_Southern_B2_2018/TIFF/USGS_one_meter_x42y421_UT_Southern_B2_2018.tif",
+      "sizeInBytes": 6459228,
+      "publicationDate": "2020-03-30"
+    }
+  ],
+  "decision": "Discovery only. No full-area native acquisition or coverage validation performed. Consistent 3DEP mosaic fallback used; existing Thunder 1m crop partial."
+}

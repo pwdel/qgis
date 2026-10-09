@@ -1,0 +1,15 @@
+# Riding atlas release review — October 9, 2026
+
+The final combined PDF contains19 pages. All pages were rendered with Poppler at1800px longest edge. The six new pages (6,7,12,13,18,19) were inspected individually; the complete atlas contact sheet was checked for ordering, missing content and inherited-page regressions. Earlier13page layout/content checks remain documented in expanded-visual-review.md.
+
+- Profile pages: route titles, local orientation cutouts, component start dots, axes, separated ascent/descent metrics, map-clipping/gap symbols and source notes are legible. Dense Red Canyon includes all22 canonical names and43components. Ranch3 and Mount Carmel2 names have larger type. Profile axes vary; visible curve angles are explicitly not grade measurements. Arches' horse-use conflict remains visible.
+- An initial QGIS/Qt SVG font-rendering discrepancy enlarged Matplotlib text and caused overlaps. Final SVGs outline glyphs; source data remained byte-identical. Charts therefore contain vector outlined text, while page headings, notes and citations remain searchable. Source CSV/JSON preserves machine-readable numbers.
+- Fire pages: historical footprint year/name labels, approximate discovery points, all12month counts, October emphasis, relative annual model inset and official-color legend are present. Maps now use the exact analyzed rectangle, verified numerically, so no unqueried edge strip appears as an absence of fire. Mount Carmel explicitly reports zero qualifying MTBS footprints without implying zero fire history.
+- Annual model, historical discoveries and dated restriction/outlook statements remain separate. Numeric local burn probabilities are not invented. Normal seasonal potential is not represented as zero risk. Sources identify issuer, geographic scope, record period, rescission dates and recheck links.
+- Page frames, footers and source links fit the17x11in trim with0.125in bleed. Profile SVG glyphs remain sharp under enlargement. Existing first/expanded editions and their evidence hashes are preserved.
+
+Final verification:984 automated checks passed, plus5 analytical profile tests. Checks cover source preservation, all20PDF outputs,19combined pages, print boxes, source links, route coverage, sample counts, monthly fire reconciliation, RGBA annual imagery, exact fire-map extents,19editable layouts, valid local layers and a relocated QGIS reopen. Host-delivered artifacts matched all213manifest hashes.
+
+Independent review confirmed monthly counts (292/143/64; October11/6/0) and no bridged profile gaps. The reported map-extent defect was repaired and its regression check passes. A separate evidence review confirmed dated authorities/orders and refined Utah FFSL jurisdiction wording.
+
+Build environment:QGIS3.22.16/GDAL3.6/Python/Matplotlib/pypdf/Poppler in the existing GIS container. macOS QGIS4 GUI, Apple Preview and Avenza were not certified. PDF georeferencing remains disabled. This is a modeled planning atlas, not a field survey, permission determination or real-time fire bulletin.

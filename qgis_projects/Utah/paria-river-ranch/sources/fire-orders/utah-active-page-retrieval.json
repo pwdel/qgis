@@ -1,0 +1,15 @@
+{
+  "url": "https://utah-fire-info-utahdnr.hub.arcgis.com/pages/active-fire-restrictions",
+  "final_url": "https://utah-fire-info-utahdnr.hub.arcgis.com/pages/active-fire-restrictions",
+  "retrieved": "2026-10-09",
+  "headers": {
+    "Date": "Fri, 09 Oct 2026 12:44:51 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "45015",
+    "Connection": "close",
+    "Strict-Transport-Security": "max-age=31536000",
+    "ETag": "W/\"afd7-5zCpcjLc2XjLdhfK9CJ4J6bEoeE\"",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Security-Policy": "upgrade-insecure-requests"
+  }
+}

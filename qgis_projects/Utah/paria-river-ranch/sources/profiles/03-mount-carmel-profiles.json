@@ -1,0 +1,155 @@
+{
+  "area": "03-mount-carmel",
+  "dem_source": "USGS 3DEP service mosaic fallback",
+  "dem_output_pixel_m": 10.0,
+  "native_resolution_verified": false,
+  "profiles": [
+    {
+      "id": "03-mount-carmel-elephant-gap-01",
+      "name": "Elephant Gap",
+      "label": "Elephant Gap [map section]",
+      "component": 1,
+      "component_count": 1,
+      "map_clipped": true,
+      "source": "state-trails.geojson",
+      "source_ids": [
+        47927
+      ],
+      "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+      "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+      "start_wgs84": [
+        -112.78357221933597,
+        37.161329588294464
+      ],
+      "end_wgs84": [
+        -112.713179086498,
+        37.1960239082301
+      ],
+      "distance_miles": 5.740906363962084,
+      "ascent_ft": 325.6203766869726,
+      "descent_ft": 595.2118083791577,
+      "sample_spacing_m": 29.997055881182458,
+      "valid_samples": 308,
+      "sample_count": 309,
+      "shorter_than_two_output_pixels": false,
+      "gap_samples": 1,
+      "gap_count": 1,
+      "relative_zero": "first valid sample",
+      "dem_file": "03-mount-carmel-dem.tif",
+      "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+      "dem_output_pixel_m": 10.0,
+      "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+      "csv": "sources/profiles/03-mount-carmel-elephant-gap-01.csv",
+      "shown_on_page": true
+    },
+    {
+      "id": "03-mount-carmel-poverty-flat-01",
+      "name": "Poverty Flat",
+      "label": "Poverty Flat [map section]",
+      "component": 1,
+      "component_count": 1,
+      "map_clipped": true,
+      "source": "state-trails.geojson",
+      "source_ids": [
+        47928,
+        47929
+      ],
+      "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+      "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+      "start_wgs84": [
+        -112.81977863262385,
+        37.19554538947519
+      ],
+      "end_wgs84": [
+        -112.801286570912,
+        37.228335679346905
+      ],
+      "distance_miles": 6.9592825822416815,
+      "ascent_ft": 1081.3838551273964,
+      "descent_ft": 469.63078403476806,
+      "sample_spacing_m": 29.946202320949617,
+      "valid_samples": 374,
+      "sample_count": 375,
+      "shorter_than_two_output_pixels": false,
+      "gap_samples": 1,
+      "gap_count": 1,
+      "relative_zero": "first valid sample",
+      "dem_file": "03-mount-carmel-dem.tif",
+      "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+      "dem_output_pixel_m": 10.0,
+      "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+      "csv": "sources/profiles/03-mount-carmel-poverty-flat-01.csv",
+      "shown_on_page": true
+    }
+  ],
+  "inventory": [
+    {
+      "source": "state",
+      "source_id": 3058,
+      "name": "Twin Hollow",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 3122,
+      "name": "Muddy Canyon Road",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 3145,
+      "name": "Mineral",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 47927,
+      "name": "Elephant Gap",
+      "published_horse_attribute": "Yes",
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": true,
+      "reason": "State published HorseAllowed=Yes"
+    },
+    {
+      "source": "state",
+      "source_id": 47928,
+      "name": "Poverty Flat",
+      "published_horse_attribute": "Yes",
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": true,
+      "reason": "State published HorseAllowed=Yes"
+    },
+    {
+      "source": "state",
+      "source_id": 47929,
+      "name": "Poverty Flat",
+      "published_horse_attribute": "Yes",
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": true,
+      "reason": "State published HorseAllowed=Yes"
+    }
+  ],
+  "page_profile_ids": [
+    "03-mount-carmel-elephant-gap-01",
+    "03-mount-carmel-poverty-flat-01"
+  ],
+  "omitted_page_components": 0,
+  "plot_svg": "derived/profiles/03-mount-carmel-profiles.svg",
+  "named_route_count": 2,
+  "summary": "2 named routes; 2 continuous sections; all shown. Terrain-model estimates; current horse authorization unverified."
+}

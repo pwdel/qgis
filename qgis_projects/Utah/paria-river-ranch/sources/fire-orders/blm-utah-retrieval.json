@@ -1,0 +1,32 @@
+{
+  "url": "https://www.blm.gov/programs/fire/regional-info/utah/fire-restrictions",
+  "final_url": "https://www.blm.gov/programs/fire/regional-info/utah/fire-restrictions",
+  "retrieved": "2026-10-09",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "x-drupal-dynamic-cache": "MISS",
+    "Content-Language": "en",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-generator": "Drupal 11 (https://www.drupal.org)",
+    "Content-Security-Policy": "img-src 'self' data: *; media-src 'self'; frame-src 'self' https://*.youtube.com https://*.vimeo.com https://vimeo.com https://*.arcgis.com https://*.facebook.com https://*.flickr.com https://*.twitter.com http://*.twitter.com https://*.x.com https://*.tumblr.com https://*.instagram.com http://*.instagram.com https://www.streamtext.net https://*.siteimprove.com https://arcg.is https://cdn.recreation.gov https://forms.office.com https://tapestry.cyark.org https://www.recreation.gov https://app.powerbigov.us https://teams.microsoft.com https://overlookmaps.com; frame-ancestors 'self'; child-src 'self'; font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.googleapis.com https://themes.googleusercontent.com https://www.googletagmanager.com; report-uri /report-csp-violation",
+    "strict-transport-security": "max-age=31536000; includeSubdomains;",
+    "x-drupal-cache": "MISS",
+    "Last-Modified": "Fri, 09 Oct 2026 12:17:15 GMT",
+    "ETag": "\"1791548235-gzip\"",
+    "x-request-id": "v-5d4b944e-c3db-11f1-8798-bb15292cb641",
+    "x-ah-environment": "prod",
+    "x-cache-hits": "2",
+    "X-Akamai-Transformed": "9 14571 0 pmb=mRUM,1",
+    "Vary": "cookie",
+    "Expires": "Fri, 09 Oct 2026 12:44:00 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Fri, 09 Oct 2026 12:44:00 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=MISS",
+    "Alt-Svc": "h3=\":443\"; ma=93600"
+  },
+  "bytes": 86510
+}

@@ -1,0 +1,5 @@
+distance_miles,raw_elevation_m,smoothed_elevation_m,relative_elevation_ft,valid
+0.0,2221.832,2221.832,0.0,1
+0.01517,2224.483,2224.975,10.31,1
+0.03034,2227.285,2227.025,17.04,1
+0.045511,2231.328,2231.328,31.16,1

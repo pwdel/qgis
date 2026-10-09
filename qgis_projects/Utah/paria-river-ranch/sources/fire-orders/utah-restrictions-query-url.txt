@@ -1,0 +1,1 @@
+https://services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/Fire_Restrictions/FeatureServer/0/query?where=1%3D1&geometry=-113.0%2C36.9%2C-111.4%2C38.0&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false&outFields=%2A&f=json&resultRecordCount=2000

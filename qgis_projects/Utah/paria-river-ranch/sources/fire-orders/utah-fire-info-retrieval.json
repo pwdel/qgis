@@ -1,0 +1,16 @@
+{
+  "url": "https://utahfireinfo.gov/fire-restrictions/",
+  "final_url": "https://utah-fire-info-utahdnr.hub.arcgis.com/",
+  "retrieved": "2026-10-09",
+  "headers": {
+    "Date": "Fri, 09 Oct 2026 12:44:02 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "42174",
+    "Connection": "close",
+    "Strict-Transport-Security": "max-age=31536000",
+    "ETag": "W/\"a4be-HifvE2y6rEUWOsyp/2SNMLHLCv4\"",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Security-Policy": "upgrade-insecure-requests"
+  },
+  "bytes": 42174
+}

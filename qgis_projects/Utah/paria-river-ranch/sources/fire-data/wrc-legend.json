@@ -1,0 +1,135 @@
+{
+  "layers": [
+    {
+      "layerId": 0,
+      "layerName": "Fire_Aviation/USFS_EDW_RMRS_WRC_BurnProbability",
+      "layerType": "Raster Layer",
+      "minScale": 0,
+      "maxScale": 0,
+      "legendType": "Unique Values",
+      "legend": [
+        {
+          "label": "0 to 1-in-10,000",
+          "url": "1e9b2e53bc49340820d0ab84859e5f49",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAPUlEQVQ4jWPMy8v7z0BFwAIiJjYlUsWw/Lr5DEwMVAZMowZSDJgoNwIVjBpIOWCighkoYNTAkWAgI7WrAAA8FQe7OTGsmQAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "0 to 1-in-10,000"
+          ]
+        },
+        {
+          "label": "1-in-10,000 to 1-in-4,643",
+          "url": "8b64878c54875d67bd52d8ab884f0876",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIi+vMcqWJY4aT9DEwMVAZMowZSDJgoNwIVjBpIOWCighkoYNTAkWAgC4gAlbTUAgD+yAc3rnhyvgAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-10,000 to 1-in-4,643"
+          ]
+        },
+        {
+          "label": "1-in-4,643 to 1-in-2,154",
+          "url": "019b2e996ffdab6d7f6083e1e11e018a",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIi+mPUqGJY4ZJbDEwMVAZMowZSDJgoNwIVjBpIOWCighkoYNTAkWAgC4gAlbTUAgD/NAdksdS3ZwAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-4,643 to 1-in-2,154"
+          ]
+        },
+        {
+          "label": "1-in-2,154 to 1-in-1,000",
+          "url": "4c0b5d9136f87b0d735ef295ef0c0b6b",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIi+l14qWJY4Z7PDEwMVAZMowZSDJgoNwIVjBpIOWCighkoYNTAkWAgC4gAlbTUAgD/rgeVii0iKwAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-2,154 to 1-in-1,000"
+          ]
+        },
+        {
+          "label": "1-in-1,000 to 1-in-464",
+          "url": "2791c73dd9d6530a81b1b0cb86bc80ed",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIi+uRfU8WwooeiDEwMVAZMowZSDJgoNwIVjBpIOWCighkoYNTAkWAgC4gAlbTUAgD+ZQbdY9XjQAAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-1,000 to 1-in-464"
+          ]
+        },
+        {
+          "label": "1-in-464 to 1-in-215",
+          "url": "b7ddb12d1aeaae1602835b284fd16cdf",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIiWv7fpYphNYzKDEwMVAZMowZSDJgoNwIVjBpIOWCighkoYNTAkWAgC4gAlbTUAgD8CQYVPrnyvQAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-464 to 1-in-215"
+          ]
+        },
+        {
+          "label": "1-in-215 to 1-in-100",
+          "url": "df0f1e49de799ba48e607796bc057142",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIiiq8fpIphvZr2DEwMVAZMowZSDJgoNwIVjBpIOWCighkoYNTAkWAgC4gAlbTUAgD8/QZqEpr3GgAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-215 to 1-in-100"
+          ]
+        },
+        {
+          "label": "1-in-100 to 1-in-46",
+          "url": "dffa8b43f80a8ebe1b09d70b92923755",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIiotcvpYphSwOjGZgYqAyYRg2kGDBRbgQqGDWQcsBEBTNQwKiBI8FAFhABKmmpBQD+DQbG9NJtEwAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-100 to 1-in-46"
+          ]
+        },
+        {
+          "label": "1-in-46 to 1-in-22",
+          "url": "6e3b54b87bd27f1fab8d99426e6f89d6",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIirCdNoophR/PyGJgYqAyYRg2kGDBRbgQqGDWQcsBEBTNQwKiBI8FAFhABKmmpBQD/CgcWqOILjAAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-46 to 1-in-22"
+          ]
+        },
+        {
+          "label": "1-in-22 to 1-in-10",
+          "url": "33478a3ab27c25e8a60b8d8685edcc5d",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIiBCdNooph7/PyGJgYqAyYRg2kGDBRbgQqGDWQcsBEBTNQwKiBI8FAFhABKmmpBQD/sgdA+MbUHAAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-22 to 1-in-10"
+          ]
+        },
+        {
+          "label": "1-in-22 to 1-in-8",
+          "url": "33478a3ab27c25e8a60b8d8685edcc5d",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAAAAAAAAAHqZRakAAAAQElEQVQ4jWPMy8v7z0BFwAIiBCdNooph7/PyGJgYqAyYRg2kGDBRbgQqGDWQcsBEBTNQwKiBI8FAFhABKmmpBQD/sgdA+MbUHAAAAABJRU5ErkJggg==",
+          "contentType": "image/png",
+          "height": 20,
+          "width": 20,
+          "values": [
+            "1-in-22 to 1-in-8"
+          ]
+        }
+      ]
+    }
+  ]
+}

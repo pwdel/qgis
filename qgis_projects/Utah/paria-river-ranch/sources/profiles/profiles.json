@@ -1,0 +1,3606 @@
+{
+  "schema_version": "1.0",
+  "method": "Terrain model along published lines; no trail-tread survey. State HorseAllowed=Yes is published use, not current authorization.",
+  "areas": {
+    "02-ranch": {
+      "area": "02-ranch",
+      "dem_source": "USGS 3DEP service mosaic fallback",
+      "dem_output_pixel_m": 15.002768287577597,
+      "native_resolution_verified": false,
+      "profiles": [
+        {
+          "id": "02-ranch-mustang-tank-01",
+          "name": "Mustang Tank",
+          "label": "Mustang Tank [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            47947
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.16392918063556,
+            37.057579345404385
+          ],
+          "end_wgs84": [
+            -112.158928540072,
+            37.06131314170611
+          ],
+          "distance_miles": 0.38056339506287584,
+          "ascent_ft": 0.0,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.164638879241373,
+          "valid_samples": 21,
+          "sample_count": 22,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "first valid sample",
+          "dem_file": "02-ranch-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 15.002768287577597,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/02-ranch-mustang-tank-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "02-ranch-paria-river-01",
+          "name": "Paria River",
+          "label": "Paria River [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            1949
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -111.96914516614179,
+            37.26096233138706
+          ],
+          "end_wgs84": [
+            -111.92504409976,
+            37.2238960101163
+          ],
+          "distance_miles": 3.830973113314586,
+          "ascent_ft": 0.0,
+          "descent_ft": 130.19672504642838,
+          "sample_spacing_m": 29.92890094210752,
+          "valid_samples": 206,
+          "sample_count": 207,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "first valid sample",
+          "dem_file": "02-ranch-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 15.002768287577597,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/02-ranch-paria-river-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "02-ranch-petrified-hollow-01",
+          "name": "Petrified Hollow",
+          "label": "Petrified Hollow [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            47950
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.17146648857229,
+            37.07193516688436
+          ],
+          "end_wgs84": [
+            -112.15890534557201,
+            37.0613326915699
+          ],
+          "distance_miles": 1.0905273088379965,
+          "ascent_ft": 0.0,
+          "descent_ft": 68.37508124031602,
+          "sample_spacing_m": 29.746331886687738,
+          "valid_samples": 59,
+          "sample_count": 60,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "first valid sample",
+          "dem_file": "02-ranch-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 15.002768287577597,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/02-ranch-petrified-hollow-01.csv",
+          "shown_on_page": true
+        }
+      ],
+      "inventory": [
+        {
+          "source": "state",
+          "source_id": 127,
+          "name": "Starlight Arch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 132,
+          "name": "Starlight Arch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 139,
+          "name": "Jack Riggs Bench",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 141,
+          "name": "Starlight Arch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 156,
+          "name": "Starlight Arch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 187,
+          "name": "Starlight Arch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 1157,
+          "name": "K7025",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 1168,
+          "name": "Brigham Plains",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 1358,
+          "name": "Coyote Valley",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 1430,
+          "name": "Coyote Valley",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 1490,
+          "name": "K7050",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 1538,
+          "name": "K7050",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 1949,
+          "name": "Paria River",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 2708,
+          "name": "Starlight Arch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 2723,
+          "name": "Brigham Plains",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 2730,
+          "name": "Starlight Arch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 2761,
+          "name": "K7025",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 3050,
+          "name": "Mollies Nipple",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 43295,
+          "name": "The Toadstools",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 43304,
+          "name": "Buckskin Gulch",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 43306,
+          "name": "Paria Canyon",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 43314,
+          "name": "Lower Hackberry Canyon",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 47947,
+          "name": "Mustang Tank",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 47950,
+          "name": "Petrified Hollow",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        }
+      ],
+      "page_profile_ids": [
+        "02-ranch-mustang-tank-01",
+        "02-ranch-paria-river-01",
+        "02-ranch-petrified-hollow-01"
+      ],
+      "omitted_page_components": 0,
+      "plot_svg": "derived/profiles/02-ranch-profiles.svg",
+      "named_route_count": 3,
+      "summary": "3 named routes; 3 continuous sections; all shown. Terrain-model estimates; current horse authorization unverified."
+    },
+    "03-mount-carmel": {
+      "area": "03-mount-carmel",
+      "dem_source": "USGS 3DEP service mosaic fallback",
+      "dem_output_pixel_m": 10.0,
+      "native_resolution_verified": false,
+      "profiles": [
+        {
+          "id": "03-mount-carmel-elephant-gap-01",
+          "name": "Elephant Gap",
+          "label": "Elephant Gap [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            47927
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.78357221933597,
+            37.161329588294464
+          ],
+          "end_wgs84": [
+            -112.713179086498,
+            37.1960239082301
+          ],
+          "distance_miles": 5.740906363962084,
+          "ascent_ft": 325.6203766869726,
+          "descent_ft": 595.2118083791577,
+          "sample_spacing_m": 29.997055881182458,
+          "valid_samples": 308,
+          "sample_count": 309,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "first valid sample",
+          "dem_file": "03-mount-carmel-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 10.0,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/03-mount-carmel-elephant-gap-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "03-mount-carmel-poverty-flat-01",
+          "name": "Poverty Flat",
+          "label": "Poverty Flat [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            47928,
+            47929
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.81977863262385,
+            37.19554538947519
+          ],
+          "end_wgs84": [
+            -112.801286570912,
+            37.228335679346905
+          ],
+          "distance_miles": 6.9592825822416815,
+          "ascent_ft": 1081.3838551273964,
+          "descent_ft": 469.63078403476806,
+          "sample_spacing_m": 29.946202320949617,
+          "valid_samples": 374,
+          "sample_count": 375,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "first valid sample",
+          "dem_file": "03-mount-carmel-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 10.0,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/03-mount-carmel-poverty-flat-01.csv",
+          "shown_on_page": true
+        }
+      ],
+      "inventory": [
+        {
+          "source": "state",
+          "source_id": 3058,
+          "name": "Twin Hollow",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 3122,
+          "name": "Muddy Canyon Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 3145,
+          "name": "Mineral",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 47927,
+          "name": "Elephant Gap",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 47928,
+          "name": "Poverty Flat",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 47929,
+          "name": "Poverty Flat",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        }
+      ],
+      "page_profile_ids": [
+        "03-mount-carmel-elephant-gap-01",
+        "03-mount-carmel-poverty-flat-01"
+      ],
+      "omitted_page_components": 0,
+      "plot_svg": "derived/profiles/03-mount-carmel-profiles.svg",
+      "named_route_count": 2,
+      "summary": "2 named routes; 2 continuous sections; all shown. Terrain-model estimates; current horse authorization unverified."
+    },
+    "04-red-canyon": {
+      "area": "04-red-canyon",
+      "dem_source": "USGS 3DEP service mosaic fallback",
+      "dem_output_pixel_m": 13.75,
+      "native_resolution_verified": false,
+      "profiles": [
+        {
+          "id": "04-red-canyon-arches-trail-01",
+          "name": "Arches Trail",
+          "label": "Arches Trail",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            44308,
+            44309
+          ],
+          "published_horse_status": "Conflicting: HorseAllowed=Yes / Hiking Only category",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.335571651354,
+            37.769455755671096
+          ],
+          "end_wgs84": [
+            -112.331977529631,
+            37.7706744172618
+          ],
+          "distance_miles": 0.6310179189955274,
+          "ascent_ft": 192.35275574479328,
+          "descent_ft": 121.04160695219679,
+          "sample_spacing_m": 29.868379465527592,
+          "valid_samples": 35,
+          "sample_count": 35,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-arches-trail-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-barney-cove-01",
+          "name": "Barney Cove",
+          "label": "Barney Cove",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6972
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.284317396961,
+            37.802989686994096
+          ],
+          "end_wgs84": [
+            -112.282048722372,
+            37.826197294295106
+          ],
+          "distance_miles": 1.8831925699833518,
+          "ascent_ft": 465.9138381900053,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.71279081713027,
+          "valid_samples": 103,
+          "sample_count": 103,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-barney-cove-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-buckhorn-01",
+          "name": "Buckhorn",
+          "label": "Buckhorn \u00b7 part 1/3",
+          "component": 1,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5872,
+            7000
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.30866127852802,
+            37.7363157236622
+          ],
+          "end_wgs84": [
+            -112.307819185204,
+            37.74237710383659
+          ],
+          "distance_miles": 0.8519202726121403,
+          "ascent_ft": 12.86078954476842,
+          "descent_ft": 468.02294576933843,
+          "sample_spacing_m": 29.805060417537224,
+          "valid_samples": 47,
+          "sample_count": 47,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-buckhorn-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-buckhorn-02",
+          "name": "Buckhorn",
+          "label": "Buckhorn \u00b7 part 2/3",
+          "component": 2,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5866
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.308661961248,
+            37.742310427127094
+          ],
+          "end_wgs84": [
+            -112.307819185204,
+            37.74237710383659
+          ],
+          "distance_miles": 0.05120069401418429,
+          "ascent_ft": 17.268773399436594,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 27.466509902521135,
+          "valid_samples": 4,
+          "sample_count": 4,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-buckhorn-02.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-buckhorn-03",
+          "name": "Buckhorn",
+          "label": "Buckhorn \u00b7 part 3/3",
+          "component": 3,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5871
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.308412124496,
+            37.7427275151954
+          ],
+          "end_wgs84": [
+            -112.307819185204,
+            37.74237710383659
+          ],
+          "distance_miles": 0.04551067048329221,
+          "ascent_ft": 31.15581512009847,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 24.414108159421136,
+          "valid_samples": 4,
+          "sample_count": 4,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-buckhorn-03.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-cassidy-01",
+          "name": "Cassidy",
+          "label": "Cassidy \u00b7 part 1/3",
+          "component": 1,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5991,
+            6056,
+            6086,
+            6100,
+            6234,
+            6628
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.301740509357,
+            37.7450543013733
+          ],
+          "end_wgs84": [
+            -112.283665351219,
+            37.7965426628424
+          ],
+          "distance_miles": 6.5685663775740695,
+          "ascent_ft": 1183.5861016313918,
+          "descent_ft": 675.5465371013961,
+          "sample_spacing_m": 29.946410448585166,
+          "valid_samples": 354,
+          "sample_count": 354,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-cassidy-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-cassidy-02",
+          "name": "Cassidy",
+          "label": "Cassidy \u00b7 part 2/3",
+          "component": 2,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6732
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.283665351219,
+            37.7965426628424
+          ],
+          "end_wgs84": [
+            -112.26561948265,
+            37.8015380726706
+          ],
+          "distance_miles": 1.559477931669953,
+          "ascent_ft": 106.89041426922223,
+          "descent_ft": 202.02775972451522,
+          "sample_spacing_m": 29.877814910302966,
+          "valid_samples": 85,
+          "sample_count": 85,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-cassidy-02.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-cassidy-03",
+          "name": "Cassidy",
+          "label": "Cassidy \u00b7 part 3/3",
+          "component": 3,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6707
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.284498742562,
+            37.800553576785596
+          ],
+          "end_wgs84": [
+            -112.283665351219,
+            37.7965426628424
+          ],
+          "distance_miles": 0.31035747606373104,
+          "ascent_ft": 78.52818327336452,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.380702468135834,
+          "valid_samples": 18,
+          "sample_count": 18,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-cassidy-03.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-castle-bridge-01",
+          "name": "Castle Bridge",
+          "label": "Castle Bridge",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5826
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.319777805303,
+            37.739224448667194
+          ],
+          "end_wgs84": [
+            -112.317134834177,
+            37.7345742602142
+          ],
+          "distance_miles": 0.5753337184788593,
+          "ascent_ft": 289.9570441279188,
+          "descent_ft": 112.81882624871068,
+          "sample_spacing_m": 29.86806025263359,
+          "valid_samples": 32,
+          "sample_count": 32,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-castle-bridge-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-casto-canyon-01",
+          "name": "Casto Canyon",
+          "label": "Casto Canyon",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6762,
+            6767,
+            6778,
+            6802
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.332004429682,
+            37.7839857681182
+          ],
+          "end_wgs84": [
+            -112.256264873744,
+            37.8026524060587
+          ],
+          "distance_miles": 5.421303157885037,
+          "ascent_ft": 784.3339443309928,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.981930272588784,
+          "valid_samples": 292,
+          "sample_count": 292,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-casto-canyon-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-fremont-trail-01",
+          "name": "Fremont Trail",
+          "label": "Fremont Trail \u00b7 part 1/4",
+          "component": 1,
+          "component_count": 4,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6120,
+            6756
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.253629756588,
+            37.80234412827559
+          ],
+          "end_wgs84": [
+            -112.228872436191,
+            37.7442241675254
+          ],
+          "distance_miles": 5.229325853940594,
+          "ascent_ft": 488.3791098172855,
+          "descent_ft": 485.6743580922037,
+          "sample_spacing_m": 29.949409918449007,
+          "valid_samples": 282,
+          "sample_count": 282,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-fremont-trail-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-fremont-trail-02",
+          "name": "Fremont Trail",
+          "label": "Fremont Trail \u00b7 part 2/4 [map section]",
+          "component": 2,
+          "component_count": 4,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5671,
+            6876,
+            6878,
+            7001
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.27877636452209,
+            37.838323952773244
+          ],
+          "end_wgs84": [
+            -112.256264873744,
+            37.8026524060587
+          ],
+          "distance_miles": 5.03234416900059,
+          "ascent_ft": 719.0015810552502,
+          "descent_ft": 793.9124990892354,
+          "sample_spacing_m": 29.995455164133645,
+          "valid_samples": 270,
+          "sample_count": 271,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "first valid sample",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-fremont-trail-02.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-fremont-trail-03",
+          "name": "Fremont Trail",
+          "label": "Fremont Trail \u00b7 part 3/4 [map section]",
+          "component": 3,
+          "component_count": 4,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6536
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.269076780175,
+            37.71669927095329
+          ],
+          "end_wgs84": [
+            -112.2637546522279,
+            37.70408199552337
+          ],
+          "distance_miles": 1.2972866482671257,
+          "ascent_ft": 139.44102354607122,
+          "descent_ft": 39.23242533930114,
+          "sample_spacing_m": 29.82543548098299,
+          "valid_samples": 70,
+          "sample_count": 71,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-fremont-trail-03.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-fremont-trail-04",
+          "name": "Fremont Trail",
+          "label": "Fremont Trail \u00b7 part 4/4 [map section]",
+          "component": 4,
+          "component_count": 4,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6536
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.26180846019082,
+            37.704102841463815
+          ],
+          "end_wgs84": [
+            -112.25665618661006,
+            37.70415787305879
+          ],
+          "distance_miles": 0.39168397430190166,
+          "ascent_ft": 0.0,
+          "descent_ft": 58.885822553331195,
+          "sample_spacing_m": 28.652466088132712,
+          "valid_samples": 21,
+          "sample_count": 23,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 2,
+          "gap_count": 2,
+          "relative_zero": "first valid sample",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-fremont-trail-04.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-golden-wall-01",
+          "name": "Golden Wall",
+          "label": "Golden Wall",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5824,
+            5912,
+            7002
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.321602951992,
+            37.74664018550499
+          ],
+          "end_wgs84": [
+            -112.30708909383,
+            37.73853227148499
+          ],
+          "distance_miles": 2.7232146875355,
+          "ascent_ft": 948.6321921049113,
+          "descent_ft": 439.1116360748175,
+          "sample_spacing_m": 29.81353209589886,
+          "valid_samples": 148,
+          "sample_count": 148,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-golden-wall-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-grand-view-01",
+          "name": "Grand View",
+          "label": "Grand View",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6695
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.333717892425,
+            37.7034358637794
+          ],
+          "end_wgs84": [
+            -112.327003493224,
+            37.72369175764
+          ],
+          "distance_miles": 1.6454440908147303,
+          "ascent_ft": 209.18861758720323,
+          "descent_ft": 255.1648234729806,
+          "sample_spacing_m": 29.75377050436114,
+          "valid_samples": 90,
+          "sample_count": 90,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-grand-view-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-great-western-alternate-01",
+          "name": "Great Western Alternate",
+          "label": "Great Western Alternate",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5967,
+            5980
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.228872436191,
+            37.7442241675254
+          ],
+          "end_wgs84": [
+            -112.208990465978,
+            37.7551467240741
+          ],
+          "distance_miles": 1.4286737118721227,
+          "ascent_ft": 148.7588632175222,
+          "descent_ft": 50.15667613673837,
+          "sample_spacing_m": 29.86009696310558,
+          "valid_samples": 78,
+          "sample_count": 78,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-great-western-alternate-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-hancock-01",
+          "name": "Hancock",
+          "label": "Hancock [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5523
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.256974807821,
+            37.8153567254788
+          ],
+          "end_wgs84": [
+            -112.25467418292995,
+            37.83858323058287
+          ],
+          "distance_miles": 2.2392928318138177,
+          "ascent_ft": 950.3994673356009,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.783408951426257,
+          "valid_samples": 121,
+          "sample_count": 122,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-hancock-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-hoodoo-01",
+          "name": "Hoodoo",
+          "label": "Hoodoo \u00b7 part 1/4",
+          "component": 1,
+          "component_count": 4,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5914,
+            5926,
+            5927,
+            5929
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.321289515416,
+            37.747192212079796
+          ],
+          "end_wgs84": [
+            -112.319618943635,
+            37.74602666327919
+          ],
+          "distance_miles": 0.1901074013593914,
+          "ascent_ft": 28.394758031628236,
+          "descent_ft": 13.934655408287336,
+          "sample_spacing_m": 27.8134732484844,
+          "valid_samples": 12,
+          "sample_count": 12,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-hoodoo-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-hoodoo-02",
+          "name": "Hoodoo",
+          "label": "Hoodoo \u00b7 part 2/4",
+          "component": 2,
+          "component_count": 4,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5925
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.321289515416,
+            37.747192212079796
+          ],
+          "end_wgs84": [
+            -112.319618943635,
+            37.74602666327919
+          ],
+          "distance_miles": 0.1303602114430637,
+          "ascent_ft": 14.460102623340898,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.970632017803702,
+          "valid_samples": 8,
+          "sample_count": 8,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-hoodoo-02.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-hoodoo-03",
+          "name": "Hoodoo",
+          "label": "Hoodoo \u00b7 part 3/4",
+          "component": 3,
+          "component_count": 4,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5924
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.32132365499,
+            37.74693550859259
+          ],
+          "end_wgs84": [
+            -112.321289515416,
+            37.747192212079796
+          ],
+          "distance_miles": 0.017798374505070644,
+          "ascent_ft": 0.0,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 28.643707219488412,
+          "valid_samples": 2,
+          "sample_count": 2,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-hoodoo-03.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-hoodoo-04",
+          "name": "Hoodoo",
+          "label": "Hoodoo \u00b7 part 4/4",
+          "component": 4,
+          "component_count": 4,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5903
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.319618943635,
+            37.74602666327919
+          ],
+          "end_wgs84": [
+            -112.319448281698,
+            37.746003518701905
+          ],
+          "distance_miles": 0.009479286112413216,
+          "ascent_ft": 0.0,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 15.255432229295536,
+          "valid_samples": 2,
+          "sample_count": 2,
+          "shorter_than_two_output_pixels": true,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-hoodoo-04.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-ledge-point-trail-01",
+          "name": "Ledge Point Trail",
+          "label": "Ledge Point Trail \u00b7 part 1/3",
+          "component": 1,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6009
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.307855423243,
+            37.7565458187088
+          ],
+          "end_wgs84": [
+            -112.306223802413,
+            37.753167221380394
+          ],
+          "distance_miles": 0.2681175586749891,
+          "ascent_ft": 43.517934124809706,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 28.766225623216112,
+          "valid_samples": 16,
+          "sample_count": 16,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-ledge-point-trail-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-ledge-point-trail-02",
+          "name": "Ledge Point Trail",
+          "label": "Ledge Point Trail \u00b7 part 2/3",
+          "component": 2,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6007
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.306223802413,
+            37.753167221380394
+          ],
+          "end_wgs84": [
+            -112.305977365784,
+            37.7564406562259
+          ],
+          "distance_miles": 0.25759202417165267,
+          "ascent_ft": 0.0,
+          "descent_ft": 75.33635492898864,
+          "sample_spacing_m": 29.611012753464586,
+          "valid_samples": 15,
+          "sample_count": 15,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-ledge-point-trail-02.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-ledge-point-trail-03",
+          "name": "Ledge Point Trail",
+          "label": "Ledge Point Trail \u00b7 part 3/3",
+          "component": 3,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5973
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.306223802413,
+            37.753167221380394
+          ],
+          "end_wgs84": [
+            -112.305712787678,
+            37.7521476913744
+          ],
+          "distance_miles": 0.08154364772623754,
+          "ascent_ft": 0.0,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 26.246356041266807,
+          "valid_samples": 6,
+          "sample_count": 6,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-ledge-point-trail-03.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-losee-canyon-01",
+          "name": "Losee Canyon",
+          "label": "Losee Canyon",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6232
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.333563858303,
+            37.7696267777962
+          ],
+          "end_wgs84": [
+            -112.288087351324,
+            37.77726066486469
+          ],
+          "distance_miles": 2.927821397872409,
+          "ascent_ft": 538.0613570042333,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.821973416060597,
+          "valid_samples": 159,
+          "sample_count": 159,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-losee-canyon-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-photo-01",
+          "name": "Photo",
+          "label": "Photo",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5908,
+            5909
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.32789602785,
+            37.74569899880739
+          ],
+          "end_wgs84": [
+            -112.326887512636,
+            37.74561266100979
+          ],
+          "distance_miles": 0.1274304357761199,
+          "ascent_ft": 0.0,
+          "descent_ft": 65.86675817393426,
+          "sample_spacing_m": 29.297058176240558,
+          "valid_samples": 8,
+          "sample_count": 8,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-photo-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-01",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 1/8",
+          "component": 1,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5879,
+            6843,
+            6860,
+            6973
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.215101523397,
+            37.7239717273095
+          ],
+          "end_wgs84": [
+            -112.208773506668,
+            37.724969615487296
+          ],
+          "distance_miles": 3.894144670326586,
+          "ascent_ft": 283.54961544226927,
+          "descent_ft": 351.62412657724565,
+          "sample_spacing_m": 29.985733781445308,
+          "valid_samples": 210,
+          "sample_count": 210,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-02",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 2/8",
+          "component": 2,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6722,
+            6768,
+            6769
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.215101523397,
+            37.7239717273095
+          ],
+          "end_wgs84": [
+            -112.208773506668,
+            37.724969615487296
+          ],
+          "distance_miles": 0.6579721320923692,
+          "ascent_ft": 16.69879473288077,
+          "descent_ft": 83.83587674990486,
+          "sample_spacing_m": 29.41398619305727,
+          "valid_samples": 37,
+          "sample_count": 37,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-02.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-03",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 3/8",
+          "component": 3,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6601,
+            6696
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.213176449014,
+            37.7183179878564
+          ],
+          "end_wgs84": [
+            -112.208773506668,
+            37.724969615487296
+          ],
+          "distance_miles": 0.5446080913554402,
+          "ascent_ft": 0.0,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.21539213914432,
+          "valid_samples": 31,
+          "sample_count": 31,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-03.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-04",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 4/8",
+          "component": 4,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6675
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.21593536838901,
+            37.717063908629505
+          ],
+          "end_wgs84": [
+            -112.215101523397,
+            37.7239717273095
+          ],
+          "distance_miles": 0.5202044563515786,
+          "ascent_ft": 69.56229255484376,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.89956859295268,
+          "valid_samples": 29,
+          "sample_count": 29,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-04.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-05",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 5/8",
+          "component": 5,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6532
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.21593536838901,
+            37.717063908629505
+          ],
+          "end_wgs84": [
+            -112.212966833431,
+            37.7136108542467
+          ],
+          "distance_miles": 0.3619598817489572,
+          "ascent_ft": 0.0,
+          "descent_ft": 38.36477815316987,
+          "sample_spacing_m": 29.12589819666969,
+          "valid_samples": 21,
+          "sample_count": 21,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-05.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-06",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 6/8",
+          "component": 6,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6561
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.213176449014,
+            37.7183179878564
+          ],
+          "end_wgs84": [
+            -112.212966833431,
+            37.7136108542467
+          ],
+          "distance_miles": 0.3545615513088163,
+          "ascent_ft": 0.0,
+          "descent_ft": 31.892708469920457,
+          "sample_spacing_m": 28.53057526147678,
+          "valid_samples": 21,
+          "sample_count": 21,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-06.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-07",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 7/8",
+          "component": 7,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6436,
+            6468
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.212966833431,
+            37.7136108542467
+          ],
+          "end_wgs84": [
+            -112.211998742405,
+            37.710386196704995
+          ],
+          "distance_miles": 0.26048009194731053,
+          "ascent_ft": 15.920523597756928,
+          "descent_ft": 14.246981431088853,
+          "sample_spacing_m": 29.943005221060893,
+          "valid_samples": 15,
+          "sample_count": 15,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-07.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pines-horse-trail-08",
+          "name": "Pines Horse Trail",
+          "label": "Pines Horse Trail \u00b7 part 8/8",
+          "component": 8,
+          "component_count": 8,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6571
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.21593536838901,
+            37.717063908629505
+          ],
+          "end_wgs84": [
+            -112.213176449014,
+            37.7183179878564
+          ],
+          "distance_miles": 0.19421154931449916,
+          "ascent_ft": 0.0,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 28.413926510908485,
+          "valid_samples": 12,
+          "sample_count": 12,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pines-horse-trail-08.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pink-ledges-01",
+          "name": "Pink Ledges",
+          "label": "Pink Ledges \u00b7 part 1/3",
+          "component": 1,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5918,
+            5939
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.320370349336,
+            37.747216483555796
+          ],
+          "end_wgs84": [
+            -112.318456734762,
+            37.7462719287261
+          ],
+          "distance_miles": 0.41818193808059845,
+          "ascent_ft": 131.1733448401426,
+          "descent_ft": 109.41172451250627,
+          "sample_spacing_m": 29.2608083894949,
+          "valid_samples": 24,
+          "sample_count": 24,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pink-ledges-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pink-ledges-02",
+          "name": "Pink Ledges",
+          "label": "Pink Ledges \u00b7 part 2/3",
+          "component": 2,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5905
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.319236324206,
+            37.746038968267094
+          ],
+          "end_wgs84": [
+            -112.318456734762,
+            37.7462719287261
+          ],
+          "distance_miles": 0.18144387217713157,
+          "ascent_ft": 32.121473053212256,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.20056070250336,
+          "valid_samples": 11,
+          "sample_count": 11,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pink-ledges-02.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-pink-ledges-03",
+          "name": "Pink Ledges",
+          "label": "Pink Ledges \u00b7 part 3/3",
+          "component": 3,
+          "component_count": 3,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5904
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.3192266763,
+            37.746115684204796
+          ],
+          "end_wgs84": [
+            -112.318456734762,
+            37.7462719287261
+          ],
+          "distance_miles": 0.04448424085094252,
+          "ascent_ft": 30.605100470622954,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 23.863482036006413,
+          "valid_samples": 4,
+          "sample_count": 4,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-pink-ledges-03.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-red-canyon-bike-trail-01",
+          "name": "Red Canyon Bike Trail",
+          "label": "Red Canyon Bike Trail [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5913,
+            5921,
+            6482,
+            6549,
+            6589
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.329443137873,
+            37.7437000291398
+          ],
+          "end_wgs84": [
+            -112.202005457373,
+            37.70472773544935
+          ],
+          "distance_miles": 8.507670578999333,
+          "ascent_ft": 803.4868466910273,
+          "descent_ft": 208.65015628223838,
+          "sample_spacing_m": 29.960106346365656,
+          "valid_samples": 457,
+          "sample_count": 458,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-red-canyon-bike-trail-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-rich-trail-01",
+          "name": "Rich Trail",
+          "label": "Rich Trail",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6008,
+            6010,
+            6055,
+            6105,
+            6108
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.298170353788,
+            37.755303719424994
+          ],
+          "end_wgs84": [
+            -112.295456014207,
+            37.7672224044019
+          ],
+          "distance_miles": 2.347381837777005,
+          "ascent_ft": 538.5061457786628,
+          "descent_ft": 223.97394403465412,
+          "sample_spacing_m": 29.982102193138065,
+          "valid_samples": 127,
+          "sample_count": 127,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-rich-trail-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-showalter-01",
+          "name": "Showalter",
+          "label": "Showalter [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5511
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.23758217642025,
+            37.83876410654855
+          ],
+          "end_wgs84": [
+            -112.226149129626,
+            37.82629372012321
+          ],
+          "distance_miles": 1.128682756734468,
+          "ascent_ft": 133.97321811964184,
+          "descent_ft": 474.9554097473751,
+          "sample_spacing_m": 29.777685614001243,
+          "valid_samples": 61,
+          "sample_count": 62,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "first valid sample",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-showalter-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-thunder-mountain-01",
+          "name": "Thunder Mountain",
+          "label": "Thunder Mountain [map section]",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": true,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            5883,
+            6609,
+            6700
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.329443137873,
+            37.7437000291398
+          ],
+          "end_wgs84": [
+            -112.29091051732053,
+            37.70378777277878
+          ],
+          "distance_miles": 6.677558638603858,
+          "ascent_ft": 1635.3626336048546,
+          "descent_ft": 610.3012792952562,
+          "sample_spacing_m": 29.93450955344091,
+          "valid_samples": 359,
+          "sample_count": 360,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 1,
+          "gap_count": 1,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-thunder-mountain-01.csv",
+          "shown_on_page": true
+        },
+        {
+          "id": "04-red-canyon-thunder-mtn-spur-01",
+          "name": "Thunder Mtn Spur",
+          "label": "Thunder Mtn Spur",
+          "component": 1,
+          "component_count": 1,
+          "map_clipped": false,
+          "source": "state-trails.geojson",
+          "source_ids": [
+            6621
+          ],
+          "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+          "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+          "start_wgs84": [
+            -112.318191129882,
+            37.71946768566579
+          ],
+          "end_wgs84": [
+            -112.31475448732,
+            37.720062061966
+          ],
+          "distance_miles": 0.2607573749951175,
+          "ascent_ft": 193.0801405008777,
+          "descent_ft": 0.0,
+          "sample_spacing_m": 29.97487977886731,
+          "valid_samples": 15,
+          "sample_count": 15,
+          "shorter_than_two_output_pixels": false,
+          "gap_samples": 0,
+          "gap_count": 0,
+          "relative_zero": "chosen start",
+          "dem_file": "04-red-canyon-dem.tif",
+          "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+          "dem_output_pixel_m": 13.75,
+          "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+          "csv": "sources/profiles/04-red-canyon-thunder-mtn-spur-01.csv",
+          "shown_on_page": true
+        }
+      ],
+      "inventory": [
+        {
+          "source": "state",
+          "source_id": 5511,
+          "name": "Showalter",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5523,
+          "name": "Hancock",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5671,
+          "name": "Fremont Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5824,
+          "name": "Golden Wall",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5826,
+          "name": "Castle Bridge",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5845,
+          "name": "To Forest",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 5846,
+          "name": "Loop",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 5866,
+          "name": "Buckhorn",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5871,
+          "name": "Buckhorn",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5872,
+          "name": "Buckhorn",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5879,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5883,
+          "name": "Thunder Mountain",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5894,
+          "name": "To Forest",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 5903,
+          "name": "Hoodoo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5904,
+          "name": "Pink Ledges",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5905,
+          "name": "Pink Ledges",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5908,
+          "name": "Photo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5909,
+          "name": "Photo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5912,
+          "name": "Golden Wall",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5913,
+          "name": "Red Canyon Bike Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "3 - Paved Shared Use",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5914,
+          "name": "Hoodoo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5917,
+          "name": "Photo",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 5918,
+          "name": "Pink Ledges",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5921,
+          "name": "Red Canyon Bike Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "3 - Paved Shared Use",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5924,
+          "name": "Hoodoo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5925,
+          "name": "Hoodoo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5926,
+          "name": "Hoodoo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5927,
+          "name": "Hoodoo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5929,
+          "name": "Hoodoo",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5939,
+          "name": "Pink Ledges",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5967,
+          "name": "Great Western Alternate",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5973,
+          "name": "Ledge Point Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5980,
+          "name": "Great Western Alternate",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 5991,
+          "name": "Cassidy",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6007,
+          "name": "Ledge Point Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6008,
+          "name": "Rich Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6009,
+          "name": "Ledge Point Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6010,
+          "name": "Rich Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6055,
+          "name": "Rich Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6056,
+          "name": "Cassidy",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6086,
+          "name": "Cassidy",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6100,
+          "name": "Cassidy",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6105,
+          "name": "Rich Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6108,
+          "name": "Rich",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6120,
+          "name": "Fremont Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6232,
+          "name": "Losee Canyon",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6234,
+          "name": "Cassidy",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6357,
+          "name": "East Fork Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6361,
+          "name": "Dump Casto",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6436,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6468,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6482,
+          "name": "Red Canyon Bike Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "3 - Paved Shared Use",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6532,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6534,
+          "name": "Coyote Hollow",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6536,
+          "name": "Fremont Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6546,
+          "name": "Johnson Bench Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6549,
+          "name": "Red Canyon Bike Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "3 - Paved Shared Use",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6559,
+          "name": "Johnson Bench Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6561,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6571,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6583,
+          "name": "Elk Horn Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6585,
+          "name": "Hillsdale Canyon Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6587,
+          "name": "Coyote Hollow",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6589,
+          "name": "Red Canyon Bike Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "3 - Paved Shared Use",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6595,
+          "name": "Wood",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6597,
+          "name": "Beddoes East",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6599,
+          "name": "Coyote Hollow",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6601,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6607,
+          "name": "East Hillsdale Cemetery Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6609,
+          "name": "Thunder Mountain",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6617,
+          "name": "Elk Horn Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6621,
+          "name": "Thunder Mtn Spur",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6628,
+          "name": "Cassidy",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6675,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6695,
+          "name": "Grand View",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6696,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6700,
+          "name": "Thunder Mountain",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6707,
+          "name": "Cassidy Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6722,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6732,
+          "name": "Cassidy",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6740,
+          "name": "Waterline",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6756,
+          "name": "Fremont Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6762,
+          "name": "Casto Canyon",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6767,
+          "name": "Casto",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6768,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6769,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6778,
+          "name": "Casto",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6783,
+          "name": "Elk Horn Road",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6785,
+          "name": "Beddoes East",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6802,
+          "name": "Casto",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6843,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6860,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6876,
+          "name": "Fremont Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6878,
+          "name": "Fremont Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6939,
+          "name": "Dump Casto",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6964,
+          "name": "To Forest",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": false,
+          "reason": "Horse use not explicitly supported"
+        },
+        {
+          "source": "state",
+          "source_id": 6972,
+          "name": "Barney Cove",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 6973,
+          "name": "Pines Horse Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "6 - Equestrian Primary",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 7000,
+          "name": "Buckhorn",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 7001,
+          "name": "Fremont Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "4 - Road-concurrent",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 7002,
+          "name": "Golden Wall",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "2 - Hiking and Biking Allowed",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 44308,
+          "name": "Arches Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "state",
+          "source_id": 44309,
+          "name": "Arches Trail",
+          "published_horse_attribute": "Yes",
+          "restriction": null,
+          "cartocode": "1 - Hiking Only",
+          "selected": true,
+          "reason": "State published HorseAllowed=Yes"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9614718,
+          "name": "THUNDER MTN SPUR",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9616601,
+          "name": "PINK LEDGES TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9658541,
+          "name": "BUCKHORN SPUR",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9661975,
+          "name": "GREAT WESTERN ALTERNATE",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9667973,
+          "name": "BARNEY COVE TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668026,
+          "name": "CASSIDY TRAIL",
+          "published_horse_attribute": "01/01-12/31",
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668038,
+          "name": "BUCKHORN TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668039,
+          "name": "SHOWALTER TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668121,
+          "name": "CASTO CANYON TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668141,
+          "name": "BARNEY COVE TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668147,
+          "name": "LEDGE POINT TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668315,
+          "name": "LOSEE CANYON TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668666,
+          "name": "FREMONT ATV TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668669,
+          "name": "CASTLE BRIDGE TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9668854,
+          "name": "CASTO CANYON TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9669074,
+          "name": "BIRDSEYE TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9669250,
+          "name": "GOLDEN WALL TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9669253,
+          "name": "CASTO CANYON TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9669806,
+          "name": "THUNDER MOUNTAIN TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9669963,
+          "name": "TUNNEL TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9669973,
+          "name": "RICH TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9670281,
+          "name": "GRAND VIEW TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9674525,
+          "name": "HANCOCK TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9674604,
+          "name": "PHOTO TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9675129,
+          "name": "PINES HORSE TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9675221,
+          "name": "HOODOO LOOP CONNECTOR TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9675307,
+          "name": "HOODOO LOOP TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9675310,
+          "name": "HOODOO LOOP TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9675547,
+          "name": "RED CANYON BIKE TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9675708,
+          "name": "ARCHES TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        },
+        {
+          "source": "usfs",
+          "source_id": 9675714,
+          "name": "RED CANYON BIKE TRAIL",
+          "published_horse_attribute": null,
+          "restriction": null,
+          "cartocode": null,
+          "selected": false,
+          "reason": "USFS context / duplicate geometry; state horse-use lines used"
+        }
+      ],
+      "page_profile_ids": [
+        "04-red-canyon-arches-trail-01",
+        "04-red-canyon-barney-cove-01",
+        "04-red-canyon-buckhorn-01",
+        "04-red-canyon-buckhorn-02",
+        "04-red-canyon-buckhorn-03",
+        "04-red-canyon-cassidy-01",
+        "04-red-canyon-cassidy-02",
+        "04-red-canyon-cassidy-03",
+        "04-red-canyon-castle-bridge-01",
+        "04-red-canyon-casto-canyon-01",
+        "04-red-canyon-fremont-trail-01",
+        "04-red-canyon-fremont-trail-02",
+        "04-red-canyon-fremont-trail-03",
+        "04-red-canyon-fremont-trail-04",
+        "04-red-canyon-golden-wall-01",
+        "04-red-canyon-grand-view-01",
+        "04-red-canyon-great-western-alternate-01",
+        "04-red-canyon-hancock-01",
+        "04-red-canyon-hoodoo-01",
+        "04-red-canyon-hoodoo-02",
+        "04-red-canyon-hoodoo-03",
+        "04-red-canyon-hoodoo-04",
+        "04-red-canyon-ledge-point-trail-01",
+        "04-red-canyon-ledge-point-trail-02",
+        "04-red-canyon-ledge-point-trail-03",
+        "04-red-canyon-losee-canyon-01",
+        "04-red-canyon-photo-01",
+        "04-red-canyon-pines-horse-trail-01",
+        "04-red-canyon-pines-horse-trail-02",
+        "04-red-canyon-pines-horse-trail-03",
+        "04-red-canyon-pines-horse-trail-04",
+        "04-red-canyon-pines-horse-trail-05",
+        "04-red-canyon-pines-horse-trail-06",
+        "04-red-canyon-pines-horse-trail-07",
+        "04-red-canyon-pines-horse-trail-08",
+        "04-red-canyon-pink-ledges-01",
+        "04-red-canyon-pink-ledges-02",
+        "04-red-canyon-pink-ledges-03",
+        "04-red-canyon-red-canyon-bike-trail-01",
+        "04-red-canyon-rich-trail-01",
+        "04-red-canyon-showalter-01",
+        "04-red-canyon-thunder-mountain-01",
+        "04-red-canyon-thunder-mtn-spur-01"
+      ],
+      "omitted_page_components": 0,
+      "plot_svg": "derived/profiles/04-red-canyon-profiles.svg",
+      "named_route_count": 22,
+      "summary": "22 named routes; 43 continuous sections; all shown. Terrain-model estimates; current horse authorization unverified."
+    }
+  }
+}

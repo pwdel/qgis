@@ -1,5 +1,19 @@
 # Paria River Ranch — Utah horse-riding atlas
 
+**Riding edition, researched October 9, 2026.**
+
+**[Download the 19-page riding atlas](output/pdf/riding/paria-river-ranch-riding-atlas.pdf)** · [Editable QGIS project](paria-river-ranch-riding-atlas.qgz) · [Riding sources and methods](docs/RIDING-SOURCES.md)
+
+This edition adds route elevation profiles and wildfire reports to each detailed area. Profiles show feet above or below a marked start against distance in miles, with modeled climbing/descent and source limitations. Fire pages distinguish historical burn footprints, monthly incident counts, annual modeled likelihood and dated restrictions. October is highlighted; historical activity is not a trip forecast.
+
+| Area | Access | Terrain | Snow | Camping | Trail profiles | Wildfire |
+| --- | --- | --- | --- | --- | --- | --- |
+| Paria River Ranch | 2 | 3 | 4 | 5 | 6 | 7 |
+| Mount Carmel / Bay Bill | 8 | 9 | 10 | 11 | 12 | 13 |
+| Red Canyon / plateau | 14 | 15 | 16 | 17 | 18 | 19 |
+
+Page 1 is the regional overview. Earlier editions remain below. The [riding validation](docs/riding-validation.json), [visual review](docs/riding-visual-review.md) and [governance profile](docs/GOVERNANCE.md) record the release checks. These PDFs remain a planning edition; Avenza georeferencing and field verification are separate work.
+
 **Expanded planning edition, researched October 8, 2026.**
 
 **[Download the 13-page expanded atlas](output/pdf/expanded/paria-river-ranch-expanded-atlas.pdf)** · [Expanded QGIS project](paria-river-ranch-expanded.qgz) · [Expanded sources](docs/EXPANSION-SOURCES.md)

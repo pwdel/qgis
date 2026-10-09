@@ -1,3 +1,8 @@
 # Preserve byte-for-byte public-source snapshots, including fixed-width padding.
 sources/expansion-snow/** -whitespace
 sources/expansion-camping/** -whitespace
+sources/fire-data/** -whitespace
+sources/fire-orders/** -whitespace
+# Matplotlib SVG path serialization and CSV writer CRLF are intentional.
+derived/profiles/*.svg -whitespace
+sources/profiles/*.csv whitespace=cr-at-eol
