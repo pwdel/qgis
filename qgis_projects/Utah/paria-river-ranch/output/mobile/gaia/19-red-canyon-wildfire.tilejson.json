@@ -1,0 +1,24 @@
+{
+  "tilejson": "2.2.0",
+  "name": "Utah riding | 19-red-canyon-wildfire",
+  "description": "Planning map, research October 2026. Main map only. Consult atlas legends: cell slope is not trail grade; snow is exploratory; fire is historical, not forecast.",
+  "version": "1.0.0",
+  "scheme": "xyz",
+  "tiles": [
+    "https://raw.githubusercontent.com/pwdel/qgis/main/qgis_projects/Utah/paria-river-ranch/output/mobile/gaia/tiles/19-red-canyon-wildfire/{z}/{x}/{y}.png"
+  ],
+  "minzoom": 8,
+  "maxzoom": 13,
+  "bounds": [
+    -112.41614756924594,
+    37.702380651942704,
+    -112.16407372990241,
+    37.8394928567416
+  ],
+  "center": [
+    -112.29011064957417,
+    37.77093675434215,
+    11
+  ],
+  "attribution": "USGS, Utah UGRC, USFS, BLM, NOAA and other cited public sources; methods: https://github.com/pwdel/qgis/blob/main/qgis_projects/Utah/paria-river-ranch/docs/RIDING-SOURCES.md"
+}

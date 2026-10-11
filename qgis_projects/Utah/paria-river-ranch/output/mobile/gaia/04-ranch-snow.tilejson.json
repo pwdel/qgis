@@ -1,0 +1,24 @@
+{
+  "tilejson": "2.2.0",
+  "name": "Utah riding | 04-ranch-snow",
+  "description": "Planning map, research October 2026. Main map only. Consult atlas legends: cell slope is not trail grade; snow is exploratory; fire is historical, not forecast.",
+  "version": "1.0.0",
+  "scheme": "xyz",
+  "tiles": [
+    "https://raw.githubusercontent.com/pwdel/qgis/main/qgis_projects/Utah/paria-river-ranch/output/mobile/gaia/tiles/04-ranch-snow/{z}/{x}/{y}.png"
+  ],
+  "minzoom": 8,
+  "maxzoom": 13,
+  "bounds": [
+    -112.17435921439608,
+    37.05750733616005,
+    -111.80012639584638,
+    37.262210894710876
+  ],
+  "center": [
+    -111.98724280512123,
+    37.15985911543547,
+    11
+  ],
+  "attribution": "USGS, Utah UGRC, USFS, BLM, NOAA and other cited public sources; methods: https://github.com/pwdel/qgis/blob/main/qgis_projects/Utah/paria-river-ranch/docs/RIDING-SOURCES.md"
+}

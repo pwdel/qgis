@@ -12,7 +12,21 @@ This edition adds route elevation profiles and wildfire reports to each detailed
 | Mount Carmel / Bay Bill | 8 | 9 | 10 | 11 | 12 | 13 |
 | Red Canyon / plateau | 14 | 15 | 16 | 17 | 18 | 19 |
 
-Page 1 is the regional overview. Earlier editions remain below. The [riding validation](docs/riding-validation.json), [visual review](docs/riding-visual-review.md) and [governance profile](docs/GOVERNANCE.md) record the release checks. These PDFs remain a planning edition; Avenza georeferencing and field verification are separate work.
+Page 1 is the regional overview. Earlier editions remain below. The [riding validation](docs/riding-validation.json), [visual review](docs/riding-visual-review.md) and [governance profile](docs/GOVERNANCE.md) record the release checks. These original PDFs remain a planning edition. The mobile export below adds georeferencing; field verification remains separate.
+
+## iPhone and geospatial exports - October 11, 2026
+
+**[Mobile import instructions](docs/MOBILE.md)** · [19-page geospatial companion](output/mobile/geopdf/utah-riding-geospatial-atlas.pdf) · [GeoPDF QGIS project](paria-river-ranch-geopdf.qgz) · [Export validation](docs/mobile-validation.json)
+
+| Area | Five GeoPDF maps | QField offline ZIP | Gaia trails and points | Gaia custom-map preparation |
+| --- | --- | --- | --- | --- |
+| Paria River Ranch | [PDF](output/mobile/geopdf/ranch-five-maps.pdf) | [ZIP](output/mobile/qfield/ranch-qfield.zip) | [GPX](output/mobile/gaia/ranch-trails-and-points.gpx) | [GeoTIFF ZIP](output/mobile/gaia/ranch-custom-map-sources.zip) |
+| Mount Carmel / Bay Bill | [PDF](output/mobile/geopdf/mount-carmel-five-maps.pdf) | [ZIP](output/mobile/qfield/mount-carmel-qfield.zip) | [GPX](output/mobile/gaia/mount-carmel-trails-and-points.gpx) | [GeoTIFF ZIP](output/mobile/gaia/mount-carmel-custom-map-sources.zip) |
+| Red Canyon / plateau | [PDF](output/mobile/geopdf/red-canyon-five-maps.pdf) | [ZIP](output/mobile/qfield/red-canyon-qfield.zip) | [GPX](output/mobile/gaia/red-canyon-trails-and-points.gpx) | [GeoTIFF ZIP](output/mobile/gaia/red-canyon-custom-map-sources.zip) |
+
+The QField ZIPs contain local QGIS data and selectable access, terrain, twelve snow-month, camping, fire-history and annual-fire themes, plus profile attributes and offline references. They open with the Access theme. Evidence vectors are read-only. The Gaia GPX files preserve 48 disconnected mapped trail components and source-qualified planning points. [Gaia custom map definitions](output/mobile/gaia/README.md) connect to fifteen sets of public XYZ tiles. The TIFF ZIPs are optional preparation assets, not directly importable Gaia maps. Gaia Premium is required for offline downloads.
+
+The GeoPDFs locate the main map only; insets and legends are excluded from GPS coverage. The three elevation-profile pages remain ordinary charts. [Individual GeoPDF sheets](output/mobile/geopdf-individual-sheets.zip) are also available. Existing map coverage and research dates are unchanged. File-level validation and desktop rendering do not certify iPhone app imports or field GPS behavior.
 
 **Expanded planning edition, researched October 8, 2026.**
 
