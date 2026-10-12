@@ -27,7 +27,7 @@ def labels(l,s,italic=False):
  props.setProperty(QgsPalLayerSettings.Property.Hali,QgsProperty.fromExpression("'Center'"));props.setProperty(QgsPalLayerSettings.Property.Vali,QgsProperty.fromExpression("'Half'"));p.setDataDefinedProperties(props)
  l.setLabeling(QgsVectorLayerSimpleLabeling(p));l.setLabelsEnabled(True)
 ls=[]
-for file,title,kind,size in [('lakes','Lake puddles | approximate size classes','fill',0),('hatching','Engraved lake hatching','line',.08),('carries','Straight carries | double carry model','line',.22),('rivers','Water connections | not portages','dash',.25),('hills','Engraved terrain candidates','line',.12),('names','Lake names','label',12),('paddle-times','Hours between lettered connections','label',8),('carry-times','Carry letters, rods and hours','label',8),('hill-labels','High-ground reference IDs','label',8),('endpoints','S departure / T hypothetical turnaround','label',9)]:
+for file,title,kind,size in [('lakes','Distorted footprints | crossing time emphasis','fill',0),('hatching','Engraved lake hatching','line',.08),('carries','Source-shaped carries | double carry time','line',.22),('rivers','Water connections | not portages','dash',.25),('hills','Engraved terrain candidates','line',.12),('names','Lake names','label',12),('paddle-times','Hours between lettered connections','label',8),('carry-times','Carry letters, rods and hours','label',8),('hill-labels','High-ground reference IDs','label',8),('endpoints','S departure / T hypothetical turnaround','label',9)]:
  data=json.load(open(D/f'schematic-{file}.json'));features=data['features'];l=QgsVectorLayer(features[0]['geometry']['type'],title,'memory');l.setCrs(crs);provider=l.dataProvider()
  keys=list(dict.fromkeys(k for f in features for k in f['properties']));fields=[]
  for k in keys:
@@ -46,21 +46,20 @@ for file,title,kind,size in [('lakes','Lake puddles | approximate size classes',
  l.saveNamedStyle(str(R/'styles'/f'{file}.qml'))
 order=[ls[i] for i in [9,8,7,6,5,4,1,0,3,2]]
 root=pr.layerTreeRoot();root.setHasCustomLayerOrder(True);root.setCustomLayerOrder(order)
-pr.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(QgsRectangle(0,0,404,210),crs));pr.setBackgroundColor(QColor('white'))
+pr.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(QgsRectangle(*json.load(open(D/'diagram-layout.json'))['bounds']),crs));pr.setBackgroundColor(QColor('white'))
 def layout(name,subtitle):
  lay=QgsPrintLayout(pr);lay.initializeDefaults();lay.setName(name);lay.pageCollection().page(0).setPageSize(QgsLayoutSize(431.8,279.4));pr.layoutManager().addLayout(lay)
  text(lay,'A DRAUGHT OF THE EASTERN LAKES',14,8,330,7,10,False,True)
  text(lay,'The Canoe Traveller\'s Network',14,16,330,14,27)
- text(lay,subtitle,15,31,395,7,9,True);rule(lay,15,40,402,.22)
+ text(lay,subtitle,15,31,550 if name.startswith('01') else 395,7,9,True);rule(lay,15,40,580 if name.startswith('01') else 402,.22)
  return lay
-lay=layout('01 | The journey chart','Seventeen lakes about Clearwater  /  Connections & travelling hours  /  A modern hypothetical exercise')
-m=QgsLayoutItemMap(lay);lay.addLayoutItem(m);m.setId('schematic-map');m.attemptMove(QgsLayoutPoint(14,43));m.attemptResize(QgsLayoutSize(404,210));m.setCrs(crs);m.setLayers(order);m.setKeepLayerSet(True);m.setKeepLayerStyles(True);m.zoomToExtent(QgsRectangle(0,0,404,210));m.setBackgroundColor(QColor('white'))
-text(lay,'THE NORTHERN CHAIN',304,49,107,6,9,True)
-text(lay,'Small puddles stand for lakes.\nLetters name their connecting passages.\nRead a-b as the crossing from a to b.',304,58,109,18,9)
-rule(lay,15,252,402,.2)
-text(lay,'READING THE DRAUGHT',15,255,75,6,9,False,True)
-text(lay,'Lake figures: paddling hours between letters.  Straight links: carry rods (~) & double-carry hours.\nS = Clearwater departure; T = imagined turning place.  * = approximate carry geometry.  Dashed = water link.',15,262,252,11,8)
-text(lay,'Not to scale: take no bearings from this drawing.\nWindbound? Wait; that time is outside these ranges.\nGeographic companion & full assumptions in the project.',281,256,137,18,8,True)
+lay=layout('01 | The journey chart','Twenty-two eastern lakes  /  Shapes remembered; time emphasized  /  A modern hypothetical exercise')
+lay.pageCollection().page(0).setPageSize(QgsLayoutSize(609.6,304.8))
+m=QgsLayoutItemMap(lay);lay.addLayoutItem(m);m.setId('schematic-map');m.attemptMove(QgsLayoutPoint(14,43));m.attemptResize(QgsLayoutSize(581,228));m.setCrs(crs);m.setLayers(order);m.setKeepLayerSet(True);m.setKeepLayerStyles(True);m.zoomToExtent(QgsRectangle(*json.load(open(D/'diagram-layout.json'))['bounds']));m.setBackgroundColor(QColor('white'))
+rule(lay,15,276,580,.2)
+text(lay,'READING THE DRAUGHT',15,279,75,6,9,False,True)
+text(lay,'Lake figures: hours between letters.  Bent carry links: derived rods (~) & double-carry hours.  Dashed: water links.\nS = departure; T = imagined turning place.  * = approximate carry geometry.  Shape and spacing emphasize time, without a uniform scale.',15,286,355,11,8)
+text(lay,'Simplified real footprints & trail bends, deliberately distorted.\nTake no bearings or distances from the drawing.\nWindbound waits fall outside the printed time ranges.',411,281,184,17,8,True)
 # Instructor pages use native QGIS text items for editable tabular content.
 key=layout('02 | Timing and itineraries','The instructor\'s key  /  Ordinary tandem team  /  Double carries  /  Model assumptions, not observed travel times')
 text(key,'I.  THREE PRE-DESIGNED JOURNEYS',15,47,210,8,13,False,True)
@@ -85,11 +84,11 @@ y=59
 for f in json.load(open(D/'schematic-hill-labels.json'))['features']:
  p=f['properties'];g=source[p['source_id']];text(key,p['label']+'  /  near '+g['near_lake'],277,y,138,7,10);y+=8
 text(key,'These are bare-earth terrain candidates, not verified\nvisible peaks. Tree cover can obscure them. Their\nschematic placement is illustrative; use the separate\ngeographic project for true positions and bearings.',277,y+5,139,28,9)
-text(key,'Carry a: USFS line is incomplete; published digitized\nGPX supplies an approximate full passage.\nCarries h and i: published sketches, no matching\nUSFS geometry. Water links f and m are not carries.\n\nClearwater-Deer was omitted: the recorded trail\nstops short of the lakes. Deer connects via Caribou.\n\nRose is a terminal branch. Its T point, like those on\nDeer, Alder and Crystal, is a hypothetical water\nturnaround, not a campsite or landing.',277,153,139,66,9)
+text(key,'Carry a: USFS line is incomplete; published digitized\nGPX supplies an approximate full passage.\nCarries h and i: published sketches, no matching\nUSFS geometry. Water links f and m are not carries.\n\nClearwater-Deer was omitted: the recorded trail\nstops short of the lakes. Deer connects via Caribou.\n\nRose retains an imagined T turning point. Others lie\non terminal lakes, including Deer, Alder, Crystal,\nWest Bearskin and Moose; none denotes a campsite.',277,153,139,66,9)
 text(key,'SOURCES & REPRODUCTION',277,231,139,7,10,False,True)
 text(key,'MN DNR waters / USFS trails / MnGeo terrain\nFriends of BWCA digitized loop / Parks Canada history\nTiming context: Poudre Paddlers; NPS wind variability\nFull citations and limitations: docs/SOURCES.md',277,241,139,24,8)
 rule(key,15,267,402);text(key,'Model version: 12 October 2026  |  Geographic measurements and diagram units are kept separate.',15,270,390,5,7)
-# Tables: two leg pages, no clipped cells, all 51 records referenced.
+# Tables: two leg pages, no clipped cells, all current records referenced.
 rows=net['legs'];chunks=[rows[i:i+26] for i in range(0,len(rows),26)]
 for idx,chunk in enumerate(chunks):
  table=layout(f'{3+idx:02} | Leg register','The reckoning of each passage  /  Source-backed distances; modeled hours  /  All distances below are geographic')

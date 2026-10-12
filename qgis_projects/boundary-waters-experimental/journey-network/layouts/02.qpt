@@ -10,7 +10,7 @@
      <Option name="type" type="QString" value="collection"/>
     </Option>
    </data_defined_properties>
-   <layer class="SimpleFill" enabled="1" id="{7c57b366-d742-4a09-adbd-5218a4f2327c}" locked="0" pass="0">
+   <layer class="SimpleFill" enabled="1" id="{a7057f96-2497-4eb2-8ae4-64b90853c657}" locked="0" pass="0">
     <Option type="Map">
      <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
      <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
@@ -33,7 +33,7 @@
     </data_defined_properties>
    </layer>
   </symbol>
-  <LayoutItem background="true" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="0,0,mm" positionLock="false" positionOnPage="0,0,mm" referencePoint="0" size="431.8,279.4,mm" templateUuid="{e8edb28b-5f78-4925-8d29-a299bd813c6c}" type="65638" uuid="{e8edb28b-5f78-4925-8d29-a299bd813c6c}" visibility="1" zValue="0">
+  <LayoutItem background="true" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="0,0,mm" positionLock="false" positionOnPage="0,0,mm" referencePoint="0" size="431.8,279.4,mm" templateUuid="{f319f40c-f2e2-4e1b-ad4b-70edc4d628ea}" type="65638" uuid="{f319f40c-f2e2-4e1b-ad4b-70edc4d628ea}" visibility="1" zValue="0">
    <FrameColor alpha="255" blue="0" green="0" red="0"/>
    <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
    <LayoutObject>
@@ -56,7 +56,7 @@
       <Option name="type" type="QString" value="collection"/>
      </Option>
     </data_defined_properties>
-    <layer class="SimpleFill" enabled="1" id="{2594be90-b42a-46fb-bafb-1a344db7293f}" locked="0" pass="0">
+    <layer class="SimpleFill" enabled="1" id="{e8177e3f-aa0e-47d7-86e0-269f250ec195}" locked="0" pass="0">
      <Option type="Map">
       <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
       <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
@@ -82,7 +82,7 @@
   </LayoutItem>
   <GuideCollection visible="1"/>
  </PageCollection>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Model version: 12 October 2026  |  Geographic measurements and diagram units are kept separate." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,270,mm" positionLock="false" positionOnPage="15,270,mm" referencePoint="0" size="390,5,mm" templateUuid="{225c0aba-b24a-486d-b0f1-288175d29d45}" type="65641" uuid="{225c0aba-b24a-486d-b0f1-288175d29d45}" valign="32" visibility="1" zValue="26">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Model version: 12 October 2026  |  Geographic measurements and diagram units are kept separate." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,270,mm" positionLock="false" positionOnPage="15,270,mm" referencePoint="0" size="390,5,mm" templateUuid="{52bf39de-864e-4240-addb-9fd4fe852190}" type="65641" uuid="{52bf39de-864e-4240-addb-9fd4fe852190}" valign="32" visibility="1" zValue="26">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -144,7 +144,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" cornerRadiusMeasure="0,mm" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="15,267,mm" positionLock="false" positionOnPage="15,267,mm" referencePoint="0" shapeType="1" size="402,0.15,mm" templateUuid="{e5b7eaff-9576-4f36-9563-3e7b0670df63}" type="65643" uuid="{e5b7eaff-9576-4f36-9563-3e7b0670df63}" visibility="1" zValue="25">
+ <LayoutItem background="false" blendMode="0" cornerRadiusMeasure="0,mm" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="15,267,mm" positionLock="false" positionOnPage="15,267,mm" referencePoint="0" shapeType="1" size="402,0.15,mm" templateUuid="{52bdef55-ec22-4ee8-b9de-cc25ec99be29}" type="65643" uuid="{52bdef55-ec22-4ee8-b9de-cc25ec99be29}" visibility="1" zValue="25">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -167,7 +167,7 @@
      <Option name="type" type="QString" value="collection"/>
     </Option>
    </data_defined_properties>
-   <layer class="SimpleFill" enabled="1" id="{af8189cd-4548-4081-a057-a765be09209a}" locked="0" pass="0">
+   <layer class="SimpleFill" enabled="1" id="{aa31e863-fff3-4e88-a669-043de46b2162}" locked="0" pass="0">
     <Option type="Map">
      <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
      <Option name="color" type="QString" value="17,17,17,255,rgb:0.0666667,0.0666667,0.0666667,1"/>
@@ -191,7 +191,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="MN DNR waters / USFS trails / MnGeo terrain&#xa;Friends of BWCA digitized loop / Parks Canada history&#xa;Timing context: Poudre Paddlers; NPS wind variability&#xa;Full citations and limitations: docs/SOURCES.md" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,241,mm" positionLock="false" positionOnPage="277,241,mm" referencePoint="0" size="139,24,mm" templateUuid="{f15ab92c-02b0-4839-9c50-8e14a5d80229}" type="65641" uuid="{f15ab92c-02b0-4839-9c50-8e14a5d80229}" valign="32" visibility="1" zValue="24">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="MN DNR waters / USFS trails / MnGeo terrain&#xa;Friends of BWCA digitized loop / Parks Canada history&#xa;Timing context: Poudre Paddlers; NPS wind variability&#xa;Full citations and limitations: docs/SOURCES.md" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,241,mm" positionLock="false" positionOnPage="277,241,mm" referencePoint="0" size="139,24,mm" templateUuid="{2acebf65-97d6-4e3f-8c81-045691bdb1b8}" type="65641" uuid="{2acebf65-97d6-4e3f-8c81-045691bdb1b8}" valign="32" visibility="1" zValue="24">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -253,7 +253,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="SOURCES &amp; REPRODUCTION" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,231,mm" positionLock="false" positionOnPage="277,231,mm" referencePoint="0" size="139,7,mm" templateUuid="{fd09375d-9678-4e79-88f0-5ac9e1984c7d}" type="65641" uuid="{fd09375d-9678-4e79-88f0-5ac9e1984c7d}" valign="32" visibility="1" zValue="23">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="SOURCES &amp; REPRODUCTION" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,231,mm" positionLock="false" positionOnPage="277,231,mm" referencePoint="0" size="139,7,mm" templateUuid="{d130559c-ad8d-499c-b7c8-8b8df18ad1de}" type="65641" uuid="{d130559c-ad8d-499c-b7c8-8b8df18ad1de}" valign="32" visibility="1" zValue="23">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -315,7 +315,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Carry a: USFS line is incomplete; published digitized&#xa;GPX supplies an approximate full passage.&#xa;Carries h and i: published sketches, no matching&#xa;USFS geometry. Water links f and m are not carries.&#xa;&#xa;Clearwater-Deer was omitted: the recorded trail&#xa;stops short of the lakes. Deer connects via Caribou.&#xa;&#xa;Rose is a terminal branch. Its T point, like those on&#xa;Deer, Alder and Crystal, is a hypothetical water&#xa;turnaround, not a campsite or landing." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,153,mm" positionLock="false" positionOnPage="277,153,mm" referencePoint="0" size="139,66,mm" templateUuid="{a8477033-1d19-456f-9bc6-de16d3348fe2}" type="65641" uuid="{a8477033-1d19-456f-9bc6-de16d3348fe2}" valign="32" visibility="1" zValue="22">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Carry a: USFS line is incomplete; published digitized&#xa;GPX supplies an approximate full passage.&#xa;Carries h and i: published sketches, no matching&#xa;USFS geometry. Water links f and m are not carries.&#xa;&#xa;Clearwater-Deer was omitted: the recorded trail&#xa;stops short of the lakes. Deer connects via Caribou.&#xa;&#xa;Rose retains an imagined T turning point. Others lie&#xa;on terminal lakes, including Deer, Alder, Crystal,&#xa;West Bearskin and Moose; none denotes a campsite." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,153,mm" positionLock="false" positionOnPage="277,153,mm" referencePoint="0" size="139,66,mm" templateUuid="{2e741c50-5e15-40c9-aff2-49c07eafdd78}" type="65641" uuid="{2e741c50-5e15-40c9-aff2-49c07eafdd78}" valign="32" visibility="1" zValue="22">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -377,7 +377,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="These are bare-earth terrain candidates, not verified&#xa;visible peaks. Tree cover can obscure them. Their&#xa;schematic placement is illustrative; use the separate&#xa;geographic project for true positions and bearings." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,104,mm" positionLock="false" positionOnPage="277,104,mm" referencePoint="0" size="139,28,mm" templateUuid="{235b3a9e-6909-43cf-aaa8-62d965ed7886}" type="65641" uuid="{235b3a9e-6909-43cf-aaa8-62d965ed7886}" valign="32" visibility="1" zValue="21">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="These are bare-earth terrain candidates, not verified&#xa;visible peaks. Tree cover can obscure them. Their&#xa;schematic placement is illustrative; use the separate&#xa;geographic project for true positions and bearings." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,104,mm" positionLock="false" positionOnPage="277,104,mm" referencePoint="0" size="139,28,mm" templateUuid="{fb563421-3d77-4be1-b2d6-678bde27a7da}" type="65641" uuid="{fb563421-3d77-4be1-b2d6-678bde27a7da}" valign="32" visibility="1" zValue="21">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -439,7 +439,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H12  ~600 m  /  near East Pike" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,91,mm" positionLock="false" positionOnPage="277,91,mm" referencePoint="0" size="138,7,mm" templateUuid="{0f36f10b-36ae-4182-b75f-41bbc6770973}" type="65641" uuid="{0f36f10b-36ae-4182-b75f-41bbc6770973}" valign="32" visibility="1" zValue="20">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H12  ~600 m  /  near East Pike" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,91,mm" positionLock="false" positionOnPage="277,91,mm" referencePoint="0" size="138,7,mm" templateUuid="{94477607-9961-4f36-b68d-b595ee144695}" type="65641" uuid="{94477607-9961-4f36-b68d-b595ee144695}" valign="32" visibility="1" zValue="20">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -501,7 +501,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H10  ~600 m  /  near Pine" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,83,mm" positionLock="false" positionOnPage="277,83,mm" referencePoint="0" size="138,7,mm" templateUuid="{54651c5b-5e51-4c45-9ff7-5633d95456c7}" type="65641" uuid="{54651c5b-5e51-4c45-9ff7-5633d95456c7}" valign="32" visibility="1" zValue="19">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H10  ~600 m  /  near Pine" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,83,mm" positionLock="false" positionOnPage="277,83,mm" referencePoint="0" size="138,7,mm" templateUuid="{c39ad971-dea2-4ca2-8339-0a869ad6d948}" type="65641" uuid="{c39ad971-dea2-4ca2-8339-0a869ad6d948}" valign="32" visibility="1" zValue="19">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -563,7 +563,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H08  ~620 m  /  near West Pike" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,75,mm" positionLock="false" positionOnPage="277,75,mm" referencePoint="0" size="138,7,mm" templateUuid="{06f75b3b-7ab6-40c0-90cb-53116c5929c7}" type="65641" uuid="{06f75b3b-7ab6-40c0-90cb-53116c5929c7}" valign="32" visibility="1" zValue="18">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H08  ~620 m  /  near West Pike" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,75,mm" positionLock="false" positionOnPage="277,75,mm" referencePoint="0" size="138,7,mm" templateUuid="{30f9011b-de80-4f1e-b6e9-2412ec046625}" type="65641" uuid="{30f9011b-de80-4f1e-b6e9-2412ec046625}" valign="32" visibility="1" zValue="18">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -625,7 +625,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H04  ~625 m  /  near Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,67,mm" positionLock="false" positionOnPage="277,67,mm" referencePoint="0" size="138,7,mm" templateUuid="{ce0fb098-7b0d-495d-9081-b396e1be22a0}" type="65641" uuid="{ce0fb098-7b0d-495d-9081-b396e1be22a0}" valign="32" visibility="1" zValue="17">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H04  ~625 m  /  near Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,67,mm" positionLock="false" positionOnPage="277,67,mm" referencePoint="0" size="138,7,mm" templateUuid="{f4f11ce2-afd7-44e0-afcc-db04af871fe9}" type="65641" uuid="{f4f11ce2-afd7-44e0-afcc-db04af871fe9}" valign="32" visibility="1" zValue="17">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -687,7 +687,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H01  ~600 m  /  near Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,59,mm" positionLock="false" positionOnPage="277,59,mm" referencePoint="0" size="138,7,mm" templateUuid="{f8174edf-0122-44f8-9f64-8c2a2a35e5da}" type="65641" uuid="{f8174edf-0122-44f8-9f64-8c2a2a35e5da}" valign="32" visibility="1" zValue="16">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="H01  ~600 m  /  near Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,59,mm" positionLock="false" positionOnPage="277,59,mm" referencePoint="0" size="138,7,mm" templateUuid="{267fdee2-9ce7-4ea5-9f70-434418c36cb1}" type="65641" uuid="{267fdee2-9ce7-4ea5-9f70-434418c36cb1}" valign="32" visibility="1" zValue="16">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -749,7 +749,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="III.  HIGH GROUND &amp; UNCERTAINTY" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,47,mm" positionLock="false" positionOnPage="277,47,mm" referencePoint="0" size="140,8,mm" templateUuid="{97dc3785-ec48-4e2b-88b6-00a5c33ce189}" type="65641" uuid="{97dc3785-ec48-4e2b-88b6-00a5c33ce189}" valign="32" visibility="1" zValue="15">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="III.  HIGH GROUND &amp; UNCERTAINTY" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="277,47,mm" positionLock="false" positionOnPage="277,47,mm" referencePoint="0" size="140,8,mm" templateUuid="{394777a5-ea97-4b69-9aea-fa90827a0f21}" type="65641" uuid="{394777a5-ea97-4b69-9aea-fa90827a0f21}" valign="32" visibility="1" zValue="15">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -811,7 +811,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Paddle: geographic water-path distance, plus 15-30% indirect travel;&#xa;20-35% on more winding paths. Divide by 4 km/h (favourable) or&#xa;2 km/h (adverse but travelable). These are teaching assumptions.&#xa;&#xa;Carry: 2 loaded walks at 2-3 km/h, 1 return at 3-4 km/h,&#xa;plus 10-20 minutes of handling per connection. One rod = 5.0292 m.&#xa;&#xa;Bounds round outward to quarter hours. A 0-0.25 h label means&#xa;a brief nonzero leg. All rod counts are derived, not official counts." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,197,mm" positionLock="false" positionOnPage="15,197,mm" referencePoint="0" size="246,61,mm" templateUuid="{ff9b087a-7fc3-4c12-9ea3-a98ec7ea8990}" type="65641" uuid="{ff9b087a-7fc3-4c12-9ea3-a98ec7ea8990}" valign="32" visibility="1" zValue="14">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Paddle: geographic water-path distance, plus 15-30% indirect travel;&#xa;20-35% on more winding paths. Divide by 4 km/h (favourable) or&#xa;2 km/h (adverse but travelable). These are teaching assumptions.&#xa;&#xa;Carry: 2 loaded walks at 2-3 km/h, 1 return at 3-4 km/h,&#xa;plus 10-20 minutes of handling per connection. One rod = 5.0292 m.&#xa;&#xa;Bounds round outward to quarter hours. A 0-0.25 h label means&#xa;a brief nonzero leg. All rod counts are derived, not official counts." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,197,mm" positionLock="false" positionOnPage="15,197,mm" referencePoint="0" size="246,61,mm" templateUuid="{9d938793-3d74-48b2-9db4-09a14d81ea49}" type="65641" uuid="{9d938793-3d74-48b2-9db4-09a14d81ea49}" valign="32" visibility="1" zValue="14">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -873,7 +873,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="II.  HOW THE HOURS ARE RECKONED" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,184,mm" positionLock="false" positionOnPage="15,184,mm" referencePoint="0" size="230,8,mm" templateUuid="{37be93a3-b6e0-4d7b-9374-273c1a1bce9a}" type="65641" uuid="{37be93a3-b6e0-4d7b-9374-273c1a1bce9a}" valign="32" visibility="1" zValue="13">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="II.  HOW THE HOURS ARE RECKONED" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,184,mm" positionLock="false" positionOnPage="15,184,mm" referencePoint="0" size="230,8,mm" templateUuid="{06e10dcf-05b3-4a7c-b493-afd3a49de0ac}" type="65641" uuid="{06e10dcf-05b3-4a7c-b493-afd3a49de0ac}" valign="32" visibility="1" zValue="13">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -935,7 +935,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Totals are moving + handling hours, not days or daily targets.&#xa;Rest, camps, queues, difficult weather and windbound waits add time.&#xa;Both directions use the same broad scenario envelope; wind direction&#xa;changes which end of the range is plausible." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,149,mm" positionLock="false" positionOnPage="15,149,mm" referencePoint="0" size="235,25,mm" templateUuid="{2df1dafb-d93a-4f68-8906-71cc5d091a2e}" type="65641" uuid="{2df1dafb-d93a-4f68-8906-71cc5d091a2e}" valign="32" visibility="1" zValue="12">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Totals are moving + handling hours, not days or daily targets.&#xa;Rest, camps, queues, difficult weather and windbound waits add time.&#xa;Both directions use the same broad scenario envelope; wind direction&#xa;changes which end of the range is plausible." marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,149,mm" positionLock="false" positionOnPage="15,149,mm" referencePoint="0" size="235,25,mm" templateUuid="{38a1f31d-6ead-4e44-bccf-a0d22bd93b97}" type="65641" uuid="{38a1f31d-6ead-4e44-bccf-a0d22bd93b97}" valign="32" visibility="1" zValue="12">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -997,7 +997,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Clearwater - Mountain - Watap - Rove - Rose; return by the same chain" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,125,mm" positionLock="false" positionOnPage="15,125,mm" referencePoint="0" size="250,13,mm" templateUuid="{3363da90-6011-4d0b-913d-b587cddfc9bb}" type="65641" uuid="{3363da90-6011-4d0b-913d-b587cddfc9bb}" valign="32" visibility="1" zValue="11">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Clearwater - Mountain - Watap - Rove - Rose; return by the same chain" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,125,mm" positionLock="false" positionOnPage="15,125,mm" referencePoint="0" size="250,13,mm" templateUuid="{4dcea9b5-564e-4e92-ab1a-2b62392d0710}" type="65641" uuid="{4dcea9b5-564e-4e92-ab1a-2b62392d0710}" valign="32" visibility="1" zValue="11">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1059,7 +1059,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="C - Rose out and back  /  17.25-33.25 h" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,117,mm" positionLock="false" positionOnPage="15,117,mm" referencePoint="0" size="250,7,mm" templateUuid="{f17823a0-bce0-4670-8034-4c82f8a6a989}" type="65641" uuid="{f17823a0-bce0-4670-8034-4c82f8a6a989}" valign="32" visibility="1" zValue="10">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="C - Rose out and back  /  17.25-33.25 h" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,117,mm" positionLock="false" positionOnPage="15,117,mm" referencePoint="0" size="250,7,mm" templateUuid="{69ab2ff2-7523-4e6d-87ea-389453b9c1eb}" type="65641" uuid="{69ab2ff2-7523-4e6d-87ea-389453b9c1eb}" valign="32" visibility="1" zValue="10">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1121,7 +1121,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Clearwater - West Pike - East Pike - John - Little John - McFarland&#xa;Pine - Little Caribou - Caribou - Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,96,mm" positionLock="false" positionOnPage="15,96,mm" referencePoint="0" size="250,13,mm" templateUuid="{6c2c1202-dbe4-41eb-afc5-7b4e6613ecd3}" type="65641" uuid="{6c2c1202-dbe4-41eb-afc5-7b4e6613ecd3}" valign="32" visibility="1" zValue="9">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Clearwater - West Pike - East Pike - John - Little John - McFarland&#xa;Pine - Little Caribou - Caribou - Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,96,mm" positionLock="false" positionOnPage="15,96,mm" referencePoint="0" size="250,13,mm" templateUuid="{793982b4-a441-4dda-a494-3d8e7f2abda1}" type="65641" uuid="{793982b4-a441-4dda-a494-3d8e7f2abda1}" valign="32" visibility="1" zValue="9">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1183,7 +1183,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="B - Eastern circuit  /  19.5-40.75 h" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,88,mm" positionLock="false" positionOnPage="15,88,mm" referencePoint="0" size="250,7,mm" templateUuid="{bcbc175f-f295-474c-8c82-9c8a40de70ae}" type="65641" uuid="{bcbc175f-f295-474c-8c82-9c8a40de70ae}" valign="32" visibility="1" zValue="8">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="B - Eastern circuit  /  19.5-40.75 h" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,88,mm" positionLock="false" positionOnPage="15,88,mm" referencePoint="0" size="250,7,mm" templateUuid="{90943a96-fa39-4214-bcc9-f53d2b22cafc}" type="65641" uuid="{90943a96-fa39-4214-bcc9-f53d2b22cafc}" valign="32" visibility="1" zValue="8">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1245,7 +1245,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Clearwater - West Pike - Pine - Little Caribou - Caribou - Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,67,mm" positionLock="false" positionOnPage="15,67,mm" referencePoint="0" size="250,13,mm" templateUuid="{d2cd1b18-fc23-426d-a160-f170d58cd2b1}" type="65641" uuid="{d2cd1b18-fc23-426d-a160-f170d58cd2b1}" valign="32" visibility="1" zValue="7">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Clearwater - West Pike - Pine - Little Caribou - Caribou - Clearwater" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,67,mm" positionLock="false" positionOnPage="15,67,mm" referencePoint="0" size="250,13,mm" templateUuid="{c3b78195-6883-4510-89f5-c3ff62465e21}" type="65641" uuid="{c3b78195-6883-4510-89f5-c3ff62465e21}" valign="32" visibility="1" zValue="7">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1307,7 +1307,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="A - Inner circuit  /  13.25-27.25 h" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,59,mm" positionLock="false" positionOnPage="15,59,mm" referencePoint="0" size="250,7,mm" templateUuid="{7f515aef-4548-45c5-8efc-011c7d11d810}" type="65641" uuid="{7f515aef-4548-45c5-8efc-011c7d11d810}" valign="32" visibility="1" zValue="6">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="A - Inner circuit  /  13.25-27.25 h" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,59,mm" positionLock="false" positionOnPage="15,59,mm" referencePoint="0" size="250,7,mm" templateUuid="{2a229b48-1d56-4245-b68b-deb270b6e6dc}" type="65641" uuid="{2a229b48-1d56-4245-b68b-deb270b6e6dc}" valign="32" visibility="1" zValue="6">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1369,7 +1369,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="I.  THREE PRE-DESIGNED JOURNEYS" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,47,mm" positionLock="false" positionOnPage="15,47,mm" referencePoint="0" size="210,8,mm" templateUuid="{0d018923-6ebf-4d0a-aa06-2902a384f1a7}" type="65641" uuid="{0d018923-6ebf-4d0a-aa06-2902a384f1a7}" valign="32" visibility="1" zValue="5">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="I.  THREE PRE-DESIGNED JOURNEYS" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,47,mm" positionLock="false" positionOnPage="15,47,mm" referencePoint="0" size="210,8,mm" templateUuid="{46e9b23b-7cc2-4441-8d13-ff2694732e74}" type="65641" uuid="{46e9b23b-7cc2-4441-8d13-ff2694732e74}" valign="32" visibility="1" zValue="5">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1431,7 +1431,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" cornerRadiusMeasure="0,mm" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="15,40,mm" positionLock="false" positionOnPage="15,40,mm" referencePoint="0" shapeType="1" size="402,0.22,mm" templateUuid="{ea9ba70f-ddc6-48a6-b235-57fbce5e816d}" type="65643" uuid="{ea9ba70f-ddc6-48a6-b235-57fbce5e816d}" visibility="1" zValue="4">
+ <LayoutItem background="false" blendMode="0" cornerRadiusMeasure="0,mm" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="15,40,mm" positionLock="false" positionOnPage="15,40,mm" referencePoint="0" shapeType="1" size="402,0.22,mm" templateUuid="{3674bdcf-c939-4aad-b957-6fca3034f18e}" type="65643" uuid="{3674bdcf-c939-4aad-b957-6fca3034f18e}" visibility="1" zValue="4">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1454,7 +1454,7 @@
      <Option name="type" type="QString" value="collection"/>
     </Option>
    </data_defined_properties>
-   <layer class="SimpleFill" enabled="1" id="{bd5fd60d-10ed-4e7d-8452-2ef223660324}" locked="0" pass="0">
+   <layer class="SimpleFill" enabled="1" id="{0494d798-77ed-42bb-bc4e-86e521c33012}" locked="0" pass="0">
     <Option type="Map">
      <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
      <Option name="color" type="QString" value="17,17,17,255,rgb:0.0666667,0.0666667,0.0666667,1"/>
@@ -1478,7 +1478,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="The instructor's key  /  Ordinary tandem team  /  Double carries  /  Model assumptions, not observed travel times" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,31,mm" positionLock="false" positionOnPage="15,31,mm" referencePoint="0" size="395,7,mm" templateUuid="{2fa72de0-a9f4-4fe7-a677-7cf302a67586}" type="65641" uuid="{2fa72de0-a9f4-4fe7-a677-7cf302a67586}" valign="32" visibility="1" zValue="3">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="The instructor's key  /  Ordinary tandem team  /  Double carries  /  Model assumptions, not observed travel times" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="15,31,mm" positionLock="false" positionOnPage="15,31,mm" referencePoint="0" size="395,7,mm" templateUuid="{799757bc-75e3-437b-8bf8-65a2f5491b40}" type="65641" uuid="{799757bc-75e3-437b-8bf8-65a2f5491b40}" valign="32" visibility="1" zValue="3">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1540,7 +1540,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="The Canoe Traveller's Network" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="14,16,mm" positionLock="false" positionOnPage="14,16,mm" referencePoint="0" size="330,14,mm" templateUuid="{fd48ed0b-0138-4150-8b8e-23b2a73170ff}" type="65641" uuid="{fd48ed0b-0138-4150-8b8e-23b2a73170ff}" valign="32" visibility="1" zValue="2">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="The Canoe Traveller's Network" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="14,16,mm" positionLock="false" positionOnPage="14,16,mm" referencePoint="0" size="330,14,mm" templateUuid="{33d7560b-8a2d-48a3-9ea9-1d920a5899fd}" type="65641" uuid="{33d7560b-8a2d-48a3-9ea9-1d920a5899fd}" valign="32" visibility="1" zValue="2">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1602,7 +1602,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="A DRAUGHT OF THE EASTERN LAKES" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="14,8,mm" positionLock="false" positionOnPage="14,8,mm" referencePoint="0" size="330,7,mm" templateUuid="{e3f45358-bfc7-431e-96de-9d27f4768d9d}" type="65641" uuid="{e3f45358-bfc7-431e-96de-9d27f4768d9d}" valign="32" visibility="1" zValue="1">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="A DRAUGHT OF THE EASTERN LAKES" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="14,8,mm" positionLock="false" positionOnPage="14,8,mm" referencePoint="0" size="330,7,mm" templateUuid="{2d4bb557-9e01-4ac3-9d68-df5e519dd178}" type="65641" uuid="{2d4bb557-9e01-4ac3-9d68-df5e519dd178}" valign="32" visibility="1" zValue="1">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>

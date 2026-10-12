@@ -80,3 +80,7 @@ Use relative paths throughout. Keep the source image as a stylistic reference, n
 - Project context explored and design direction approved in conversation.
 - Written specification prepared for the required review.
 - Implementation planning, data expansion, project creation and output validation follow written-spec approval.
+
+## User-directed visual revision after first delivery
+
+The user requested source-shaped curved portages, more distinctive lake footprints, time-based distortion, and a wider area. This supersedes the original straight-link and three-size-class choices: the updated chart uses simplified actual footprints, source-derived bends, square-root time emphasis, 22 lakes, and a 24 × 12 inch panoramic chart. It retains the timing assumptions, geographic companion, evidence distinctions and portable native QGIS deliverables.

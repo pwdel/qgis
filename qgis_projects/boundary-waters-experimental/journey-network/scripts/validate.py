@@ -10,7 +10,7 @@ def check(ok,message):
  checks.append(message)
 A=json.load(open(D/'assumptions.json'))
 net=json.load(open(D/'network.json'));lookup={r['id']:r for r in net['legs']}
-check(len(net['lakes'])==17,'17 named lakes');check(len(net['connections'])==18,'18 supported connections')
+check(len(net['lakes'])==22,'22 named lakes');check(len(net['connections'])==23,'23 supported connections')
 water={f['properties']['name']:shape(f['geometry']) for f in json.load(open(D/'geographic-lakes.geojson'))['features']}
 lands={(f['properties']['lake'],f['properties']['point_id']):shape(f['geometry']) for f in json.load(open(D/'geographic-landings.geojson'))['features']}
 for f in json.load(open(D/'geographic-paddles.geojson'))['features']:
@@ -36,6 +36,9 @@ for route in net['routes']:
   r=lookup[id];ends=[(r['from_lake'],r['from_point']),(r['to_lake'],r['to_point'])];check(cur in ends,route['name']+' contiguous '+id);cur=ends[1] if cur==ends[0] else ends[0]
  check(cur==('Clearwater','S'),route['name']+' closes at departure')
  check(abs(sum(lookup[id]['low_h'] for id in route['legs'])-route['low_h'])<1e-9 and abs(sum(lookup[id]['high_h'] for id in route['legs'])-route['high_h'])<1e-9,route['name']+' totals sum raw leg times')
+for c in json.load(open(D/'diagram-layout.json'))['connection_checks']:
+ check(c['start_boundary_gap']<1e-6 and c['end_boundary_gap']<1e-6,c['id']+' distorted carry attaches to source-corresponding shores')
+ check(c['source_vertices']>=2 and c['diagram_vertices']>=2,c['id']+' source-shaped curve retained with shoreline clipping')
 app=QgsApplication([],False);app.initQgis()
 def project(root,fn):
  p=QgsProject();check(p.read(str(root/fn)),fn+' reopens')
@@ -45,7 +48,7 @@ def project(root,fn):
   check(l.crs()==p.crs(),fn+' layer CRS matches project '+l.name())
  if fn.startswith('journey'):
   check(not p.crs().isGeographic() and 'GEOGCRS' not in p.crs().toWkt(),fn+' engineering CRS, not geographic')
-  check(len(p.layoutManager().layouts())==4,fn+' four native editable layouts')
+  check(len(p.layoutManager().layouts())==5,fn+' five native editable layouts')
   check(all('diagram.gpkg' in l.source() for l in p.mapLayers().values()),fn+' all diagram layers use local-CRS GeoPackage')
  else:check(p.crs().authid()=='EPSG:26915',fn+' real UTM geographic evidence')
  return p

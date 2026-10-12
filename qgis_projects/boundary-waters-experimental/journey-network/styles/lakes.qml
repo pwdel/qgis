@@ -29,7 +29,7 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleLine" enabled="1" id="{5f9890c5-8611-43eb-b178-4b7e313b26ee}" locked="0" pass="0">
+        <layer class="SimpleLine" enabled="1" id="{b4db51a3-9207-489a-bf1b-4d6153c4dfa2}" locked="0" pass="0">
           <Option type="Map">
             <Option name="align_dash_pattern" type="QString" value="0"/>
             <Option name="capstyle" type="QString" value="square"/>
@@ -41,7 +41,7 @@
             <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
             <Option name="draw_inside_polygon" type="QString" value="0"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
-            <Option name="line_color" type="QString" value="146,15,96,255,hsv:0.89722222089767456,0.89411765336990356,0.57254904508590698,1"/>
+            <Option name="line_color" type="QString" value="34,98,167,255,hsv:0.58611112833023071,0.79607844352722168,0.65490198135375977,1"/>
             <Option name="line_style" type="QString" value="solid"/>
             <Option name="line_width" type="QString" value="0.6"/>
             <Option name="line_width_unit" type="QString" value="MM"/>
@@ -78,15 +78,15 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleFill" enabled="1" id="{53bd2188-9cdd-45c9-9d66-4bb58521e0c1}" locked="0" pass="0">
+        <layer class="SimpleFill" enabled="1" id="{cc83dd96-da08-4f44-b293-9613ef73aca9}" locked="0" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-            <Option name="color" type="QString" value="146,15,96,255,hsv:0.89722222089767456,0.89411765336990356,0.57254904508590698,1"/>
+            <Option name="color" type="QString" value="34,98,167,255,hsv:0.58611112833023071,0.79607844352722168,0.65490198135375977,1"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
-            <Option name="outline_color" type="QString" value="104,11,69,255,hsv:0.89722222089767456,0.89411765336990356,0.40895703434944153,1"/>
+            <Option name="outline_color" type="QString" value="24,70,119,255,hsv:0.58611112833023071,0.79607844352722168,0.46778059005737305,1"/>
             <Option name="outline_style" type="QString" value="solid"/>
             <Option name="outline_width" type="QString" value="0.2"/>
             <Option name="outline_width_unit" type="QString" value="MM"/>
@@ -111,18 +111,18 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleMarker" enabled="1" id="{38aa6275-cf72-4684-81a7-66c74d3629a7}" locked="0" pass="0">
+        <layer class="SimpleMarker" enabled="1" id="{6bc1f8db-0e53-4353-bda5-0b6226b8ff96}" locked="0" pass="0">
           <Option type="Map">
             <Option name="angle" type="QString" value="0"/>
             <Option name="cap_style" type="QString" value="square"/>
-            <Option name="color" type="QString" value="146,15,96,255,hsv:0.89722222089767456,0.89411765336990356,0.57254904508590698,1"/>
+            <Option name="color" type="QString" value="34,98,167,255,hsv:0.58611112833023071,0.79607844352722168,0.65490198135375977,1"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
             <Option name="name" type="QString" value="diamond"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
-            <Option name="outline_color" type="QString" value="104,11,69,255,hsv:0.89722222089767456,0.89411765336990356,0.40895703434944153,1"/>
+            <Option name="outline_color" type="QString" value="24,70,119,255,hsv:0.58611112833023071,0.79607844352722168,0.46778059005737305,1"/>
             <Option name="outline_style" type="QString" value="solid"/>
             <Option name="outline_width" type="QString" value="0.2"/>
             <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -154,7 +154,7 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleFill" enabled="1" id="{82c3f3c1-3bac-42fe-bf7b-a7f56c3bbe22}" locked="0" pass="0">
+        <layer class="SimpleFill" enabled="1" id="{d3f6f516-f5f4-46b8-becd-8c29e410447e}" locked="0" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
@@ -223,14 +223,28 @@
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="0" name="area_km2">
+    <field configurationFlags="0" name="source">
       <editWidget type="">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="0" name="size_class">
+    <field configurationFlags="0" name="crossing_mid_hours">
+      <editWidget type="">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="0" name="width_rule">
+      <editWidget type="">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="0" name="area_km2">
       <editWidget type="">
         <config>
           <Option/>
@@ -241,26 +255,34 @@
   <aliases>
     <alias field="fid" index="0" name=""/>
     <alias field="name" index="1" name=""/>
-    <alias field="area_km2" index="2" name=""/>
-    <alias field="size_class" index="3" name=""/>
+    <alias field="source" index="2" name=""/>
+    <alias field="crossing_mid_hours" index="3" name=""/>
+    <alias field="width_rule" index="4" name=""/>
+    <alias field="area_km2" index="5" name=""/>
   </aliases>
   <defaults>
     <default applyOnUpdate="0" expression="" field="fid"/>
     <default applyOnUpdate="0" expression="" field="name"/>
+    <default applyOnUpdate="0" expression="" field="source"/>
+    <default applyOnUpdate="0" expression="" field="crossing_mid_hours"/>
+    <default applyOnUpdate="0" expression="" field="width_rule"/>
     <default applyOnUpdate="0" expression="" field="area_km2"/>
-    <default applyOnUpdate="0" expression="" field="size_class"/>
   </defaults>
   <constraints>
     <constraint constraints="3" exp_strength="0" field="fid" notnull_strength="1" unique_strength="1"/>
     <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" field="source" notnull_strength="0" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" field="crossing_mid_hours" notnull_strength="0" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" field="width_rule" notnull_strength="0" unique_strength="0"/>
     <constraint constraints="0" exp_strength="0" field="area_km2" notnull_strength="0" unique_strength="0"/>
-    <constraint constraints="0" exp_strength="0" field="size_class" notnull_strength="0" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint desc="" exp="" field="fid"/>
     <constraint desc="" exp="" field="name"/>
+    <constraint desc="" exp="" field="source"/>
+    <constraint desc="" exp="" field="crossing_mid_hours"/>
+    <constraint desc="" exp="" field="width_rule"/>
     <constraint desc="" exp="" field="area_km2"/>
-    <constraint desc="" exp="" field="size_class"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions/>

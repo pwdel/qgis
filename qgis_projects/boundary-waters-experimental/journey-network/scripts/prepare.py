@@ -15,9 +15,11 @@ for f in ['map-data.json','passages-approximate.geojson','portages-recorded.geoj
 
  if not (S/f).exists():shutil.copy2(P/'derived'/f,S/f)
 t=next(x for x in TransformerGroup(4326,26915,always_xy=True).transformers if '(1)' in x.description)
-names=['Clearwater','West Pike','East Pike','John','Little John','McFarland','Pine','Little Caribou','Caribou','Mountain','Watap','Rove','Rose','Deer','Canoe','Alder','Crystal']
+names=['Clearwater','West Pike','East Pike','John','Little John','McFarland','Pine','Little Caribou','Caribou','Mountain','Watap','Rove','Rose','Deer','Canoe','Alder','Crystal','Duncan','Bearskin','Fan','Vaseux','Moose']
 w={}
-for f in json.load(open(S/'hydrography.geojson'))['features']:
+hydro=json.load(open(S/'hydrography.geojson'))['features']
+hydro += [f for f in json.load(open(S/'western-hydrography.geojson'))['features'] if f['properties'].get('pw_basin_name') in ['Duncan','Bearskin']]
+for f in hydro:
  n=(f['properties'].get('pw_basin_name') or '').replace(' (Canada)','')
  if n in names:
   g=shapely.make_valid(transform(t.transform,shape(f['geometry'])))
@@ -46,7 +48,8 @@ for e in meta['transitions']:
  if Point(g.coords[0]).distance(p)>Point(g.coords[-1]).distance(p):g=LineString(list(g.coords)[::-1])
  add(cid,a,b,g,p,q,e['evidence'],'USFS + published digitized GPX' if cid=='a' else e.get('source','Friends of BWCA digitized GPX'),cid in approx,'river' if cid=='f' else 'carry')
 trails={f['attributes']['objectid']:f for f in json.load(open(S/'usfs-trails.json'))['features']}
-for cid,a,b,oid in [('k','Clearwater','Mountain',9720610),('l','Mountain','Watap',9720794),('n','Rove','Rose',9720865),('o','Caribou','Deer',9720666),('p','Pine','Canoe',9720821),('q','Canoe','Alder',9720785),('r','Canoe','Crystal',9721319)]:
+trails.update({f['attributes']['objectid']:f for f in json.load(open(S/'western-usfs.json'))['features']})
+for cid,a,b,oid in [('k','Clearwater','Mountain',9720610),('l','Mountain','Watap',9720794),('n','Rove','Rose',9720865),('o','Caribou','Deer',9720666),('p','Pine','Canoe',9720821),('q','Canoe','Alder',9720785),('r','Canoe','Crystal',9721319),('s','Rose','Duncan',9634578),('t','Duncan','Bearskin',9634447),('u','Mountain','Fan',9720972),('v','Fan','Vaseux',9720360),('w','Vaseux','Moose',9720609)]:
  g=transform(t.transform,LineString(trails[oid]['geometry']['paths'][0]));p,q=Point(g.coords[0]),Point(g.coords[-1])
  if p.distance(w[a])+q.distance(w[b])>q.distance(w[a])+p.distance(w[b]):g=LineString(list(g.coords)[::-1]);p,q=q,p
  assert max(p.distance(w[a]),q.distance(w[b]))<30,(cid,p.distance(w[a]),q.distance(w[b]))
@@ -54,7 +57,7 @@ for cid,a,b,oid in [('k','Clearwater','Mountain',9720610),('l','Mountain','Watap
 p,q=nearest_points(w['Watap'],w['Rove']);add('m','Watap','Rove',LineString([p,q]),p,q,'Narrow water connection; DNR polygons separated by 3.6 m; not a portage','DNR hydrography + Parks Canada Morse canoe-route history',True,'narrows')
 start=shape(json.load(open(S/'start.geojson'))['features'][0]['geometry']);endpoints['Clearwater']['S']=start
 for n in names:
- if len(endpoints[n])==1:endpoints[n]['T']=w[n].representative_point()
+ if len(endpoints[n])==1 or n=='Rose':endpoints[n]['T']=w[n].representative_point()
 paths=[];pairs={}
 for n in names:
  for a,b in itertools.combinations(sorted(endpoints[n]),2):

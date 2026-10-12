@@ -29,7 +29,7 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleLine" enabled="1" id="{bec7a833-078c-4257-8bb3-3b33382b435b}" locked="0" pass="0">
+        <layer class="SimpleLine" enabled="1" id="{3c64da17-28d0-4bca-b4cf-f4cd2127f4d2}" locked="0" pass="0">
           <Option type="Map">
             <Option name="align_dash_pattern" type="QString" value="0"/>
             <Option name="capstyle" type="QString" value="square"/>
@@ -41,7 +41,7 @@
             <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
             <Option name="draw_inside_polygon" type="QString" value="0"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
-            <Option name="line_color" type="QString" value="50,22,231,255,hsv:0.68888890743255615,0.90588235855102539,0.90588235855102539,1"/>
+            <Option name="line_color" type="QString" value="96,181,35,255,hsv:0.2638888955116272,0.80392158031463623,0.70980393886566162,1"/>
             <Option name="line_style" type="QString" value="solid"/>
             <Option name="line_width" type="QString" value="0.6"/>
             <Option name="line_width_unit" type="QString" value="MM"/>
@@ -78,15 +78,15 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleFill" enabled="1" id="{293eca3f-1432-4a65-b255-0f3a3aafe662}" locked="0" pass="0">
+        <layer class="SimpleFill" enabled="1" id="{6d50079d-605a-45ec-b8e7-ab07251f3eaf}" locked="0" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-            <Option name="color" type="QString" value="50,22,231,255,hsv:0.68888890743255615,0.90588235855102539,0.90588235855102539,1"/>
+            <Option name="color" type="QString" value="96,181,35,255,hsv:0.2638888955116272,0.80392158031463623,0.70980393886566162,1"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
-            <Option name="outline_color" type="QString" value="35,16,165,255,hsv:0.68888890743255615,0.90588235855102539,0.64705884456634521,1"/>
+            <Option name="outline_color" type="QString" value="69,129,25,255,hsv:0.2638888955116272,0.80392158031463623,0.5069962739944458,1"/>
             <Option name="outline_style" type="QString" value="solid"/>
             <Option name="outline_width" type="QString" value="0.2"/>
             <Option name="outline_width_unit" type="QString" value="MM"/>
@@ -111,18 +111,18 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleMarker" enabled="1" id="{d1bc0153-a69d-472f-8757-41d4e48769b7}" locked="0" pass="0">
+        <layer class="SimpleMarker" enabled="1" id="{a9f1c42d-5b7e-4147-90b7-48ad9888d32e}" locked="0" pass="0">
           <Option type="Map">
             <Option name="angle" type="QString" value="0"/>
             <Option name="cap_style" type="QString" value="square"/>
-            <Option name="color" type="QString" value="50,22,231,255,hsv:0.68888890743255615,0.90588235855102539,0.90588235855102539,1"/>
+            <Option name="color" type="QString" value="96,181,35,255,hsv:0.2638888955116272,0.80392158031463623,0.70980393886566162,1"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
             <Option name="name" type="QString" value="diamond"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
-            <Option name="outline_color" type="QString" value="35,16,165,255,hsv:0.68888890743255615,0.90588235855102539,0.64705884456634521,1"/>
+            <Option name="outline_color" type="QString" value="69,129,25,255,hsv:0.2638888955116272,0.80392158031463623,0.5069962739944458,1"/>
             <Option name="outline_style" type="QString" value="solid"/>
             <Option name="outline_width" type="QString" value="0.2"/>
             <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -154,7 +154,7 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer class="SimpleLine" enabled="1" id="{eef15adc-eeb2-4e19-9c46-41d5e5d49c85}" locked="0" pass="0">
+        <layer class="SimpleLine" enabled="1" id="{baf14544-d17e-4a6c-9bee-bd1b12c0460e}" locked="0" pass="0">
           <Option type="Map">
             <Option name="align_dash_pattern" type="QString" value="0"/>
             <Option name="capstyle" type="QString" value="round"/>
@@ -358,6 +358,27 @@
         </config>
       </editWidget>
     </field>
+    <field configurationFlags="0" name="diagram_length">
+      <editWidget type="">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="0" name="shape_source">
+      <editWidget type="">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="0" name="spacing_target">
+      <editWidget type="">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
   </fieldConfiguration>
   <aliases>
     <alias field="fid" index="0" name=""/>
@@ -379,6 +400,9 @@
     <alias field="display" index="16" name=""/>
     <alias field="detour_low" index="17" name=""/>
     <alias field="detour_high" index="18" name=""/>
+    <alias field="diagram_length" index="19" name=""/>
+    <alias field="shape_source" index="20" name=""/>
+    <alias field="spacing_target" index="21" name=""/>
   </aliases>
   <defaults>
     <default applyOnUpdate="0" expression="" field="fid"/>
@@ -400,6 +424,9 @@
     <default applyOnUpdate="0" expression="" field="display"/>
     <default applyOnUpdate="0" expression="" field="detour_low"/>
     <default applyOnUpdate="0" expression="" field="detour_high"/>
+    <default applyOnUpdate="0" expression="" field="diagram_length"/>
+    <default applyOnUpdate="0" expression="" field="shape_source"/>
+    <default applyOnUpdate="0" expression="" field="spacing_target"/>
   </defaults>
   <constraints>
     <constraint constraints="3" exp_strength="0" field="fid" notnull_strength="1" unique_strength="1"/>
@@ -421,6 +448,9 @@
     <constraint constraints="0" exp_strength="0" field="display" notnull_strength="0" unique_strength="0"/>
     <constraint constraints="0" exp_strength="0" field="detour_low" notnull_strength="0" unique_strength="0"/>
     <constraint constraints="0" exp_strength="0" field="detour_high" notnull_strength="0" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" field="diagram_length" notnull_strength="0" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" field="shape_source" notnull_strength="0" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" field="spacing_target" notnull_strength="0" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint desc="" exp="" field="fid"/>
@@ -442,6 +472,9 @@
     <constraint desc="" exp="" field="display"/>
     <constraint desc="" exp="" field="detour_low"/>
     <constraint desc="" exp="" field="detour_high"/>
+    <constraint desc="" exp="" field="diagram_length"/>
+    <constraint desc="" exp="" field="shape_source"/>
+    <constraint desc="" exp="" field="spacing_target"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions/>
