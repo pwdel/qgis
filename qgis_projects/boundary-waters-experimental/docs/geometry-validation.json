@@ -1,0 +1,355 @@
+{
+  "paddle_checks": [
+    {
+      "route": "a",
+      "lake": "Clearwater",
+      "length_m": 9820,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "a",
+      "lake": "West Pike",
+      "length_m": 6073,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "a",
+      "lake": "Pine",
+      "length_m": 6120,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "a",
+      "lake": "Little Caribou",
+      "length_m": 1000,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "a",
+      "lake": "Caribou",
+      "length_m": 5516,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "a",
+      "lake": "Clearwater",
+      "length_m": 1986,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "Clearwater",
+      "length_m": 9820,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "West Pike",
+      "length_m": 6073,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "East Pike",
+      "length_m": 5833,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "John",
+      "length_m": 2095,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "Little John",
+      "length_m": 901,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "McFarland",
+      "length_m": 4004,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "Pine",
+      "length_m": 11514,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "Little Caribou",
+      "length_m": 1000,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "Caribou",
+      "length_m": 5516,
+      "water_covered_2m_tolerance": true
+    },
+    {
+      "route": "b",
+      "lake": "Clearwater",
+      "length_m": 1986,
+      "water_covered_2m_tolerance": true
+    }
+  ],
+  "route_closure": {
+    "a": {
+      "sequence": [
+        "a",
+        "b",
+        "h",
+        "i",
+        "j"
+      ],
+      "paddling_km": 30.5,
+      "closed_lake_sequence": true
+    },
+    "b": {
+      "sequence": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j"
+      ],
+      "paddling_km": 48.7,
+      "closed_lake_sequence": true
+    }
+  },
+  "transitions": [
+    {
+      "id": "a",
+      "from_lake": "Clearwater",
+      "to_lake": "West Pike",
+      "field_verified": false,
+      "usfs_objectid": 9720760,
+      "shore_gaps_m": [
+        0.0,
+        579.4
+      ],
+      "source": "USFS 2026-10-12",
+      "evidence": "Incomplete USFS geometry; digitized GPX supports approximate passage",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          704130.2063021411,
+          5329462.635194087
+        ],
+        [
+          705092.0831521777,
+          5329304.7929922
+        ]
+      ]
+    },
+    {
+      "id": "b",
+      "from_lake": "West Pike",
+      "to_lake": "Pine",
+      "field_verified": false,
+      "usfs_objectid": 9720251,
+      "shore_gaps_m": [
+        0.0,
+        0.0
+      ],
+      "source": "USFS 2026-10-12",
+      "evidence": "USFS geometry with shoreline-derived landings",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          710999.3842737863,
+          5329131.908957725
+        ],
+        [
+          710546.1168872024,
+          5327618.422966699
+        ]
+      ]
+    },
+    {
+      "id": "c",
+      "from_lake": "West Pike",
+      "to_lake": "East Pike",
+      "field_verified": false,
+      "usfs_objectid": 9720635,
+      "shore_gaps_m": [
+        0.0,
+        0.0
+      ],
+      "source": "USFS 2026-10-12",
+      "evidence": "USFS geometry with shoreline-derived landings",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          710999.3842737863,
+          5329131.908957725
+        ],
+        [
+          711764.049077764,
+          5328881.338910669
+        ]
+      ]
+    },
+    {
+      "id": "d",
+      "from_lake": "East Pike",
+      "to_lake": "John",
+      "field_verified": false,
+      "usfs_objectid": 9720286,
+      "shore_gaps_m": [
+        2.0,
+        12.5
+      ],
+      "source": "USFS 2026-10-12",
+      "evidence": "USFS geometry with shoreline-derived landings",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          717448.7451345711,
+          5329473.868108902
+        ],
+        [
+          717926.5496725229,
+          5328719.820656009
+        ]
+      ]
+    },
+    {
+      "id": "e",
+      "from_lake": "John",
+      "to_lake": "Little John",
+      "field_verified": false,
+      "usfs_objectid": 9720382,
+      "shore_gaps_m": [
+        0.0,
+        0.0
+      ],
+      "source": "USFS 2026-10-12",
+      "evidence": "USFS geometry with shoreline-derived landings",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          719452.9898771462,
+          5327428.438477999
+        ],
+        [
+          719456.7983054824,
+          5327379.4314244315
+        ]
+      ]
+    },
+    {
+      "id": "f",
+      "from_lake": "Little John",
+      "to_lake": "McFarland",
+      "field_verified": false,
+      "evidence": "Short river connection, generalized GPX; water polygons have a gap",
+      "kind": "river connection",
+      "landing_xy": [
+        [
+          719268.6554172807,
+          5326524.028164809
+        ],
+        [
+          719264.0092166608,
+          5326492.404422561
+        ]
+      ]
+    },
+    {
+      "id": "g",
+      "from_lake": "McFarland",
+      "to_lake": "Pine",
+      "field_verified": false,
+      "usfs_objectid": 9721325,
+      "shore_gaps_m": [
+        0.0,
+        8.8
+      ],
+      "source": "USFS 2026-10-12",
+      "evidence": "USFS geometry with shoreline-derived landings",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          715993.1103758094,
+          5327250.200133028
+        ],
+        [
+          715964.0144652205,
+          5327223.54449019
+        ]
+      ]
+    },
+    {
+      "id": "h",
+      "from_lake": "Pine",
+      "to_lake": "Little Caribou",
+      "field_verified": false,
+      "evidence": "Published digitized GPX; no matching USFS trail geometry",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          704456.9109688059,
+          5327005.872493566
+        ],
+        [
+          704302.1682334032,
+          5327362.576362658
+        ]
+      ]
+    },
+    {
+      "id": "i",
+      "from_lake": "Little Caribou",
+      "to_lake": "Caribou",
+      "field_verified": false,
+      "evidence": "Published digitized GPX; no matching USFS trail geometry",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          703318.5186787439,
+          5327537.224870409
+        ],
+        [
+          703220.0926171984,
+          5327543.774914956
+        ]
+      ]
+    },
+    {
+      "id": "j",
+      "from_lake": "Caribou",
+      "to_lake": "Clearwater",
+      "field_verified": false,
+      "usfs_objectid": 9720638,
+      "shore_gaps_m": [
+        10.3,
+        0.0
+      ],
+      "source": "USFS 2026-10-12",
+      "evidence": "USFS geometry with shoreline-derived landings",
+      "kind": "portage",
+      "landing_xy": [
+        [
+          697791.6210443907,
+          5327286.925850586
+        ],
+        [
+          696865.5542530295,
+          5327359.3835643
+        ]
+      ]
+    }
+  ],
+  "terrain_note": "Bare-earth sightlines omit canopy; not field verification",
+  "high_points": 12,
+  "sightlines_found": 11
+}

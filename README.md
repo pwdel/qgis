@@ -4,6 +4,7 @@
 
 ## Canoe maps
 
+- [Clearwater navigation teaching experiment](qgis_projects/boundary-waters-experimental/README.md): black-and-white historical-style charts, two hypothetical loops, hidden portage evidence, and editable QGIS projects with student/instructor PDFs.
 - [Boundary Waters — 2008 canoe route atlas](qgis_projects/boundary-waters/README.md): six pages with DNR depth maps, dated fisheries and stocking records, an editable QGIS project, and experimental lidar portage-approach views.
 
 ## Horse-riding maps

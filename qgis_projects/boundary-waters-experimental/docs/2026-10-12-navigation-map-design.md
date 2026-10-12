@@ -1,7 +1,7 @@
 # Clearwater navigation teaching map — design
 
 Date: 2026-10-12
-Status: design prepared for user review; map not yet built.
+Status: approved by the user and implemented. Delivery additionally includes an uncompressed .qgs project, seven editable layouts, local styles/data and a portable bundle.
 
 ## Approved intent
 
