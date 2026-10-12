@@ -2,6 +2,10 @@
 
 A black-and-white chart in the manner of an eighteenth-century ink draught: named lake outlines, engraved shoreline accents, hill hachures, twelve terrain-derived high points and broad passage clues. Two hypothetical canoe circuits begin and end at Clearwater Lake.
 
+## New journey-network experiment
+
+The separate **[Canoe Traveller's Network](journey-network/README.md)** expands this to 17 lakes with deliberately distorted puddles, straight carry links, modeled paddling and double-carry hours, and its own editable QGIS project and PDFs.
+
 ## Open the real project
 
 **[Open clearwater-navigation.qgz](clearwater-navigation.qgz)** in QGIS. An equivalent uncompressed **[clearwater-navigation.qgs](clearwater-navigation.qgs)** is included for inspection and editing. Keep this directory intact: data, compass artwork, saved styles and seven editable layouts use local relative paths. No virtual environment, container, network connection or script execution is needed to open the saved project.
