@@ -1,0 +1,170 @@
+{
+  "as_of": "2026-10-09",
+  "purpose": "Compact atlas sidebar content; dates are a source snapshot, never a calendar of future burn bans.",
+  "areas": {
+    "ranch": {
+      "name": "Paria River Ranch / canyon country",
+      "blocks": [
+        {
+          "heading": "Who sets the rules",
+          "body": "Ranch/private parcels follow landowner conditions and applicable Kane County/Utah rules. Nearby federal canyon country is BLM, including Grand Staircase\u2013Escalante and Paria Canyon wilderness lands; use the relevant BLM office. \u201cCanyon country\u201d here is geography, not BLM\u2019s Canyon Country District. Fire response departments do not define these land boundaries.",
+          "citations": [
+            "https://gis.utah.gov/products/sgid/cadastre/land-ownership/",
+            "https://www.blm.gov/programs/fire/regional-info/utah/fire-restrictions"
+          ]
+        },
+        {
+          "heading": "Orders checked \u00b7 October 9",
+          "body": "BLM Paria River District Stage 1 order UT-020-2026-08 was rescinded September 4 by UT-020-2026-11. Utah lifted Stage 1 restrictions on Kane County state and unincorporated private lands September 4. No replacement seasonal order was listed in the checked official indexes.",
+          "citations": [
+            "https://drive.google.com/file/d/1SuFoPojgHtzDsYshX1XzOWnK_LAJP7uD/view",
+            "https://drive.google.com/file/d/1lxHN-SO266CUo1aB2moMWFS1G74c3ClF/view",
+            "https://utah-fire-info-utahdnr.hub.arcgis.com/pages/ba47d998e6b04639bbf50954cf5aa8c7"
+          ]
+        },
+        {
+          "heading": "Standing site rules",
+          "body": "Paria Canyon permit rules prohibit campfires. BLM Utah\u2019s fireworks/explosives prevention order remains effective until rescinded. Ranch permission does not authorize a fire on adjoining land. Check the exact campsite, posted rules and Trust Lands conditions before lighting any fire.",
+          "citations": [
+            "https://www.blm.gov/programs/recreation/permits-and-passes/lotteries-and-permit-systems/arizona/paria-canyon",
+            "https://www.blm.gov/sites/default/files/docs/2025-06/2025_UTSO_Fire%20Prevention%20Order.pdf",
+            "https://trustlands.utah.gov/trust-lands-and-you/"
+          ]
+        },
+        {
+          "heading": "October outlook",
+          "body": "NIFC outlook issued October 1, 2026: normal significant fire potential for southern Utah in October\u2013January. Next issue: November 2. This regional seasonal forecast does not predict daily fire weather or authorize campfires. Check new orders and local conditions before travel.",
+          "citations": [
+            "https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf"
+          ]
+        }
+      ]
+    },
+    "barracks": {
+      "name": "Mt Carmel / Bay Bill / Barracks",
+      "blocks": [
+        {
+          "heading": "Who sets the rules",
+          "body": "This Kane County area mixes BLM, state and private parcels; Barracks Ranch is private. Use BLM Kanab/Paria River District for BLM land and Utah FFSL plus applicable county or municipal rules for other parcels. A responding fire department\u2019s service area is not a land-management or campfire-permission boundary.",
+          "citations": [
+            "https://gis.utah.gov/products/sgid/cadastre/land-ownership/",
+            "https://www.blm.gov/visit/barracks-kiosk",
+            "https://drive.google.com/file/d/1SuFoPojgHtzDsYshX1XzOWnK_LAJP7uD/view",
+            "https://drive.google.com/file/d/1lxHN-SO266CUo1aB2moMWFS1G74c3ClF/view"
+          ]
+        },
+        {
+          "heading": "Orders checked \u00b7 October 9",
+          "body": "BLM Paria River District Stage 1 order UT-020-2026-08 was rescinded September 4 by UT-020-2026-11. Utah\u2019s Kane County state/unincorporated-private Stage 1 restrictions also ended September 4. Checked indexes listed no replacement seasonal order; incorporated towns and private-property conditions still need a separate check.",
+          "citations": [
+            "https://drive.google.com/file/d/1SuFoPojgHtzDsYshX1XzOWnK_LAJP7uD/view",
+            "https://drive.google.com/file/d/1lxHN-SO266CUo1aB2moMWFS1G74c3ClF/view",
+            "https://utah-fire-info-utahdnr.hub.arcgis.com/pages/ba47d998e6b04639bbf50954cf5aa8c7"
+          ]
+        },
+        {
+          "heading": "Before a campfire",
+          "body": "BLM\u2019s statewide fireworks/explosives prohibition remains effective. Verify the parcel and current posted conditions at dispersed camps. Trust Lands\u2019 open-fire banner links to a 2021 notice and cannot establish today\u2019s restriction status. Public access or a campsite symbol is not fire permission.",
+          "citations": [
+            "https://www.blm.gov/sites/default/files/docs/2025-06/2025_UTSO_Fire%20Prevention%20Order.pdf",
+            "https://trustlands.utah.gov/trust-lands-and-you/",
+            "https://trustlands.utah.gov/wp-content/uploads/2021/06/Statewide-Stage-1.pdf"
+          ]
+        },
+        {
+          "heading": "October outlook",
+          "body": "NIFC outlook issued October 1, 2026: normal significant fire potential for southern Utah in October\u2013January. Next issue: November 2. This regional seasonal forecast does not predict daily fire weather or authorize campfires. Check new orders and local conditions before travel.",
+          "citations": [
+            "https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf"
+          ]
+        }
+      ]
+    },
+    "red-canyon": {
+      "name": "Red Canyon / Losee / Casto / Thunder / Coyote Hollow / Toms Best",
+      "blocks": [
+        {
+          "heading": "Who sets the rules",
+          "body": "The forest riding core is Dixie National Forest, Powell Ranger District. The wider Garfield County map also contains private, state and BLM parcels. Forest Service orders govern National Forest System land; Utah FFSL and applicable local rules govern state/unincorporated-private parcels. Local fire responders are not the forest restriction issuer.",
+          "citations": [
+            "https://gis.utah.gov/products/sgid/cadastre/land-ownership/",
+            "https://www.fs.usda.gov/r04/dixie/alerts",
+            "https://drive.google.com/file/d/1lxHN-SO266CUo1aB2moMWFS1G74c3ClF/view"
+          ]
+        },
+        {
+          "heading": "Orders checked \u00b7 October 9",
+          "body": "Dixie terminated Stage 1 order 0407-26-12 effective September 2, 2026. Utah\u2019s Garfield County state/unincorporated-private Stage 1 restrictions ended September 4. BLM Color Country Stage 1 restrictions ended September 4. No replacement seasonal order was listed for this riding area in the checked indexes.",
+          "citations": [
+            "https://www.fs.usda.gov/r04/dixie/alerts/dixie-national-forest-rescinds-stage-1-fire-restrictions",
+            "https://drive.google.com/file/d/1lxHN-SO266CUo1aB2moMWFS1G74c3ClF/view",
+            "https://drive.google.com/file/d/1TH8NNVXXPLxJjPCUaCCFrfCkg6iG8kQl/view",
+            "https://utah-fire-info-utahdnr.hub.arcgis.com/pages/ba47d998e6b04639bbf50954cf5aa8c7"
+          ]
+        },
+        {
+          "heading": "Site rules still apply",
+          "body": "Seasonal rescission does not remove campground rules, resource closures or landowner conditions. Check the forest alerts and campsite signs before using a fire ring. Trust Lands\u2019 open-fire banner points to a 2021 notice; it is not evidence of an October 2026 blanket ban.",
+          "citations": [
+            "https://www.fs.usda.gov/r04/dixie/alerts",
+            "https://trustlands.utah.gov/trust-lands-and-you/",
+            "https://trustlands.utah.gov/wp-content/uploads/2021/06/Statewide-Stage-1.pdf"
+          ]
+        },
+        {
+          "heading": "October outlook",
+          "body": "NIFC outlook issued October 1, 2026: normal significant fire potential for southern Utah in October\u2013January. Next issue: November 2. This regional seasonal forecast does not predict daily fire weather or authorize campfires. Check new orders and local conditions before travel.",
+          "citations": [
+            "https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf"
+          ]
+        }
+      ]
+    }
+  },
+  "outlook": {
+    "verified": true,
+    "issued": "2026-10-01",
+    "next_issue": "2026-11-02",
+    "period_start": "2026-10",
+    "period_end": "2027-01",
+    "geography": "Southern Utah, Great Basin Geographic Area; all three atlas areas",
+    "category": "Normal significant wildland fire potential",
+    "basis": "Direct official PDF download and text extraction, Great Basin discussion pp. 10\u201311 (PDF pages 9\u201310 zero-based). Western Nevada October anomaly does not cover these Utah areas.",
+    "source": "https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf",
+    "local_pdf": "nifc-monthly-seasonal-outlook.pdf"
+  },
+  "corrections": [
+    {
+      "supersedes": "sources/expansion-camping/camping-evidence.json C12 interpretation of current open-campfire ban",
+      "finding": "Trust Lands page banner links to June 9, 2021 notice effective June 10, 2021. This is not proof of an October 2026 blanket ban. Signed 2026 FFSL rescission covers Kane/Garfield state and unincorporated private lands; parcel-specific rules still apply.",
+      "citations": [
+        "https://trustlands.utah.gov/trust-lands-and-you/",
+        "https://trustlands.utah.gov/wp-content/uploads/2021/06/Statewide-Stage-1.pdf",
+        "https://drive.google.com/file/d/1lxHN-SO266CUo1aB2moMWFS1G74c3ClF/view"
+      ]
+    },
+    {
+      "finding": "USFS regional order 04-2021-01 remains linked on Dixie alerts but its stated end date is July 17, 2026. Do not label that order current merely because listed.",
+      "source": "https://www.fs.usda.gov/r04/alerts/fireworks-and-spark-arrestor-order-04-2021-01"
+    },
+    {
+      "finding": "Utah registry OBJECTID117 (Paria Stage2) has a Sep28 rescission field but its linked PDF is Color Country UT-020-2026-09 effective Sep1. Do not use that inconsistent row to date Paria rescission. The directly read Paria Stage1 rescission UT-020-2026-11 explicitly takes effect Sep4."
+    }
+  ],
+  "sources": {
+    "ownership": "https://gis.utah.gov/products/sgid/cadastre/land-ownership/",
+    "blm": "https://www.blm.gov/programs/fire/regional-info/utah/fire-restrictions",
+    "paria_rescind": "https://drive.google.com/file/d/1SuFoPojgHtzDsYshX1XzOWnK_LAJP7uD/view",
+    "color_rescind": "https://drive.google.com/file/d/1TH8NNVXXPLxJjPCUaCCFrfCkg6iG8kQl/view",
+    "ffsl_rescind": "https://drive.google.com/file/d/1lxHN-SO266CUo1aB2moMWFS1G74c3ClF/view",
+    "dixie_rescind": "https://www.fs.usda.gov/r04/dixie/alerts/dixie-national-forest-rescinds-stage-1-fire-restrictions",
+    "dixie": "https://www.fs.usda.gov/r04/dixie/alerts",
+    "utah": "https://utah-fire-info-utahdnr.hub.arcgis.com/pages/ba47d998e6b04639bbf50954cf5aa8c7",
+    "outlook": "https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf",
+    "paria_canyon": "https://www.blm.gov/programs/recreation/permits-and-passes/lotteries-and-permit-systems/arizona/paria-canyon",
+    "blm_baseline": "https://www.blm.gov/sites/default/files/docs/2025-06/2025_UTSO_Fire%20Prevention%20Order.pdf",
+    "barracks": "https://www.blm.gov/visit/barracks-kiosk",
+    "trust": "https://trustlands.utah.gov/trust-lands-and-you/",
+    "trust_old": "https://trustlands.utah.gov/wp-content/uploads/2021/06/Statewide-Stage-1.pdf"
+  }
+}

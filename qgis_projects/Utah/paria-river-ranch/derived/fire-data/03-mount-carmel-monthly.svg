@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240">
+<rect width="900" height="240" fill="#fffaf1"/>
+<text x="22" y="25" fill="#26352f" font-family="DejaVu Sans,sans-serif" font-size="20" text-anchor="start">Recorded wildfire discoveries by month | FPA FOD 1992–2024</text>
+<rect x="38" y="162.6086956521739" width="47" height="15.391304347826088" fill="#506f61"/>
+<text x="61.5" y="153.6086956521739" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">6</text>
+<text x="61.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Jan</text>
+<rect x="109" y="175.43478260869566" width="47" height="2.5652173913043477" fill="#506f61"/>
+<text x="132.5" y="166.43478260869566" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">1</text>
+<text x="132.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Feb</text>
+<rect x="180" y="162.6086956521739" width="47" height="15.391304347826088" fill="#506f61"/>
+<text x="203.5" y="153.6086956521739" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">6</text>
+<text x="203.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Mar</text>
+<rect x="251" y="172.8695652173913" width="47" height="5.130434782608695" fill="#506f61"/>
+<text x="274.5" y="163.8695652173913" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">2</text>
+<text x="274.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Apr</text>
+<rect x="322" y="172.8695652173913" width="47" height="5.130434782608695" fill="#506f61"/>
+<text x="345.5" y="163.8695652173913" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">2</text>
+<text x="345.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">May</text>
+<rect x="393" y="134.3913043478261" width="47" height="43.608695652173914" fill="#506f61"/>
+<text x="416.5" y="125.3913043478261" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">17</text>
+<text x="416.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Jun</text>
+<rect x="464" y="77.95652173913044" width="47" height="100.04347826086956" fill="#506f61"/>
+<text x="487.5" y="68.95652173913044" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">39</text>
+<text x="487.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Jul</text>
+<rect x="535" y="60.0" width="47" height="118.0" fill="#506f61"/>
+<text x="558.5" y="51.0" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">46</text>
+<text x="558.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Aug</text>
+<rect x="606" y="144.65217391304347" width="47" height="33.34782608695652" fill="#506f61"/>
+<text x="629.5" y="135.65217391304347" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">13</text>
+<text x="629.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Sep</text>
+<rect x="677" y="162.6086956521739" width="47" height="15.391304347826088" fill="#b94c25"/>
+<text x="700.5" y="153.6086956521739" fill="#b94c25" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">6</text>
+<text x="700.5" y="198" fill="#b94c25" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Oct</text>
+<rect x="748" y="175.43478260869566" width="47" height="2.5652173913043477" fill="#506f61"/>
+<text x="771.5" y="166.43478260869566" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">1</text>
+<text x="771.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Nov</text>
+<rect x="819" y="167.73913043478262" width="47" height="10.26086956521739" fill="#506f61"/>
+<text x="842.5" y="158.73913043478262" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="14" text-anchor="middle">4</text>
+<text x="842.5" y="198" fill="#506f61" font-family="DejaVu Sans,sans-serif" font-size="15" text-anchor="middle">Dec</text>
+<text x="22" y="224" fill="#26352f" font-family="DejaVu Sans,sans-serif" font-size="13" text-anchor="start">n=143; unknown month=0. Counts within map extent; October highlighted. Not monthly burn probability.</text>
+</svg>

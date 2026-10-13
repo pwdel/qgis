@@ -1,0 +1,556 @@
+{
+  "ranch": {
+    "selected": [
+      "Planning_references___critical_evidence_102bc418_df48_4d94_87fb_ba1dd9f37131",
+      "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+      "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+      "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+      "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67",
+      "Nearby_lower_ground_review_points___not_cliff_heights_230e4428_f171_4b3b_b442_ca48883e7fca",
+      "ranch___terrain_slopes_within_150m_of_mapped_trails_d035bc34_44e1_4fc4_9d8d_b99ffbccb19d",
+      "02_ranch___3DEP_hillshade_55f739c0_3fe3_4533_998b_d44034d3f86e",
+      "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+      "Snow_context_12___exploratory_satellite_ensemble_2d3fed00_0d35_4ca3_90eb_c9068b7ad4ab",
+      "Snow_context_11___exploratory_satellite_ensemble_6aaa8dbf_249c_4ecc_a71b_edac5817bd65",
+      "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+      "Snow_context_09___exploratory_satellite_ensemble_c0321524_4646_49ff_aca1_c3f7ebb6dd86",
+      "Snow_context_08___exploratory_satellite_ensemble_a2292281_4cff_4fa6_8f3c_35077ee9f19f",
+      "Snow_context_07___exploratory_satellite_ensemble_fc8d2510_5e55_45bd_8f93_9f58bcbfc665",
+      "Snow_context_06___exploratory_satellite_ensemble_667b3e38_30c4_4729_91f9_3abb77ff2b7b",
+      "Snow_context_05___exploratory_satellite_ensemble_1818f383_06f4_430e_a0ac_b0f6ea62e4b7",
+      "Snow_context_04___exploratory_satellite_ensemble_51d13d11_a60c_497a_9a54_45e2698efed8",
+      "Snow_context_03___exploratory_satellite_ensemble_26aecfd5_a141_4dca_9cbb_a60321a6d434",
+      "Snow_context_02___exploratory_satellite_ensemble_8c437302_bbd7_44f4_ac8b_63afe592ad29",
+      "Snow_context_01___exploratory_satellite_ensemble_855d43a1_3470_4e65_a156_a892e13079d2",
+      "ranch___official_campsite_staging_references_f99cecbc_046b_427f_a7f6_5df789ece52c",
+      "ranch___official_Utah_ownership_156de76c_b45e_4468_8ff0_ddcb520549e5",
+      "ranch___annual_fire_likelihood_visualization_f186d742_4c31_42d0_ab7d_2ae409b7e4a5",
+      "ranch___reported_fire_discovery_points_1992_2024_1ef682f0_2c2a_4a35_8308_5fac76f275ef",
+      "ranch___historical_fire_perimeters_50dd1828_aebc_4f5d_ab61_2fb7a64462ff",
+      "02_ranch___3DEP_service_elevation_metres_889a02d4_448d_40e7_9a80_7febfad6c360",
+      "02_ranch___hillside_slope_degrees__not_route_grade__080f67b1_323f_4f2d_825a_3ebe8f3aed16",
+      "NOAA_station_snow_normals___inspect_months_and_elevations_de805d43_4ffa_4f3a_ad66_143199661efc",
+      "ranch___ground_below_within_100m__not_cliff_height__80a50f6d_d186_4d28_b336_fc6c0b00b032",
+      "ranch___percent_terrain_cell_slope_86cf450a_64d8_42cf_b7a6_6f3e07210b00",
+      "ranch___profile_routes_and_ascent_estimates_41ee0c3e_2702_4c42_8e06_c17fc8769b42"
+    ],
+    "themes": {
+      "Access": [
+        "Planning_references___critical_evidence_102bc418_df48_4d94_87fb_ba1dd9f37131",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Terrain - cell slopes, not trail grade": [
+        "Nearby_lower_ground_review_points___not_cliff_heights_230e4428_f171_4b3b_b442_ca48883e7fca",
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "ranch___terrain_slopes_within_150m_of_mapped_trails_d035bc34_44e1_4fc4_9d8d_b99ffbccb19d",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - October exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Camping - ownership, verify permission": [
+        "ranch___official_campsite_staging_references_f99cecbc_046b_427f_a7f6_5df789ece52c",
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "ranch___official_Utah_ownership_156de76c_b45e_4468_8ff0_ddcb520549e5",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Fire - historical incidents and perimeters": [
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "ranch___reported_fire_discovery_points_1992_2024_1ef682f0_2c2a_4a35_8308_5fac76f275ef",
+        "ranch___historical_fire_perimeters_50dd1828_aebc_4f5d_ab61_2fb7a64462ff",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Fire - annual model, not October forecast": [
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "ranch___annual_fire_likelihood_visualization_f186d742_4c31_42d0_ab7d_2ae409b7e4a5",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 01 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_01___exploratory_satellite_ensemble_855d43a1_3470_4e65_a156_a892e13079d2",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 02 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_02___exploratory_satellite_ensemble_8c437302_bbd7_44f4_ac8b_63afe592ad29",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 03 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_03___exploratory_satellite_ensemble_26aecfd5_a141_4dca_9cbb_a60321a6d434",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 04 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_04___exploratory_satellite_ensemble_51d13d11_a60c_497a_9a54_45e2698efed8",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 05 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_05___exploratory_satellite_ensemble_1818f383_06f4_430e_a0ac_b0f6ea62e4b7",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 06 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_06___exploratory_satellite_ensemble_667b3e38_30c4_4729_91f9_3abb77ff2b7b",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 07 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_07___exploratory_satellite_ensemble_fc8d2510_5e55_45bd_8f93_9f58bcbfc665",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 08 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_08___exploratory_satellite_ensemble_a2292281_4cff_4fa6_8f3c_35077ee9f19f",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 09 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_09___exploratory_satellite_ensemble_c0321524_4646_49ff_aca1_c3f7ebb6dd86",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 10 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 11 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_11___exploratory_satellite_ensemble_6aaa8dbf_249c_4ecc_a71b_edac5817bd65",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Snow - 12 exploratory context": [
+        "Planning_references___critical_evidence_87c420f0_9b96_47d4_993e_79f8c82e5182",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_12___exploratory_satellite_ensemble_2d3fed00_0d35_4ca3_90eb_c9068b7ad4ab",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ],
+      "Trails - modeled ascent attributes": [
+        "ranch___profile_routes_and_ascent_estimates_41ee0c3e_2702_4c42_8e06_c17fc8769b42",
+        "Planning_references___critical_evidence_102bc418_df48_4d94_87fb_ba1dd9f37131",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "02_ranch___USGS_topographic_context_31837a04_cd3e_4f4f_b25e_4967fc591f67"
+      ]
+    },
+    "extent": [
+      395863.79105503653,
+      4101893.341110888,
+      428863.79105503653,
+      4124262.4686276666
+    ],
+    "area": "02-ranch",
+    "track_count": 3,
+    "waypoint_count": 1,
+    "layer_count": 32
+  },
+  "mount-carmel": {
+    "selected": [
+      "Planning_references___critical_evidence_1f237788_cf4f_4c53_b908_fee673fa4a5e",
+      "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+      "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+      "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+      "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964",
+      "Nearby_lower_ground_review_points___not_cliff_heights_66498f56_c8de_4bab_b975_8d8eb2e4c26a",
+      "mount_carmel___terrain_slopes_within_150m_of_mapped_trails_77e2db01_8c2d_4f50_9085_f952bee421dd",
+      "03_mount_carmel___3DEP_hillshade_79d7b6a3_e404_4007_afd4_7554716e270a",
+      "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+      "Snow_context_12___exploratory_satellite_ensemble_2d3fed00_0d35_4ca3_90eb_c9068b7ad4ab",
+      "Snow_context_11___exploratory_satellite_ensemble_6aaa8dbf_249c_4ecc_a71b_edac5817bd65",
+      "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+      "Snow_context_09___exploratory_satellite_ensemble_c0321524_4646_49ff_aca1_c3f7ebb6dd86",
+      "Snow_context_08___exploratory_satellite_ensemble_a2292281_4cff_4fa6_8f3c_35077ee9f19f",
+      "Snow_context_07___exploratory_satellite_ensemble_fc8d2510_5e55_45bd_8f93_9f58bcbfc665",
+      "Snow_context_06___exploratory_satellite_ensemble_667b3e38_30c4_4729_91f9_3abb77ff2b7b",
+      "Snow_context_05___exploratory_satellite_ensemble_1818f383_06f4_430e_a0ac_b0f6ea62e4b7",
+      "Snow_context_04___exploratory_satellite_ensemble_51d13d11_a60c_497a_9a54_45e2698efed8",
+      "Snow_context_03___exploratory_satellite_ensemble_26aecfd5_a141_4dca_9cbb_a60321a6d434",
+      "Snow_context_02___exploratory_satellite_ensemble_8c437302_bbd7_44f4_ac8b_63afe592ad29",
+      "Snow_context_01___exploratory_satellite_ensemble_855d43a1_3470_4e65_a156_a892e13079d2",
+      "mount_carmel___official_campsite_staging_references_4ee0ce49_836b_4a78_b099_c40532a7f100",
+      "mount_carmel___official_Utah_ownership_1a62501c_dc6d_4ab4_9fc0_87363c7d3914",
+      "mount_carmel___annual_fire_likelihood_visualization_c4284f52_ccb3_4cdb_bd59_e314a9871d0a",
+      "mount_carmel___reported_fire_discovery_points_1992_2024_239eb436_103c_4a67_bbfb_607c0d40e712",
+      "mount_carmel___historical_fire_perimeters_7a68d564_ecb6_43e1_8d0d_926641176a3d",
+      "03_mount_carmel___3DEP_service_elevation_metres_fe14d537_f805_4e8a_8127_854bfb08cb2a",
+      "03_mount_carmel___hillside_slope_degrees__not_route_grade__510993f2_2419_48bf_8237_c2a228581481",
+      "NOAA_station_snow_normals___inspect_months_and_elevations_de805d43_4ffa_4f3a_ad66_143199661efc",
+      "mount_carmel___ground_below_within_100m__not_cliff_height__33e8fd34_9a8a_41a7_adce_e14c4b8bbc47",
+      "mount_carmel___percent_terrain_cell_slope_bbd2b8ae_ce2f_4d19_bd7d_d15454edb52a",
+      "mount_carmel___profile_routes_and_ascent_estimates_5ad4dda1_b3a0_473e_a12c_9bc94e017617"
+    ],
+    "themes": {
+      "Access": [
+        "Planning_references___critical_evidence_1f237788_cf4f_4c53_b908_fee673fa4a5e",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Terrain - cell slopes, not trail grade": [
+        "Nearby_lower_ground_review_points___not_cliff_heights_66498f56_c8de_4bab_b975_8d8eb2e4c26a",
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "mount_carmel___terrain_slopes_within_150m_of_mapped_trails_77e2db01_8c2d_4f50_9085_f952bee421dd",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - October exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Camping - ownership, verify permission": [
+        "mount_carmel___official_campsite_staging_references_4ee0ce49_836b_4a78_b099_c40532a7f100",
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "mount_carmel___official_Utah_ownership_1a62501c_dc6d_4ab4_9fc0_87363c7d3914",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Fire - historical incidents and perimeters": [
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "mount_carmel___reported_fire_discovery_points_1992_2024_239eb436_103c_4a67_bbfb_607c0d40e712",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Fire - annual model, not October forecast": [
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "mount_carmel___annual_fire_likelihood_visualization_c4284f52_ccb3_4cdb_bd59_e314a9871d0a",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 01 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_01___exploratory_satellite_ensemble_855d43a1_3470_4e65_a156_a892e13079d2",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 02 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_02___exploratory_satellite_ensemble_8c437302_bbd7_44f4_ac8b_63afe592ad29",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 03 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_03___exploratory_satellite_ensemble_26aecfd5_a141_4dca_9cbb_a60321a6d434",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 04 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_04___exploratory_satellite_ensemble_51d13d11_a60c_497a_9a54_45e2698efed8",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 05 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_05___exploratory_satellite_ensemble_1818f383_06f4_430e_a0ac_b0f6ea62e4b7",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 06 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_06___exploratory_satellite_ensemble_667b3e38_30c4_4729_91f9_3abb77ff2b7b",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 07 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_07___exploratory_satellite_ensemble_fc8d2510_5e55_45bd_8f93_9f58bcbfc665",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 08 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_08___exploratory_satellite_ensemble_a2292281_4cff_4fa6_8f3c_35077ee9f19f",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 09 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_09___exploratory_satellite_ensemble_c0321524_4646_49ff_aca1_c3f7ebb6dd86",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 10 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 11 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_11___exploratory_satellite_ensemble_6aaa8dbf_249c_4ecc_a71b_edac5817bd65",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Snow - 12 exploratory context": [
+        "Planning_references___critical_evidence_1ffc6f47_fb00_43cc_b122_95302576fa30",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_12___exploratory_satellite_ensemble_2d3fed00_0d35_4ca3_90eb_c9068b7ad4ab",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ],
+      "Trails - modeled ascent attributes": [
+        "mount_carmel___profile_routes_and_ascent_estimates_5ad4dda1_b3a0_473e_a12c_9bc94e017617",
+        "Planning_references___critical_evidence_1f237788_cf4f_4c53_b908_fee673fa4a5e",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "03_mount_carmel___USGS_topographic_context_f87700a2_e842_42e0_b36c_3a470e36f964"
+      ]
+    },
+    "extent": [
+      338491.4597146199,
+      4114258.661581976,
+      354491.4597146199,
+      4125104.2991658687
+    ],
+    "area": "03-mount-carmel",
+    "track_count": 2,
+    "waypoint_count": 3,
+    "layer_count": 32
+  },
+  "red-canyon": {
+    "selected": [
+      "Planning_references___critical_evidence_eea0ccb8_65a0_4082_b091_17cb89b07ce8",
+      "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+      "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+      "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+      "Native_1m_analysis_footprint_28d1d7b2_255d_4a4e_9bba_5449218ad951",
+      "Native_1m_slope_screening___30_45___45__degrees_8db3c565_bec0_4e99_bea2_beae3bed10f6",
+      "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a",
+      "Nearby_lower_ground_review_points___not_cliff_heights_95fc7732_b1e5_4eaf_b0b9_098b11c1009e",
+      "red_canyon___terrain_slopes_within_150m_of_mapped_trails_c3aedab5_7065_4d06_8ac6_97c540a2c0e2",
+      "04_red_canyon___3DEP_hillshade_ee6e8a3c_5604_4194_8a68_fe4c251b5954",
+      "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+      "Snow_context_12___exploratory_satellite_ensemble_2d3fed00_0d35_4ca3_90eb_c9068b7ad4ab",
+      "Snow_context_11___exploratory_satellite_ensemble_6aaa8dbf_249c_4ecc_a71b_edac5817bd65",
+      "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+      "Snow_context_09___exploratory_satellite_ensemble_c0321524_4646_49ff_aca1_c3f7ebb6dd86",
+      "Snow_context_08___exploratory_satellite_ensemble_a2292281_4cff_4fa6_8f3c_35077ee9f19f",
+      "Snow_context_07___exploratory_satellite_ensemble_fc8d2510_5e55_45bd_8f93_9f58bcbfc665",
+      "Snow_context_06___exploratory_satellite_ensemble_667b3e38_30c4_4729_91f9_3abb77ff2b7b",
+      "Snow_context_05___exploratory_satellite_ensemble_1818f383_06f4_430e_a0ac_b0f6ea62e4b7",
+      "Snow_context_04___exploratory_satellite_ensemble_51d13d11_a60c_497a_9a54_45e2698efed8",
+      "Snow_context_03___exploratory_satellite_ensemble_26aecfd5_a141_4dca_9cbb_a60321a6d434",
+      "Snow_context_02___exploratory_satellite_ensemble_8c437302_bbd7_44f4_ac8b_63afe592ad29",
+      "Snow_context_01___exploratory_satellite_ensemble_855d43a1_3470_4e65_a156_a892e13079d2",
+      "red_canyon___official_campsite_staging_references_7db9ba61_541c_403a_b318_bc22f3dc5cc9",
+      "red_canyon___official_Utah_ownership_798b8262_7319_463f_ac2e_1eb066feb67c",
+      "red_canyon___annual_fire_likelihood_visualization_9b45ebb7_2f49_47f1_b556_390c296988a3",
+      "red_canyon___reported_fire_discovery_points_1992_2024_3d204393_1973_418a_8d53_91170a0df858",
+      "red_canyon___historical_fire_perimeters_edccbefd_4000_462f_aa5c_0a4e290fa5a3",
+      "04_red_canyon___3DEP_service_elevation_metres_22b386ad_b7cd_4b14_bb67_54f35e32e174",
+      "04_red_canyon___hillside_slope_degrees__not_route_grade__bcd63f1a_4f2e_47cf_986a_473746c2e344",
+      "NOAA_station_snow_normals___inspect_months_and_elevations_de805d43_4ffa_4f3a_ad66_143199661efc",
+      "red_canyon___ground_below_within_100m__not_cliff_height__8358b988_8728_42b7_9a9d_762d6644d7a3",
+      "red_canyon___percent_terrain_cell_slope_d6ab024a_3bd3_4046_9aad_046fb0a02d0d",
+      "red_canyon___profile_routes_and_ascent_estimates_7cc87033_16e5_4a59_bfb9_c967a95749d5"
+    ],
+    "themes": {
+      "Access": [
+        "Planning_references___critical_evidence_eea0ccb8_65a0_4082_b091_17cb89b07ce8",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "Native_1m_analysis_footprint_28d1d7b2_255d_4a4e_9bba_5449218ad951",
+        "Native_1m_slope_screening___30_45___45__degrees_8db3c565_bec0_4e99_bea2_beae3bed10f6",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Terrain - cell slopes, not trail grade": [
+        "Nearby_lower_ground_review_points___not_cliff_heights_95fc7732_b1e5_4eaf_b0b9_098b11c1009e",
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "red_canyon___terrain_slopes_within_150m_of_mapped_trails_c3aedab5_7065_4d06_8ac6_97c540a2c0e2",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - October exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Camping - ownership, verify permission": [
+        "red_canyon___official_campsite_staging_references_7db9ba61_541c_403a_b318_bc22f3dc5cc9",
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "red_canyon___official_Utah_ownership_798b8262_7319_463f_ac2e_1eb066feb67c",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Fire - historical incidents and perimeters": [
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "red_canyon___reported_fire_discovery_points_1992_2024_3d204393_1973_418a_8d53_91170a0df858",
+        "red_canyon___historical_fire_perimeters_edccbefd_4000_462f_aa5c_0a4e290fa5a3",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Fire - annual model, not October forecast": [
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "red_canyon___annual_fire_likelihood_visualization_9b45ebb7_2f49_47f1_b556_390c296988a3",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 01 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_01___exploratory_satellite_ensemble_855d43a1_3470_4e65_a156_a892e13079d2",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 02 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_02___exploratory_satellite_ensemble_8c437302_bbd7_44f4_ac8b_63afe592ad29",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 03 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_03___exploratory_satellite_ensemble_26aecfd5_a141_4dca_9cbb_a60321a6d434",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 04 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_04___exploratory_satellite_ensemble_51d13d11_a60c_497a_9a54_45e2698efed8",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 05 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_05___exploratory_satellite_ensemble_1818f383_06f4_430e_a0ac_b0f6ea62e4b7",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 06 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_06___exploratory_satellite_ensemble_667b3e38_30c4_4729_91f9_3abb77ff2b7b",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 07 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_07___exploratory_satellite_ensemble_fc8d2510_5e55_45bd_8f93_9f58bcbfc665",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 08 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_08___exploratory_satellite_ensemble_a2292281_4cff_4fa6_8f3c_35077ee9f19f",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 09 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_09___exploratory_satellite_ensemble_c0321524_4646_49ff_aca1_c3f7ebb6dd86",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 10 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_10___exploratory_satellite_ensemble_2dde0649_9f4e_49a2_8f0e_850dc3e0022e",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 11 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_11___exploratory_satellite_ensemble_6aaa8dbf_249c_4ecc_a71b_edac5817bd65",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Snow - 12 exploratory context": [
+        "Planning_references___critical_evidence_eda86a41_80e6_46ec_918b_4177e1ff6e89",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "Snow_context_12___exploratory_satellite_ensemble_2d3fed00_0d35_4ca3_90eb_c9068b7ad4ab",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ],
+      "Trails - modeled ascent attributes": [
+        "red_canyon___profile_routes_and_ascent_estimates_7cc87033_16e5_4a59_bfb9_c967a95749d5",
+        "Planning_references___critical_evidence_eea0ccb8_65a0_4082_b091_17cb89b07ce8",
+        "Road_classes___trailer_fit_unverified_6f47c36a_bb2a_41d6_8776_aaf98c9986fd",
+        "State_trails___published_horse_use_attributes_8b2b9912_647e_4c8a_91d1_056519c9eb73",
+        "Road_classes___trailer_fit_unverified_d3360653_120d_4b87_bca2_3c54849bda51",
+        "Native_1m_analysis_footprint_28d1d7b2_255d_4a4e_9bba_5449218ad951",
+        "Native_1m_slope_screening___30_45___45__degrees_8db3c565_bec0_4e99_bea2_beae3bed10f6",
+        "04_red_canyon___USGS_topographic_context_66ff1d02_ccf5_4c9b_9c74_813d8b0afb7a"
+      ]
+    },
+    "extent": [
+      375387.7418846864,
+      4173734.570413887,
+      397387.7418846864,
+      4188647.322091739
+    ],
+    "area": "04-red-canyon",
+    "track_count": 43,
+    "waypoint_count": 5,
+    "layer_count": 34
+  }
+}

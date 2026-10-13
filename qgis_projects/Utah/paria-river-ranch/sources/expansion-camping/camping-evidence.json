@@ -1,0 +1,205 @@
+{
+  "as_of": "2026-10-08",
+  "evidence": [
+    {
+      "id": "C01",
+      "title": "Utah surface ownership",
+      "url": "https://gis.utah.gov/products/sgid/cadastre/land-ownership/",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Best-effort 1:24,000 surface ownership, maintained by SITLA/BLM and partners; ownership differs from management or jurisdiction.",
+        "Polygons are context, never permission to camp or cross private land."
+      ],
+      "service": "https://gis.trustlands.utah.gov/mapping/rest/services/Land_Ownership/FeatureServer/0",
+      "geometry_status": "source-native WGS84 GeoJSON; exact map envelope intersects in EPSG:26912; full features retained; independent counts and exact object-ID sets verified"
+    },
+    {
+      "id": "C02",
+      "title": "Barracks Kiosk",
+      "url": "https://www.blm.gov/visit/barracks-kiosk",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Several dispersed camping sites are described along the river. Barracks Ranch is private.",
+        "Kiosk is unimproved staging with no water or other amenities. Roads beyond ranch are not recommended for street or two-wheel-drive vehicles.",
+        "Published kiosk coordinate is a reference point, not a campsite polygon or measured horse-trailer turnaround."
+      ],
+      "horse_trailer_camping": "unverified rig fit; dispersed opportunity documented",
+      "backcountry_horse_camp": "not designated"
+    },
+    {
+      "id": "C03",
+      "title": "Coyote Hollow",
+      "url": "https://www.recreation.gov/camping/campgrounds/10381898",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Equestrian campground; current listing makes all sites reservable with equestrian priority.",
+        "Seasonal nonpotable stock water can run out in late summer or early fall; Red Canyon Campground dump station water is the published fallback.",
+        "Older USFS equestrian brochure saying no reservations is outdated relative to current listing."
+      ],
+      "horse_trailer_camping": "designated equestrian campground; check site dimensions and reservation",
+      "backcountry_horse_camp": false
+    },
+    {
+      "id": "C04",
+      "title": "Dixie occupancy and use",
+      "url": "https://www.fs.usda.gov/sites/nfs/files/r04/dixie/publication/alerts/0407-25-01-Forestwide-OccupancyAndUse-Order.pdf",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Developed sites: at most 14 consecutive days and 14 days per 30-day period.",
+        "Camping within 10 miles of same location: at most 16 consecutive days and 16 days per 60-day period.",
+        "Closed developed sites and parking against posted instructions prohibited."
+      ],
+      "order": "0407-25-01",
+      "effective": "2025-03-11",
+      "expires": "2030-03-11",
+      "temporal_status": "within stated term; subject to rescission"
+    },
+    {
+      "id": "C05",
+      "title": "Powell and Cedar City posted water sources",
+      "url": "https://www.fs.usda.gov/r04/dixie/alerts/cedar-city-and-powell-ranger-districts-water-sources-camping-restrictions",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Camping and parking within 300 feet of designated water sources posted with the respective restriction signs are prohibited.",
+        "Not a blanket buffer around every mapped stream, spring, trough or campground hydrant."
+      ],
+      "order": "0407-26-04",
+      "effective": "2026-05-15",
+      "signed": "2026-05-26",
+      "expires": "2031-05-15",
+      "temporal_status": "within stated term",
+      "geometry_status": "official Powell reference JPEG retained; no invented polygon",
+      "source_file": "cedar-city-and-powell-ranger-districts-water-sources-camping-restrictions.html"
+    },
+    {
+      "id": "C06",
+      "title": "Seasonal livestock corral restrictions",
+      "url": "https://www.fs.usda.gov/r04/dixie/alerts/seasonal-camping-restrictions-livestock-corrals",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "At listed corrals when posted, no camping within 300 feet May 1\u2013November 15; obey posted parking instructions.",
+        "Powell list: Daves Hollow #306502, Daves Hollow G.S. #306501, East Fork #306504, Day #313500, Mud Springs #317502 and #317501, Permittee #306505.",
+        "The BLM Barracks corrals are not inferred to be covered by this USFS order."
+      ],
+      "order": "0407-26-08",
+      "effective": "2026-06-16",
+      "expires": "2028-12-31",
+      "temporal_status": "within stated term",
+      "geometry_status": "named list and attachment maps only; no precise GIS geometry created",
+      "source_file": "corral-order-2026.pdf"
+    },
+    {
+      "id": "C07",
+      "title": "Tom Best historic roadside restriction",
+      "url": "https://www.fs.usda.gov/sites/nfs/files/r04/dixie/publication/alerts/0407-21-19-Powell-TomBestAreaCampingRestrct-ORIGINAL.pdf",
+      "retrieved": "2026-10-08",
+      "status": "search-index text; direct URL 404",
+      "claims": [
+        "Historical restriction on signed mapped portions of roads 117,130,646 and 150 feet either side.",
+        "Expired May 15, 2026. No replacement was located on live alerts index or targeted official searches. This does not prove camping is currently permitted."
+      ],
+      "order": "0407-21-19",
+      "expires": "2026-05-15",
+      "temporal_status": "EXPIRED",
+      "geometry_status": "none; no buffer generated"
+    },
+    {
+      "id": "C08",
+      "title": "East Fork Sevier historic restriction",
+      "url": "https://www.fs.usda.gov/r04/dixie/alerts/powell-east-fork-sevier-river-camping-restrictions-order-0407-21-12",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Order limited camping to designated sites in its mapped corridor and unattended equipment to 24 hours.",
+        "Its own term ended June 30, 2026 even though the alert remains listed. No replacement located.",
+        "This East Fork is the Sevier River near Tropic Reservoir, not the East Fork Virgin River at Barracks."
+      ],
+      "order": "0407-21-12",
+      "expires": "2026-06-30",
+      "temporal_status": "EXPIRED",
+      "geometry_status": "none"
+    },
+    {
+      "id": "C09",
+      "title": "Daves Hollow camping",
+      "url": "https://www.fs.usda.gov/r04/dixie/alerts/powell-daves-hollow-camping-restrictions-order-0407-22-03",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Mapped restriction area allows camping only at designated areas/sites; unattended camping equipment limited to 24 hours without officer permission.",
+        "Official map retained as reference; no polygon was reconstructed from township prose."
+      ],
+      "order": "0407-22-03",
+      "effective": "2022-05-01",
+      "expires": "2027-05-01",
+      "temporal_status": "within stated term",
+      "geometry_status": "reference JPEG retained"
+    },
+    {
+      "id": "C10",
+      "title": "GSENM trip planning",
+      "url": "https://www.blm.gov/programs/national-conservation-lands/utah/grand-staircase-escalante-national-monument/plan",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Free permits are required for all overnight stays in GSENM, available at visitor centers or developed trailheads.",
+        "This does not designate horse-trailer parking or waive site-specific restrictions."
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "Paria Canyon permits",
+      "url": "https://www.blm.gov/programs/recreation/permits-and-passes/lotteries-and-permit-systems/arizona/paria-canyon",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Backcountry overnight permits must be reserved in advance; use existing campsites at least 200 feet from water; Wrather Canyon closed to camping.",
+        "Wilderness excludes motor vehicles: a backcountry permit never authorizes a trailer camp inside it.",
+        "Campfires prohibited; pack out human waste. Current page does not establish horse-specific camp locations."
+      ],
+      "horse_trailer_camping": false,
+      "backcountry_horse_camp": "not verified"
+    },
+    {
+      "id": "C12",
+      "title": "Utah Trust Lands recreation",
+      "url": "https://trustlands.utah.gov/trust-lands-and-you/",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Camping allowed on most trust land for up to 15 consecutive days; some areas have 7-day limits or closures.",
+        "Use existing durable campsites at least 100 feet from water. Do not leave equipment unattended more than 72 hours; motorized parking over 100 feet from authorized routes prohibited.",
+        "Trust lands are not public lands; verify parcel-specific access. Current page says open campfires prohibited."
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "White House campground",
+      "url": "https://www.blm.gov/visit/white-house-campground",
+      "retrieved": "2026-10-08",
+      "status": "retrieved",
+      "claims": [
+        "Published as seven car-camping and five walk-in tent sites.",
+        "Not documented as an equestrian campground; do not assume horse or long-trailer accommodation."
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "Powell camping overview",
+      "url": "https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1016115.pdf",
+      "retrieved": "2026-10-08",
+      "status": "search index only; direct URL 404",
+      "claims": [
+        "Search-index map labels Tom Best, East Fork and Daves Hollow restriction areas.",
+        "Old overview is not proof of currently effective restrictions; Tom Best and East Fork cited orders expired in 2026."
+      ]
+    }
+  ],
+  "rule": "No public ownership polygon is designated camping permission. No restriction boundary fabricated from prose. Current seasonal closures and on-site signs still control."
+}

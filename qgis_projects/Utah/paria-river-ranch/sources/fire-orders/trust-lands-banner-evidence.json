@@ -1,0 +1,10 @@
+{
+  "retrieved": "2026-10-09",
+  "method": "web open and click; direct HTML fetch returned403",
+  "page": "https://trustlands.utah.gov/trust-lands-and-you/",
+  "banner": "OPEN CAMPFIRES PROHIBITED",
+  "target": "https://trustlands.utah.gov/wp-content/uploads/2021/06/Statewide-Stage-1.pdf",
+  "target_issued": "2021-06-09",
+  "target_effective": "2021-06-10",
+  "conclusion": "Banner alone does not establish 2026 fire restrictions"
+}

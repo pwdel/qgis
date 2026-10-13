@@ -1,0 +1,31 @@
+{
+  "status": "unknown_numeric_probability",
+  "source": "https://imagery.geoplatform.gov/iipp/rest/services/Fire_Aviation/USFS_EDW_RMRS_WRC_BurnProbability/ImageServer",
+  "edition": "WRC 2024, second edition",
+  "landscape_vintage": "end of 2020",
+  "native_model_resolution_m": 270,
+  "published_cell_m": 30,
+  "monthly_probability": null,
+  "october_probability": null,
+  "limitation": "ImageServer values altered for visualization; no supported conversion to annual probability. Original Utah archive is 6.39 GB. Raster is relative annual likelihood visualization only, not numeric probability or a forecast.",
+  "raster": "derived/fire-data/03-mount-carmel-annual-likelihood-visualization.tif",
+  "visualization_available": true,
+  "raw_value_min": 0.0,
+  "raw_value_max": 29.0,
+  "nodata": null,
+  "crs": "PROJCS[\"NAD83 / UTM zone 12N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-111],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26912\"]]",
+  "geotransform": [
+    338491.4597146199,
+    29.9625468164794,
+    0.0,
+    4125104.701347705,
+    0.0,
+    -29.962546816479044
+  ],
+  "dimensions": [
+    534,
+    362
+  ],
+  "rendered_raster": "derived/fire-data/03-mount-carmel-annual-likelihood-rendered.tif",
+  "rendered_bands": 4
+}

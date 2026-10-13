@@ -1,0 +1,78 @@
+[
+  {
+    "name": "01-regional-overview",
+    "pdf": "output/pdf/riding/01-regional-overview.pdf"
+  },
+  {
+    "name": "02-ranch-access",
+    "pdf": "output/pdf/riding/02-ranch-access.pdf"
+  },
+  {
+    "name": "03-ranch-terrain",
+    "pdf": "output/pdf/riding/03-ranch-terrain.pdf"
+  },
+  {
+    "name": "04-ranch-snow",
+    "pdf": "output/pdf/riding/04-ranch-snow.pdf"
+  },
+  {
+    "name": "05-ranch-camping",
+    "pdf": "output/pdf/riding/05-ranch-camping.pdf"
+  },
+  {
+    "name": "06-ranch-profiles",
+    "pdf": "output/pdf/riding/06-ranch-profiles.pdf"
+  },
+  {
+    "name": "07-ranch-wildfire",
+    "pdf": "output/pdf/riding/07-ranch-wildfire.pdf"
+  },
+  {
+    "name": "08-mount-carmel-access",
+    "pdf": "output/pdf/riding/08-mount-carmel-access.pdf"
+  },
+  {
+    "name": "09-mount-carmel-terrain",
+    "pdf": "output/pdf/riding/09-mount-carmel-terrain.pdf"
+  },
+  {
+    "name": "10-mount-carmel-snow",
+    "pdf": "output/pdf/riding/10-mount-carmel-snow.pdf"
+  },
+  {
+    "name": "11-mount-carmel-camping",
+    "pdf": "output/pdf/riding/11-mount-carmel-camping.pdf"
+  },
+  {
+    "name": "12-mount-carmel-profiles",
+    "pdf": "output/pdf/riding/12-mount-carmel-profiles.pdf"
+  },
+  {
+    "name": "13-mount-carmel-wildfire",
+    "pdf": "output/pdf/riding/13-mount-carmel-wildfire.pdf"
+  },
+  {
+    "name": "14-red-canyon-access",
+    "pdf": "output/pdf/riding/14-red-canyon-access.pdf"
+  },
+  {
+    "name": "15-red-canyon-terrain",
+    "pdf": "output/pdf/riding/15-red-canyon-terrain.pdf"
+  },
+  {
+    "name": "16-red-canyon-snow",
+    "pdf": "output/pdf/riding/16-red-canyon-snow.pdf"
+  },
+  {
+    "name": "17-red-canyon-camping",
+    "pdf": "output/pdf/riding/17-red-canyon-camping.pdf"
+  },
+  {
+    "name": "18-red-canyon-profiles",
+    "pdf": "output/pdf/riding/18-red-canyon-profiles.pdf"
+  },
+  {
+    "name": "19-red-canyon-wildfire",
+    "pdf": "output/pdf/riding/19-red-canyon-wildfire.pdf"
+  }
+]

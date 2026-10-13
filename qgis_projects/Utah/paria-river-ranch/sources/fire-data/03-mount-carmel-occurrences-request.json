@@ -1,0 +1,17 @@
+{
+  "url": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_FireOccurrenceCurrentEdition_01/MapServer/0/query",
+  "parameters": {
+    "f": "json",
+    "where": "1=1",
+    "geometry": "338491.4597146199,4114258.661581976,354491.4597146199,4125104.2991658687",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": 26912,
+    "spatialRel": "esriSpatialRelIntersects"
+  },
+  "retrieved_utc": "2026-10-09T12:49:37.877521+00:00",
+  "count": 149,
+  "id_count": 149,
+  "downloaded_count": 149,
+  "complete_ids_match": true,
+  "batch_size": 100
+}

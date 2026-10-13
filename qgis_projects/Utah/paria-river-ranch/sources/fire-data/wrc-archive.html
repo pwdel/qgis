@@ -1,0 +1,572 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+    <meta name="google-site-verification" content="PNJ7F-eIgfnP-NtJOpsWTiL-zB3G3Yb28bw6KsK86H0" /> <!--google search  console verification for Laurie-->		
+	<!--<base href="" />-->
+    <title>Forest Service Research Data Archive</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="This archive contains research data collected and/or funded by Forest Service Research and Development (FS R&amp;D), U.S. Department of Agriculture. It is a resource for accessing both short and long-term FS R&amp;D research data, which includes Experimental Forest and Range data. It is a way to both preserve and share the quality science of our researchers."/>
+    <meta name="keywords" content="Forest Service data, Forest Service research data, Forest Service research data archive, Research data, Data archive, Datalyst, Research data archive, doi:10.2737/RDS"/>
+   
+   
+   
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-T9D41PS4SW"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', "G-T9D41PS4SW");
+	</script>
+	
+<!-- Script for Google Analytics -->
+  <script>
+   (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");
+
+   ga('create', "UA-38274714-1", 'auto');
+   ga('send', 'pageview');
+
+    // R&D site specific Universal Analytics (UA) code directive
+    ga('create', 'UA-25293892-10', 'auto', {'name': 'RDtracker'});
+    ga('RDtracker.send', 'pageview');
+  
+
+    // RDS site specific Universal Analytics (UA) code directive
+    //ga('create', 'UA-38274714-1', 'auto');
+    //ga('send', 'pageview');
+
+    // R&D site specific Universal Analytics (UA) code directive
+    //ga('create', ‘UA-25293892-10’, 'auto', 'RDtracker');
+    //ga('RDtracker.send', 'pageview');
+  
+    // Forest Service enterprise Universal Analytics (UA) code directive
+    ga('create', 'UA-47791907-1', 'auto', {'name': 'FStracker'});
+    ga('FStracker.send', 'pageview');
+
+    // USDA reporting of FS activity Universal Analytics (UA) code directive
+    ga('create', 'UA-27627304-16', 'auto', {'name': 'USDAtrackFS'});
+    ga('USDAtrackFS.send', 'pageview');
+
+    // USDA-wide Universal Analytics (UA) code directive
+    ga('create', 'UA-27627304-1', 'auto', {'name': 'USDAtracker'});
+    ga('USDAtracker.send', 'pageview');
+
+
+  </script>
+
+	<!--  Script for Federated Analytics system -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
+	<script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USDA&subagency=FS"></script>
+	
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery(".facetlistcontent").hide();
+            jQuery(".facetsideheading").click(function () {
+                jQuery(this).next(".facetlistcontent").slideToggle(500);
+            }).toggle(function () {
+                $(this).children("span").text("[-]");
+            }, function () {
+                $(this).children("span").text("[+]");
+            });
+        });
+    </script>
+	
+	
+   	 <!-- Bootstrap Required meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+  
+   <!--US Design System recommended fonts -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="/rds/_shared/Content/css/bootstrapcarousel.css" type="text/css" />
+	<link rel="stylesheet" href="/rds/_shared/Content/css/structure.css" type="text/css" />
+    <!--<link rel="stylesheet" href="/rds/_shared/Content/css/format.css" type="text/css" />-->
+
+    <link rel="stylesheet" href="/rds/_shared/Content/css/simplePagination.css" type="text/css" />
+	<link rel="stylesheet" href="/rds/_shared/Content/uswds/css/uswds.min.css" type="text/css" >
+    <link rel="stylesheet" href="/rds/_shared/Content/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="/rds/_shared/Content/chosen/chosen.css" type="text/css" />
+  
+     <!--Script for toggle on facet fields -->
+  
+    <!--<script src="Scripts/jquery-1.8.3.min.js" type="text/javascript"></script>-->
+
+	<!-- bootstrap javascript code, must stay above dialog jquery references-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+	<!--Script for dialog for "More" feature on facet fields -->
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+
+    <script src="/rds/_shared/Scripts/dialog.js" type="text/javascript"></script>
+    <script src="/rds/_shared/Scripts/jquery.simplePagination.js" type="text/javascript"></script>
+
+    <!-- Script (SlideJS) for rotating products under "Spotlight" -->
+   
+   <!--<link rel="stylesheet" href="Content/homepage_slideshow.css" type="text/css"/> 
+   <script src="Scripts/jquery.slides.min.js" type="text/javascript" delay></script> 
+   <script type="text/javascript" delay>
+      $(function () {
+          $('#slides').slidesjs({
+              width: 720,
+              height: 130,
+              play: {
+                  active: true,
+                  auto: true,
+                  interval: 4000,
+                  swap: true
+              }
+          });
+      });
+  </script>-->
+  
+  <!-- Script for highlighting current location -->
+  
+  <script type="text/javascript">
+	$(function(){
+		var current = location.pathname.toLowerCase();
+		$('#nav li a').each(function(){
+			var $this = $(this);
+			// if the current path is like this link, make it active
+			if(current.indexOf($this.attr('id')) !== -1){
+				$this.addClass('usa-current');
+			}
+		})
+		$('#nav li button').each(function(){
+			var $this = $(this);
+			// if the current path is like this link, make it active
+			if(current.indexOf($this.attr('id')) !== -1){
+				$this.addClass('usa-current');
+			}
+		})
+	})
+  </script>
+
+	<!--  Script for ForeSee tracking -->
+	<script type="text/javascript">
+
+      // Instructions: please embed this snippet directly into every page in your website template.
+      // Each Forest, Grassland and Research site specifies their individual SubSiteCode here, 
+      // by declaring the Javascript variable subsiteCode and assigning the appropriate value:
+      // Examples:
+      // National Office of Communications site (www.fs.fed.us), specify a value of 11
+      // For the Boise National Forest site (http://www.fs.usda.gov/boise) specify a value of 1110402.
+      // Research site: FPL site (http://www.fpl.fs.fed.us), specify a value of 1132.
+
+      var subsiteCode = "115501";
+
+    // Answers Cloud Services Embed Script v1.02
+    // DO NOT MODIFY BELOW THIS LINE *****************************************
+    ;(function (g) {
+        var d = document, i, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0],
+                aex = {
+                    "src": "//gateway.answerscloud.com/fs-fed-us/production/gateway.min.js",
+                    "type": "text/javascript",
+                    "async": "true",
+                    "data-vendor": "acs",
+                    "data-role": "gateway"
+                };
+        for (var attr in aex) { am.setAttribute(attr,aex[attr]); }
+        h.appendChild(am);
+        g['acsReady'] = function () {var aT = '__acsReady__', args = Array.prototype.slice.call(arguments, 0),k = setInterval(function () {if (typeof g[aT] === 'function') {clearInterval(k);for (i = 0; i < args.length; i++) {g[aT].call(g, function(fn) { return function() { setTimeout(fn, 1) };}(args[i]));}}}, 50);};
+    })(window);
+    // DO NOT MODIFY ABOVE THIS LINE *****************************************
+
+</script> 
+   
+	
+<!--[if gte IE 5]>
+<style>
+#navlist a  {
+margin: -6px  0 0 0;
+padding: 5px 10px 0 10px;
+position: relative;
+height: 19px;
+zoom: 100%;
+}
+</style>
+<![endif]-->
+
+</head>
+
+<body>
+	<noscript><div>You need javascript enabled to fully use this site.</div></noscript>
+	   <script src="/rds/_shared/Content/uswds/js/uswds.min.js"></script>
+	<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+<section class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="usa-grid usa-banner-inner">
+      <img src="/rds/_shared/Content/uswds/img/favicons/favicon-57.png" alt="U.S. flag">
+      <p>An official website of the United States government</p>
+      <button class="usa-accordion-button usa-banner-button"
+        aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner-button-text">Here's how you know</span>
+      </button>
+      </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/rds/_shared/Content/uswds/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br>
+            Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/rds/_shared/Content/uswds/img/icon-https.svg" alt="Https">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br>
+            The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="usda-banner">
+<div class="usa-grid usa-banner-inner usda-logo-text">
+	<a href="https://www.usda.gov/" aria-label="The U.S. Department of Agriculture" target="_blank" rel=noopener><img src="/rds/_shared/Content/images/logousda.gif" alt="USDA Logo" class="usda-logo-img" title="U.S. Department of Agriculture">
+	U.S. Department of Agriculture</a>
+</div>
+</section>
+<header class="rda-header usa-header usa-header-extended" role="banner">
+
+  <div class="usa-navbar">
+
+  <div class="usa-logo" id="extended-logo">
+
+	<em class="usa-logo-text">
+	<a href="https://www.fs.usda.gov/rds/archive/" aria-label="Research Data Archive" >Research Data Archive</a>
+
+	</em>
+	<div class="rda-tagline usa-logo-text"><span>Roots of our Research</span></div>
+  </div>
+  <button class="usa-menu-btn">Menu</button>
+</div>
+
+  <nav role="navigation" class="rda-nav usa-nav">
+  <div class="usa-nav-inner">
+    <button class="usa-nav-close">
+	  <img src="/rds/_shared/Content/uswds/img/close.svg" alt="close">
+	</button>
+	<ul id=nav class="usa-nav-primary usa-accordion">
+		<li class="usa-nav-primary-item">
+          <button id="catalog"
+            class="usa-accordion-button usa-nav-link"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-one"
+          >
+            <span>Catalog</span>
+          </button>
+		<ul id="basic-nav-section-one" class="usa-nav-submenu">
+            <li class="usa-nav-submenu-item">
+              <a id="catalog pubs" class="usa-nav-link" href="https://www.fs.usda.gov/rds/archive/catalog">Publications</a>
+            </li>
+            <li class="usa-nav-submenu-item">
+              <a id="catalog metrics" class="usa-nav-link" href="https://www.fs.usda.gov/rds/archive/catalog/metrics">Metrics</a>
+            </li>
+          </ul>
+		</li>
+		<li><a id="usingformats" class="usa-nav-link" href="https://www.fs.usda.gov/rds/archive/usingFormats">
+			<span>Our Formats</span>
+		</a></li>
+		<li><a id="metadata" class="usa-nav-link" href="https://www.fs.usda.gov/rds/archive/metadata">
+		  <span>Metadata & Tools</span>
+		</a></li>
+		<li><a id="submittingdata" class="usa-nav-link " href="https://www.fs.usda.gov/rds/archive/submittingData">
+		  <span>Submitting Data</span>
+		</a></li>
+		<li><a id="digitizing" class="usa-nav-link " href="https://www.fs.usda.gov/rds/archive/digitizing">
+		  <span>Digitizing</span>
+		</a></li>
+		<li><a id="datauseinfo" class="usa-nav-link" href="https://www.fs.usda.gov/rds/archive/dataUseInfo">
+		  <span>Conditions of Use</span>
+		</a></li>
+		<li>
+			<a id="aboutus" class="usa-nav-link" href="https://www.fs.usda.gov/rds/archive/aboutus"><span>About Us</span></a>
+		</li>
+	</ul>
+      <div class="usa-nav-secondary">
+  
+    <form class="rda-header-search usa-search usa-search-small js-search-form" action="https://www.fs.usda.gov/rds/archive/catalog" method="get" hidden>
+  <div role="search">
+    <label class="usa-sr-only" for="extended-search-field-small">Search data catalog</label>
+    <input id="extended-search-field-small" type="search" name="freesearch" placeholder="Search catalog">
+    <button type="submit">
+      <span class="usa-sr-only">Search catalog</span>
+    </button>
+  </div>
+</form>
+
+  
+  <ul class="usa-unstyled-list usa-nav-secondary-links">
+    
+    <li class="js-search-button-container">
+      <button class="rda-header-search-button usa-header-search-button js-search-button">Search catalog</button>
+    </li>
+    
+    
+    <li>
+      <a href="https://www.fs.usda.gov/" aria-label="The USDA Forest Service" target="_blank" rel=noopener>
+		<img src="/rds/_shared/Content/images/logofs.gif" alt="FS Logo" class="usda-logo-img" title="Forest Service">
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+    </div>
+  </nav>
+</header>	<div class="usa-overlay"></div>
+	<div class="usa-grid usa-section usa-layout-docs" id="main-content" style="overflow:auto">
+	<meta name="citation_title" content="Wildfire Risk to Communities: Spatial datasets of landscape-wide wildfire risk components for the United States (2nd Edition) " />
+<meta name="DC.title" content="Wildfire Risk to Communities: Spatial datasets of landscape-wide wildfire risk components for the United States (2nd Edition) " />	<text><meta name="citation_author" content="Scott, Joe H." /></text>	<text><meta name="citation_author" content="Dillon, Gregory K." /></text>	<text><meta name="citation_author" content="Jaffe, Melissa R." /></text>	<text><meta name="citation_author" content="Vogler, Kevin C." /></text>	<text><meta name="citation_author" content="Olszewski, Julia H." /></text>	<text><meta name="citation_author" content="Callahan, Michael N." /></text>	<text><meta name="citation_author" content="Karau, Eva C." /></text>	<text><meta name="citation_author" content="Lazarz, Mitchell T." /></text>	<text><meta name="citation_author" content="Short, Karen C." /></text>	<text><meta name="citation_author" content="Riley, Karin L." /></text>	<text><meta name="citation_author" content="Finney, Mark A." /></text>	<text><meta name="citation_author" content="Grenfell, Isaac C." /></text><meta name="DC.issued" content="2024" /> <!-- 'Year' -->
+<meta name="citation_publisher" content="Forest Service Research Data Archive" /><meta name="citation_doi" content="https://doi.org/10.2737/RDS-2020-0016-2" />
+<h3>Publication Details</h3>
+
+    <div class="document" style="border: none;">
+        <dl class="defList">
+            <dt>Title:</dt>
+            <dd>Wildfire Risk to Communities: Spatial datasets of landscape-wide wildfire risk components for the United States (2nd Edition) 				<img src="https://www.fs.usda.gov/rds/archive/Content/images/GIS.jpg" alt="Data publication contains GIS data" title="Data publication contains GIS data"/> </dd>
+            <dt>Author(s):</dt>
+			<dd>					<text>
+					<a href="/rds/archive/Catalog?authorid=RDS581">Scott, Joe H.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=1740">Dillon, Gregory K.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=RDS1655">Jaffe, Melissa R.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=RDS895">Vogler, Kevin C.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=7333">Olszewski, Julia H.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=RDS1763">Callahan, Michael N.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=2074">Karau, Eva C.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=RDS1760">Lazarz, Mitchell T.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=5361">Short, Karen C.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=6320">Riley, Karin L.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=1900">Finney, Mark A.</a>; 					</text>					<text>
+					<a href="/rds/archive/Catalog?authorid=5341">Grenfell, Isaac C.</a>					</text>			 </dd>
+            <dt>Publication Year:</dt>
+            <dd>2024</dd>
+            <dt>How to Cite:</dt>
+            <dd>
+				These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation:<blockquote>Scott, Joe H.; Dillon, Gregory K.; Jaffe, Melissa R.; Vogler, Kevin C.; Olszewski, Julia H.; Callahan, Michael N.; Karau, Eva C.; Lazarz, Mitchell T.; Short, Karen C.; Riley, Karin L.; Finney, Mark A.; Grenfell, Isaac C. 2024. Wildfire Risk to Communities: Spatial datasets of landscape-wide wildfire risk components for the United States. 2nd Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2020-0016-2<br />
+<br />
+The datasets presented here are the product of modeling, and as such carry an inherent degree of error and uncertainty. Users are strongly encouraged to read and fully comprehend the metadata and other available documentation prior to data use. No warranty is made by the Originator as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data, or for purposes not intended by the Originator. These datasets are intended to provide nationally-consistent information for the purpose of comparing relative wildfire risk among communities nationally or within a state or county. Data included here are not intended to replace locally-calibrated state, regional, or local risk assessments where they exist. It is the responsibility of the user to be familiar with the value, assumptions, and limitations of these national data publications. Managers and planners must evaluate these data according to the scale and requirements specific to their needs. Spatial information may not meet National Map Accuracy Standards. This information may be updated without notification.</blockquote>			</dd>
+
+            <dt>Abstract:</dt>
+            <dd>The data included in this publication depict the 2024 version of components of wildfire risk for all lands in the United States that: 1) are landscape-wide (i.e., measurable at every pixel across the landscape); and 2) represent in situ risk - risk at the location where the adverse effects take place on the landscape. 	  <br />
+<br />
+National wildfire hazard datasets of annual burn probability and fire intensity, generated by the USDA Forest Service, Rocky Mountain Research Station and Pyrologix LLC, form the foundation of the Wildfire Risk to Communities data. Vegetation and wildland fuels data from LANDFIRE 2020 (version 2.2.0) were used as input to two different but related geospatial fire simulation systems. Annual burn probability was produced with the USFS geospatial fire simulator (FSim) at a relatively coarse cell size of 270 meters (m). To bring the burn probability raster data down to a finer resolution more useful for assessing hazard and risk to communities, we upsampled them to the native 30 m resolution of the LANDFIRE fuel and vegetation data. In this upsampling process, we also spread values of modeled burn probability into developed areas represented in LANDFIRE fuels data as non-burnable. Burn probability rasters represent landscape conditions as of the end of 2020. Fire intensity characteristics were modeled at 30 m resolution using a process that performs a comprehensive set of FlamMap runs spanning the full range of weather-related characteristics that occur during a fire season and then integrates those runs into a variety of results based on the likelihood of those weather types occurring. Before the fire intensity modeling, the LANDFIRE 2020 data were updated to reflect fuels disturbances occurring in 2021 and 2022. As such, the fire intensity datasets represent landscape conditions as of the end of 2022. Additional methodology documentation is provided in a methods document (\Supplements\WRC_V2_Methods_Landscape-wideRisk.pdf) packaged in the data download.<br />
+ <br />
+The specific raster datasets in this publication include:<br />
+<br />
+Risk to Potential Structures (RPS): A measure that integrates wildfire likelihood and intensity with generalized consequences to a home on every pixel. For every place on the landscape, it poses the hypothetical question, "What would be the relative risk to a house if one existed here?" This allows comparison of wildfire risk in places where homes already exist to places where new construction may be proposed. This dataset is referred to as Risk to Homes in the Wildfire Risk to Communities web application.<br />
+<br />
+Conditional Risk to Potential Structures (cRPS): The potential consequences of fire to a home at a given location, if a fire occurs there and if a home were located there. Referred to as Wildfire Consequence in the Wildfire Risk to Communities web application.<br />
+<br />
+Exposure Type: Exposure is the spatial coincidence of wildfire likelihood and intensity with communities. This layer delineates where homes are directly exposed to wildfire from adjacent wildland vegetation, indirectly exposed to wildfire from indirect sources such as embers and home-to-home ignition, or not exposed to wildfire due to distance from direct and indirect ignition sources.<br />
+<br />
+Burn Probability (BP): The annual probability of wildfire burning in a specific location. Referred to as Wildfire Likelihood in the Wildfire Risk to Communities web application.<br />
+<br />
+Conditional Flame Length (CFL): The mean flame length for a fire burning in the direction of maximum spread (headfire) at a given location if a fire were to occur; an average measure of wildfire intensity.<br />
+<br />
+Flame Length Exceedance Probability - 4 ft (FLEP4): The conditional probability that flame length at a pixel will exceed 4 feet if a fire occurs; indicates the potential for moderate to high wildfire intensity.<br />
+<br />
+Flame Length Exceedance Probability - 8 ft (FLEP8): the conditional probability that flame length at a pixel will exceed 8 feet if a fire occurs; indicates the potential for high wildfire intensity.<br />
+<br />
+Wildfire Hazard Potential (WHP): An index that quantifies the relative potential for wildfire that may be difficult to manage, used as a measure to help prioritize where fuel treatments may be needed.<p></p></dd> <!-- 'Description' -->
+            <dt>Keywords:</dt>
+            <dd>environment; geoscientificInformation; society; structure; Ecology, Ecosystems, & Environment; Fire; Fire detection; Fire ecology; Fire effects on environment; Fire suppression, pre-suppression; Prescribed fire; Environment and People; Forest management; Landscape management; burn probability; hazard; fuels management; fire suppression; fire likelihood; fire planning; risk assessment; wildfire hazard potential; United States; conterminous United States; CONUS; Alaska; Hawaii			</dd>
+			<dt>Related publications:</dt>
+				<dd><ul><li style="line-height:unset">Scott, Joe H.; Gilbertson-Day, Julie W.; Moran, Christopher; Dillon, Gregory K.; Short, Karen C.; Vogler, Kevin C. 2020. Wildfire Risk to Communities: Spatial datasets of landscape-wide wildfire risk components for the United States. 1st Edition. Fort Collins, CO: Forest Service Research Data Archive. <a href='https://doi.org/10.2737/RDS-2020-0016' target='_blank' rel='noopener'>https://doi.org/10.2737/RDS-2020-0016</a></li><li style="line-height:unset">Dillon, Gregory K.; Scott, Joe H.; Jaffe, Melissa R.; Olszewski, Julia H.; Vogler, Kevin C.; Finney, Mark A.; Short, Karen C.; Riley, Karin L.; Grenfell, Isaac C.; Jolly, W. Matthew; Brittain, Stuart. 2023. Spatial datasets of probabilistic wildfire risk components for the United States (270m). 3rd Edition. Fort Collins, CO: Forest Service Research Data Archive. <a href='https://doi.org/10.2737/RDS-2016-0034-3' target='_blank' rel='noopener'>https://doi.org/10.2737/RDS-2016-0034-3</a></li><li style="line-height:unset">Dillon, Gregory K.; Lazarz, Mitchell T.; Karau, Eva C.; Story, Scott J.; Pohl, Kelly A. 2024. Wildfire Risk to Communities: Community Wildfire Risk Reduction Zones for the United States. Fort Collins, CO: Forest Service Research Data Archive. <a href='https://doi.org/10.2737/RDS-2024-0030' target='_blank' rel='noopener'>https://doi.org/10.2737/RDS-2024-0030</a></li><li style="line-height:unset"><a href="/rds/archive/catalog/RDS-2020-0016-2/related">More (7 total)</a></li></ul></dd>			<dt>Metrics:</dt>
+            <dd>Visit count : <span id='visitCount'>22278</span>				<br/>Access count: <span id="accessCount">293</span>				<br/>Download count: <span id="downloadCount">8857</span>			<br/><a href="/rds/archive/catalog/metrics/RDS-2020-0016-2">More details</a>
+			</dd>
+            <dt>Data Access:</dt>
+            <dd class="product">			<ul><li style="line-height:unset">View <a href="/rds/archive/products/RDS-2020-0016-2/_metadata_RDS-2020-0016-2.html" target="_blank">metadata</a> (HTML)</li><li style="line-height:unset">View <a href="/rds/archive/products/RDS-2020-0016-2/_fileindex_RDS-2020-0016-2.html" target="_blank">file index</a> (HTML), which lists all files in this data publication and short description of their contents</li><li style='line-height:unset'>Download all files below for the complete publication:<ul><li><a href="/rds/archive/products/RDS-2020-0016-2/RDS-2020-0016-2_Metadata_Fileindex.zip" target="_blank">RDS-2020-0016-2_Metadata_Fileindex.zip</a> <em>(34.74 KB; <div hidden id='checksum_RDS-2020-0016-2_Metadata_Fileindex.zip'>sha256: 88dfca75208cee278621a3cec1c47ec16fe1d734c4e2b2450968fd346bd6eda2</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Metadata_Fileindex.zip");return false;'>Checksum</a>)</em></li><li><a href="/rds/archive/products/RDS-2020-0016-2/RDS-2020-0016-2_Supplements.zip" target="_blank">RDS-2020-0016-2_Supplements.zip</a> <em>(713.81 KB; <div hidden id='checksum_RDS-2020-0016-2_Supplements.zip'>sha256: aebd447f2f1976a34adf58a1430f949b67938753fedac7a08be3ef774a5dacb1</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Supplements.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/7itw7p56vje2m0u3kqh91lt6kqq1i9l1.zip" target="_blank">RDS-2020-0016-2__BP_CONUS.zip</a> <em>(32.3 GB; <div hidden id='checksum_RDS-2020-0016-2__BP_CONUS.zip'>SHA256: 8d270942d6b570258943c26cf756dfdf10fe15b246c5c714d061ca1a3912040e</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__BP_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/7nb6hpw2rfc0zrhk1mv80fhbirajoqfd.zip" target="_blank">RDS-2020-0016-2__CFL_CONUS.zip</a> <em>(29.1 GB; <div hidden id='checksum_RDS-2020-0016-2__CFL_CONUS.zip'>SHA256: acbc7e08ab942a79328b8a070649baf106f99ad2f89e02cc3be20cbfa1cfaedd</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__CFL_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/v1wjt4r3pp0bjb05w8qfnlbm4y3m66q5.zip" target="_blank">RDS-2020-0016-2__CRPS_CONUS.zip</a> <em>(26.8 GB; <div hidden id='checksum_RDS-2020-0016-2__CRPS_CONUS.zip'>SHA256: 4b16dc2e1d40d9293b1ee41c0f7bfd984ff2833332693d827e1e0d2315199135</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__CRPS_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/nbmlha1iejzzjo9y3uoehln493o2c4ad.zip" target="_blank">RDS-2020-0016-2__Exposure_CONUS.zip</a> <em>(5.63 GB; <div hidden id='checksum_RDS-2020-0016-2__Exposure_CONUS.zip'>SHA256: d58ae9443410ad133bbfc67fb7b51afc2b900f10ad8d6393a19504daa8f0c80a</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__Exposure_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/502cm6vef6axhtljvy6b8p35tqugg2ds.zip" target="_blank">RDS-2020-0016-2__FLEP4_CONUS.zip</a> <em>(22.7 GB; <div hidden id='checksum_RDS-2020-0016-2__FLEP4_CONUS.zip'>SHA256: dfe1e81723fa94e6660223e23c26d4345c569ed4517c860b9553457023a5c379</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__FLEP4_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/gwasv734wwcx77zc4wj4ntfhaxyt8mel.zip" target="_blank">RDS-2020-0016-2__FLEP8_CONUS.zip</a> <em>(17.4 GB; <div hidden id='checksum_RDS-2020-0016-2__FLEP8_CONUS.zip'>SHA256: 5647093942a102738f56638a8b76a5d03e20a6d5f7923efac5821bbbda1ad885</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__FLEP8_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/88tv8byot0t22o9p1eqlrfqco3z5ouvf.zip" target="_blank">RDS-2020-0016-2__RPS_CONUS.zip</a> <em>(33.7 GB; <div hidden id='checksum_RDS-2020-0016-2__RPS_CONUS.zip'>SHA256: 69f38bd563da1c8b56b8d97c17aa38ed0d9e19ef324ac3acfc6615b62c3045ae</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__RPS_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/jz74xh0eqdezblhexwu2s2at7fqgom8n.zip" target="_blank">RDS-2020-0016-2__WHP_CONUS.zip</a> <em>(8.17 GB; <div hidden id='checksum_RDS-2020-0016-2__WHP_CONUS.zip'>SHA256: 2375c82d3618b60d2bcc09632200c4cb3593fb45658b421e8854deb1799b03cf</div><a href='#' onclick='showChecksum("RDS-2020-0016-2__WHP_CONUS.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/xsk49ho8gtr18jqiiqidapw09bjxiiya.zip" target="_blank">RDS-2020-0016-2_Alabama.zip</a> <em>(3.01 GB; <div hidden id='checksum_RDS-2020-0016-2_Alabama.zip'>SHA256: 771624d8b537c1b9ce44c5976e0a9176ff63b671e45455823c4817d6cb8b5569</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Alabama.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/jh6l2x2blct82hbtmu4n6dvoe9bz25ap.zip" target="_blank">RDS-2020-0016-2_Alaska.zip</a> <em>(27 GB; <div hidden id='checksum_RDS-2020-0016-2_Alaska.zip'>SHA256: 36fe9f910d89615f2d0fd82fb7ef3a43a1ae64ac4fc44924351ba2869f458f34</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Alaska.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/er1j9w81buzpi6spu2ode6krj57frxts.zip" target="_blank">RDS-2020-0016-2_Arizona.zip</a> <em>(8.87 GB; <div hidden id='checksum_RDS-2020-0016-2_Arizona.zip'>SHA256: 994ff7d8a791f80b73c79fbabb573bb623d7e9e8483b7ee8a137c02b97f0ecb9</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Arizona.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/pys3hd29a2jdfh9v1yg1f0d2t1iz32ya.zip" target="_blank">RDS-2020-0016-2_Arkansas.zip</a> <em>(2.71 GB; <div hidden id='checksum_RDS-2020-0016-2_Arkansas.zip'>SHA256: a0fe6af72fe6fe4bf88681fa3c908221fe427a84cbfa4e29c13c7173ec208f62</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Arkansas.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/et4mghz8sq0kxsk2ag6fpey5uec4f8fn.zip" target="_blank">RDS-2020-0016-2_California.zip</a> <em>(11.1 GB; <div hidden id='checksum_RDS-2020-0016-2_California.zip'>SHA256: 7ea3d2e2afeafad685939f48cedae80eaa2ec35b82311b4e66eacd7b1c3f1c6b</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_California.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/g3lr7dgb6jivvk2267ure83dgjmd0kha.zip" target="_blank">RDS-2020-0016-2_Colorado.zip</a> <em>(7.86 GB; <div hidden id='checksum_RDS-2020-0016-2_Colorado.zip'>SHA256: a854dde91d7dbc119d4c1ed0d4d5e6711beb0678a95f59d0ba36428b1be90c0c</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Colorado.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/j0izm7hbhsgchxc5uq2qsdvtrz1slux3.zip" target="_blank">RDS-2020-0016-2_Connecticut.zip</a> <em>(337.92 MB; <div hidden id='checksum_RDS-2020-0016-2_Connecticut.zip'>SHA256: e78373d105fc3b4ce32ddfc25a62a2e513a55cdb299fcd42789839b8a5fb7aca</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Connecticut.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/xqnwmh30f860qvw0behnnycm3ufvaxrz.zip" target="_blank">RDS-2020-0016-2_Delaware.zip</a> <em>(102.4 KB; <div hidden id='checksum_RDS-2020-0016-2_Delaware.zip'>SHA256: bd34e0aa42b3b8af5ca694c5aa2704ff65701e2938dc81382d8b9470d9bb7043</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Delaware.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/n1i3mhptsebdff0zlstofbm9ovkh3sk5.zip" target="_blank">RDS-2020-0016-2_DistrictOfColumbia.zip</a> <em>(1.02 MB; <div hidden id='checksum_RDS-2020-0016-2_DistrictOfColumbia.zip'>SHA256: f0cd78d7876a9223d5de174d9b089a7c27cffaead00040f44ae9e59c106dc01b</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_DistrictOfColumbia.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/16e0sqzzf3kbe2zbhvcsyvhpv66izjcv.zip" target="_blank">RDS-2020-0016-2_Florida.zip</a> <em>(3.54 GB; <div hidden id='checksum_RDS-2020-0016-2_Florida.zip'>SHA256: 95c813256b7833b9cb63d0905bed76e6070542a8b66869dd738da1784cc87eee</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Florida.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/cdvcvixizr1r4qthuo4pd88x4lx913ki.zip" target="_blank">RDS-2020-0016-2_Georgia.zip</a> <em>(3.53 GB; <div hidden id='checksum_RDS-2020-0016-2_Georgia.zip'>SHA256: 145f5425fc30e1c79af949d5e262a37d1b9c2562ce71dc4b0ce92949d00cd42e</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Georgia.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/fyv3pecykr26juimm2h1th4own1ehdj7.zip" target="_blank">RDS-2020-0016-2_Hawaii.zip</a> <em>(460.8 MB; <div hidden id='checksum_RDS-2020-0016-2_Hawaii.zip'>SHA256: 8afaeff77de7ebf6775967d960f912618f2722cb2d46f04cbe5247f021ce974c</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Hawaii.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/jgmjss1rgjc7pnguc7480544ktvk5ild.zip" target="_blank">RDS-2020-0016-2_Idaho.zip</a> <em>(6.56 GB; <div hidden id='checksum_RDS-2020-0016-2_Idaho.zip'>SHA256: e03c606c9f9a747ee9952d55565ae1086bed21ef106ad8013abc605495eb56c6</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Idaho.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/b77db50aa9t0lahoqp3tql8zcnbjxu5y.zip" target="_blank">RDS-2020-0016-2_Illinois.zip</a> <em>(1.39 GB; <div hidden id='checksum_RDS-2020-0016-2_Illinois.zip'>SHA256: 192fdfabc8211bd6b3514c8651b11e60431c5fa15d3c2c3c23d60f25e4c3e4f1</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Illinois.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/vxeutwkvl6i5etr42valervu45xq0ncq.zip" target="_blank">RDS-2020-0016-2_Indiana.zip</a> <em>(1.03 GB; <div hidden id='checksum_RDS-2020-0016-2_Indiana.zip'>SHA256: da76070651ba769c596014a0978f229ea9d1d18cf284d752e5f68ef44dd4b610</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Indiana.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/hup68wj334lfjv2e3opvyxkousn6udvd.zip" target="_blank">RDS-2020-0016-2_Iowa.zip</a> <em>(1.38 GB; <div hidden id='checksum_RDS-2020-0016-2_Iowa.zip'>SHA256: 8da066b724f2338392bcb699718c45ca89e099abe8297398630c580b4338c9df</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Iowa.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/pwqp9cjgb8yq3didhzs8kzuypt5p2h86.zip" target="_blank">RDS-2020-0016-2_Kansas.zip</a> <em>(4.56 GB; <div hidden id='checksum_RDS-2020-0016-2_Kansas.zip'>SHA256: d558fc875cbcb10079009ad4cf927c3bf0fa7cd946717e15bddbc643235bf461</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Kansas.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/lcqp2c5rf3pd2r66sd3irdq14cmvmpps.zip" target="_blank">RDS-2020-0016-2_Kentucky.zip</a> <em>(2.16 GB; <div hidden id='checksum_RDS-2020-0016-2_Kentucky.zip'>SHA256: 42caec40b136aaac8ae833d355e6ae406d77303d49ef8c062aacd90d3e8948ff</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Kentucky.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/tek1bx4vu3mbggxm3oad0242gizpqtbt.zip" target="_blank">RDS-2020-0016-2_Louisiana.zip</a> <em>(2.4 GB; <div hidden id='checksum_RDS-2020-0016-2_Louisiana.zip'>SHA256: e39fa2e9c474d3a71ae9aca50b754d55e96aed8228c7f465d5950791a3370593</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Louisiana.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/hfqd6nynsm92xv258mowlc7d9cct0srt.zip" target="_blank">RDS-2020-0016-2_Maine.zip</a> <em>(1.83 GB; <div hidden id='checksum_RDS-2020-0016-2_Maine.zip'>SHA256: 1f897b9b8d5eccf0c55a59c8a748fe0c7b47108d7e3569b723cbb821e6c1b4e2</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Maine.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/nc9xszu487yxj6zw1u99uo6p2ayae5rf.zip" target="_blank">RDS-2020-0016-2_Maryland.zip</a> <em>(634.88 MB; <div hidden id='checksum_RDS-2020-0016-2_Maryland.zip'>SHA256: 8da01def12ed36e2f2549e7b8c4ee8892b8f09ce4f4782c592e0e73a0b849e92</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Maryland.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/21qnyn2gi0ibavlwbbd8ec88vtx2gvud.zip" target="_blank">RDS-2020-0016-2_Massachusetts.zip</a> <em>(501.76 MB; <div hidden id='checksum_RDS-2020-0016-2_Massachusetts.zip'>SHA256: 578fbf9d784a48136c1268b0dd4862d3fdecafa72a3961aa18749f9d4eba0a73</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Massachusetts.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/zhzeoeeitiw9ik76wl6ec7st5gbizwro.zip" target="_blank">RDS-2020-0016-2_Michigan.zip</a> <em>(2.79 GB; <div hidden id='checksum_RDS-2020-0016-2_Michigan.zip'>SHA256: 6aba8925ebcea3cbe1ee92262bb405065d778627eefcbf0ab50f9f736886ed09</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Michigan.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/kyhlaskf5dtev6mtlhk58d64u4xx3sgj.zip" target="_blank">RDS-2020-0016-2_Minnesota.zip</a> <em>(3.41 GB; <div hidden id='checksum_RDS-2020-0016-2_Minnesota.zip'>SHA256: e462faf8e69fa5469cc1f9428c8e23a275c1e8ca7e53f0b6872e7ee2735d9914</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Minnesota.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/uls1fjtacudgxndp4oqmp1mzynhhmts1.zip" target="_blank">RDS-2020-0016-2_Mississippi.zip</a> <em>(2.65 GB; <div hidden id='checksum_RDS-2020-0016-2_Mississippi.zip'>SHA256: 57a8202c1614ccbaf222d74284a9b275e7fa893ac24a4158a414df1419860f80</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Mississippi.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/ayzc2ge33ateswfuy6w9h0lgpwbsy14u.zip" target="_blank">RDS-2020-0016-2_Missouri.zip</a> <em>(3.58 GB; <div hidden id='checksum_RDS-2020-0016-2_Missouri.zip'>SHA256: 23ad813263030da09d8789770d03adf56dfe3690d900870bafcbb39f33940d1e</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Missouri.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/w8k4837yxpxbjyhoa2xqd28wa05laa47.zip" target="_blank">RDS-2020-0016-2_Montana.zip</a> <em>(11.4 GB; <div hidden id='checksum_RDS-2020-0016-2_Montana.zip'>SHA256: 4acabb033c5b34781d71d92fc39fb983655cfb2a16f079d123819f28e30c3bb2</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Montana.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/n6ra3sg9trrv6iivm9evtna191dtfu78.zip" target="_blank">RDS-2020-0016-2_Nebraska.zip</a> <em>(4.33 GB; <div hidden id='checksum_RDS-2020-0016-2_Nebraska.zip'>SHA256: f4303db9a31cda1086bb9ebc56c78a49bfe92e48a7a6bea01f3234f4da65d5d3</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Nebraska.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/qdhjh8u6m91nytawj1r737dbghhnj1ft.zip" target="_blank">RDS-2020-0016-2_Nevada.zip</a> <em>(8.62 GB; <div hidden id='checksum_RDS-2020-0016-2_Nevada.zip'>SHA256: f065e2f8bd667e82e3d6c31e2d06150a5c98c56c7363e937fb797e5dc207110f</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Nevada.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/8y0mrc364fhv3hhq4nh5r54fccsiaamy.zip" target="_blank">RDS-2020-0016-2_NewHampshire.zip</a> <em>(583.68 MB; <div hidden id='checksum_RDS-2020-0016-2_NewHampshire.zip'>SHA256: 5fdae0b20b71226a8afaae8d2be31d2b19a4618ce6fc3b7ef26335342324c97d</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_NewHampshire.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/j2q2e01iy87iltullvgwn8pl5s63dcww.zip" target="_blank">RDS-2020-0016-2_NewJersey.zip</a> <em>(471.04 MB; <div hidden id='checksum_RDS-2020-0016-2_NewJersey.zip'>SHA256: 159ea21cc22d810810230ec4483060c4025c0c43e5584e6870072f3479542bba</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_NewJersey.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/p258b37c0dvyvuwyl7068ckaqvto6gqe.zip" target="_blank">RDS-2020-0016-2_NewMexico.zip</a> <em>(9.33 GB; <div hidden id='checksum_RDS-2020-0016-2_NewMexico.zip'>SHA256: 01e37014b1d1ae9a50a218efeda15be9c3a4dd1ae95dfc9b02c1a2403e54ce3b</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_NewMexico.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/s21gq5g8siisakon8xgu5tb5djesf4el.zip" target="_blank">RDS-2020-0016-2_NewYork.zip</a> <em>(2.58 GB; <div hidden id='checksum_RDS-2020-0016-2_NewYork.zip'>SHA256: 51a8e88ddfb2ca9db24508dab365b2b7897546f55f6762f1800d8c180e231cbd</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_NewYork.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/d80581t1zjol4a1nu3ndq51tg6s0xtwg.zip" target="_blank">RDS-2020-0016-2_NorthCarolina.zip</a> <em>(3 GB; <div hidden id='checksum_RDS-2020-0016-2_NorthCarolina.zip'>SHA256: 73ba2ac26e0410ea3eedc9c7e2c29f569ffc4e34532594310dd807435a3a3914</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_NorthCarolina.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/6xjs8nz2icjyo2dhm93v6nw3nk2nc3q8.zip" target="_blank">RDS-2020-0016-2_NorthDakota.zip</a> <em>(3.63 GB; <div hidden id='checksum_RDS-2020-0016-2_NorthDakota.zip'>SHA256: 7d92edcbe33875424660fb61cddcc91314841ecbcf9d50a5712914b2b7479355</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_NorthDakota.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/u9chfbnaw0ycj0nf4jkxzvh0bqgjkdrw.zip" target="_blank">RDS-2020-0016-2_Ohio.zip</a> <em>(1.6 GB; <div hidden id='checksum_RDS-2020-0016-2_Ohio.zip'>SHA256: ab6eb70eac5522e60fc823bd9e07d457d0ce0d6dfbac713c1919251d9ef9b528</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Ohio.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/c9skxlqnejzc671m1fk33816puk3up64.zip" target="_blank">RDS-2020-0016-2_Oklahoma.zip</a> <em>(4.5 GB; <div hidden id='checksum_RDS-2020-0016-2_Oklahoma.zip'>SHA256: c35174f3d94fa6de280d3401a9a13893867b9f8ea8a1ec38ec606aeb56e0b34b</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Oklahoma.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/bqotzr1k53et252mf6k82gwz1904kbhl.zip" target="_blank">RDS-2020-0016-2_Oregon.zip</a> <em>(7.3 GB; <div hidden id='checksum_RDS-2020-0016-2_Oregon.zip'>SHA256: 1855877c95f43937c2542236288f1d5101ac0bad5af28f7e2475b9b2eb3b8b01</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Oregon.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/9c8634qc635s7mxkyhu7umlugnpptaqd.zip" target="_blank">RDS-2020-0016-2_Pennsylvania.zip</a> <em>(2.8 GB; <div hidden id='checksum_RDS-2020-0016-2_Pennsylvania.zip'>SHA256: 475a6ab8155980a3fa5628b9611b6ee24e02b2ec93d95cfcff8c06b43c606736</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Pennsylvania.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/k1xq9xxv3zxrerrybybmnoz8e9mcjwr7.zip" target="_blank">RDS-2020-0016-2_RhodeIsland.zip</a> <em>(71.68 MB; <div hidden id='checksum_RDS-2020-0016-2_RhodeIsland.zip'>SHA256: 6af08730c4aad0df2f2e43ac77c3bc4c547c32f352ddcd43141cc89660f85140</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_RhodeIsland.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/anbtryj2ikhm5cvdltejz0qrn85s5w05.zip" target="_blank">RDS-2020-0016-2_SouthCarolina.zip</a> <em>(1.87 GB; <div hidden id='checksum_RDS-2020-0016-2_SouthCarolina.zip'>SHA256: 0cea22388758670345cd8f720e4764e3f83878883835220b810bc127bacd2aeb</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_SouthCarolina.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/ehroppi8luaoorqa27fmcur45djhhtcj.zip" target="_blank">RDS-2020-0016-2_SouthDakota.zip</a> <em>(4.75 GB; <div hidden id='checksum_RDS-2020-0016-2_SouthDakota.zip'>SHA256: 2be631c074bd9c7d4260fc14379060acd7411f30b1a4cff768003fc4d021ff88</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_SouthDakota.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/ods2qiz9ab8tqeh1matb58aqpeelan9m.zip" target="_blank">RDS-2020-0016-2_Tennessee.zip</a> <em>(2.29 GB; <div hidden id='checksum_RDS-2020-0016-2_Tennessee.zip'>SHA256: f3ba50f2ade7175bcb24a5a175d2791507b832be2ca9ef72799dcd62cebb08ae</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Tennessee.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/8qztn7vbnyguzgtnmbsf367uzc6at4jn.zip" target="_blank">RDS-2020-0016-2_Texas.zip</a> <em>(18 GB; <div hidden id='checksum_RDS-2020-0016-2_Texas.zip'>SHA256: 3acbc68b715bbe10ce3cacf03f2cf6151ddb432cdb2043c5c0e2cb02cb271e60</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Texas.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/vgd5pm9bggnyu5muj9l86vx74srah1s5.zip" target="_blank">RDS-2020-0016-2_Utah.zip</a> <em>(6.39 GB; <div hidden id='checksum_RDS-2020-0016-2_Utah.zip'>SHA256: 5ef7b404efb6d3ca235243ed4dc50db99449f1ff9d0ca5cef559b9ac0c828af5</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Utah.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/i8ccl7czwqxmcr9cb52xme4l1cmvrdx8.zip" target="_blank">RDS-2020-0016-2_Vermont.zip</a> <em>(573.44 MB; <div hidden id='checksum_RDS-2020-0016-2_Vermont.zip'>SHA256: 3f11bec55850f8566e93db2817392c1d96f372e88188c2949ac39161ce04773e</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Vermont.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/e6rfe4pdmdyz3yhccf2m8rzjk2kwonhs.zip" target="_blank">RDS-2020-0016-2_Virginia.zip</a> <em>(2.53 GB; <div hidden id='checksum_RDS-2020-0016-2_Virginia.zip'>SHA256: c9f67d586473ae0dce384dc2c7e162d7b3ef13aacb62eae3742615ad5f2fd5b4</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Virginia.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/39osvpm8f3lpk3vderz7308lnpepiic3.zip" target="_blank">RDS-2020-0016-2_Washington.zip</a> <em>(4.66 GB; <div hidden id='checksum_RDS-2020-0016-2_Washington.zip'>SHA256: d6b76e2a0ed9f390a589021dd5ac23746c853d15e3e2898c977b312518e397db</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Washington.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/tytm9gfqyc7z3epd7do6scrfngcwczi6.zip" target="_blank">RDS-2020-0016-2_WestVirginia.zip</a> <em>(1.54 GB; <div hidden id='checksum_RDS-2020-0016-2_WestVirginia.zip'>SHA256: 80b3556c998217c71e97b3b0617abf3be200e90cc0e7f03e2fb99faaf982765b</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_WestVirginia.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/og3kpewggcko6o4qlhfd46ejqolhviur.zip" target="_blank">RDS-2020-0016-2_Wisconsin.zip</a> <em>(2.6 GB; <div hidden id='checksum_RDS-2020-0016-2_Wisconsin.zip'>SHA256: 7a71fa55c86fb0d514a23112979d00640929a0731e9376347048c252d16de11b</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Wisconsin.zip");return false;'>Checksum</a>)</em></li><li><a href="https://usfs-public.box.com/shared/static/fi6khm73akzg7finmqv2wmyjog8t5nxk.zip" target="_blank">RDS-2020-0016-2_Wyoming.zip</a> <em>(7.73 GB; <div hidden id='checksum_RDS-2020-0016-2_Wyoming.zip'>SHA256: 711ac8dbab7a68d7dad7004f8dfd88371aedeba8f58053f8b007c71abf56c657</div><a href='#' onclick='showChecksum("RDS-2020-0016-2_Wyoming.zip");return false;'>Checksum</a>)</em></li></ul></li>			</ul>
+            </dd>
+        </dl>
+        <p>Need information about <a href="https://www.fs.usda.gov/rds/archive/UsingFormats">Using our Formats</a>?</p>
+    </div>
+<!--}-->
+<script type="text/javascript">
+		jQuery(document).ready(function () {
+		var rdsid = 'RDS-2020-0016-2';
+		$.post("/rds/archive/catalog/downloadevent",
+		  {
+			rdsid: rdsid,
+			type: 'page_visits',
+		  });
+		//var test=document.getElementById("visitCount").innerHTML;
+		//document.getElementById("visitCount").innerHTML=parseInt(test)+1;
+		$('dd.product a').click(function(event) {
+			//event.preventDefault();
+			var href = $(this).prop('href');
+			var type = 'External Product';
+			if (href.search('/products/')!==-1) {
+				type = 'Product';
+				if (/metadata/i.test(href))
+					type = 'Metadata';
+				else if (/fileindex/i.test(href))
+					type = 'FileIndex';
+				else if (/_Supplements/i.test(href))
+					type = 'Supplements';
+			}
+			else if (/https:\/\/s3-us-west-2\.amazonaws\.com\/fs\.usda\.rds\//i.test(href)) {
+				type = 'LargeProduct';
+			}else if (/https:\/\/usfs-public\.box\.com/i.test(href)) {
+				type = 'LargeProduct';
+				href=$(this).html(); //send the filename, since the pinyon link is random
+			}else if (/https:\/\/www\.fs\.usda\.gov\/rds\/efrdata\//i.test(href)) {
+				type = 'EFR';
+			}else if (/https:\/\/www\.fs\.usda\.gov\/rds\/waterQualityDB\//i.test(href)) {
+				type = 'DB';
+			}else if (/https:\/\/www\.fs\.usda\.gov\/rds\/imagedb\//i.test(href)) {
+				type = 'ImageDB';
+			}else if (/https:\/\/www\.fs\.usda\.gov\/rds\/archive\/catalog\/RDS-2020-0016-2/i.test(href)) {
+				type = 'checksum link';
+			}else if (/https:\/\/www\.fs\.usda\.gov\/rds\//i.test(href)) {
+				type = 'other local download';
+			}
+			$.post("/rds/archive/catalog/downloadevent",
+			  {
+				rdsid: rdsid,
+				type: type,
+				href: href
+			  });
+			/*$.post("/rds/archive/catalog/downloadevent",
+			  {
+				rdsid: rdsid,
+				type: type,
+				href: href
+			  },
+			  function(data, status){
+				alert("Data: " + data + "\nStatus: " + status);
+			  });*/
+			  //update download count in realtime
+			  if (type == 'EFR' || type == 'DB' || type == 'ImageDB' || type == 'External Product'){
+				  var test=document.getElementById("accessCount").innerHTML;
+				  document.getElementById("accessCount").innerHTML=parseInt(test)+1;
+			  }else if (type=='Product' || type=='LargeProduct'){
+				  var test=document.getElementById("downloadCount").innerHTML;
+				  document.getElementById("downloadCount").innerHTML=parseInt(test)+1;
+			  }
+			ga('send','event','Download',type, href);
+		});
+	});
+		
+	function showChecksum(id){
+		var content = document.getElementById("checksum_"+id).innerHTML;
+		
+		var $dialog = $('<div></div>')
+					   .html(content)
+					   .dialog({
+						   autoOpen: false,
+						   modal: true,
+						   width: 700,
+						   title: "Checksum for "+id
+					   });
+		$dialog.dialog('open');
+	}
+</script>
+	</div>
+	<footer class="usa-footer usa-footer-slim" role="contentinfo">
+  <div class="usa-grid usa-footer-return-to-top" >
+    <a href="#">Return to top</a>
+  </div>
+  <div class="rda-footer1 usa-footer-primary-section">
+    <div class="usa-grid">
+      <nav class="usa-footer-nav">
+        <ul class="usa-unstyled-list">				<li class="usa-width-one-third usa-footer-primary-content">					<a class="usa-footer-primary-link" href="https://www.fs.usda.gov/rds/archive/contactus"><span>Contact Us</span></a></li>				<li class="usa-width-one-third usa-footer-primary-content">					<a class="usa-footer-primary-link" href="https://www.fs.usda.gov/rds/archive/links"><span>Other Data Resources</span></a></li>				<li class="usa-width-one-third usa-footer-primary-content">					<a class="usa-footer-primary-link" href="https://www.fs.usda.gov/rds/archive/sitemap"><span>Sitemap</span></a></li>        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+<div class="rda-footer2 usa-footer-secondary_section">
+    <div class="usa-grid">
+		<div class="usa-logo">
+			<a href="https://www.usda.gov" target="_blank" rel=noopener><img class="usda-logo-img" src="/rds/_shared/Content/images/logousda.gif" alt="USDA Logo" title="U.S. Department of Agriculture"></a>
+			<a href="https://www.fs.usda.gov" target="_blank" rel=noopener><img class="usda-logo-img" src="/rds/_shared/Content/images/logofs.gif" alt="FS Logo" title="Forest Service"></a>
+			<h3 class="usa-footer-slim-logo-heading">
+				<a href="https://www.fs.usda.gov/rds/archive/" aria-label="Research Data Archive" target="_blank" rel=noopener>Research Data Archive</a>
+			</h3>
+		</div>
+	</div>
+	<div class="usa-grid">
+		<ul class="usa-unstyled-list usa-nav-secondary-links rda-nav-footer-links">
+		<li><a href="https://research.fs.usda.gov" target="_blank" rel=noopener>National R&amp;D</a></li>
+		<li><a href="https://research.fs.usda.gov/programs/fia" target="_blank" rel=noopener>Forest Inventory &amp; Analysis</a></li>
+		<li><a href="https://research.fs.usda.gov/about/people/" target="_blank" rel=noopener>People Search</a></li>
+		<li><a href="https://research.fs.usda.gov/stations/" target="_blank" rel=noopener>Stations</a></li>
+		<li><a href="https://research.fs.usda.gov/treesearch/" target="_blank" rel=noopener>Treesearch Publications</a></li>
+		</ul>
+	</div>
+	<div class="usa-grid">
+		<div class="usa-nav-secondary-links"><span>We are proud to be affiliated with:</span>
+		<ul class="usa-unstyled-list rda-nav-footer-links" style="display:inline-block">
+		<li><a href="https://www.re3data.org/" target="_blank" rel=noopener><img class="usda-logo-img" src="/rds/_shared/Content/images/re3datalogo.png" alt="R3 logo" title="Registry of Research Data Repositories"></a></li>
+		<li><a href="https://fairsharing.org/" target="_blank" rel=noopener><img class="usda-logo-img" src="/rds/_shared/Content/images/FAIRsharing_logo.png" alt="Fair sharing logo" title="FAIR Sharing"></a></li>
+		<li><a href="https://www.nature.com/sdata/" target="_blank" rel=noopener><img class="usda-logo-img" height="33px" style="background-color:#164880; padding-left:5px" src="/rds/_shared/Content/images/scientificdata_logo.png" alt="Scientific data logo" title="Scientific Data"></a></li>
+		</ul></div><br/>
+	</div>
+</div>
+
+<div class="rda-last-footer usa-footer-secondary_section">
+		<div class="usa-grid">
+			<ul class="usa-unstyled-list usa-nav-secondary-links rda-nav-footer-links">
+				<li>
+					<a href="https://www.usda.gov/policies-and-links" target="_blank" rel=noopener>Policies and Links</a>
+				</li>
+				<li>
+					<a href="https://www.usda.gov/our-agency/about-usda/performance" target="_blank" rel=noopener>Our Performance</a>
+				</li>
+				<li>
+					<a href="https://usdaoig.oversight.gov/resources/hotline-information" target="_blank" rel=noopener>Report Fraud on USDA Contracts</a>
+				</li>
+				<li>
+					<a href="https://usdaoig.oversight.gov/" target="_blank" rel=noopener>Visit OIG</a>
+				</li>
+				<li>
+					<a href="https://www.foia.gov/" target="_blank" rel=noopener>FOIA</a>
+				</li>
+				<li>
+					<a href="https://www.usda.gov/accessibility-statement" target="_blank" rel=noopener>Accessibility Statement</a>
+				</li>
+				<li>
+					<a href="https://www.usda.gov/privacy-policy" target="_blank" rel=noopener>Privacy Policy</a>
+				</li>
+				<li>
+					<a href="https://www.usda.gov/non-discrimination-statement" target="_blank" rel=noopener>Non-Discrimination Statement</a>
+				</li>
+				<li>
+					<a href="https://www.usda.gov/oascr/civil-rights-statements" target="_blank" rel=noopener>Anti-Harassment Policy</a>
+				</li>
+				<li>
+					<a href="https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities" target="_blank" rel=noopener>Information Quality</a>
+				</li>
+				<li>
+					<a href="https://www.usa.gov/" target="_blank" rel=noopener>USA.gov</a>
+				</li>
+				<li>
+					<a href="https://www.whitehouse.gov/" target="_blank" rel=noopener>White House</a>
+				</li>
+			</ul>
+		</div>
+</div>
+</footer>	 <div id="moreDialog" align="left" style="display:none;"></div>
+</body>
+</html>

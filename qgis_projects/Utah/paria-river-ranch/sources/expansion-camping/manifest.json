@@ -1,0 +1,122 @@
+[
+  {
+    "path": "barracks-ownership.geojson",
+    "bytes": 291177,
+    "sha256": "fea9893e98d99de7cec59034fd86ca2ab76a862b0eae9d860613c9e2cb91f540"
+  },
+  {
+    "path": "barracks-query.json",
+    "bytes": 1381,
+    "sha256": "de7c8d9ecf26ebe17436ca301b11b8f7ae57bbc725d78b7a957604752df7dab5"
+  },
+  {
+    "path": "camping-evidence.json",
+    "bytes": 10056,
+    "sha256": "67f4ef42f6ec3536c61f4f617c5ea1b87a3f401ea0682dc3d4dc2842423a6f2b"
+  },
+  {
+    "path": "camping-points.geojson",
+    "bytes": 604,
+    "sha256": "8fb59df714918fadf9276b1fbb0c73934f1b2fa29ad51e4a18e263602f9cf4aa"
+  },
+  {
+    "path": "cedar-city-and-powell-ranger-districts-water-sources-camping-restrictions.html",
+    "bytes": 215804,
+    "sha256": "1aea84e16feda47462b29555cbe279fbbe5648551183f6669adf1a8a9ecdde12"
+  },
+  {
+    "path": "cedar-city-and-powell-ranger-districts-water-sources-camping-restrictions.txt",
+    "bytes": 6615,
+    "sha256": "89e008614504ef91aae3f66f0c44cb117130802279d49add857ae81c157a6148"
+  },
+  {
+    "path": "corral-order-2026.pdf",
+    "bytes": 5955099,
+    "sha256": "d586262cecb0ba87382dd2cb39d3c1cbb53e4a8fd8ffb565f763f90f491a1008"
+  },
+  {
+    "path": "corral-order-2026.txt",
+    "bytes": 4552,
+    "sha256": "bee662f951f87dbf5488af5f591e1fbf29a94264a9c6a23f74ed0187fe0a2136"
+  },
+  {
+    "path": "daves-hollow-current-map.jpg",
+    "bytes": 3457334,
+    "sha256": "ee34238178bdd3500b3383b45a4bebc74b6bb69055e3bb51f32b008210506e98"
+  },
+  {
+    "path": "dixie-alerts.html",
+    "bytes": 241431,
+    "sha256": "9586a259cae4be09717dad239651aa79bb1732324d424739872e8b314806ee1c"
+  },
+  {
+    "path": "ownership-service.json",
+    "bytes": 44520,
+    "sha256": "7a46ba458641c0de88878e1c55efeee5d33096892d8641df0ea3160ad5f6d71a"
+  },
+  {
+    "path": "ownership-summary.json",
+    "bytes": 796,
+    "sha256": "a8d0d361e3f5c6f631cd4d0f88b0f085f4b7915c11cd613fd3d18e363c1527d4"
+  },
+  {
+    "path": "powell-daves-hollow-camping-restrictions-order-0407-22-03.html",
+    "bytes": 217323,
+    "sha256": "b5f38ef2f63023b550ba400940bf7598b9a63f3971d4373c505e60b4499a4faf"
+  },
+  {
+    "path": "powell-daves-hollow-camping-restrictions-order-0407-22-03.txt",
+    "bytes": 7582,
+    "sha256": "323b6d9262469f735b1280e7e4151b9a41d72b5c5fb6cd6f08ced28f9b515ba0"
+  },
+  {
+    "path": "powell-east-fork-sevier-river-camping-restrictions-order-0407-21-12.html",
+    "bytes": 216117,
+    "sha256": "edae684255d5ca19a139da480746b7031ced98be3ec5bc6666472bc3ca064328"
+  },
+  {
+    "path": "powell-east-fork-sevier-river-camping-restrictions-order-0407-21-12.txt",
+    "bytes": 6889,
+    "sha256": "29f93638f82102eae9f34f20870409896ddf10342b2294e9178d1a91eea6a667"
+  },
+  {
+    "path": "ranch-ownership.geojson",
+    "bytes": 2713955,
+    "sha256": "0893fb9485279604210fb004109ede29cc6b2a27f2ded56eb49800e37fcec448"
+  },
+  {
+    "path": "ranch-query.json",
+    "bytes": 1363,
+    "sha256": "ec59c4e1a462386404bea7d9ea1ff44548a0cdb61250d6e1f229d225b8dc9638"
+  },
+  {
+    "path": "red-canyon-ownership.geojson",
+    "bytes": 201121,
+    "sha256": "774d1176619dec5b9c065020328c89927ecd57d65f1f1f315603f912f0d487e3"
+  },
+  {
+    "path": "red-canyon-query.json",
+    "bytes": 1394,
+    "sha256": "c54bbc36af9bec26afaed6bb7fc1976076d874a61f93ca7f576314ee69e4be13"
+  },
+  {
+    "path": "seasonal-camping-restrictions-livestock-corrals.html",
+    "bytes": 214751,
+    "sha256": "133b0f1b0625eed4a074a23513805e37c3f2a3b8e53f9d67399cf979b72f6e69"
+  },
+  {
+    "path": "seasonal-camping-restrictions-livestock-corrals.txt",
+    "bytes": 6717,
+    "sha256": "3d6be8e26d092c796f5f6c218f58cda628851974e7c7af716a2c4b6c724d05dc"
+  },
+  {
+    "path": "water-sources-order-2026.pdf",
+    "bytes": 127023,
+    "sha256": "039bd71029a6f395ce5d91aa94358c54a423baa0cb05856434cb9b9bac533d8b"
+  },
+  {
+    "path": "water-sources-powell-map.jpg",
+    "bytes": 7157287,
+    "sha256": "8af28f56424a3d487d404391f8f59ceb1143ef1873593ecade5a37691a7369c7"
+  }
+]

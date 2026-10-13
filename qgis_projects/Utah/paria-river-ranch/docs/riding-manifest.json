@@ -1,0 +1,1069 @@
+{
+  "files": [
+    {
+      "path": "sources/profiles/02-ranch-mustang-tank-01.csv",
+      "bytes": 821,
+      "sha256": "762535f67803984d9e3f8ddda847d55fd7ff0f485a6baf24848d91ef6c72cfe0"
+    },
+    {
+      "path": "sources/profiles/02-ranch-paria-river-01.csv",
+      "bytes": 7656,
+      "sha256": "2abd9179857bdca59d95c7e6537323caf99cbb5cf5aba364a6449bce56142a44"
+    },
+    {
+      "path": "sources/profiles/02-ranch-petrified-hollow-01.csv",
+      "bytes": 2235,
+      "sha256": "4a132cfc2b14e1f88ada9346a64182089fce754175c8dc5355c917dffeb01445"
+    },
+    {
+      "path": "sources/profiles/02-ranch-profiles.json",
+      "bytes": 11464,
+      "sha256": "52e06a2a24a78fb6ae6096aa7579d01768ebbada468c990ca66f77fbb4672ae2"
+    },
+    {
+      "path": "sources/profiles/02-ranch-routes.geojson",
+      "bytes": 27278,
+      "sha256": "9979e42fdcfebab8e735e8e21d4a33ea9726799b9082f33e23fc5f815d646b1d"
+    },
+    {
+      "path": "sources/profiles/03-mount-carmel-elephant-gap-01.csv",
+      "bytes": 11448,
+      "sha256": "07a7aad859e9453d42b37a913f5ea656fd1c283809799ba557be3e393eb0bac4"
+    },
+    {
+      "path": "sources/profiles/03-mount-carmel-poverty-flat-01.csv",
+      "bytes": 13754,
+      "sha256": "5ea0fdd4e1f17483a6a2f3fc659fd5dc9b36c56a38bf7319e7807e61536c175c"
+    },
+    {
+      "path": "sources/profiles/03-mount-carmel-profiles.json",
+      "bytes": 5087,
+      "sha256": "f399be88332efaa808626de45359ac97011fa022bd958c2dd0959e99a0e7eeb5"
+    },
+    {
+      "path": "sources/profiles/03-mount-carmel-routes.geojson",
+      "bytes": 119334,
+      "sha256": "fcaac70493bb6cf811420bbcbb0c89663d69da8e7f0b3782a56ea9a4514ab354"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-arches-trail-01.csv",
+      "bytes": 1335,
+      "sha256": "8f5edd9ae06162d023fffbc10a91939c828f5fda8a264dce18cc5bdd632a5e08"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-barney-cove-01.csv",
+      "bytes": 3808,
+      "sha256": "2c1d62665176c6d7adcb2825b03c300856b11d112434cfebdf1892c545f894c4"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-buckhorn-01.csv",
+      "bytes": 1774,
+      "sha256": "506cb28f67c8f03abe6718b2c6a46c7ef90557dc86d24aa6ffce758f769657ce"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-buckhorn-02.csv",
+      "bytes": 216,
+      "sha256": "fb2d6ca738c4b0d5f89ee865a2dfc9c73a6a4d3b948293ecdfb1d824e3c6494b"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-buckhorn-03.csv",
+      "bytes": 216,
+      "sha256": "3ba635ca856319920c1ec4969ffa8258192a05e1b9e842c7d1ba7b1cf6771fc7"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-cassidy-01.csv",
+      "bytes": 12986,
+      "sha256": "5085b834108c9291426852edeed66a97b146f247abc29f3ad204b4611de4ea89"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-cassidy-02.csv",
+      "bytes": 3123,
+      "sha256": "0b03a4d98fa4b5b6b0ff24b139ca9fe62aba0ea0bffa7f87e15363f6c8b20fba"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-cassidy-03.csv",
+      "bytes": 720,
+      "sha256": "1653d804ab69e0e57051f3f65d89b8db1e61a97de442fc79669d432f146d8a1d"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-castle-bridge-01.csv",
+      "bytes": 1244,
+      "sha256": "8c0c6489fd52dfb3f8fbb51c1650665467874649245560a03ab3695d41500251"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-casto-canyon-01.csv",
+      "bytes": 10702,
+      "sha256": "17477436b3332a4cab33fa0e67df932489d2cf81ce900f06b2455cb823788600"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-fremont-trail-01.csv",
+      "bytes": 10280,
+      "sha256": "19d5481c9947728ea17198761a98b76d3716e221e32e37721b7521a4f4b1d982"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-fremont-trail-02.csv",
+      "bytes": 9879,
+      "sha256": "36f38d1862654d178f9c61b52f739bafdc20691b6f13dd91069f404c5b5cd22b"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-fremont-trail-03.csv",
+      "bytes": 2580,
+      "sha256": "02d322aee0901dca6d88f1fdf7ec4c4167f571b2a07ba5555e13bad8b45ce972"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-fremont-trail-04.csv",
+      "bytes": 870,
+      "sha256": "7f5507bdef4817d6bbdd2d4a886cb154b5630e05b9ce32716ddfa4b19e8af85d"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-golden-wall-01.csv",
+      "bytes": 5464,
+      "sha256": "7c75eaaed9873e2b896216166f6c21485235999fb83d40e83a04d40bb6e0af0a"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-grand-view-01.csv",
+      "bytes": 3384,
+      "sha256": "5f595d4523b5eb47faac11e768e798fa01934187c444f299cfebdf3a8dab1407"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-great-western-alternate-01.csv",
+      "bytes": 2833,
+      "sha256": "4bc09a6d96e312e0ee89e3a05da1a5a8ebe9828c17360343b533993b3ea199e7"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-hancock-01.csv",
+      "bytes": 4486,
+      "sha256": "15a851967b9cfb203e710bc1a538d1fc8dd32cbb001ea34917f03c90ec011ea1"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-hoodoo-01.csv",
+      "bytes": 497,
+      "sha256": "c2103e849c3c21ab2876860c9f9dd39629524e4c30b2007e9a784b3862902731"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-hoodoo-02.csv",
+      "bytes": 354,
+      "sha256": "3f0d8350c54dab55d135be224f6649b100c3a1bf68d04a4a5a7d43f1e3d1d95c"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-hoodoo-03.csv",
+      "bytes": 143,
+      "sha256": "419a7a76af87f2406e0ae3c089cf17a5becc6e8ed75cfea5627ec56c4ed9c5b1"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-hoodoo-04.csv",
+      "bytes": 145,
+      "sha256": "17a09bf2ee29827458224de864e46ac77c2d231c7fa9148756a6feecef6ff305"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-ledge-point-trail-01.csv",
+      "bytes": 642,
+      "sha256": "29e904cf3e8f6a8ade9a41307cfbe97a4c21df8094a506eb1c8fae20127e8501"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-ledge-point-trail-02.csv",
+      "bytes": 626,
+      "sha256": "3187a446f3e72953ebdd283805ea40847baf643b44aff2d8dbb3e358a0551d13"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-ledge-point-trail-03.csv",
+      "bytes": 283,
+      "sha256": "ef42e7ad815bc95853a8421f9ed723adde48aefcace992306aaa159b26509ea4"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-losee-canyon-01.csv",
+      "bytes": 5859,
+      "sha256": "456718a14733ede034a8b0b00637a4a1ca5c83c49b0cf17d691f9a99d0f9b1c8"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-photo-01.csv",
+      "bytes": 367,
+      "sha256": "2544e2153cc98278ccad08437655fba819dd17e32a4e0123c26d39010295eaef"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-01.csv",
+      "bytes": 7637,
+      "sha256": "1efcc2055ae905daf9c09b7a23a8c97540e5171cf5f01ea93b756d53da4eade3"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-02.csv",
+      "bytes": 1402,
+      "sha256": "acbcfc47376ca3d7fb2f6574ca19909539f605bfd66bdb368a4712e8488c238f"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-03.csv",
+      "bytes": 1158,
+      "sha256": "ccef5c747ea92812148df95573443ae7d83b45a1677ca9c0bfdf7804d1dd8fcf"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-04.csv",
+      "bytes": 1103,
+      "sha256": "1d30fbf2ed3fb754080dbc27c492b4aeaa4469b9dae26b90e9b7d59c2c4dae45"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-05.csv",
+      "bytes": 821,
+      "sha256": "eda77e5b87023438a474f4fd361ebe79686f0cacd8968a39473905b1b71391b9"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-06.csv",
+      "bytes": 832,
+      "sha256": "5bda9d533c53a48c995ec932d47c55f92a75552698a4cf7e85fd76a4eb4e33fe"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-07.csv",
+      "bytes": 604,
+      "sha256": "7369197101ee55d6cb4e22d83e74b7952e1321652f32553b99df4008e878472e"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pines-horse-trail-08.csv",
+      "bytes": 494,
+      "sha256": "468407989fd16a374ed47723cbd7df0e62a09f9d7f36500a7d230e8b7c861479"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pink-ledges-01.csv",
+      "bytes": 928,
+      "sha256": "0e33bf689452cdd47ff97cb7340b9ffd656e3abaf246e104525a65de05848634"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pink-ledges-02.csv",
+      "bytes": 459,
+      "sha256": "4d68c38241d718834475c2d61f9dbf676368295dcdc4398959c38f1d841a3f26"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-pink-ledges-03.csv",
+      "bytes": 216,
+      "sha256": "976c4c0324041dce4b6a43e5f339df1adaf376b2000b5d97d0881bebd50a1917"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-profiles.json",
+      "bytes": 101165,
+      "sha256": "c077717992104da2ac025003c1192837cbd98b1a4fe85ea9442d3e92c59ee437"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-red-canyon-bike-trail-01.csv",
+      "bytes": 16776,
+      "sha256": "a4a878196fcf95c50dc1a216050fa28db15f84b4c5fa20040d11ccffc6c7bf0b"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-rich-trail-01.csv",
+      "bytes": 4679,
+      "sha256": "1a3d8346e4e5ea9321f84a9718f552dd1af7ceea69ec997d8e9eb54506ff9e42"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-routes.geojson",
+      "bytes": 370235,
+      "sha256": "6cd25e4cbddb0e9617c4f92740dc4afd7684aa254a49552c542eb07239250846"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-showalter-01.csv",
+      "bytes": 2317,
+      "sha256": "0b5fea03527f4934fb2a9ea34fc9408679f2ceaacc9f1d7b4467e514cf451fc7"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-thunder-mountain-01.csv",
+      "bytes": 13337,
+      "sha256": "522b542f05ec14f20a504c854d17c529f3d12d307daca255433b48a5ed11cfc1"
+    },
+    {
+      "path": "sources/profiles/04-red-canyon-thunder-mtn-spur-01.csv",
+      "bytes": 617,
+      "sha256": "1c92c6fbbc5d0593c25b8caed7fed69ea601b235a96a00462b32c90e875a03e2"
+    },
+    {
+      "path": "sources/profiles/native-dem-discovery.json",
+      "bytes": 91355,
+      "sha256": "ff554ac3b8598b9a384542d94d1ba6f7051633ae06f9a83813e4fff335f26ac7"
+    },
+    {
+      "path": "sources/profiles/profiles.json",
+      "bytes": 132359,
+      "sha256": "6c78df4e7dcc2a9f2c52bea21efc45598afc4d148f58a573bac1f57bcf228190"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-annual-likelihood-export.json",
+      "bytes": 853,
+      "sha256": "4a4232e7457635f76dd66bc27cb633b4bf272cb553158a43f3bb5231189f443d"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-annual-likelihood-rendered-export.json",
+      "bytes": 845,
+      "sha256": "83b8280acca1b8aa4efd427e40cf9421979cfce05bc0127d41f8aa5a02d48de3"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-annual-likelihood-rendered.png",
+      "bytes": 44826,
+      "sha256": "c79cfeaa0a6a776357dd09ce9c128e0e3d5007ff0b7aaff8bf63da7f74f3cd94"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-occurrences-candidates.geojson",
+      "bytes": 490700,
+      "sha256": "e074c9190d28b2d8b0484680b3dc33207418c9648a177a72c43c0bb51de06c21"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-occurrences-count.json",
+      "bytes": 19,
+      "sha256": "33b66f9a2f0ee09acc671d10a647bf2797f2a01ecf522e397d87375cc5d1b066"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-occurrences-geographic-check.json",
+      "bytes": 335,
+      "sha256": "9a953822a4f3606bcb1446f9f74bd576138a47450430e62e4ebc9593376afc66"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-occurrences-ids.json",
+      "bytes": 3742,
+      "sha256": "bb0a2fcccf64a66de5c5f9428e142573dfa7d6f5d6513e1c76d0932d4f033e5e"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-occurrences-request.json",
+      "bytes": 548,
+      "sha256": "38af5775cb7ccc0263e2168fa8f98e36ee1b93a68609bdbc7d300d06decce1b6"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-perimeters-candidates.geojson",
+      "bytes": 207083,
+      "sha256": "e3d851160b442c2442eacef06e366c2dda2041dfa7b5b7f1a489441c2a1bfaa2"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-perimeters-count.json",
+      "bytes": 17,
+      "sha256": "b5da680c58cd1cf7e139eab6cedc8e31b4171afde9085f3239f2906efd6247bf"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-perimeters-geographic-check.json",
+      "bytes": 266,
+      "sha256": "c36c0227d5e21a8213335fbcdb1cf633f1d94b59de55efb14005311f45b2f977"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-perimeters-ids.json",
+      "bytes": 83,
+      "sha256": "10ea9bbbc71f0bb722f2609d0a6fa186d73129dd0862e3e2765d4a7cc13bc635"
+    },
+    {
+      "path": "sources/fire-data/02-ranch-perimeters-request.json",
+      "bytes": 519,
+      "sha256": "f3f5ac542d3a62d83222a39dc3daca9b81b55d649e68a0a14e95fe5ed01cf2ea"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-annual-likelihood-export.json",
+      "bytes": 845,
+      "sha256": "b1a8f35d58905e60f1844ae4fce9e2e52f020565675f397d85f1ec9fe537f18f"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-annual-likelihood-rendered-export.json",
+      "bytes": 837,
+      "sha256": "845cf402ba0855cdaaf66acc3263aaf62a2998cb0e837508ecfcc3ee2b86fe16"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-annual-likelihood-rendered.png",
+      "bytes": 6979,
+      "sha256": "b2c4618c6c1f36f2a1dd3b8ad6279f878e45452ae39fb09aead6757f67850f10"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-occurrences-candidates.geojson",
+      "bytes": 250292,
+      "sha256": "65e6a40a2a4b750dae6b5b3f3c5f1e10b942ef9d4768a88667c99a575cb34936"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-occurrences-count.json",
+      "bytes": 19,
+      "sha256": "e75c40de01b761e64d892aae2c5a3bcdbfb3422a40f1ec854e343db63e0754fc"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-occurrences-geographic-check.json",
+      "bytes": 343,
+      "sha256": "f2d32c351b66dfeb2128a48ff3917b3132e04006a3223152a895248556f6b597"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-occurrences-ids.json",
+      "bytes": 1905,
+      "sha256": "37a340017964527c88932b12aa3cbef0d524681dcf64f3d2d9705fa447336bb2"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-occurrences-request.json",
+      "bytes": 545,
+      "sha256": "230684c190040f2ceb80a4097f3abf12a070ab596966f74d37122c917e303c68"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-perimeters-candidates.geojson",
+      "bytes": 52,
+      "sha256": "b3049ad7a1062091e169bd352424d59721a26b8b6229942aef26d11b0c6a96e1"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-perimeters-count.json",
+      "bytes": 17,
+      "sha256": "ca75868ed0f7bec3345d96ffa522649b2219fb4def0600bee070cea4bc9ba8e1"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-perimeters-geographic-check.json",
+      "bytes": 263,
+      "sha256": "db8d769150ba7b7db8366c494e4f04d95324e3d5eeaaa2b1044901bfe58ddb4d"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-perimeters-ids.json",
+      "bytes": 59,
+      "sha256": "21d0526efdea49560d97290f7d58d6568557a6f05240d02ad54a5ad2d372a176"
+    },
+    {
+      "path": "sources/fire-data/03-mount-carmel-perimeters-request.json",
+      "bytes": 516,
+      "sha256": "83f30f96ce595e1cb43c8c020b72bb6bf80253f570a8e883ac25d88b9e5e616d"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-annual-likelihood-export.json",
+      "bytes": 845,
+      "sha256": "b60640196f94b79f5e02ab87305e9c867ee885147de760d7761a2370448d7dba"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-annual-likelihood-rendered-export.json",
+      "bytes": 837,
+      "sha256": "a7ed830d348987fa99271f2c2aca5bb87d7eb73e8c87caec7e61435cb8282b19"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-annual-likelihood-rendered.png",
+      "bytes": 14443,
+      "sha256": "e67a186cf031209d3959563a3469577b982adf1134e9cbb5493be3bc7371428d"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-occurrences-candidates.geojson",
+      "bytes": 109852,
+      "sha256": "b917fe149d8808c130b2b6f8d9e39c0c24020d489a572eeff7c3bdbc0170b54d"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-occurrences-count.json",
+      "bytes": 18,
+      "sha256": "252cb4deaa28676a43ae7778c7f14a051d93b65d518d298fae5b8b3ec5dab19d"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-occurrences-geographic-check.json",
+      "bytes": 290,
+      "sha256": "7d09f6afe657c4fbac0a508d3ed6e17eb732948dc021895bf7cfeb98f22e8434"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-occurrences-ids.json",
+      "bytes": 861,
+      "sha256": "681188c42ee6b62a201c7cd1c09952b3a5daec6ccf88046be38f833111e96524"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-occurrences-request.json",
+      "bytes": 541,
+      "sha256": "6d56ccd9cb693e3702600ae37645eff1669e5a27afd98861fa3762440efcd4f2"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-perimeters-candidates.geojson",
+      "bytes": 284126,
+      "sha256": "b773198ed355d1ff07901214639f7d9684769643111f417fd04ea4b36a8cf094"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-perimeters-count.json",
+      "bytes": 17,
+      "sha256": "7b2652e71fb224bd0ee1a2a62b131782d1b78604ef51c9b08f1dc01e4e6bf67b"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-perimeters-geographic-check.json",
+      "bytes": 262,
+      "sha256": "8a221af5ad7586970b35ca5d7b7e8345906a87d9458c9c183939894bb06a28a2"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-perimeters-ids.json",
+      "bytes": 71,
+      "sha256": "706fa3e11e4890d8cb88036c82301df9bac0557e1d725f73c779da8c189b49f7"
+    },
+    {
+      "path": "sources/fire-data/04-red-canyon-perimeters-request.json",
+      "bytes": 515,
+      "sha256": "40def06b3abb275cbf642901199ce91175ba74c05a22e781d6c8ae70dc3e89ad"
+    },
+    {
+      "path": "sources/fire-data/fpa-fod-layer.json",
+      "bytes": 44927,
+      "sha256": "a4a318f07666e903bdd01db6bb92c5d0f368db554d2a6a44eef75c421e56019f"
+    },
+    {
+      "path": "sources/fire-data/fpa-fod-service.json",
+      "bytes": 20013,
+      "sha256": "3fc41150ca6ac4d3563f0f1e0cd39cf13a88559f576812575044d83d317956cd"
+    },
+    {
+      "path": "sources/fire-data/mtbs-layer.json",
+      "bytes": 10489,
+      "sha256": "f4d318718445a3184e98293c5041b4b1da19c9d87f22cca3e09d42e48d8bba5d"
+    },
+    {
+      "path": "sources/fire-data/mtbs-period.json",
+      "bytes": 457,
+      "sha256": "b5bad7eff8a0693036de8e58c7510de32a43098984389424b26e5defe2af44cb"
+    },
+    {
+      "path": "sources/fire-data/mtbs-service.json",
+      "bytes": 32707,
+      "sha256": "b539b6bb57ec02b018a46655204fa5e90136ca9f8d86c1ac7e8fab7baaf22f1c"
+    },
+    {
+      "path": "sources/fire-data/wrc-archive-metadata.html",
+      "bytes": 88058,
+      "sha256": "c1d40cee2b6747d8d70839de1ba246c47786e158a2f178519961df91ae49f5d1"
+    },
+    {
+      "path": "sources/fire-data/wrc-archive.html",
+      "bytes": 60300,
+      "sha256": "ca58ab7d88dc7f988faa53a4ad4cd1de1504dd81703bf5c95d234bb7c2b1c613"
+    },
+    {
+      "path": "sources/fire-data/wrc-burn-probability-service.json",
+      "bytes": 13045,
+      "sha256": "6c764eadbbfff51cf7bb220387b2dc9fe5d9845d802e3cdbc36dbba17ca86a2f"
+    },
+    {
+      "path": "sources/fire-data/wrc-iteminfo.json",
+      "bytes": 14836,
+      "sha256": "8a5e9956543b35663b3d529e207603aaf568bfa77e616913c3c764b0a4c9fd38"
+    },
+    {
+      "path": "sources/fire-data/wrc-legend.json",
+      "bytes": 5655,
+      "sha256": "e32debc0a8c9bbd9561ed3f823aa02695d85349c6a80fe7aa8c06de5f86fede7"
+    },
+    {
+      "path": "sources/fire-data/wrc-official-viewer.json",
+      "bytes": 236134,
+      "sha256": "a4b1a608e81116a076a1b115a010ce15e0cfff84638986fef15c4d90b62c4866"
+    },
+    {
+      "path": "sources/fire-data/wrc-official-webmap.json",
+      "bytes": 362757,
+      "sha256": "03034ec59de99508be652272fb958f66294815acf142a027590e6b11ec22dda5"
+    },
+    {
+      "path": "sources/fire-orders/barracks-kiosk.html",
+      "bytes": 90597,
+      "sha256": "b1822a3c64a3a695defa00867be180db2efd50c710caeee139782038ee8dff42"
+    },
+    {
+      "path": "sources/fire-orders/barracks-kiosk.txt",
+      "bytes": 12977,
+      "sha256": "17c74c6f6e8231b66262d6df1e5f44d8a3dbebc64d1e2122e69718fe7081b79d"
+    },
+    {
+      "path": "sources/fire-orders/blm-baseline-retrieval.json",
+      "bytes": 824,
+      "sha256": "6755e239c40270a048d895b73c1beb3fdc7ded7f33ed7a928dfbae069023bab4"
+    },
+    {
+      "path": "sources/fire-orders/blm-baseline.pdf",
+      "bytes": 296752,
+      "sha256": "f7c232ffc1233ab544a11ccd3644587ea25baa8bd73f27fc4686e4bab116bd18"
+    },
+    {
+      "path": "sources/fire-orders/blm-baseline.txt",
+      "bytes": 2832,
+      "sha256": "46059708a6fb9602a9fdd8c10ed6cbbb21d4e481643cdc597a87260a6689aaee"
+    },
+    {
+      "path": "sources/fire-orders/blm-color-country-rescission.pdf",
+      "bytes": 230258,
+      "sha256": "3d81cde871616aea9a4b9439c78f5b008e5fa8e0985a06d2a32b7a79bf4f74f0"
+    },
+    {
+      "path": "sources/fire-orders/blm-color-country-rescission.txt",
+      "bytes": 2878,
+      "sha256": "5ed2aecde11ef4f560bd012163abc28a04f6f9df1dc396bc0101cb7303114154"
+    },
+    {
+      "path": "sources/fire-orders/blm-paria-stage1-rescission.pdf",
+      "bytes": 225047,
+      "sha256": "a6a3ca35990b52998720462aec6b5ca93e75eecfef5f16d5d682c4fb92c6b749"
+    },
+    {
+      "path": "sources/fire-orders/blm-paria-stage1-rescission.txt",
+      "bytes": 2782,
+      "sha256": "23e6488132007f87c2ba3abe405a3bde143bbb4aa7015227953b7e441d89395a"
+    },
+    {
+      "path": "sources/fire-orders/blm-paria-stage2-rescission.pdf",
+      "bytes": 233101,
+      "sha256": "dea5b5132a030f68683b36a03c2dcca7f116153259a75ee8a7e69d365066ea11"
+    },
+    {
+      "path": "sources/fire-orders/blm-paria-stage2-rescission.txt",
+      "bytes": 4603,
+      "sha256": "031e4898b5dcb436119161c2e2815e7f8da19be48293a5a692cd022dc29360c5"
+    },
+    {
+      "path": "sources/fire-orders/blm-utah-retrieval.json",
+      "bytes": 2039,
+      "sha256": "77e82000eee78f8ee34f16d905a4b97da97f892f3e4dc568eb40f370fd3db5b6"
+    },
+    {
+      "path": "sources/fire-orders/blm-utah.html",
+      "bytes": 86510,
+      "sha256": "8db8a7a98ce7a565214756cae37ba063ed3be94d973c0cf6508dfea756c0ecf4"
+    },
+    {
+      "path": "sources/fire-orders/blm-utah.txt",
+      "bytes": 14761,
+      "sha256": "fd106adc6a030900a286c74ec3ab14d27abb60f480afcc1ab6d78b1b971cb483"
+    },
+    {
+      "path": "sources/fire-orders/dixie-alerts-retrieval.json",
+      "bytes": 1070,
+      "sha256": "e514f08410a9b3554e4882272050386b19671bae0ff560cb137ccbf7c9bbad5e"
+    },
+    {
+      "path": "sources/fire-orders/dixie-alerts.html",
+      "bytes": 241431,
+      "sha256": "b038efd6f858a3ed70bd3345d06314ec9af59d4de97e842075539e04b2fe2307"
+    },
+    {
+      "path": "sources/fire-orders/dixie-alerts.txt",
+      "bytes": 11957,
+      "sha256": "dd7af2b7e7fc16af26d347a63d0a074b2491cfccfb95ce0a6441094a9f64677d"
+    },
+    {
+      "path": "sources/fire-orders/dixie-rescission-retrieval.json",
+      "bytes": 1137,
+      "sha256": "865e996f4a1581ef161256ffb253f065ab26d6845679ad347e1ceb9b7d207cc1"
+    },
+    {
+      "path": "sources/fire-orders/dixie-rescission.html",
+      "bytes": 211950,
+      "sha256": "0317e17d9d8ef26046bd5a6b282eee1df28ff8db9584bcbd4fd03ba6d86cc993"
+    },
+    {
+      "path": "sources/fire-orders/dixie-rescission.pdf",
+      "bytes": 233797,
+      "sha256": "4300c79fff8649023033233f8697cfabeccdd629e043f0d7f06a5036b7e568fc"
+    },
+    {
+      "path": "sources/fire-orders/dixie-rescission.txt",
+      "bytes": 663,
+      "sha256": "d18667c5e6a9fa598d05ee98061930ac6570d3e790d6ce7951bd4baa6483b087"
+    },
+    {
+      "path": "sources/fire-orders/ffsl-state-rescission.pdf",
+      "bytes": 3204781,
+      "sha256": "20b72bde4e1504bac32cac09e2b69cf066cadc333b67367b35594240e5ca8b54"
+    },
+    {
+      "path": "sources/fire-orders/ffsl-state-rescission.txt",
+      "bytes": 9183,
+      "sha256": "c6052e9281f948918dcd7522d8a8beaa6e9f0b340c816e28709ba4ea31dd4955"
+    },
+    {
+      "path": "sources/fire-orders/fire-orders.json",
+      "bytes": 11608,
+      "sha256": "8f213e2cdf67e13b762d779a4435aba41b0363ebdc75706aa0d0bc50135c47f2"
+    },
+    {
+      "path": "sources/fire-orders/manifest.json",
+      "bytes": 7607,
+      "sha256": "805186f135b962fd9e510a73e4729aabbe9d1726c7e1b9780eaf12a0e9f1bfda"
+    },
+    {
+      "path": "sources/fire-orders/nifc-monthly-seasonal-outlook-retrieval.json",
+      "bytes": 916,
+      "sha256": "992409f551687f84bf5409c15ef103b6bbecb23068a3bc724fe1b50db0dfb14a"
+    },
+    {
+      "path": "sources/fire-orders/nifc-monthly-seasonal-outlook.pdf",
+      "bytes": 1409108,
+      "sha256": "de6548e645efaf0460ca93b66df83ecaffb05eb092c906a929baf144021cccb2"
+    },
+    {
+      "path": "sources/fire-orders/nifc-monthly-seasonal-outlook.txt",
+      "bytes": 52106,
+      "sha256": "44ed3adb1ec11b346620f75ee55c13b9b840c9a6f82fe2209c0f622af46f855b"
+    },
+    {
+      "path": "sources/fire-orders/trust-lands-banner-evidence.json",
+      "bytes": 435,
+      "sha256": "f408ef5e86e5e4adba59c210ef7e773c62f97a15601c2fdf244b3f958f585edb"
+    },
+    {
+      "path": "sources/fire-orders/usfs-baseline.html",
+      "bytes": 59125,
+      "sha256": "764f9d90de876d90bdc99128930013b216501c5a60c125ce3f1142516ae35723"
+    },
+    {
+      "path": "sources/fire-orders/usfs-baseline.txt",
+      "bytes": 7008,
+      "sha256": "001c6db3d88ecda0fd724c1ce0654ee654367995c567286dfc6962bd05fe0184"
+    },
+    {
+      "path": "sources/fire-orders/utah-active-orders-retrieval.json",
+      "bytes": 546,
+      "sha256": "363595b365e3cebc199a20cd98280155cdb700047bc5c0d8c93ff541736815d8"
+    },
+    {
+      "path": "sources/fire-orders/utah-active-orders.html",
+      "bytes": 42174,
+      "sha256": "4fc6ddb06b2909ebbac2559fbd85e5388a59019b8ead201a03013570476d7b2a"
+    },
+    {
+      "path": "sources/fire-orders/utah-active-orders.txt",
+      "bytes": 37358,
+      "sha256": "f8b4fdf91df3cada462565f39796d95b7e8f806630bd48e43544ee4c03636ce2"
+    },
+    {
+      "path": "sources/fire-orders/utah-active-page-decoded.txt",
+      "bytes": 31723,
+      "sha256": "34649cf318b43e93970f5b4ad0da729209f0f15936863f90658f683dad0fa98c"
+    },
+    {
+      "path": "sources/fire-orders/utah-active-page-retrieval.json",
+      "bytes": 593,
+      "sha256": "1f1bbbf802363f5fdf15edc7721af14316024b279df426614606fec1e61b0cd4"
+    },
+    {
+      "path": "sources/fire-orders/utah-active-page.html",
+      "bytes": 45015,
+      "sha256": "25234dd6cd4e97d3777f6ad8434e1f27b68fd4d3fa6d86298a089c1fe3d56520"
+    },
+    {
+      "path": "sources/fire-orders/utah-active-page.txt",
+      "bytes": 37368,
+      "sha256": "da060a40b0eecbcc5487744949f699a82f071c1048071f6013a8ee738225b86f"
+    },
+    {
+      "path": "sources/fire-orders/utah-current-orders.html",
+      "bytes": 16948,
+      "sha256": "e01f1eadf2e91cca51158277d404dedf6cd22ee43762adae069f8ec9a650287a"
+    },
+    {
+      "path": "sources/fire-orders/utah-fire-info-retrieval.json",
+      "bytes": 548,
+      "sha256": "f4730feedd2c5de6ff58d317187e946da017d78af9c59c782ca572d89e0c5815"
+    },
+    {
+      "path": "sources/fire-orders/utah-fire-info.html",
+      "bytes": 42174,
+      "sha256": "4fc6ddb06b2909ebbac2559fbd85e5388a59019b8ead201a03013570476d7b2a"
+    },
+    {
+      "path": "sources/fire-orders/utah-fire-restrictions-page.json",
+      "bytes": 31531,
+      "sha256": "2390aafc604d0f2403dbf45348810bd02ce4e95575de2ea470c1d6fe22046155"
+    },
+    {
+      "path": "sources/fire-orders/utah-restrictions-dashboard.json",
+      "bytes": 21841,
+      "sha256": "2309fda98c81f698780fb1eaec3a66ca8e035a1e5b9ec1259cbc6ac9e52a8292"
+    },
+    {
+      "path": "sources/fire-orders/utah-restrictions-query-url.txt",
+      "bytes": 301,
+      "sha256": "1a493b7a901d77599ae553a3bdf0254c5c059ba488accfc1c56e897f1c4639ba"
+    },
+    {
+      "path": "sources/fire-orders/utah-restrictions-service.json",
+      "bytes": 21750,
+      "sha256": "78f5658a1ae0099c2fc2a6a02c00d7e304dab331588ad61db83c8e1291dbad19"
+    },
+    {
+      "path": "sources/fire-orders/utah-restrictions-southern-query.json",
+      "bytes": 35505,
+      "sha256": "71692ffdd4aee8503b92bb659f46116508e00364c9214dd8e20d0b9222a76263"
+    },
+    {
+      "path": "sources/fire-orders/utah-restrictions-webmap.json",
+      "bytes": 250174,
+      "sha256": "60b3080f6f4d3deb9bd16e22e2a1494018f22c4fa04f9770a1668bbfc6858737"
+    },
+    {
+      "path": "derived/profiles/02-ranch-profiles.png",
+      "bytes": 129131,
+      "sha256": "c0c0e161c87fd469bcee50aae19ebfe42f5d73aeac385fdd356b194b2554e17d"
+    },
+    {
+      "path": "derived/profiles/02-ranch-profiles.svg",
+      "bytes": 91327,
+      "sha256": "121cc9ae528b5761b27a2abc97e48030db731b9cb4b6227b68e74e7d3e0c5a29"
+    },
+    {
+      "path": "derived/profiles/03-mount-carmel-profiles.png",
+      "bytes": 116948,
+      "sha256": "1144723893b84d398d7c70d12615ef0abb2bb770293f5c9da232ed84a44ab666"
+    },
+    {
+      "path": "derived/profiles/03-mount-carmel-profiles.svg",
+      "bytes": 94265,
+      "sha256": "ae32b0d2db058ba8f11d4f02704859e8fd4e625cc4c4a44647de4ff4b19c18a0"
+    },
+    {
+      "path": "derived/profiles/04-red-canyon-profiles.png",
+      "bytes": 276219,
+      "sha256": "ddfc473febd815ce5f74213b9d961fb52b788002d5768c5b225cb1d64bc54c03"
+    },
+    {
+      "path": "derived/profiles/04-red-canyon-profiles.svg",
+      "bytes": 425891,
+      "sha256": "6369781497f421dafcf96de97e0636a872c8ab902d61f1b86e5e200e26ffe84c"
+    },
+    {
+      "path": "derived/fire-data/02-ranch-annual-likelihood-metadata.json",
+      "bytes": 1715,
+      "sha256": "8b1cbcbee68828d20f9d96c3592a881b35aec1ed9f2015eb84c57f801e1018f0"
+    },
+    {
+      "path": "derived/fire-data/02-ranch-annual-likelihood-rendered.tif",
+      "bytes": 81167,
+      "sha256": "dc22de2b1448a0fd56d6156744cb78f65eafc93a221c93d0c5fcd27fd8382ffe"
+    },
+    {
+      "path": "derived/fire-data/02-ranch-annual-likelihood-visualization.tif",
+      "bytes": 1770956,
+      "sha256": "43a2bbadcac7ae8beea92582b04b3b958ee34f9bbb56710ec27838ea4d78c6d3"
+    },
+    {
+      "path": "derived/fire-data/02-ranch-monthly.svg",
+      "bytes": 4546,
+      "sha256": "3a274d497f55e47e38315ff662efa1eec2196b99a170be69963e6947df753463"
+    },
+    {
+      "path": "derived/fire-data/02-ranch-occurrences.geojson",
+      "bytes": 482436,
+      "sha256": "7606feb56b2331be725cea3feef0079b3c9d415be82047ce3c9dbbb508a710a7"
+    },
+    {
+      "path": "derived/fire-data/02-ranch-perimeters.geojson",
+      "bytes": 207083,
+      "sha256": "e3d851160b442c2442eacef06e366c2dda2041dfa7b5b7f1a489441c2a1bfaa2"
+    },
+    {
+      "path": "derived/fire-data/03-mount-carmel-annual-likelihood-metadata.json",
+      "bytes": 1752,
+      "sha256": "910a1c46ae2b63b5b4145bb2f79af0f3e8a5c401cf084a84473410943304efdc"
+    },
+    {
+      "path": "derived/fire-data/03-mount-carmel-annual-likelihood-rendered.tif",
+      "bytes": 12262,
+      "sha256": "dcfea1aa08662308283ceb83e63034d8bf43ce0b88562e3ffcbc41f1ccf4cc53"
+    },
+    {
+      "path": "derived/fire-data/03-mount-carmel-annual-likelihood-visualization.tif",
+      "bytes": 492770,
+      "sha256": "6a1eace30f6e9d5bd573849c375f01ed9797927ebae565d1ce3eb25ab92d528d"
+    },
+    {
+      "path": "derived/fire-data/03-mount-carmel-monthly.svg",
+      "bytes": 4699,
+      "sha256": "8c20414fb78a0c3f1b9b8bd51749ab93a5b0448c6b90684cc6597c0772bc2fed"
+    },
+    {
+      "path": "derived/fire-data/03-mount-carmel-occurrences.geojson",
+      "bytes": 240463,
+      "sha256": "89d9dbd729a2da92aabe62a842748a8498d759a6744c78f9e56cd0bc08151805"
+    },
+    {
+      "path": "derived/fire-data/03-mount-carmel-perimeters.geojson",
+      "bytes": 52,
+      "sha256": "b3049ad7a1062091e169bd352424d59721a26b8b6229942aef26d11b0c6a96e1"
+    },
+    {
+      "path": "derived/fire-data/04-red-canyon-annual-likelihood-metadata.json",
+      "bytes": 1749,
+      "sha256": "7bfd54d4b0778297b6acc5c396ba49812d957b4752e54e239f9a3735855b81bc"
+    },
+    {
+      "path": "derived/fire-data/04-red-canyon-annual-likelihood-rendered.tif",
+      "bytes": 28078,
+      "sha256": "ea21208706be2dfdef181288393c15a865b730ca860121832f28a32c7094bc06"
+    },
+    {
+      "path": "derived/fire-data/04-red-canyon-annual-likelihood-visualization.tif",
+      "bytes": 787736,
+      "sha256": "c2d3fbde31e93e1743dc05494ba74557f9410b6f48b71626a32e079535d0b1c0"
+    },
+    {
+      "path": "derived/fire-data/04-red-canyon-monthly.svg",
+      "bytes": 4496,
+      "sha256": "7ba982fbb7b90c590b47fa472aea43bc1f48baede63838224121ca0a5b927424"
+    },
+    {
+      "path": "derived/fire-data/04-red-canyon-occurrences.geojson",
+      "bytes": 106566,
+      "sha256": "7474eca15cc598a4ff98e9751d9edab95205e29b3d03ea475663c388d339ecc2"
+    },
+    {
+      "path": "derived/fire-data/04-red-canyon-perimeters.geojson",
+      "bytes": 284126,
+      "sha256": "b773198ed355d1ff07901214639f7d9684769643111f417fd04ea4b36a8cf094"
+    },
+    {
+      "path": "derived/fire-data/fire-summary.json",
+      "bytes": 10429,
+      "sha256": "5891dbd423edd30eb0d76e8a2973e8ba396a0679329e095e478dce4f65fda5bc"
+    },
+    {
+      "path": "derived/riding/expanded-context.gpkg",
+      "bytes": 24977408,
+      "sha256": "a62b02b86fa3d69b423671835330c710965194e56b2c83501624e1cb9d582cbf"
+    },
+    {
+      "path": "derived/riding/layout-data.json",
+      "bytes": 5524,
+      "sha256": "97665081044e24dd72e6e4ddc8dbf3e2cdde9c2a70b3ec023d2bca14320d4fcc"
+    },
+    {
+      "path": "derived/riding/original-context.gpkg",
+      "bytes": 24977408,
+      "sha256": "b174398202f210b20a3a595598e895258c2b0608fc43b870d190ebdaf57e4ed4"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-00.png",
+      "bytes": 139,
+      "sha256": "5c728c3b33de7e2d5e0de61680209ded7c46c6a6b671e0d0b53b8d0bb26f1481"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-01.png",
+      "bytes": 142,
+      "sha256": "55c24e2255be30bcf4e81ae944307397222f29ea4f480e0df9518cad4b39c27c"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-02.png",
+      "bytes": 142,
+      "sha256": "d2c093598112cb6883350267c74f5717050af5afd44d29122d4f92e7980865ba"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-03.png",
+      "bytes": 142,
+      "sha256": "ced12ea54bfd99f00005eeb712354086b81b928dd5f78477620090b28a5d80ae"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-04.png",
+      "bytes": 142,
+      "sha256": "3558827630b584036dad7bffbfc933fd5578a2798eb4dab407bb10e6f84bc68e"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-05.png",
+      "bytes": 142,
+      "sha256": "45d7b71b9c95e39fcd8bc6f6d4999a91d14abc7da2669e50ce17bae77cc8e617"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-06.png",
+      "bytes": 142,
+      "sha256": "e203d3754b15b9887e661c7864eeeda23c280e5cf705c4a06fa6a48011490c28"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-07.png",
+      "bytes": 142,
+      "sha256": "2e0e50f05d33167923346f0e280b66a658da7bc81c2ca46b85e5cc012fa131c4"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-08.png",
+      "bytes": 142,
+      "sha256": "84e75e0f36a20265ed402048c82167645d1ba924a76e2f287d111ae3402675a3"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-09.png",
+      "bytes": 142,
+      "sha256": "89c95102975a57a9905b823b64fd35a1453dedeac0f99b412c8246beb8d6550e"
+    },
+    {
+      "path": "derived/riding/wrc-swatch-10.png",
+      "bytes": 142,
+      "sha256": "89c95102975a57a9905b823b64fd35a1453dedeac0f99b412c8246beb8d6550e"
+    },
+    {
+      "path": "output/pdf/riding/01-regional-overview.pdf",
+      "bytes": 2394052,
+      "sha256": "1da91c1fac86b744c976150b015a1d902f8a611f5a463c7668dbcb987e90747d"
+    },
+    {
+      "path": "output/pdf/riding/02-ranch-access.pdf",
+      "bytes": 2185317,
+      "sha256": "d5878ad5e52981a60776037a8d0f7976b312480f42514265d6a100c3c1b18e9a"
+    },
+    {
+      "path": "output/pdf/riding/03-ranch-terrain.pdf",
+      "bytes": 2256692,
+      "sha256": "f2f18b55ec658d77d8bd6096943337d36c0f660077e5575b42b1f6437320254b"
+    },
+    {
+      "path": "output/pdf/riding/04-ranch-snow.pdf",
+      "bytes": 1959952,
+      "sha256": "f74cbc0eef65e0576587cf99429a934e1b501189e64fcc47454e8d7631f80192"
+    },
+    {
+      "path": "output/pdf/riding/05-ranch-camping.pdf",
+      "bytes": 2184825,
+      "sha256": "88d28e102ce29a432a6afe4f89c691dc734d1c20eaef5061cfeb8140c4940ee6"
+    },
+    {
+      "path": "output/pdf/riding/06-ranch-profiles.pdf",
+      "bytes": 124139,
+      "sha256": "8e12b6b60dde536ff97aea5a0d652b8c379fbb6ae8d373a5677b45c314d9b1b1"
+    },
+    {
+      "path": "output/pdf/riding/07-ranch-wildfire.pdf",
+      "bytes": 1903057,
+      "sha256": "9ef0a5c7cd288ac53008d493f12f9e503cd984b0fedf059805ac9c92693d8e78"
+    },
+    {
+      "path": "output/pdf/riding/08-mount-carmel-access.pdf",
+      "bytes": 1654813,
+      "sha256": "e67d64013b4ec8dc38146ce94788020e7cc743538d01646f48e21f4e97777a13"
+    },
+    {
+      "path": "output/pdf/riding/09-mount-carmel-terrain.pdf",
+      "bytes": 2053139,
+      "sha256": "339298889091cbe3954edb2dd630fd3da08d2b1b68aa1f7746b78ce62a27b422"
+    },
+    {
+      "path": "output/pdf/riding/10-mount-carmel-snow.pdf",
+      "bytes": 1741872,
+      "sha256": "639fe3cbd2c7d6084826daf7a9be6714c67b414996cfde3a0de32a20ec62c986"
+    },
+    {
+      "path": "output/pdf/riding/11-mount-carmel-camping.pdf",
+      "bytes": 1694455,
+      "sha256": "6577a383713b7b278354b4020743a90a709a158130102b4d636dde8ce004b5cf"
+    },
+    {
+      "path": "output/pdf/riding/12-mount-carmel-profiles.pdf",
+      "bytes": 114142,
+      "sha256": "ab7955fc7d1e6d5a8cad2a94c315850a9fcfa30a4e61124d5a20d1cb522e1ccf"
+    },
+    {
+      "path": "output/pdf/riding/13-mount-carmel-wildfire.pdf",
+      "bytes": 1503545,
+      "sha256": "825629a117571238854b9dcfdff1f7b80b5bc66ba51324838e2ca9c3940581bf"
+    },
+    {
+      "path": "output/pdf/riding/14-red-canyon-access.pdf",
+      "bytes": 2092166,
+      "sha256": "456bee478777c06e1858f562be738f4db12d7e182b192a212973e639c2d56c89"
+    },
+    {
+      "path": "output/pdf/riding/15-red-canyon-terrain.pdf",
+      "bytes": 2471288,
+      "sha256": "ff7461b8adaac80cc9a8e6375299aeceeaa466ad993998064897d8001d315640"
+    },
+    {
+      "path": "output/pdf/riding/16-red-canyon-snow.pdf",
+      "bytes": 1931618,
+      "sha256": "0c302bec5aa857158142bc3a58be999b8ae499f77f0a90c36d9323d84374bda5"
+    },
+    {
+      "path": "output/pdf/riding/17-red-canyon-camping.pdf",
+      "bytes": 1987120,
+      "sha256": "375c144f0d23e1c33aa3382505da1b935a965bb96368fd7ad17b3d338b245996"
+    },
+    {
+      "path": "output/pdf/riding/18-red-canyon-profiles.pdf",
+      "bytes": 493184,
+      "sha256": "0170e4daa7fd7a82a240b910d27305faf65faf8dc2b4e7b4621ee2250faca758"
+    },
+    {
+      "path": "output/pdf/riding/19-red-canyon-wildfire.pdf",
+      "bytes": 1709509,
+      "sha256": "13f42b35082dea949a2c1beae0927713dc997aaef38a538fe2a3ae64b5788f47"
+    },
+    {
+      "path": "output/pdf/riding/paria-river-ranch-riding-atlas.pdf",
+      "bytes": 32447023,
+      "sha256": "8dff83350df307231a54e9be9d7fd62c6c578e50b7891394e313c7e4fe9b2c04"
+    }
+  ]
+}

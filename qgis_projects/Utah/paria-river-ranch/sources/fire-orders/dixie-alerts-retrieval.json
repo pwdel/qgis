@@ -1,0 +1,26 @@
+{
+  "url": "https://www.fs.usda.gov/r04/dixie/alerts",
+  "final_url": "https://www.fs.usda.gov/r04/dixie/alerts",
+  "retrieved": "2026-10-09",
+  "headers": {
+    "Date": "Fri, 09 Oct 2026 12:44:01 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "241431",
+    "Connection": "close",
+    "Set-Cookie": "INGRESSCOOKIE=1791549841.981.23.58680|491723681f3092b09b671206640d4cbd; Path=/; HttpOnly",
+    "Cache-Control": "must-revalidate, no-cache, private",
+    "X-Drupal-Dynamic-Cache": "HIT",
+    "Content-language": "en",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "X-Generator": "Drupal 10 (https://www.drupal.org)",
+    "X-Drupal-Cache": "UNCACHEABLE (response policy)",
+    "Vary": "Accept-Encoding",
+    "x-azure-ref": "20261009T124400Z-176d9fff4ff5c5mvhS1PHXxmvg0000001e0g000000001pvd",
+    "X-Cache": "CONFIG_NOCACHE",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Accept-Ranges": "bytes"
+  },
+  "bytes": 241431
+}

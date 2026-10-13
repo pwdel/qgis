@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.6866386,
+          37.20890708
+        ]
+      },
+      "properties": {
+        "id": "C02",
+        "name": "Barracks Kiosk",
+        "kind": "official staging reference",
+        "source_url": "https://www.blm.gov/visit/barracks-kiosk",
+        "camping_permission": "nearby dispersed sites described; this point not a campsite designation",
+        "horse_trailer_fit": "unverified",
+        "water": "none at kiosk"
+      }
+    }
+  ]
+}

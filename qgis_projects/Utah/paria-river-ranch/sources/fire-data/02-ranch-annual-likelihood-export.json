@@ -1,0 +1,30 @@
+{
+  "request": {
+    "f": "json",
+    "bbox": "395863.79105503653,4101893.3411108875,428863.79105503653,4124262.4686276657",
+    "bboxSR": 26912,
+    "imageSR": 26912,
+    "size": "1100,746",
+    "format": "tiff",
+    "pixelType": "U16",
+    "interpolation": "+RSP_NearestNeighbor",
+    "renderingRule": "{\"rasterFunction\": \"None\"}"
+  },
+  "response": {
+    "href": "https://imagery.geoplatform.gov/iipp/rest/directories/system/arcgisoutput/_ags_8558c647_00d6_47b8_895a_7d1ac6eb4ac3.tif",
+    "width": 1100,
+    "height": 746,
+    "extent": {
+      "xmin": 395863.79105503653,
+      "ymin": 4101887.9048692766,
+      "xmax": 428863.79105503653,
+      "ymax": 4124267.9048692766,
+      "spatialReference": {
+        "wkid": 26912,
+        "latestWkid": 26912
+      }
+    },
+    "scale": 0
+  },
+  "retrieved_utc": "2026-10-09T12:50:32.302828+00:00"
+}

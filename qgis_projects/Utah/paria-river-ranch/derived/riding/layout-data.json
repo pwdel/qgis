@@ -1,0 +1,74 @@
+{
+  "02-ranch": {
+    "perimeters": "derived/fire-data/02-ranch-perimeters.geojson",
+    "occurrences": "derived/fire-data/02-ranch-occurrences.geojson",
+    "monthly_chart": "derived/fire-data/02-ranch-monthly.svg",
+    "annual_raster": "derived/fire-data/02-ranch-annual-likelihood-rendered.tif",
+    "annual_title": "ANNUAL LIKELIHOOD / RELATIVE",
+    "annual_caption": "WRC 2024 model; landscape through 2020.\nVisualization only; exact probability unavailable.\nAnnual likelihood is not an October forecast.",
+    "history_caption": "MTBS: 2 intersecting footprint(s).\nWestern inventory generally >=1,000 acres.",
+    "monthly_caption": "1992-2024: 292 reported fires in the detail rectangle; October: 11.\nDiscovery month counts, not trip probability. Zero records do not mean zero risk.",
+    "blocks": [
+      {
+        "title": "AUTHORITY / PARCEL MATTERS",
+        "body": "BLM Paria River District governs nearby BLM land. Private ranch land follows host conditions and applicable Kane County / Utah rules. Paria Canyon wilderness prohibits campfires. Fire response departments do not define these permission boundaries."
+      },
+      {
+        "title": "RESTRICTIONS CHECKED OCT 9",
+        "body": "Paria BLM Stage 1 restrictions ended Sep 4; Utah lifted Kane state / unincorporated-private Stage 1 restrictions Sep 4. No replacement seasonal order was listed in checked indexes. Standing BLM fireworks / explosives prohibitions remain."
+      },
+      {
+        "title": "OCTOBER OUTLOOK / CHECK BEFORE TRAVEL",
+        "body": "NIFC issued Oct 1: normal significant fire potential for southern Utah, Oct-Jan. Normal does not mean no fire. Next issue Nov 2. Check current orders, exact campsite rules and daily conditions; future monthly bans are unknown."
+      }
+    ]
+  },
+  "03-mount-carmel": {
+    "perimeters": "derived/fire-data/03-mount-carmel-perimeters.geojson",
+    "occurrences": "derived/fire-data/03-mount-carmel-occurrences.geojson",
+    "monthly_chart": "derived/fire-data/03-mount-carmel-monthly.svg",
+    "annual_raster": "derived/fire-data/03-mount-carmel-annual-likelihood-rendered.tif",
+    "annual_title": "ANNUAL LIKELIHOOD / RELATIVE",
+    "annual_caption": "WRC 2024 model; landscape through 2020.\nVisualization only; exact probability unavailable.\nAnnual likelihood is not an October forecast.",
+    "history_caption": "MTBS: 0 intersecting footprint(s).\nWestern inventory generally >=1,000 acres.",
+    "monthly_caption": "1992-2024: 143 reported fires in the detail rectangle; October: 6.\nDiscovery month counts, not trip probability. Zero records do not mean zero risk.",
+    "blocks": [
+      {
+        "title": "AUTHORITY / PATCHWORK OF PARCELS",
+        "body": "BLM Kanab / Paria River District governs BLM land. Kane County parcels also include state and private land, including Barracks Ranch. Utah FFSL covers state and unincorporated private parcels; local and owner conditions also apply. A fire department boundary is not camping permission."
+      },
+      {
+        "title": "RESTRICTIONS CHECKED OCT 9",
+        "body": "Paria BLM and Kane state / unincorporated-private Stage 1 restrictions ended Sep 4. No replacement seasonal order was listed in checked indexes. BLM fireworks / explosives prohibitions remain. The Trust Lands banner links to 2021, not proof of current status."
+      },
+      {
+        "title": "OCTOBER OUTLOOK / CHECK BEFORE TRAVEL",
+        "body": "NIFC issued Oct 1: normal significant fire potential for southern Utah, Oct-Jan. Normal does not mean no fire. Next issue Nov 2. Check current orders, campsite signs and daily conditions; future monthly bans are unknown."
+      }
+    ]
+  },
+  "04-red-canyon": {
+    "perimeters": "derived/fire-data/04-red-canyon-perimeters.geojson",
+    "occurrences": "derived/fire-data/04-red-canyon-occurrences.geojson",
+    "monthly_chart": "derived/fire-data/04-red-canyon-monthly.svg",
+    "annual_raster": "derived/fire-data/04-red-canyon-annual-likelihood-rendered.tif",
+    "annual_title": "ANNUAL LIKELIHOOD / RELATIVE",
+    "annual_caption": "WRC 2024 model; landscape through 2020.\nVisualization only; exact probability unavailable.\nAnnual likelihood is not an October forecast.",
+    "history_caption": "MTBS: 1 intersecting footprint(s).\nWestern inventory generally >=1,000 acres.",
+    "monthly_caption": "1992-2024: 64 reported fires in the detail rectangle; October: 0.\nDiscovery month counts, not trip probability. Zero records do not mean zero risk.",
+    "blocks": [
+      {
+        "title": "AUTHORITY / FOREST AND OTHER LAND",
+        "body": "Dixie National Forest, Powell Ranger District governs the forest riding core. The wider Garfield County map includes private, state and BLM parcels. Utah FFSL and applicable local rules cover state / unincorporated-private land; owners set additional conditions."
+      },
+      {
+        "title": "RESTRICTIONS CHECKED OCT 9",
+        "body": "Dixie Stage 1 ended Sep 2. Garfield state / unincorporated-private and BLM Color Country Stage 1 restrictions ended Sep 4. No replacement seasonal order was listed for this area. Campground rules, other closures and owner conditions still apply."
+      },
+      {
+        "title": "OCTOBER OUTLOOK / CHECK BEFORE TRAVEL",
+        "body": "NIFC issued Oct 1: normal significant fire potential for southern Utah, Oct-Jan. Normal does not mean no fire. Next issue Nov 2. Recheck forest alerts, exact campsite rules and daily conditions; future monthly bans are unknown."
+      }
+    ]
+  }
+}

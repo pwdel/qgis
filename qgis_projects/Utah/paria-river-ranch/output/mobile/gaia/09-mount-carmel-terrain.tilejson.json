@@ -1,0 +1,24 @@
+{
+  "tilejson": "2.2.0",
+  "name": "Utah riding | 09-mount-carmel-terrain",
+  "description": "Planning map, research October 2026. Main map only. Consult atlas legends: cell slope is not trail grade; snow is exploratory; fire is historical, not forecast.",
+  "version": "1.0.0",
+  "scheme": "xyz",
+  "tiles": [
+    "https://raw.githubusercontent.com/pwdel/qgis/main/qgis_projects/Utah/paria-river-ranch/output/mobile/gaia/tiles/09-mount-carmel-terrain/{z}/{x}/{y}.png"
+  ],
+  "minzoom": 8,
+  "maxzoom": 13,
+  "bounds": [
+    -112.8212926559907,
+    37.16079178261929,
+    -112.63882028729854,
+    37.26114389372384
+  ],
+  "center": [
+    -112.73005647164462,
+    37.21096783817157,
+    11
+  ],
+  "attribution": "USGS, Utah UGRC, USFS, BLM, NOAA and other cited public sources; methods: https://github.com/pwdel/qgis/blob/main/qgis_projects/Utah/paria-river-ranch/docs/RIDING-SOURCES.md"
+}

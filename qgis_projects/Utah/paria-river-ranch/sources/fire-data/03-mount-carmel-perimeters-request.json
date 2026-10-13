@@ -1,0 +1,17 @@
+{
+  "url": "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MTBS_01/MapServer/63/query",
+  "parameters": {
+    "f": "json",
+    "where": "1=1",
+    "geometry": "338491.4597146199,4114258.661581976,354491.4597146199,4125104.2991658687",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": 26912,
+    "spatialRel": "esriSpatialRelIntersects"
+  },
+  "retrieved_utc": "2026-10-09T12:49:37.877521+00:00",
+  "count": 0,
+  "id_count": 0,
+  "downloaded_count": 0,
+  "complete_ids_match": true,
+  "batch_size": 100
+}

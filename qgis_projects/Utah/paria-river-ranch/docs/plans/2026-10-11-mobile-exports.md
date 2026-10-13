@@ -1,0 +1,11 @@
+# Mobile map exports
+
+Approved scope: export the existing atlas as geospatial PDF and prepare QGIS data for QField on iPhone and Gaia GPS. Preserve the researched extents and all evidence qualifications. This implements the app-specific approach discussed with the user; no new subscription, account, or map-hosting service is purchased.
+
+1. Export the 16 geographic layouts with their largest/main map as the georeference frame. Preserve the three non-geographic elevation-profile pages. Deliver the full 19-page companion and three five-map area PDFs, plus individual sheets. Save a separate export-configured QGIS project.
+2. Create three self-contained QField ZIPs, each with a relative-path QGIS project, local datasets, source documentation, reference pages and map themes. Include all twelve snow months, annual fire context separately from history, and profile attributes. Remove desktop print layouts from the mobile projects to avoid unused picture dependencies. Set evidence layers read-only.
+3. Export WGS84 GPX trail components and planning waypoints for Gaia without joining disconnected routes or inventing elevation. Retain warnings and source links in descriptions and a companion evidence file. Export georeferenced map-panel TIFFs for Gaia's documented Mapbox/custom-tile workflow; these are preparation assets, not direct Gaia imports. Generate finite XYZ tiles and TileJSON definitions and publish them in the existing public repository, avoiding a new paid hosting account.
+4. Validate PDF geospatial dictionaries against known QGIS corners; verify relocated ZIP projects load with no missing or remote data; compare GPX coordinates/counts against source geometry; check TIFF CRS/bounds, ZIP integrity and file hashes. Render and inspect the map sheets and mobile themes.
+5. Document iPhone import steps, Gaia preparation requirements and untested device behavior. Update the project index and publish the reviewed outputs in the existing public Utah folder if repository state permits a fast-forward update.
+
+Build entry point: `scripts/export_mobile.py` in the existing QGIS/GDAL container. Validation entry point: `scripts/validate_mobile.py`. Outputs: `output/mobile/`, `docs/mobile-validation.json`, `docs/mobile-manifest.json`, `docs/MOBILE.md` and `paria-river-ranch-geopdf.qgz`.

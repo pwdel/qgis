@@ -1,6 +1,48 @@
 # Paria River Ranch — Utah horse-riding atlas
 
-**First-pass planning draft, researched October 7, 2026.** Four printable sheets focused on Paria River Ranch and the requested regional riding leads. This is the horse-riding category of the map collection.
+**Riding edition, researched October 9, 2026.**
+
+**[Download the 19-page riding atlas](output/pdf/riding/paria-river-ranch-riding-atlas.pdf)** · [Editable QGIS project](paria-river-ranch-riding-atlas.qgz) · [Riding sources and methods](docs/RIDING-SOURCES.md)
+
+This edition adds route elevation profiles and wildfire reports to each detailed area. Profiles show feet above or below a marked start against distance in miles, with modeled climbing/descent and source limitations. Fire pages distinguish historical burn footprints, monthly incident counts, annual modeled likelihood and dated restrictions. October is highlighted; historical activity is not a trip forecast.
+
+| Area | Access | Terrain | Snow | Camping | Trail profiles | Wildfire |
+| --- | --- | --- | --- | --- | --- | --- |
+| Paria River Ranch | 2 | 3 | 4 | 5 | 6 | 7 |
+| Mount Carmel / Bay Bill | 8 | 9 | 10 | 11 | 12 | 13 |
+| Red Canyon / plateau | 14 | 15 | 16 | 17 | 18 | 19 |
+
+Page 1 is the regional overview. Earlier editions remain below. The [riding validation](docs/riding-validation.json), [visual review](docs/riding-visual-review.md) and [governance profile](docs/GOVERNANCE.md) record the release checks. These original PDFs remain a planning edition. The mobile export below adds georeferencing; field verification remains separate.
+
+## iPhone and geospatial exports - October 11, 2026
+
+**[Mobile import instructions](docs/MOBILE.md)** · [19-page geospatial companion](output/mobile/geopdf/utah-riding-geospatial-atlas.pdf) · [GeoPDF QGIS project](paria-river-ranch-geopdf.qgz) · [Export validation](docs/mobile-validation.json)
+
+| Area | Five GeoPDF maps | QField offline ZIP | Gaia trails and points | Gaia custom-map preparation |
+| --- | --- | --- | --- | --- |
+| Paria River Ranch | [PDF](output/mobile/geopdf/ranch-five-maps.pdf) | [ZIP](output/mobile/qfield/ranch-qfield.zip) | [GPX](output/mobile/gaia/ranch-trails-and-points.gpx) | [GeoTIFF ZIP](output/mobile/gaia/ranch-custom-map-sources.zip) |
+| Mount Carmel / Bay Bill | [PDF](output/mobile/geopdf/mount-carmel-five-maps.pdf) | [ZIP](output/mobile/qfield/mount-carmel-qfield.zip) | [GPX](output/mobile/gaia/mount-carmel-trails-and-points.gpx) | [GeoTIFF ZIP](output/mobile/gaia/mount-carmel-custom-map-sources.zip) |
+| Red Canyon / plateau | [PDF](output/mobile/geopdf/red-canyon-five-maps.pdf) | [ZIP](output/mobile/qfield/red-canyon-qfield.zip) | [GPX](output/mobile/gaia/red-canyon-trails-and-points.gpx) | [GeoTIFF ZIP](output/mobile/gaia/red-canyon-custom-map-sources.zip) |
+
+The QField ZIPs contain local QGIS data and selectable access, terrain, twelve snow-month, camping, fire-history and annual-fire themes, plus profile attributes and offline references. They open with the Access theme. Evidence vectors are read-only. The Gaia GPX files preserve 48 disconnected mapped trail components and source-qualified planning points. [Gaia custom map definitions](output/mobile/gaia/README.md) connect to fifteen sets of public XYZ tiles. The TIFF ZIPs are optional preparation assets, not directly importable Gaia maps. Gaia Premium is required for offline downloads.
+
+The GeoPDFs locate the main map only; insets and legends are excluded from GPS coverage. The three elevation-profile pages remain ordinary charts. [Individual GeoPDF sheets](output/mobile/geopdf-individual-sheets.zip) are also available. Existing map coverage and research dates are unchanged. File-level validation and desktop rendering do not certify iPhone app imports or field GPS behavior.
+
+**Expanded planning edition, researched October 8, 2026.**
+
+**[Download the 13-page expanded atlas](output/pdf/expanded/paria-river-ranch-expanded-atlas.pdf)** · [Expanded QGIS project](paria-river-ranch-expanded.qgz) · [Expanded sources](docs/EXPANSION-SOURCES.md)
+
+The expanded edition adds terrain, snow and camping sheets for each area. Terrain colors show percent cell slope near mapped trails; two cutouts per area and nearby-lower-ground estimates support closer review. They do not measure trail tread grade or exact cliff height. Snow pages compare all twelve months, emphasize October, and show NOAA station snowfall/elevations and historical depth probabilities. The satellite overlay is explicitly exploratory snow-cover context, not a calibrated chance of snow. Ownership maps distinguish the actual camping patchwork and cite current and expired orders.
+
+| Area | Access | Terrain | Snow | Camping |
+| --- | --- | --- | --- | --- |
+| Paria River Ranch | 2 | 3 | 4 | 5 |
+| Mount Carmel / Bay Bill | 6 | 7 | 8 | 9 |
+| Red Canyon / plateau | 10 | 11 | 12 | 13 |
+
+Page1 is the regional overview. The expanded QGIS project retains original layouts and adds13 named expanded layouts; all local layers remain editable. [Expansion validation](docs/expanded-validation.json) and [visual review](docs/expanded-visual-review.md) document checks. For rebuilding, run `scripts/expansion_terrain.py`, then `scripts/build_expanded_atlas.py`, then `scripts/validate_expanded_atlas.py` in the same GIS environment described below.
+
+**Original four-page edition, researched October 7, 2026.** Four printable sheets focused on Paria River Ranch and the requested regional riding leads. This is the horse-riding category of the map collection.
 
 **[Download the four-page PDF](output/pdf/paria-river-ranch-four-sheets.pdf)** · **[Open the QGIS project](paria-river-ranch.qgz)** · [Sources](docs/SOURCES.md) · [Critical-evidence governance](docs/GOVERNANCE.md)
 

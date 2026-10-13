@@ -1,0 +1,7 @@
+# Regenerable working folders; publish the self-contained archives.
+/qfield/ranch/
+/qfield/mount-carmel/
+/qfield/red-canyon/
+/gaia/*-custom-map-sources/
+/previews/*.png
+*.aux.xml

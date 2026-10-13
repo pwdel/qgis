@@ -1,0 +1,237 @@
+{
+  "extent": {
+    "ymin": 2136104.6613000035,
+    "xmin": -20011168.1527,
+    "ymax": 11596994.661300004,
+    "xmax": -7130458.1526999995,
+    "spatialReference": {
+      "latestWkid": 3857,
+      "wkid": 102100
+    }
+  },
+  "blockWidth": 2048,
+  "mosaicOperator": "First",
+  "serviceSourceType": "esriImageServiceSourceTypeMosaicDataset",
+  "hasMultidimensions": false,
+  "maxImageWidth": 100000,
+  "maxRecordCount": 1000,
+  "meanValues": [
+    30.363604074960364
+  ],
+  "hasColormap": false,
+  "compressionType": "None",
+  "defaultCompressionQuality": 75,
+  "maxValues": [
+    1352
+  ],
+  "hasHistograms": true,
+  "datasetFormat": "AMD",
+  "maxImageHeight": 100000,
+  "sortField": "",
+  "bandNames": [
+    "Band_1"
+  ],
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "fullExtent": {
+    "ymin": 2136104.6613000035,
+    "xmin": -20011168.1527,
+    "ymax": 11596994.661300004,
+    "xmax": -7130458.1526999995,
+    "spatialReference": {
+      "latestWkid": 3857,
+      "wkid": 102100
+    }
+  },
+  "bandCount": 1,
+  "rasterFunctionInfos": [
+    {
+      "help": "",
+      "name": "BurnProbability2024",
+      "description": "Raster Function Template"
+    },
+    {
+      "help": "",
+      "name": "None",
+      "description": "Make a Raster or Raster Dataset into a Function Raster Dataset."
+    }
+  ],
+  "supportsStatistics": true,
+  "sortableFields": "minps,maxps,lowps,highps,centerx,centery,zorder",
+  "minValues": [
+    0
+  ],
+  "allowRasterFunction": true,
+  "allowComputeTiePoints": false,
+  "serviceDataType": "esriImageServiceDataTypeGeneric",
+  "supportsAdvancedQueries": true,
+  "maxDownloadSizeLimit": 2048,
+  "currentVersion": 12,
+  "sortValue": null,
+  "objectIdField": "objectid",
+  "blockHeight": 256,
+  "initialExtent": {
+    "ymin": 2136104.6613000035,
+    "xmin": -20011168.1527,
+    "ymax": 11596994.661300004,
+    "xmax": -7130458.1526999995,
+    "spatialReference": {
+      "latestWkid": 3857,
+      "wkid": 102100
+    }
+  },
+  "pixelSizeX": 30,
+  "pixelSizeY": 30,
+  "defaultMosaicMethod": "Northwest",
+  "name": "Fire_Aviation/USFS_EDW_RMRS_WRC_BurnProbability",
+  "allowedMosaicMethods": "NorthWest,Center,LockRaster,ByAttribute,Nadir,Viewpoint,Seamline,None",
+  "maxDownloadImageCount": 20,
+  "fields": [
+    {
+      "domain": null,
+      "name": "objectid",
+      "alias": "objectid",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "domain": null,
+      "name": "name",
+      "length": 200,
+      "alias": "name",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "domain": null,
+      "name": "minps",
+      "alias": "minps",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "domain": null,
+      "name": "maxps",
+      "alias": "maxps",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "domain": null,
+      "name": "lowps",
+      "alias": "lowps",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "domain": null,
+      "name": "highps",
+      "alias": "highps",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "MosaicCatalogItemCategoryDomain",
+        "description": "Catalog item categories.",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": 0,
+            "name": "Unknown"
+          },
+          {
+            "code": 1,
+            "name": "Primary"
+          },
+          {
+            "code": 2,
+            "name": "Overview"
+          },
+          {
+            "code": 3,
+            "name": "Unprocessed Overview"
+          },
+          {
+            "code": 4,
+            "name": "Partial Overview"
+          },
+          {
+            "code": 5,
+            "name": "Inactive"
+          },
+          {
+            "code": 253,
+            "name": "Uploaded"
+          },
+          {
+            "code": 254,
+            "name": "Incomplete"
+          },
+          {
+            "code": 255,
+            "name": "Custom"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "category",
+      "alias": "category",
+      "type": "esriFieldTypeInteger"
+    },
+    {
+      "domain": null,
+      "name": "zorder",
+      "alias": "zorder",
+      "type": "esriFieldTypeInteger"
+    },
+    {
+      "domain": null,
+      "name": "shape",
+      "alias": "shape",
+      "type": "esriFieldTypeGeometry"
+    }
+  ],
+  "allowAnalysis": true,
+  "hasRasterAttributeTable": false,
+  "useStandardizedQueries": true,
+  "description": "",
+  "pixelType": "U16",
+  "meanPixelSize": 30,
+  "exportTilesAllowed": false,
+  "editFieldsInfo": null,
+  "rasterTypeInfos": [
+    {
+      "help": "",
+      "name": "Raster Dataset",
+      "description": "Supports all ArcGIS Raster Datasets"
+    }
+  ],
+  "defaultResamplingMethod": "Nearest",
+  "itemAccess": false,
+  "minScale": 0,
+  "serviceProperties": "<ImageServer><ImageServiceProperties><MosaicMethod>NorthWest</MosaicMethod><MosaicOperator>First</MosaicOperator><SortAscending>true</SortAscending><LockImageID></LockImageID><TileOrderField>name</TileOrderField><TileOrderBase>0</TileOrderBase><AvgImageSpacingX>600.000000</AvgImageSpacingX><AvgImageSpacingY>300.000000</AvgImageSpacingY><ViewPointX>0.0</ViewPointX><ViewPointY>0.0</ViewPointY><ViewPointDefShiftX>0.0</ViewPointDefShiftX><ViewPointDefShiftY>0.0</ViewPointDefShiftY><CompressionMethod>None</CompressionMethod><CompressionQuality>75</CompressionQuality><CompressionTolerance>0.010000</CompressionTolerance><SamplingMethod>Nearest</SamplingMethod></ImageServiceProperties></ImageServer>",
+  "advancedQueryCapabilities": {
+    "supportsStatistics": true,
+    "supportsSqlExpression": true,
+    "supportsOrderBy": true,
+    "useStandardizedQueries": true,
+    "supportsPagination": true,
+    "supportsDistinct": true
+  },
+  "serviceItemId": "0901350879214b02bc642ac178fe4a8e",
+  "capabilities": "Image,Metadata,Catalog,Mensuration",
+  "maxScale": 0,
+  "stdvValues": [
+    66.41436541201925
+  ],
+  "allowedFields": "name,minps,maxps,lowps,highps,zorder",
+  "minPixelSize": 0,
+  "sortAscending": true,
+  "maxMosaicImageCount": 20,
+  "inspectionCapabilities": "",
+  "maxPixelSize": 0,
+  "uncompressedSize": 270806623182,
+  "serviceDescription": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>The data included in this publication depict the 2024 version of components of wildfire risk for all lands in the United States that: 1) are landscape-wide (i.e., measurable at every pixel across the landscape); and 2) represent in situ risk - risk at the location where the adverse effects take place on the landscape.        </SPAN></P><P><SPAN>National wildfire hazard datasets of annual burn probability and fire intensity, generated by the USDA Forest Service, Rocky Mountain Research Station and Pyrologix LLC, form the foundation of the Wildfire Risk to Communities data. Vegetation and wildland fuels data from LANDFIRE 2020 (version 2.2.0) were used as input to two different but related geospatial fire simulation systems. Annual burn probability was produced with the USFS geospatial fire simulator (FSim) at a relatively coarse cell size of 270 meters (m). To bring the burn probability raster data down to a finer resolution more useful for assessing hazard and risk to communities, we upsampled them to the native 30 m resolution of the LANDFIRE fuel and vegetation data. In this upsampling process, we also spread values of modeled burn probability into developed areas represented in LANDFIRE fuels data as non-burnable. Burn probability rasters represent landscape conditions as of the end of 2020. Fire intensity characteristics were modeled at 30 m resolution using a process that performs a comprehensive set of FlamMap runs spanning the full range of weather-related characteristics that occur during a fire season and then integrates those runs into a variety of results based on the likelihood of those weather types occurring. Before the fire intensity modeling, the LANDFIRE 2020 data were updated to reflect fuels disturbances occurring in 2021 and 2022. As such, the fire intensity datasets represent landscape conditions as of the end of 2022. Additional methodology documentation is provided in a methods document (\\Supplements\\WRC_V2_Methods_Landscape-wideRisk.pdf) packaged in the data download.     </SPAN></P><P><SPAN>The specific raster datasets in this publication include:    </SPAN></P><P><SPAN>Risk to Potential Structures (RPS): A measure that integrates wildfire likelihood and intensity with generalized consequences to a home on every pixel. For every place on the landscape, it poses the hypothetical question, \"What would be the relative risk to a house if one existed here?\" This allows comparison of wildfire risk in places where homes already exist to places where new construction may be proposed. This dataset is referred to as Risk to Homes in the Wildfire Risk to Communities web application.    </SPAN></P><P><SPAN>Conditional Risk to Potential Structures (cRPS): The potential consequences of fire to a home at a given location, if a fire occurs there and if a home were located there. Referred to as Wildfire Consequence in the Wildfire Risk to Communities web application.    </SPAN></P><P><SPAN>Exposure Type: Exposure is the spatial coincidence of wildfire likelihood and intensity with communities. This layer delineates where homes are directly exposed to wildfire from adjacent wildland vegetation, indirectly exposed to wildfire from indirect sources such as embers and home-to-home ignition, or not exposed to wildfire due to distance from direct and indirect ignition sources.    </SPAN></P><P><SPAN>Burn Probability (BP): The annual probability of wildfire burning in a specific location. Referred to as Wildfire Likelihood in the Wildfire Risk to Communities web application.    </SPAN></P><P><SPAN>Conditional Flame Length (CFL): The mean flame length for a fire burning in the direction of maximum spread (headfire) at a given location if a fire were to occur; an average measure of wildfire intensity.    Flame Length Exceedance Probability - 4 ft (FLEP4): The conditional probability that flame length at a pixel will exceed 4 feet if a fire occurs; indicates the potential for moderate to high wildfire intensity.    </SPAN></P><P><SPAN>Flame Length Exceedance Probability - 8 ft (FLEP8): the conditional probability that flame length at a pixel will exceed 8 feet if a fire occurs; indicates the potential for high wildfire intensity.    Wildfire Hazard Potential (WHP): An index that quantifies the relative potential for wildfire that may be difficult to manage, used as a measure to help prioritize where fuel treatments may be needed.</SPAN></P><P><SPAN>Additional methodology documentation is provided with the data publication download. (https://www.fs.usda.gov/rds/archive/Catalog/RDS-2020-0016-2)</SPAN></P><P><SPAN>Note: Pixel values in this image service have been altered from the original raster dataset due to data requirements in web services. The service is intended primarily for data visualization. Relative values and spatial patterns have been largely preserved in the service, but users are encouraged to download the source data for quantitative analysis.</SPAN></P></DIV></DIV></DIV>",
+  "allowCopy": true,
+  "copyrightText": "Funding for this project was provided by USDA Forest Service, Fire and Aviation Management; USDA Forest Service, Fire Modeling Institute, which is part of the Rocky Mountain Research Station, Fire, Fuel and Smoke Science Program; and USDA Forest Service through an ORISE agreement under the U.S. Department of Energy (DE-SC0014664). Work on dataset development was primarily completed by Pyrologix, LLC under contract with the USDA Forest Service, Fire Modeling Institute.\n\t\n\nAuthor Information:\n\nJoe H. Scott\nPyrologix, LLC\nhttps://orcid.org/0009-0008-3246-1190\n\nGregory K. Dillon\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0009-0006-6304-650X\n\nMelissa R. Jaffe\nPyrologix, LLC\nhttps://orcid.org/0009-0002-8623-407X\n\nKevin C. Vogler\nPyrologix, LLC\nhttps://orcid.org/0000-0002-7080-2557\n\nJulia H. Olszewski\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0000-0003-3205-7100\n\nMichael N. Callahan\nPyrologix, LLC\nhttps://orcid.org/0009-0009-4937-5405\n\nEva C. Karau\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0009-0009-6776-9387\n\nMitchell T. Lazarz\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0000-0002-4558-4949\n\nKaren C. Short\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0000-0002-3383-0460\n\nKarin L. Riley\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0000-0001-6593-5657\n\nMark A. Finney\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0000-0002-6584-1754\n\nIsaac C. Grenfell\nUSDA Forest Service, Rocky Mountain Research Station\nhttps://orcid.org/0000-0002-3779-1681",
+  "mensurationCapabilities": "Basic",
+  "ownershipBasedAccessControlForRasters": null
+}

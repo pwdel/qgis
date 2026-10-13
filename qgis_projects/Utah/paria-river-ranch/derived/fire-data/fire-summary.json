@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "retrieved_utc": "2026-10-09T12:49:37.877521+00:00",
+  "occurrence_edition": "FPA FOD seventh edition FPA_FOD_20260615",
+  "sample_period": [
+    1992,
+    2024
+  ],
+  "mtbs_period_evidence": {
+    "displayFieldName": "",
+    "fieldAliases": {
+      "min_year": "min_year",
+      "max_year": "max_year"
+    },
+    "fields": [
+      {
+        "name": "min_year",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "min_year"
+      },
+      {
+        "name": "max_year",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "max_year"
+      }
+    ],
+    "features": [
+      {
+        "attributes": {
+          "min_year": 1984,
+          "max_year": 2026
+        }
+      }
+    ]
+  },
+  "areas": {
+    "02-ranch": {
+      "extent": {
+        "id": "02-ranch",
+        "center_wgs84": [
+          -111.987,
+          37.16
+        ],
+        "bbox_utm12": [
+          395863.79105503653,
+          4101893.3411108875,
+          428863.79105503653,
+          4124262.4686276657
+        ],
+        "crs": "EPSG:26912",
+        "width_m": 33000,
+        "height_m": 22369.127516778524,
+        "extent_basis": "provisional editorial extent; Peter extent not supplied"
+      },
+      "occurrence_count": 292,
+      "sample_period": [
+        1992,
+        2024
+      ],
+      "observed_year_range": [
+        1992,
+        2024
+      ],
+      "monthly_counts": [
+        0,
+        0,
+        1,
+        6,
+        16,
+        38,
+        101,
+        88,
+        31,
+        11,
+        0,
+        0
+      ],
+      "unknown_month_count": 0,
+      "october_count": 11,
+      "october_share_of_known_months": 0.03767123287671233,
+      "perimeter_count": 2,
+      "perimeter_type_counts": {
+        "Wildfire": 2
+      },
+      "perimeter_years": [
+        1998,
+        2020
+      ],
+      "occurrences": "derived/fire-data/02-ranch-occurrences.geojson",
+      "perimeters": "derived/fire-data/02-ranch-perimeters.geojson",
+      "monthly_chart": "derived/fire-data/02-ranch-monthly.svg",
+      "annual_burn_probability": {
+        "status": "unknown_numeric_probability",
+        "source": "https://imagery.geoplatform.gov/iipp/rest/services/Fire_Aviation/USFS_EDW_RMRS_WRC_BurnProbability/ImageServer",
+        "edition": "WRC 2024, second edition",
+        "landscape_vintage": "end of 2020",
+        "native_model_resolution_m": 270,
+        "published_cell_m": 30,
+        "monthly_probability": null,
+        "october_probability": null,
+        "limitation": "ImageServer values altered for visualization; no supported conversion to annual probability. Original Utah archive is 6.39 GB. Raster is relative annual likelihood visualization only, not numeric probability or a forecast.",
+        "raster": "derived/fire-data/02-ranch-annual-likelihood-visualization.tif",
+        "visualization_available": true,
+        "raw_value_min": 0.0,
+        "raw_value_max": 17.0,
+        "nodata": null,
+        "crs": "PROJCS[\"NAD83 / UTM zone 12N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-111],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26912\"]]",
+        "geotransform": [
+          395863.79105503653,
+          30.0,
+          0.0,
+          4124267.9048692766,
+          0.0,
+          -30.0
+        ],
+        "dimensions": [
+          1100,
+          746
+        ],
+        "rendered_raster": "derived/fire-data/02-ranch-annual-likelihood-rendered.tif",
+        "rendered_bands": 4
+      }
+    },
+    "03-mount-carmel": {
+      "extent": {
+        "id": "03-mount-carmel",
+        "center_wgs84": [
+          -112.73,
+          37.211
+        ],
+        "bbox_utm12": [
+          338491.4597146199,
+          4114258.661581976,
+          354491.4597146199,
+          4125104.2991658687
+        ],
+        "crs": "EPSG:26912",
+        "width_m": 16000,
+        "height_m": 10845.637583892618,
+        "extent_basis": "provisional editorial extent; Peter extent not supplied"
+      },
+      "occurrence_count": 143,
+      "sample_period": [
+        1992,
+        2024
+      ],
+      "observed_year_range": [
+        1992,
+        2024
+      ],
+      "monthly_counts": [
+        6,
+        1,
+        6,
+        2,
+        2,
+        17,
+        39,
+        46,
+        13,
+        6,
+        1,
+        4
+      ],
+      "unknown_month_count": 0,
+      "october_count": 6,
+      "october_share_of_known_months": 0.04195804195804196,
+      "perimeter_count": 0,
+      "perimeter_type_counts": {},
+      "perimeter_years": [],
+      "occurrences": "derived/fire-data/03-mount-carmel-occurrences.geojson",
+      "perimeters": "derived/fire-data/03-mount-carmel-perimeters.geojson",
+      "monthly_chart": "derived/fire-data/03-mount-carmel-monthly.svg",
+      "annual_burn_probability": {
+        "status": "unknown_numeric_probability",
+        "source": "https://imagery.geoplatform.gov/iipp/rest/services/Fire_Aviation/USFS_EDW_RMRS_WRC_BurnProbability/ImageServer",
+        "edition": "WRC 2024, second edition",
+        "landscape_vintage": "end of 2020",
+        "native_model_resolution_m": 270,
+        "published_cell_m": 30,
+        "monthly_probability": null,
+        "october_probability": null,
+        "limitation": "ImageServer values altered for visualization; no supported conversion to annual probability. Original Utah archive is 6.39 GB. Raster is relative annual likelihood visualization only, not numeric probability or a forecast.",
+        "raster": "derived/fire-data/03-mount-carmel-annual-likelihood-visualization.tif",
+        "visualization_available": true,
+        "raw_value_min": 0.0,
+        "raw_value_max": 29.0,
+        "nodata": null,
+        "crs": "PROJCS[\"NAD83 / UTM zone 12N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-111],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26912\"]]",
+        "geotransform": [
+          338491.4597146199,
+          29.9625468164794,
+          0.0,
+          4125104.701347705,
+          0.0,
+          -29.962546816479044
+        ],
+        "dimensions": [
+          534,
+          362
+        ],
+        "rendered_raster": "derived/fire-data/03-mount-carmel-annual-likelihood-rendered.tif",
+        "rendered_bands": 4
+      }
+    },
+    "04-red-canyon": {
+      "extent": {
+        "id": "04-red-canyon",
+        "center_wgs84": [
+          -112.29,
+          37.771
+        ],
+        "bbox_utm12": [
+          375387.7418846864,
+          4173734.570413887,
+          397387.7418846864,
+          4188647.322091739
+        ],
+        "crs": "EPSG:26912",
+        "width_m": 22000,
+        "height_m": 14912.75167785235,
+        "extent_basis": "provisional editorial extent; Peter extent not supplied"
+      },
+      "occurrence_count": 64,
+      "sample_period": [
+        1992,
+        2024
+      ],
+      "observed_year_range": [
+        1993,
+        2024
+      ],
+      "monthly_counts": [
+        0,
+        0,
+        2,
+        2,
+        5,
+        6,
+        22,
+        19,
+        8,
+        0,
+        0,
+        0
+      ],
+      "unknown_month_count": 0,
+      "october_count": 0,
+      "october_share_of_known_months": 0.0,
+      "perimeter_count": 1,
+      "perimeter_type_counts": {
+        "Wildfire": 1
+      },
+      "perimeter_years": [
+        2002
+      ],
+      "occurrences": "derived/fire-data/04-red-canyon-occurrences.geojson",
+      "perimeters": "derived/fire-data/04-red-canyon-perimeters.geojson",
+      "monthly_chart": "derived/fire-data/04-red-canyon-monthly.svg",
+      "annual_burn_probability": {
+        "status": "unknown_numeric_probability",
+        "source": "https://imagery.geoplatform.gov/iipp/rest/services/Fire_Aviation/USFS_EDW_RMRS_WRC_BurnProbability/ImageServer",
+        "edition": "WRC 2024, second edition",
+        "landscape_vintage": "end of 2020",
+        "native_model_resolution_m": 270,
+        "published_cell_m": 30,
+        "monthly_probability": null,
+        "october_probability": null,
+        "limitation": "ImageServer values altered for visualization; no supported conversion to annual probability. Original Utah archive is 6.39 GB. Raster is relative annual likelihood visualization only, not numeric probability or a forecast.",
+        "raster": "derived/fire-data/04-red-canyon-annual-likelihood-visualization.tif",
+        "visualization_available": true,
+        "raw_value_min": 0.0,
+        "raw_value_max": 31.0,
+        "nodata": null,
+        "crs": "PROJCS[\"NAD83 / UTM zone 12N\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-111],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"26912\"]]",
+        "geotransform": [
+          375387.7418846864,
+          29.97275204359673,
+          0.0,
+          4188654.1615116685,
+          0.0,
+          -29.97275204359681
+        ],
+        "dimensions": [
+          734,
+          498
+        ],
+        "rendered_raster": "derived/fire-data/04-red-canyon-annual-likelihood-rendered.tif",
+        "rendered_bands": 4
+      }
+    }
+  }
+}

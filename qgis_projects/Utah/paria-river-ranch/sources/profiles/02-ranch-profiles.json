@@ -1,0 +1,373 @@
+{
+  "area": "02-ranch",
+  "dem_source": "USGS 3DEP service mosaic fallback",
+  "dem_output_pixel_m": 15.002768287577597,
+  "native_resolution_verified": false,
+  "profiles": [
+    {
+      "id": "02-ranch-mustang-tank-01",
+      "name": "Mustang Tank",
+      "label": "Mustang Tank [map section]",
+      "component": 1,
+      "component_count": 1,
+      "map_clipped": true,
+      "source": "state-trails.geojson",
+      "source_ids": [
+        47947
+      ],
+      "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+      "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+      "start_wgs84": [
+        -112.16392918063556,
+        37.057579345404385
+      ],
+      "end_wgs84": [
+        -112.158928540072,
+        37.06131314170611
+      ],
+      "distance_miles": 0.38056339506287584,
+      "ascent_ft": 0.0,
+      "descent_ft": 0.0,
+      "sample_spacing_m": 29.164638879241373,
+      "valid_samples": 21,
+      "sample_count": 22,
+      "shorter_than_two_output_pixels": false,
+      "gap_samples": 1,
+      "gap_count": 1,
+      "relative_zero": "first valid sample",
+      "dem_file": "02-ranch-dem.tif",
+      "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+      "dem_output_pixel_m": 15.002768287577597,
+      "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+      "csv": "sources/profiles/02-ranch-mustang-tank-01.csv",
+      "shown_on_page": true
+    },
+    {
+      "id": "02-ranch-paria-river-01",
+      "name": "Paria River",
+      "label": "Paria River [map section]",
+      "component": 1,
+      "component_count": 1,
+      "map_clipped": true,
+      "source": "state-trails.geojson",
+      "source_ids": [
+        1949
+      ],
+      "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+      "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+      "start_wgs84": [
+        -111.96914516614179,
+        37.26096233138706
+      ],
+      "end_wgs84": [
+        -111.92504409976,
+        37.2238960101163
+      ],
+      "distance_miles": 3.830973113314586,
+      "ascent_ft": 0.0,
+      "descent_ft": 130.19672504642838,
+      "sample_spacing_m": 29.92890094210752,
+      "valid_samples": 206,
+      "sample_count": 207,
+      "shorter_than_two_output_pixels": false,
+      "gap_samples": 1,
+      "gap_count": 1,
+      "relative_zero": "first valid sample",
+      "dem_file": "02-ranch-dem.tif",
+      "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+      "dem_output_pixel_m": 15.002768287577597,
+      "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+      "csv": "sources/profiles/02-ranch-paria-river-01.csv",
+      "shown_on_page": true
+    },
+    {
+      "id": "02-ranch-petrified-hollow-01",
+      "name": "Petrified Hollow",
+      "label": "Petrified Hollow [map section]",
+      "component": 1,
+      "component_count": 1,
+      "map_clipped": true,
+      "source": "state-trails.geojson",
+      "source_ids": [
+        47950
+      ],
+      "published_horse_status": "HorseAllowed=Yes; current permission unverified",
+      "direction": "Start at westernmost endpoint (southwest if equal longitude), follow source geometry",
+      "start_wgs84": [
+        -112.17146648857229,
+        37.07193516688436
+      ],
+      "end_wgs84": [
+        -112.15890534557201,
+        37.0613326915699
+      ],
+      "distance_miles": 1.0905273088379965,
+      "ascent_ft": 0.0,
+      "descent_ft": 68.37508124031602,
+      "sample_spacing_m": 29.746331886687738,
+      "valid_samples": 59,
+      "sample_count": 60,
+      "shorter_than_two_output_pixels": false,
+      "gap_samples": 1,
+      "gap_count": 1,
+      "relative_zero": "first valid sample",
+      "dem_file": "02-ranch-dem.tif",
+      "dem_source": "USGS 3DEP ImageServer mosaic; native sources unresolved; not verified lidar",
+      "dem_output_pixel_m": 15.002768287577597,
+      "smoothing": "3-sample median then 3-sample moving mean, segment endpoints retained; 3m reversal threshold for totals",
+      "csv": "sources/profiles/02-ranch-petrified-hollow-01.csv",
+      "shown_on_page": true
+    }
+  ],
+  "inventory": [
+    {
+      "source": "state",
+      "source_id": 127,
+      "name": "Starlight Arch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 132,
+      "name": "Starlight Arch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 139,
+      "name": "Jack Riggs Bench",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 141,
+      "name": "Starlight Arch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 156,
+      "name": "Starlight Arch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 187,
+      "name": "Starlight Arch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 1157,
+      "name": "K7025",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 1168,
+      "name": "Brigham Plains",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 1358,
+      "name": "Coyote Valley",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 1430,
+      "name": "Coyote Valley",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 1490,
+      "name": "K7050",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 1538,
+      "name": "K7050",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 1949,
+      "name": "Paria River",
+      "published_horse_attribute": "Yes",
+      "restriction": null,
+      "cartocode": "2 - Hiking and Biking Allowed",
+      "selected": true,
+      "reason": "State published HorseAllowed=Yes"
+    },
+    {
+      "source": "state",
+      "source_id": 2708,
+      "name": "Starlight Arch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 2723,
+      "name": "Brigham Plains",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 2730,
+      "name": "Starlight Arch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 2761,
+      "name": "K7025",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 3050,
+      "name": "Mollies Nipple",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 43295,
+      "name": "The Toadstools",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 43304,
+      "name": "Buckskin Gulch",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 43306,
+      "name": "Paria Canyon",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 43314,
+      "name": "Lower Hackberry Canyon",
+      "published_horse_attribute": null,
+      "restriction": null,
+      "cartocode": "1 - Hiking Only",
+      "selected": false,
+      "reason": "Horse use not explicitly supported"
+    },
+    {
+      "source": "state",
+      "source_id": 47947,
+      "name": "Mustang Tank",
+      "published_horse_attribute": "Yes",
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": true,
+      "reason": "State published HorseAllowed=Yes"
+    },
+    {
+      "source": "state",
+      "source_id": 47950,
+      "name": "Petrified Hollow",
+      "published_horse_attribute": "Yes",
+      "restriction": null,
+      "cartocode": "4 - Road-concurrent",
+      "selected": true,
+      "reason": "State published HorseAllowed=Yes"
+    }
+  ],
+  "page_profile_ids": [
+    "02-ranch-mustang-tank-01",
+    "02-ranch-paria-river-01",
+    "02-ranch-petrified-hollow-01"
+  ],
+  "omitted_page_components": 0,
+  "plot_svg": "derived/profiles/02-ranch-profiles.svg",
+  "named_route_count": 3,
+  "summary": "3 named routes; 3 continuous sections; all shown. Terrain-model estimates; current horse authorization unverified."
+}

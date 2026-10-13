@@ -1,0 +1,27 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "min_year": "min_year",
+    "max_year": "max_year"
+  },
+  "fields": [
+    {
+      "name": "min_year",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "min_year"
+    },
+    {
+      "name": "max_year",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "max_year"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "min_year": 1984,
+        "max_year": 2026
+      }
+    }
+  ]
+}

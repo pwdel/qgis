@@ -1,0 +1,287 @@
+[
+  {
+    "file": "Normals_Calculation_Methodology_2020.pdf",
+    "bytes": 945869,
+    "sha256": "c73ff14c49571c0425d0f736094c6aa9bba2fefd6a83779a9b139a4f1d52d2a9"
+  },
+  {
+    "file": "Normals_DLY_Documentation_1991-2020.pdf",
+    "bytes": 131167,
+    "sha256": "bbf3c7f9ef6cd73a63becf074b2a13d951fcd580cba2cc18ae11c43b798da3bc"
+  },
+  {
+    "file": "Normals_MLY_Documentation_1991-2020.pdf",
+    "bytes": 133893,
+    "sha256": "b12c9aee6770f84b5fa902740413bffca5cbf9a83bbebcf7e73306f46168ffc6"
+  },
+  {
+    "file": "Readme_By-Variable_By-Station_Normals_Files.txt",
+    "bytes": 39945,
+    "sha256": "feb4e1dd5914c8d35eccd017e114c6e5d352b1e217602cb622a67ad6670c3c21"
+  },
+  {
+    "file": "codeberg-contents.json",
+    "bytes": 6161,
+    "sha256": "5dc881325e7528ec76cc97f7f765bfe13e29c95c1b3c58028a3cb20fe54e4aff"
+  },
+  {
+    "file": "daily-USC00024849.csv",
+    "bytes": 574968,
+    "sha256": "6014892a62e608d6d3ccf7f97dd8c6faf50ec9c1b9f3fc801cbd2a7f95dec9bd"
+  },
+  {
+    "file": "daily-USC00026180.csv",
+    "bytes": 661816,
+    "sha256": "4514bb0734560e4abf5bb9d86512dc4123bb6e43bd8808fe2c75520176da146e"
+  },
+  {
+    "file": "daily-USC00420086.csv",
+    "bytes": 662182,
+    "sha256": "5194be3db59e2d737f6cc98a662415542621206e6cddc8c6e7ef5f572d71aa8a"
+  },
+  {
+    "file": "daily-USC00421008.csv",
+    "bytes": 667672,
+    "sha256": "dfec3748bb9fe7c6bb3c0bcfa70b4a73569290559f41ffb5e6f972eb369dc0fb"
+  },
+  {
+    "file": "daily-USC00422592.csv",
+    "bytes": 663646,
+    "sha256": "8e5d8bb3f1d5a6d40b207b86697bc80fcc7cece4a2ffbe6f755d00895611993b"
+  },
+  {
+    "file": "daily-USC00424508.csv",
+    "bytes": 662182,
+    "sha256": "d7513ef49805ace6ddc6f601fe2b64f0e1f10bd343c09f005158a2908334ceb2"
+  },
+  {
+    "file": "daily-USC00424755.csv",
+    "bytes": 668038,
+    "sha256": "ef7603dfb804168b960a2fadde4a55ca91c503f5be95dfb4c5f7b03aca805b32"
+  },
+  {
+    "file": "daily-USC00426601.csv",
+    "bytes": 574602,
+    "sha256": "94b7528a6baf3349fdf7279569cc09eafbabd862fb6a0126f4bcb40d7694552f"
+  },
+  {
+    "file": "daily-USW00023159.csv",
+    "bytes": 461076,
+    "sha256": "390d7028363ccd6632a2990b0eaa3c62a8ddc859a0a2a2d04b7d58991e108dea"
+  },
+  {
+    "file": "gridded-snow-metadata.json",
+    "bytes": 5123,
+    "sha256": "95cf03aba0319ab07e1929105799cd8861e092d07febb860c5b394072db92237"
+  },
+  {
+    "file": "inventory_30yr.txt",
+    "bytes": 1342890,
+    "sha256": "c9f5f0f3c38b89410b75d03267bf05fb53f6ba4b6623d22411be2df2bfe01bdb"
+  },
+  {
+    "file": "monthly-USC00024849.csv",
+    "bytes": 38644,
+    "sha256": "7bd70f54ef31eddfb6aefedba110402ef899cb5a6f295365575da7a7894f6efc"
+  },
+  {
+    "file": "monthly-USC00026180.csv",
+    "bytes": 41498,
+    "sha256": "01107c9a28ebf066a7384f36fe47ebb02296e67b8970fb29b949e63f0b38d428"
+  },
+  {
+    "file": "monthly-USC00420086.csv",
+    "bytes": 41510,
+    "sha256": "9f6e0a5aaf4bf19b7ea0f07bfda33cddfd7857248d8e5a00adc46bc58c56534a"
+  },
+  {
+    "file": "monthly-USC00421008.csv",
+    "bytes": 41690,
+    "sha256": "94710b135109c9a4631012d9158c2155565b37e835becc9e0abe07f4fd277aff"
+  },
+  {
+    "file": "monthly-USC00422592.csv",
+    "bytes": 41558,
+    "sha256": "7190e89fbc15dbf69a8b2c37f69f21a306db596ccb540ac0f38bbc29ecff19dd"
+  },
+  {
+    "file": "monthly-USC00424508.csv",
+    "bytes": 41510,
+    "sha256": "73a92bb9b45251a3957cfe8e25c2c3cd57a5780871ad7c0c6eae93527c2917bf"
+  },
+  {
+    "file": "monthly-USC00424755.csv",
+    "bytes": 41702,
+    "sha256": "7c227c5480196fc7f389ab1a9ec7cc232a83aeef0359c157bd26b1878a291779"
+  },
+  {
+    "file": "monthly-USC00426601.csv",
+    "bytes": 38632,
+    "sha256": "a1664c877a5c82ab948d8b8cb23c0eb058dabc0316de3720b1076b6019cd4ad0"
+  },
+  {
+    "file": "monthly-USW00023159.csv",
+    "bytes": 31500,
+    "sha256": "1d2a9a1f396f376743fa5a2de1ab0fea50c912849fab6f0a58c9765c77c9df1a"
+  },
+  {
+    "file": "snow-climatology.json",
+    "bytes": 138014,
+    "sha256": "76c718122d7c18de6227c402a2287ce2d52792df70570bc37c4956d7649e932f"
+  },
+  {
+    "file": "snow-stations.geojson",
+    "bytes": 18210,
+    "sha256": "8a4b1f8622ba8635333d294c17b99d1a634e9da54b61f88f2ec4b337de7552e4"
+  },
+  {
+    "file": "snowcover-ensemble-p50-01.tif",
+    "bytes": 57394,
+    "sha256": "caf53f1a7513778131a55ec883adf0debe552d6cfcc65b644b2a882112cfaf4b"
+  },
+  {
+    "file": "snowcover-ensemble-p50-01.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "736f90231ac7f49d7de942cbec857170f0e75d54d4bd03fb01abefeb16c8d3ca"
+  },
+  {
+    "file": "snowcover-ensemble-p50-02.tif",
+    "bytes": 50190,
+    "sha256": "e37ff903001d7e6d2ffef1c903223b10a791fa24212806a77d0ddf9b8a875a2d"
+  },
+  {
+    "file": "snowcover-ensemble-p50-02.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "d05baf5c991f34e8ebbcb88f6bf98b48b36015e14169d30b0f28d0c0fc6f1e99"
+  },
+  {
+    "file": "snowcover-ensemble-p50-03.tif",
+    "bytes": 41380,
+    "sha256": "974f78e03a42424e38e8e793f6d2b034fc2af9295533136c3fcd1425abf56168"
+  },
+  {
+    "file": "snowcover-ensemble-p50-03.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "ff0879e75ce78709afed1fb5a639e77e23ff68678f3bac349278ad40a1503725"
+  },
+  {
+    "file": "snowcover-ensemble-p50-04.tif",
+    "bytes": 17982,
+    "sha256": "e34f4c5b31ffcffe21e6abda4559b8f571657c3c506706e9c02d1b84a84c38ff"
+  },
+  {
+    "file": "snowcover-ensemble-p50-04.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "fd32b66bc7ee1383f65af9b62a5b06d442c97c8dfe6105abb31c033e0e6301ee"
+  },
+  {
+    "file": "snowcover-ensemble-p50-05.tif",
+    "bytes": 5688,
+    "sha256": "e5e6e770b7f3d71864f6c145337959f613a7ffefb8f19ff0954bf0d4173f0e78"
+  },
+  {
+    "file": "snowcover-ensemble-p50-05.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "87e9f4333b84f0d40fb88cb4b09620ffdc694d7ccf8fc1db5dd3ce2970d4045d"
+  },
+  {
+    "file": "snowcover-ensemble-p50-06.tif",
+    "bytes": 1139,
+    "sha256": "e3c5eecc85dec4d38610e520164961188ff905f2f46c6538982cf08864dd2be8"
+  },
+  {
+    "file": "snowcover-ensemble-p50-06.tif.aux.xml",
+    "bytes": 364,
+    "sha256": "763b2a2ee0dac687ecfff9e65932e7302c72915588c89aeb7a11e9da8943a18f"
+  },
+  {
+    "file": "snowcover-ensemble-p50-07.tif",
+    "bytes": 1948,
+    "sha256": "62370724976c01502d69b8fd3e32698342564e18544e7429dbe96143aef3b319"
+  },
+  {
+    "file": "snowcover-ensemble-p50-07.tif.aux.xml",
+    "bytes": 363,
+    "sha256": "d495ba46818960ef99f4d8d3b1a43f177d1451d20ce0f110589d0480f47c8832"
+  },
+  {
+    "file": "snowcover-ensemble-p50-08.tif",
+    "bytes": 2724,
+    "sha256": "028273b3e3c962205ebd469be510e71e773e22940ceb30fb074bb63b3bdcaf0d"
+  },
+  {
+    "file": "snowcover-ensemble-p50-08.tif.aux.xml",
+    "bytes": 363,
+    "sha256": "aafd3aaf4c6423b8f54b6778903138563394c9987082688b42eab3307f0a1296"
+  },
+  {
+    "file": "snowcover-ensemble-p50-09.tif",
+    "bytes": 2533,
+    "sha256": "36390928dacc07753fac41d4bf6d5284900031708ef504bcc2c9d2c8edfed106"
+  },
+  {
+    "file": "snowcover-ensemble-p50-09.tif.aux.xml",
+    "bytes": 363,
+    "sha256": "1f46b544ce153339a3c2391f6dff14edb8d27efe7a791e9187945fa89a0dbdef"
+  },
+  {
+    "file": "snowcover-ensemble-p50-10.tif",
+    "bytes": 6479,
+    "sha256": "f0e25b5799cffcd488dc4b89e95ab34709fda6aba6a02bf557c97ef24796b779"
+  },
+  {
+    "file": "snowcover-ensemble-p50-10.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "ae7547adfd6f85d6dc850222153bb399f69421f1b48277b3d9b607a28cbd3ef8"
+  },
+  {
+    "file": "snowcover-ensemble-p50-11.tif",
+    "bytes": 26540,
+    "sha256": "f0e3c6937337d2427f9dafa20424778a55ee609de4dcc7062ab9d19271aeaa5d"
+  },
+  {
+    "file": "snowcover-ensemble-p50-11.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "88068bf224829569e9af1b51af7f348d29295f1361cf10a6ad1d27416b41c3ba"
+  },
+  {
+    "file": "snowcover-ensemble-p50-12.tif",
+    "bytes": 56447,
+    "sha256": "379ebab8971471a0e507530bc6306d3e2e62a96461a39f33adbf2951d468b86a"
+  },
+  {
+    "file": "snowcover-ensemble-p50-12.tif.aux.xml",
+    "bytes": 360,
+    "sha256": "d523ce3ff36b82bd330dc2846371d46f078216a975b3f5b03d74f5dadc26840c"
+  },
+  {
+    "file": "zenodo-20610475.json",
+    "bytes": 23187,
+    "sha256": "b6824ce1a483a2db038065bf571b968c4515938c0f794086a8be742a07b82f17"
+  },
+  {
+    "file": "zenodo-README.md",
+    "bytes": 6364,
+    "sha256": "423a79617734a066d2bfffde08c29f59b7a855a6773777aab025eb2f393a04e5"
+  },
+  {
+    "file": "zenodo-ensemble_esa_dlr_longterm.ipynb",
+    "bytes": 9757,
+    "sha256": "32b225de963b3c4a95622929e00c20ad5164eca2ed4e78bf7d729218849cc627"
+  },
+  {
+    "file": "zenodo-snowcover_esacci.ipynb",
+    "bytes": 34528,
+    "sha256": "c43d57bf6da7077dc9e50e933dbce97edff95c2818caf924bf908638075e50f5"
+  },
+  {
+    "file": "zenodo-snowpack_dlr.ipynb",
+    "bytes": 29975,
+    "sha256": "b15655ce366e9bc0e925a3e0baf00b58d664d2525268148fdfebbfc4205bcd7c"
+  },
+  {
+    "file": "CODE-LICENSE.txt",
+    "bytes": 1068,
+    "sha256": "564edb9cd71c4029dd8a587be6b4e5c9fb5ba4b74477cb79c0d61b70f3757f8a"
+  }
+]

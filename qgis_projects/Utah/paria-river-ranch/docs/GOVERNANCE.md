@@ -42,3 +42,24 @@ All service DEM output sizes are explicitly distinguished from native resolution
 ## Release checks
 
 Reject dangling evidence IDs, invalid geometry, missing source files, incomplete feature downloads, invalid raster CRS, nonfinite map extents and broken relative paths. Require four searchable, rendered, visually inspected PDF sheets, exact page/trim dimensions and a relocated QGIS reopen. First-pass PDFs have not been tested in Avenza and are not advertised as Avenza-ready.
+
+
+## Expanded edition / profile 1.1
+
+The expanded edition adds T01/S01-S03 and C01-C14 registries and separate QGIS/PDF outputs. Terrain, snow and access claims remain Critical; context cannot be promoted to verified safety or permission. Original source snapshots and the original four-sheet PDF are preserved.
+
+- Terrain units: percent grade, with illustrated equivalent angles. Color breaks 30/45/60/90/150% are display classes, not horse-safety thresholds. The 150m corridor uses every mapped state-trail line, including paths with unknown or conflicting horse use. The review marker algorithm samples trail raster cells, requires a complete valid 100m neighborhood, excludes a 1000m map-edge margin, and selects three large nearby-lower-ground values at least1500m apart. Values are rounded to5m. This is a selected screening sample, not an exhaustive cliff inventory. Absolute cliff-face height, edge clearance and trail-tread grade remain unmeasured.
+- Snow variables stay separate: new snowfall in inches; NOAA historical station depth>=1inch probability; satellite p50 ensemble percent. The latter is exploratory because ESA processing is partly unreproduced and local accuracy/counts are not supplied. It cannot be described as calibrated daily or trip probability. Low or zero median does not imply no snow/ice. Small summer patches may be artifacts. ENSO phases receive no invented numeric multiplier.
+- Camping ownership categories must all appear in legends. Posted-source and posted-corral orders cannot be generalized to all mapped water or corrals. Expired rules remain historical even when still linked by an agency. A known water source does not establish legal camping nearby.
+- Expansion validation requires13 combined sheets and13 individual PDFs, searchable text, print boxes, citation links, original-artifact hash preservation, valid relocated QGIS layers and visual inspection of every page. This release is not Avenza-georeferenced or field-tested.
+
+## Riding edition / profile 1.2
+
+Trail elevation and wildfire information are Critical planning claims. The riding edition retains earlier source dates and superseded editions while adding six sheets.
+
+- Profile Y values are elevation relative to a documented starting point, in feet. Total ascent is the sum of positive changes after the documented noise treatment; total descent is separately calculated. Cumulative ascent is not substituted for a side profile.
+- Routes must retain source IDs, travel direction, clipping boundaries, component identity, elevation source, sample spacing, smoothing/noise treatment and missing-data coverage. Disconnected geometries and missing elevations cannot be silently bridged. Missing elevations are not zero. A model following a mapped centerline does not measure tread grade, route passability or horse safety.
+- Fire polygons are historical mapped extents with source year and fire type. MTBS large-fire coverage is incomplete for small fires. Incident discovery month is not the month of all subsequent burned area. Report query geography, record period, deduplication and completeness; monthly counts are not a probability of encountering fire.
+- Burn likelihood must state whether the source provides annual model probability, a visualization class or a seasonal forecast. Do not divide annual probability by twelve, rescale it by monthly incident counts, or relabel it October trip probability. Fire intensity and burn severity are separate variables.
+- Restriction evidence identifies the issuing authority, legal geography, effective/expiration/rescission dates, retrieval date and original order. The responding fire department is not assumed to issue land-management restrictions. A missing current order does not imply permission. Unknown future monthly restrictions stay unknown.
+- Release requires19 combined pages, readable individual sheets, source links, portable QGIS paths, verified numeric derivations and full visual review. Previously published editions are preserved. Avenza remains an unverified second pass.

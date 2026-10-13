@@ -1,0 +1,50 @@
+{
+  "url": "https://gis.trustlands.utah.gov/mapping/rest/services/Land_Ownership/FeatureServer/0/query?where=1%3D1&geometry=375387.7418846864%2C4173734.570413887%2C397387.7418846864%2C4188647.322091739&geometryType=esriGeometryEnvelope&inSR=26912&spatialRel=esriSpatialRelIntersects&f=geojson&outFields=%2A&outSR=4326&returnGeometry=true&resultRecordCount=2000",
+  "retrieved": "2026-10-08",
+  "bbox": [
+    375387.7418846864,
+    4173734.570413887,
+    397387.7418846864,
+    4188647.322091739
+  ],
+  "bbox_crs": "EPSG:26912",
+  "extent_source": "../04-red-canyon-extent.json",
+  "clip": "intersects with exact projected map extent; complete source features retained, not clipped",
+  "warning": "Ownership is not camping permission",
+  "verification": {
+    "returnIdsOnly": {
+      "objectIdFieldName": "objectid",
+      "objectIds": [
+        4545355,
+        4545356,
+        4545357,
+        4555511,
+        4542564,
+        4544416,
+        4544425,
+        4544481,
+        4545412,
+        4545490,
+        4548151,
+        4548159,
+        4549280,
+        4549404,
+        4549511,
+        4549672,
+        4549857,
+        4551844,
+        4551842,
+        4551855,
+        4551891,
+        4555332,
+        4555505,
+        4555582,
+        4556861
+      ]
+    },
+    "count": 25,
+    "returned_count": 25,
+    "object_id_sets_equal": true,
+    "exceededTransferLimit": false
+  }
+}

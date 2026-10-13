@@ -14,5 +14,46 @@
   "validation": "docs/validation.json",
   "avenza_status": "second-pass-not-georeferenced",
   "scope_status": "provisional-extents-awaiting-Peter",
-  "field_verified": false
+  "field_verified": false,
+  "expanded_edition": {
+    "research_date": "2026-10-08",
+    "page_count": 13,
+    "qgis_project": "paria-river-ranch-expanded.qgz",
+    "pdf": "output/pdf/expanded/paria-river-ranch-expanded-atlas.pdf",
+    "evidence": "docs/EXPANSION-SOURCES.md",
+    "status": "planning-draft",
+    "terrain": "cell slopes and nearby lower ground; not trail-grade or cliff survey",
+    "snow": "exploratory spatial ensemble plus independently defined station normals"
+  },
+  "riding_edition": {
+    "research_date": "2026-10-09",
+    "page_count": 19,
+    "qgis_project": "paria-river-ranch-riding-atlas.qgz",
+    "pdf": "output/pdf/riding/paria-river-ranch-riding-atlas.pdf",
+    "evidence": "docs/RIDING-SOURCES.md",
+    "validation": "docs/riding-validation.json",
+    "status": "planning-draft",
+    "profiles": "modeled elevation along mapped geometry; not surveyed tread",
+    "fire": "history, annual model and dated restrictions are distinct"
+  },
+  "mobile_edition": {
+    "export_date": "2026-10-11",
+    "research_date": "2026-10-09",
+    "geospatial_pdf": "output/mobile/geopdf/utah-riding-geospatial-atlas.pdf",
+    "geographic_pages": 16,
+    "profile_pages": 3,
+    "geopdf_project": "paria-river-ranch-geopdf.qgz",
+    "qfield_packages": [
+      "output/mobile/qfield/ranch-qfield.zip",
+      "output/mobile/qfield/mount-carmel-qfield.zip",
+      "output/mobile/qfield/red-canyon-qfield.zip"
+    ],
+    "gaia_exports": "output/mobile/gaia",
+    "instructions": "docs/MOBILE.md",
+    "validation": "docs/mobile-validation.json",
+    "status": "file-validated-device-test-pending",
+    "device_tested": false,
+    "gaia_custom_layers": "15 TileJSON definitions and public XYZ tile sets, zoom 8-13; device import untested",
+    "extents": "unchanged provisional research coverage"
+  }
 }

@@ -1,0 +1,27 @@
+{
+  "url": "https://www.fs.usda.gov/r04/dixie/alerts/dixie-national-forest-rescinds-stage-1-fire-restrictions",
+  "final_url": "https://www.fs.usda.gov/r04/dixie/alerts/dixie-national-forest-rescinds-stage-1-fire-restrictions",
+  "retrieved": "2026-10-09",
+  "headers": {
+    "Date": "Fri, 09 Oct 2026 12:44:50 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "211950",
+    "Connection": "close",
+    "Cache-Control": "public, max-age=21600",
+    "X-Drupal-Dynamic-Cache": "MISS",
+    "Content-language": "en",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "Last-Modified": "Fri, 09 Oct 2026 12:44:48 GMT",
+    "ETag": "\"1791549888\"",
+    "Vary": "Cookie,Accept-Encoding",
+    "X-Generator": "Drupal 10 (https://www.drupal.org)",
+    "X-Drupal-Cache": "MISS",
+    "x-azure-ref": "20261009T124448Z-176d9fff4ff5q8pchS1PHXz0zw0000001dw0000000005v69",
+    "X-Cache": "TCP_MISS",
+    "x-fd-int-roxy-purgeid": "0",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Accept-Ranges": "bytes"
+  }
+}

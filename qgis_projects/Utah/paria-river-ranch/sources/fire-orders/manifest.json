@@ -1,0 +1,236 @@
+{
+  "retrieved": "2026-10-09",
+  "method": "Direct public HTTPS fetch; PDF text extracted with pypdf. Utah ArcGIS page/map/service fetched using official page-linked item IDs.",
+  "files": [
+    {
+      "file": "barracks-kiosk.html",
+      "bytes": 90597,
+      "sha256": "b1822a3c64a3a695defa00867be180db2efd50c710caeee139782038ee8dff42"
+    },
+    {
+      "file": "barracks-kiosk.txt",
+      "bytes": 12977,
+      "sha256": "17c74c6f6e8231b66262d6df1e5f44d8a3dbebc64d1e2122e69718fe7081b79d"
+    },
+    {
+      "file": "blm-baseline-retrieval.json",
+      "bytes": 824,
+      "sha256": "6755e239c40270a048d895b73c1beb3fdc7ded7f33ed7a928dfbae069023bab4"
+    },
+    {
+      "file": "blm-baseline.pdf",
+      "bytes": 296752,
+      "sha256": "f7c232ffc1233ab544a11ccd3644587ea25baa8bd73f27fc4686e4bab116bd18"
+    },
+    {
+      "file": "blm-baseline.txt",
+      "bytes": 2832,
+      "sha256": "46059708a6fb9602a9fdd8c10ed6cbbb21d4e481643cdc597a87260a6689aaee"
+    },
+    {
+      "file": "blm-color-country-rescission.pdf",
+      "bytes": 230258,
+      "sha256": "3d81cde871616aea9a4b9439c78f5b008e5fa8e0985a06d2a32b7a79bf4f74f0"
+    },
+    {
+      "file": "blm-color-country-rescission.txt",
+      "bytes": 2878,
+      "sha256": "5ed2aecde11ef4f560bd012163abc28a04f6f9df1dc396bc0101cb7303114154"
+    },
+    {
+      "file": "blm-paria-stage1-rescission.pdf",
+      "bytes": 225047,
+      "sha256": "a6a3ca35990b52998720462aec6b5ca93e75eecfef5f16d5d682c4fb92c6b749"
+    },
+    {
+      "file": "blm-paria-stage1-rescission.txt",
+      "bytes": 2782,
+      "sha256": "23e6488132007f87c2ba3abe405a3bde143bbb4aa7015227953b7e441d89395a"
+    },
+    {
+      "file": "blm-paria-stage2-rescission.pdf",
+      "bytes": 233101,
+      "sha256": "dea5b5132a030f68683b36a03c2dcca7f116153259a75ee8a7e69d365066ea11"
+    },
+    {
+      "file": "blm-paria-stage2-rescission.txt",
+      "bytes": 4603,
+      "sha256": "031e4898b5dcb436119161c2e2815e7f8da19be48293a5a692cd022dc29360c5"
+    },
+    {
+      "file": "blm-utah-retrieval.json",
+      "bytes": 2039,
+      "sha256": "77e82000eee78f8ee34f16d905a4b97da97f892f3e4dc568eb40f370fd3db5b6"
+    },
+    {
+      "file": "blm-utah.html",
+      "bytes": 86510,
+      "sha256": "8db8a7a98ce7a565214756cae37ba063ed3be94d973c0cf6508dfea756c0ecf4"
+    },
+    {
+      "file": "blm-utah.txt",
+      "bytes": 14761,
+      "sha256": "fd106adc6a030900a286c74ec3ab14d27abb60f480afcc1ab6d78b1b971cb483"
+    },
+    {
+      "file": "dixie-alerts-retrieval.json",
+      "bytes": 1070,
+      "sha256": "e514f08410a9b3554e4882272050386b19671bae0ff560cb137ccbf7c9bbad5e"
+    },
+    {
+      "file": "dixie-alerts.html",
+      "bytes": 241431,
+      "sha256": "b038efd6f858a3ed70bd3345d06314ec9af59d4de97e842075539e04b2fe2307"
+    },
+    {
+      "file": "dixie-alerts.txt",
+      "bytes": 11957,
+      "sha256": "dd7af2b7e7fc16af26d347a63d0a074b2491cfccfb95ce0a6441094a9f64677d"
+    },
+    {
+      "file": "dixie-rescission-retrieval.json",
+      "bytes": 1137,
+      "sha256": "865e996f4a1581ef161256ffb253f065ab26d6845679ad347e1ceb9b7d207cc1"
+    },
+    {
+      "file": "dixie-rescission.html",
+      "bytes": 211950,
+      "sha256": "0317e17d9d8ef26046bd5a6b282eee1df28ff8db9584bcbd4fd03ba6d86cc993"
+    },
+    {
+      "file": "dixie-rescission.pdf",
+      "bytes": 233797,
+      "sha256": "4300c79fff8649023033233f8697cfabeccdd629e043f0d7f06a5036b7e568fc"
+    },
+    {
+      "file": "dixie-rescission.txt",
+      "bytes": 663,
+      "sha256": "d18667c5e6a9fa598d05ee98061930ac6570d3e790d6ce7951bd4baa6483b087"
+    },
+    {
+      "file": "ffsl-state-rescission.pdf",
+      "bytes": 3204781,
+      "sha256": "20b72bde4e1504bac32cac09e2b69cf066cadc333b67367b35594240e5ca8b54"
+    },
+    {
+      "file": "ffsl-state-rescission.txt",
+      "bytes": 9183,
+      "sha256": "c6052e9281f948918dcd7522d8a8beaa6e9f0b340c816e28709ba4ea31dd4955"
+    },
+    {
+      "file": "fire-orders.json",
+      "bytes": 11608,
+      "sha256": "8f213e2cdf67e13b762d779a4435aba41b0363ebdc75706aa0d0bc50135c47f2"
+    },
+    {
+      "file": "nifc-monthly-seasonal-outlook-retrieval.json",
+      "bytes": 916,
+      "sha256": "992409f551687f84bf5409c15ef103b6bbecb23068a3bc724fe1b50db0dfb14a"
+    },
+    {
+      "file": "nifc-monthly-seasonal-outlook.pdf",
+      "bytes": 1409108,
+      "sha256": "de6548e645efaf0460ca93b66df83ecaffb05eb092c906a929baf144021cccb2"
+    },
+    {
+      "file": "nifc-monthly-seasonal-outlook.txt",
+      "bytes": 52106,
+      "sha256": "44ed3adb1ec11b346620f75ee55c13b9b840c9a6f82fe2209c0f622af46f855b"
+    },
+    {
+      "file": "trust-lands-banner-evidence.json",
+      "bytes": 435,
+      "sha256": "f408ef5e86e5e4adba59c210ef7e773c62f97a15601c2fdf244b3f958f585edb"
+    },
+    {
+      "file": "usfs-baseline.html",
+      "bytes": 59125,
+      "sha256": "764f9d90de876d90bdc99128930013b216501c5a60c125ce3f1142516ae35723"
+    },
+    {
+      "file": "usfs-baseline.txt",
+      "bytes": 7008,
+      "sha256": "001c6db3d88ecda0fd724c1ce0654ee654367995c567286dfc6962bd05fe0184"
+    },
+    {
+      "file": "utah-active-orders-retrieval.json",
+      "bytes": 546,
+      "sha256": "363595b365e3cebc199a20cd98280155cdb700047bc5c0d8c93ff541736815d8"
+    },
+    {
+      "file": "utah-active-orders.html",
+      "bytes": 42174,
+      "sha256": "4fc6ddb06b2909ebbac2559fbd85e5388a59019b8ead201a03013570476d7b2a"
+    },
+    {
+      "file": "utah-active-orders.txt",
+      "bytes": 37358,
+      "sha256": "f8b4fdf91df3cada462565f39796d95b7e8f806630bd48e43544ee4c03636ce2"
+    },
+    {
+      "file": "utah-active-page-decoded.txt",
+      "bytes": 31723,
+      "sha256": "34649cf318b43e93970f5b4ad0da729209f0f15936863f90658f683dad0fa98c"
+    },
+    {
+      "file": "utah-active-page-retrieval.json",
+      "bytes": 593,
+      "sha256": "1f1bbbf802363f5fdf15edc7721af14316024b279df426614606fec1e61b0cd4"
+    },
+    {
+      "file": "utah-active-page.html",
+      "bytes": 45015,
+      "sha256": "25234dd6cd4e97d3777f6ad8434e1f27b68fd4d3fa6d86298a089c1fe3d56520"
+    },
+    {
+      "file": "utah-active-page.txt",
+      "bytes": 37368,
+      "sha256": "da060a40b0eecbcc5487744949f699a82f071c1048071f6013a8ee738225b86f"
+    },
+    {
+      "file": "utah-current-orders.html",
+      "bytes": 16948,
+      "sha256": "e01f1eadf2e91cca51158277d404dedf6cd22ee43762adae069f8ec9a650287a"
+    },
+    {
+      "file": "utah-fire-info-retrieval.json",
+      "bytes": 548,
+      "sha256": "f4730feedd2c5de6ff58d317187e946da017d78af9c59c782ca572d89e0c5815"
+    },
+    {
+      "file": "utah-fire-info.html",
+      "bytes": 42174,
+      "sha256": "4fc6ddb06b2909ebbac2559fbd85e5388a59019b8ead201a03013570476d7b2a"
+    },
+    {
+      "file": "utah-fire-restrictions-page.json",
+      "bytes": 31531,
+      "sha256": "2390aafc604d0f2403dbf45348810bd02ce4e95575de2ea470c1d6fe22046155"
+    },
+    {
+      "file": "utah-restrictions-dashboard.json",
+      "bytes": 21841,
+      "sha256": "2309fda98c81f698780fb1eaec3a66ca8e035a1e5b9ec1259cbc6ac9e52a8292"
+    },
+    {
+      "file": "utah-restrictions-query-url.txt",
+      "bytes": 301,
+      "sha256": "1a493b7a901d77599ae553a3bdf0254c5c059ba488accfc1c56e897f1c4639ba"
+    },
+    {
+      "file": "utah-restrictions-service.json",
+      "bytes": 21750,
+      "sha256": "78f5658a1ae0099c2fc2a6a02c00d7e304dab331588ad61db83c8e1291dbad19"
+    },
+    {
+      "file": "utah-restrictions-southern-query.json",
+      "bytes": 35505,
+      "sha256": "71692ffdd4aee8503b92bb659f46116508e00364c9214dd8e20d0b9222a76263"
+    },
+    {
+      "file": "utah-restrictions-webmap.json",
+      "bytes": 250174,
+      "sha256": "60b3080f6f4d3deb9bd16e22e2a1494018f22c4fa04f9770a1668bbfc6858737"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "ranch": {
+    "features": 23,
+    "legend": {
+      "National Monument": 8,
+      "National Wilderness Area": 1,
+      "Private": 10,
+      "State Trust Lands": 4
+    },
+    "count_verified": 23,
+    "exact_object_ids_verified": true
+  },
+  "barracks": {
+    "features": 24,
+    "legend": {
+      "Bureau of Land Management": 2,
+      "Private": 6,
+      "State Trust Lands": 13,
+      "Other State": 3
+    },
+    "count_verified": 24,
+    "exact_object_ids_verified": true
+  },
+  "red-canyon": {
+    "features": 25,
+    "legend": {
+      "Bureau of Land Management": 1,
+      "Bankhead-Jones Land Use Lands": 2,
+      "National Forest": 1,
+      "Private": 12,
+      "State Trust Lands": 8,
+      "Other State": 1
+    },
+    "count_verified": 25,
+    "exact_object_ids_verified": true
+  }
+}

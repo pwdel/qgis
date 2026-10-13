@@ -1,0 +1,29 @@
+{
+  "request": {
+    "f": "json",
+    "bbox": "338491.4597146199,4114258.661581976,354491.4597146199,4125104.2991658687",
+    "bboxSR": 26912,
+    "imageSR": 26912,
+    "size": "534,362",
+    "format": "png32",
+    "interpolation": "+RSP_NearestNeighbor",
+    "renderingRule": "{\"rasterFunction\": \"BurnProbability2024\"}"
+  },
+  "response": {
+    "href": "https://imagery.geoplatform.gov/iipp/rest/directories/system/arcgisoutput/_ags_93a27e2c_4731_4a96_869f_9fff09777344.png",
+    "width": 534,
+    "height": 362,
+    "extent": {
+      "xmin": 338491.4597146199,
+      "ymin": 4114258.2594001396,
+      "xmax": 354491.4597146199,
+      "ymax": 4125104.701347705,
+      "spatialReference": {
+        "wkid": 26912,
+        "latestWkid": 26912
+      }
+    },
+    "scale": 0
+  },
+  "retrieved_utc": "2026-10-09T12:50:32.302828+00:00"
+}
