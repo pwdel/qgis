@@ -1,0 +1,25 @@
+{
+  "paddle_kmh": [
+    4.0,
+    2.0
+  ],
+  "loaded_walk_kmh": [
+    3.0,
+    2.0
+  ],
+  "return_walk_kmh": [
+    4.0,
+    3.0
+  ],
+  "handling_minutes": [
+    10,
+    20
+  ],
+  "carry_traversals": [
+    2,
+    1
+  ],
+  "rod_metres": 5.0292,
+  "windbound_waits_included": false,
+  "scenario_not_prediction": true
+}

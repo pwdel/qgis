@@ -1,0 +1,563 @@
+[
+  {
+    "objectid": 9806534,
+    "trail_name": "LITTLE GUNFLINT LAKE-LITTLE NO",
+    "from_lake": "Little North",
+    "to_lake": "Little Gunflint",
+    "endpoint_gaps_m": [
+      1.38441214534167,
+      25.452758518167183
+    ],
+    "id": "A01"
+  },
+  {
+    "objectid": 9806537,
+    "trail_name": "EAST BEARSKIN-ALDER",
+    "from_lake": "Alder",
+    "to_lake": "East Bearskin",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A02"
+  },
+  {
+    "objectid": 9806541,
+    "trail_name": "EAST BEARSKIN LAKE-ASPEN LAKE",
+    "from_lake": "Aspen",
+    "to_lake": "East Bearskin",
+    "endpoint_gaps_m": [
+      0.0,
+      4.268465086957851
+    ],
+    "id": "A03"
+  },
+  {
+    "objectid": 9806567,
+    "trail_name": "HUNGRY JACK LAKE-FLOUR LAKE",
+    "from_lake": "Hungry Jack",
+    "to_lake": "Flour",
+    "endpoint_gaps_m": [
+      0.8515218291525112,
+      0.0
+    ],
+    "id": "A04"
+  },
+  {
+    "objectid": 9806593,
+    "trail_name": "POPLAR-SKIPPER",
+    "from_lake": "Skipper",
+    "to_lake": "Poplar",
+    "endpoint_gaps_m": [
+      19.650567874136907,
+      0.0
+    ],
+    "id": "A05"
+  },
+  {
+    "objectid": 9806602,
+    "trail_name": "LITTLE TROUT-RUM",
+    "from_lake": "Little Trout",
+    "to_lake": "Rum",
+    "endpoint_gaps_m": [
+      6.885029525632388,
+      6.202848152618974
+    ],
+    "id": "A06"
+  },
+  {
+    "objectid": 9806691,
+    "trail_name": "FLOUR LAKE-ASPEN LAKE",
+    "from_lake": "Flour",
+    "to_lake": "Aspen",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A07"
+  },
+  {
+    "objectid": 9806697,
+    "trail_name": "RAT LAKE-SOUTH LAKE",
+    "from_lake": "South",
+    "to_lake": "Rat",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A08"
+  },
+  {
+    "objectid": 9806700,
+    "trail_name": "DUNCAN-MOSS",
+    "from_lake": "Moss",
+    "to_lake": "Duncan",
+    "endpoint_gaps_m": [
+      3.372880312447997,
+      6.659174189551179
+    ],
+    "id": "A09"
+  },
+  {
+    "objectid": 9806707,
+    "trail_name": "PARTRIDGE LAKE-DUNCAN LAKE",
+    "from_lake": "Partridge",
+    "to_lake": "Duncan",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A10"
+  },
+  {
+    "objectid": 9806724,
+    "trail_name": "BEARSKIN LAKE-HUNGRY JACK LAKE",
+    "from_lake": "Bearskin",
+    "to_lake": "Hungry Jack",
+    "endpoint_gaps_m": [
+      8.823129432548779,
+      0.0
+    ],
+    "id": "A11"
+  },
+  {
+    "objectid": 9806778,
+    "trail_name": "HENSON LAKE-GASKIN LAKE",
+    "from_lake": "Henson",
+    "to_lake": "Gaskin",
+    "endpoint_gaps_m": [
+      2.868661045272983,
+      0.0
+    ],
+    "id": "A12"
+  },
+  {
+    "objectid": 9806890,
+    "trail_name": "SWALLOW-PILLSBURY",
+    "from_lake": "Swallow",
+    "to_lake": "Pillsbery",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A13"
+  },
+  {
+    "objectid": 9806968,
+    "trail_name": "CARIBOU LAKE-HORSESHOE LAKE",
+    "from_lake": "Caribou (Poplar)",
+    "to_lake": "Horseshoe",
+    "endpoint_gaps_m": [
+      5.2866405965765955,
+      0.0
+    ],
+    "id": "A14"
+  },
+  {
+    "objectid": 9806978,
+    "trail_name": "LOWER GEORGE LAKE-KARL LAKE",
+    "from_lake": "Lower George",
+    "to_lake": "Karl",
+    "endpoint_gaps_m": [
+      22.049781706986252,
+      8.923475527103074
+    ],
+    "id": "A15"
+  },
+  {
+    "objectid": 9807042,
+    "trail_name": "KROFT-RUM",
+    "from_lake": "Rum",
+    "to_lake": "Kroft",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A16"
+  },
+  {
+    "objectid": 9807068,
+    "trail_name": "LUX LAKE-CARL LAKE",
+    "from_lake": "Lux",
+    "to_lake": "Carl",
+    "endpoint_gaps_m": [
+      0.6555118028236485,
+      0.0
+    ],
+    "id": "A17"
+  },
+  {
+    "objectid": 9807111,
+    "trail_name": "RUSH-ONE ISLAND",
+    "from_lake": "Rush",
+    "to_lake": "One Island",
+    "endpoint_gaps_m": [
+      11.298594675486981,
+      6.600909501859294
+    ],
+    "id": "A18"
+  },
+  {
+    "objectid": 9807127,
+    "trail_name": "LITTLE RUSH-RUSH",
+    "from_lake": "Rush",
+    "to_lake": "Little Rush",
+    "endpoint_gaps_m": [
+      3.8473563851073735,
+      0.0
+    ],
+    "id": "A19"
+  },
+  {
+    "objectid": 9807136,
+    "trail_name": "HORSESHOE LAKE-VISTA LAKE",
+    "from_lake": "Horseshoe",
+    "to_lake": "Vista",
+    "endpoint_gaps_m": [
+      1.6933963878164124,
+      0.0
+    ],
+    "id": "A20"
+  },
+  {
+    "objectid": 9807137,
+    "trail_name": "MEEDS-SWALLOW",
+    "from_lake": "Meeds",
+    "to_lake": "Swallow",
+    "endpoint_gaps_m": [
+      16.996690497918514,
+      3.406285549093927
+    ],
+    "id": "A21"
+  },
+  {
+    "objectid": 9807147,
+    "trail_name": "FLOUR LAKE-EAST BEARSKIN LAKE",
+    "from_lake": "Flour",
+    "to_lake": "East Bearskin",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A22"
+  },
+  {
+    "objectid": 9807163,
+    "trail_name": "MOON LAKE-FLOUR LAKE",
+    "from_lake": "Flour",
+    "to_lake": "Moon",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A23"
+  },
+  {
+    "objectid": 9807172,
+    "trail_name": "LITTLE RUSH-SKIPPER",
+    "from_lake": "Little Rush",
+    "to_lake": "Skipper",
+    "endpoint_gaps_m": [
+      19.953774701953815,
+      0.0
+    ],
+    "id": "A24"
+  },
+  {
+    "objectid": 9807205,
+    "trail_name": "HENSON-OMEGA",
+    "from_lake": "Omega",
+    "to_lake": "Henson",
+    "endpoint_gaps_m": [
+      12.145186888907384,
+      7.446549306653582
+    ],
+    "id": "A25"
+  },
+  {
+    "objectid": 9807232,
+    "trail_name": "HORSESHOE-ALLEN",
+    "from_lake": "Horseshoe",
+    "to_lake": "Allen",
+    "endpoint_gaps_m": [
+      5.051085223834121,
+      13.576510991495983
+    ],
+    "id": "A26"
+  },
+  {
+    "objectid": 9807241,
+    "trail_name": "NORTH LAKE-SOUTH LAKE",
+    "from_lake": "North",
+    "to_lake": "South",
+    "endpoint_gaps_m": [
+      5.6303717970471245,
+      12.598885770897382
+    ],
+    "id": "A27"
+  },
+  {
+    "objectid": 9807254,
+    "trail_name": "KROFT-RAM",
+    "from_lake": "Kroft",
+    "to_lake": "Ram",
+    "endpoint_gaps_m": [
+      0.5480621651570248,
+      9.489483835739085
+    ],
+    "id": "A28"
+  },
+  {
+    "objectid": 9807260,
+    "trail_name": "HENSON-PILLSBERY",
+    "from_lake": "Pillsbery",
+    "to_lake": "Henson",
+    "endpoint_gaps_m": [
+      13.574488890973031,
+      0.0
+    ],
+    "id": "A29"
+  },
+  {
+    "objectid": 9807274,
+    "trail_name": "OMEGA-WINCHELL",
+    "from_lake": "Omega",
+    "to_lake": "Winchell",
+    "endpoint_gaps_m": [
+      8.928825329405647,
+      11.15154633769113
+    ],
+    "id": "A30"
+  },
+  {
+    "objectid": 9807288,
+    "trail_name": "PORTAGE-ONE ISLAND",
+    "from_lake": "Portage",
+    "to_lake": "One Island",
+    "endpoint_gaps_m": [
+      11.834216129517666,
+      0.0
+    ],
+    "id": "A31"
+  },
+  {
+    "objectid": 9807342,
+    "trail_name": "RAT LAKE-ROSE LAKE",
+    "from_lake": "Rose",
+    "to_lake": "Rat",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A32"
+  },
+  {
+    "objectid": 9807349,
+    "trail_name": "POPLAR-MEEDS",
+    "from_lake": "Poplar",
+    "to_lake": "Meeds",
+    "endpoint_gaps_m": [
+      4.473050682547919,
+      0.0
+    ],
+    "id": "A33"
+  },
+  {
+    "objectid": 9807354,
+    "trail_name": "MOON LAKE-EAST BEARSKIN LAKE",
+    "from_lake": "Moon",
+    "to_lake": "East Bearskin",
+    "endpoint_gaps_m": [
+      8.740992904168637,
+      0.0
+    ],
+    "id": "A34"
+  },
+  {
+    "objectid": 9807386,
+    "trail_name": "CROCODILE LAKE-EAST BEARSKIN L",
+    "from_lake": "East Bearskin",
+    "to_lake": "Crocodile",
+    "endpoint_gaps_m": [
+      0.0,
+      6.555452424199133
+    ],
+    "id": "A35"
+  },
+  {
+    "objectid": 9807435,
+    "trail_name": "MISSING LINK-SNIPE",
+    "from_lake": "Missing Link",
+    "to_lake": "Snipe",
+    "endpoint_gaps_m": [
+      2.345042435175041,
+      8.80673727703397
+    ],
+    "id": "A36"
+  },
+  {
+    "objectid": 9807437,
+    "trail_name": "MUSKEG LAKE-KISKADINNA LAKE",
+    "from_lake": "Muskeg",
+    "to_lake": "Kiskadinna",
+    "endpoint_gaps_m": [
+      4.735511286615669,
+      0.0
+    ],
+    "id": "A37"
+  },
+  {
+    "objectid": 9807553,
+    "trail_name": "GASKIN LAKE-WINCHELL LAKE",
+    "from_lake": "Gaskin",
+    "to_lake": "Winchell",
+    "endpoint_gaps_m": [
+      29.911771607989373,
+      0.0
+    ],
+    "id": "A38"
+  },
+  {
+    "objectid": 9807570,
+    "trail_name": "ROUND-MISSING LINK",
+    "from_lake": "Round",
+    "to_lake": "Missing Link",
+    "endpoint_gaps_m": [
+      7.635809169348106,
+      7.161956609401975
+    ],
+    "id": "A39"
+  },
+  {
+    "objectid": 9807728,
+    "trail_name": "ALLEN LAKE-JUMP LAKE",
+    "from_lake": "Allen",
+    "to_lake": "Jump",
+    "endpoint_gaps_m": [
+      15.321555375911982,
+      1.775760404219597
+    ],
+    "id": "A40"
+  },
+  {
+    "objectid": 9807731,
+    "trail_name": "CROSS BAY LAKE-RIB LAKE",
+    "from_lake": "Cross Bay",
+    "to_lake": "Rib",
+    "endpoint_gaps_m": [
+      0.0,
+      7.764405381632182
+    ],
+    "id": "A41"
+  },
+  {
+    "objectid": 9807791,
+    "trail_name": "HORSESHOE LAKE-GASKIN LAKE",
+    "from_lake": "Horseshoe",
+    "to_lake": "Gaskin",
+    "endpoint_gaps_m": [
+      10.37018555595045,
+      0.0
+    ],
+    "id": "A42"
+  },
+  {
+    "objectid": 9807800,
+    "trail_name": "KARL LAKE-LONG ISLAND LAKE",
+    "from_lake": "Karl",
+    "to_lake": "Long Island",
+    "endpoint_gaps_m": [
+      0.0,
+      0.0
+    ],
+    "id": "A43"
+  },
+  {
+    "objectid": 9807811,
+    "trail_name": "WANIHIGAN LAKE-WINCHELL LAKE",
+    "from_lake": "Winchell",
+    "to_lake": "Wanihigan",
+    "endpoint_gaps_m": [
+      7.267438477973176,
+      6.835843519387559
+    ],
+    "id": "A44"
+  },
+  {
+    "objectid": 9807844,
+    "trail_name": "KISKADINNA-OMEGA",
+    "from_lake": "Kiskadinna",
+    "to_lake": "Omega",
+    "endpoint_gaps_m": [
+      1.6886463007381936,
+      0.0
+    ],
+    "id": "A45"
+  },
+  {
+    "objectid": 9807851,
+    "trail_name": "TUSCARORA LAKE-MISSING LINK LA",
+    "from_lake": "Tuscarora",
+    "to_lake": "Missing Link",
+    "endpoint_gaps_m": [
+      0.0,
+      0.022365996769154933
+    ],
+    "id": "A46"
+  },
+  {
+    "objectid": 9807852,
+    "trail_name": "JUMP LAKE-GASKIN LAKE",
+    "from_lake": "Jump",
+    "to_lake": "Gaskin",
+    "endpoint_gaps_m": [
+      1.1093423334767294,
+      3.1088743515612696
+    ],
+    "id": "A47"
+  },
+  {
+    "objectid": 9836535,
+    "trail_name": "POPLAR LAKE-LIZZ LAKE",
+    "from_lake": "Poplar",
+    "to_lake": "Lizz",
+    "endpoint_gaps_m": [
+      1.5807109738511387,
+      4.014908417084747
+    ],
+    "id": "A48"
+  },
+  {
+    "objectid": 9837074,
+    "trail_name": "IRON LAKE-PORTAGE LAKE",
+    "from_lake": "Iron",
+    "to_lake": "Portage",
+    "endpoint_gaps_m": [
+      3.377332975361306,
+      12.658421033153996
+    ],
+    "id": "A49"
+  },
+  {
+    "objectid": 9840345,
+    "trail_name": "PILLSBURY-ALLEN",
+    "from_lake": "Allen",
+    "to_lake": "Pillsbery",
+    "endpoint_gaps_m": [
+      0.0,
+      25.546486395220928
+    ],
+    "id": "A50"
+  },
+  {
+    "objectid": 9841257,
+    "trail_name": "LITTLE TROUT-MISQUAH",
+    "from_lake": "Misquah",
+    "to_lake": "Little Trout",
+    "endpoint_gaps_m": [
+      8.762765221580048,
+      0.0
+    ],
+    "id": "A51"
+  }
+]

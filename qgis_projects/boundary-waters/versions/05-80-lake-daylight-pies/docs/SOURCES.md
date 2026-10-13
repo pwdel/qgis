@@ -1,0 +1,43 @@
+# Evidence register
+
+The network uses local inputs acquired for the parent Clearwater experiment on 12 October 2026, plus western coverage saved on 8 October 2026. This build reuses those files rather than re-querying services. `sources/acquisition.json` preserves full request URLs and retrieval times. Geometry measurements use NAD83 / UTM 15N (EPSG:26915), explicitly transformed with the available NAD83–WGS84 (1) operation; its nominal 4 m transformation accuracy is not source positional accuracy.
+
+## Geographic sources
+
+- [Minnesota DNR hydrography](https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/water_dnr_hydrography/FeatureServer/1): local `sources/hydrography.geojson`; official public lake polygons. Named Canadian portions of border lakes are unioned with their corresponding lake, not treated as extra lakes. Simplified actual outlines preserve broad arms and orientation; nonuniform scaling and time-weighted width deliberately distort their size.
+- [USFS National Forest System trails](https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TrailNFSPublish_01/MapServer/0): local `sources/usfs-trails.json`. Additional records: k 9720610, l 9720794, n 9720865, o 9720666, p 9720821, q 9720785, r 9721319. Original a–j records and provenance are in `sources/map-data.json` and source GeoJSON. These records are not a field inspection or confirmation of current trail condition.
+- [Friends of the Boundary Waters, Pike and Pine loop](https://www.friends-bwca.org/route/pike-and-pine-lake-loop/) and [published GPX](https://www.friends-bwca.org/wp-content/uploads/ClearwaterPikePineLakes_4Day_Entry62.gpx): saved GPX is explicitly digitized in QGIS, not a recorded GPS track. Used for incomplete carry a, approximate h and i, and water connection f. Website aggregate trip statistics were not used.
+- [Parks Canada, Eric W. Morse, Fur Trade Canoe Routes of Canada](https://publications.gc.ca/collections/collection_2017/pc/R64-35-1968-eng.pdf): supports the Watap–Rove water connection (Petit Détroit), not a new portage. Its diagram link represents the 3.6 m gap between DNR lake polygons; the adjoining narrows are included in each lake's crossing distance. A quarter-hour display interval does not describe a surveyed channel transit. Historical connectivity alone does not establish present water levels or passability.
+- [Clearwater Historic Lodge, day hikes](https://clearwaterhistoriclodge.com/best-day-hikes-gunflint-trail/): local descriptions corroborate the Mountain–Clearwater portage and Rose–Rove connection; notes that beaver activity can flood the latter. Do not equate trail geometry with guaranteed footing.
+- Terrain candidates: `sources/high-points.geojson` copied from the parent project's MnGeo 8 m resampled lidar analysis. Original 8 m raster and acquisition metadata remain in `../sources/`; this bundle includes the derived geographic points and their full provenance attributes, not the raster. Five selected candidates appear on the diagram. Elevations round to 5 m without claiming 5 m accuracy. Visibility through forest and recognition from water remain unverified. These are unnamed reference points, not claimed named summits.
+
+Geographic source lines remain unchanged in `geographic-connections.geojson`. `geographic-modeled-connections.geojson` separately adds straight shoreline extensions for the distance model; each record quantifies that addition. Approximate published lines retain that classification. Schematic carry curves echo simplified source bends but are displaced, stretched and clipped to distorted shores; they are not usable field trail traces.
+
+The Clearwater–Deer record 9720819 was deliberately omitted: its line leaves large shoreline gaps (~443 m and ~77 m). Deer remains accessible in the network through the complete Caribou–Deer record. Rose, Deer, Alder, Crystal, West Bearskin and Moose each have a hypothetical water turnaround T; these are not surveyed campsites or landings.
+
+## Timing context and chosen assumptions
+
+[Poudre Paddlers' Boundary Waters presentation](https://www.poudrepaddlers.org/uploads/1/0/2/8/102861926/canoeing_the_boundary_waters.pdf), slide 14, gives rough moving speeds and explicitly discusses double portaging and handling. The chart deliberately uses a broader, slower scenario envelope: 4 versus 2 km/h paddling, 3 versus 2 km/h loaded walking, 4 versus 3 km/h return walking, and 10–20 minutes handling. These exact values and the 15–35% detour allowances are the teaching model's assumptions, not measurements or values certified by that source.
+
+[NPS paddling-time guidance](https://www.nps.gov/upde/planyourvisit/paddling-times.htm) notes effects of wind, skill, vessel and conditions. Its river-specific speed table is not applied to Boundary Waters lakes. There is no calibrated wind-speed correction here: favorable/adverse moving speeds bound ordinary travelable scenarios, and windbound delays are excluded. Tailwinds do not always improve progress. The same broad range may be used in either direction, but the actual applicable end changes with the wind.
+
+Every water leg has its own measured base path and indirect-distance allowance. More winding base paths (path/chord > 1.1) use 20–35%; other paths use 15–30%. Extra distance models imperfect travel rather than a documented historical mistake. Rivers/narrows use 15–35% and are identified separately. Rods are calculated from measured/approximate geometry plus the disclosed shoreline extensions; ~ means approximate, not an official published rod count.
+
+## Reuse and reference image
+
+Credit DNR, USFS and MnGeo for public geographic evidence. Published GPX and descriptive sources retain their creators' rights; inclusion supports this local teaching experiment and is not a claim of blanket redistribution permission. Consult source terms before broader publication. The user-supplied historical image informed the visual treatment; it is not embedded, traced into geographic geometry, or represented as an original survey of this network.
+
+## Wider-area revision
+
+Western sources: `sources/western-hydrography.geojson`, `western-hydrography-requests.json`, `western-usfs.json`, and `western-usfs-request.json`, copied from the original atlas. USFS retrieval timestamp: 2026-10-08T00:31:22Z. Connections s (Rose–Duncan, objectid 9634578) and t (Duncan–West Bearskin, 9634447) use that coverage. Connections u (Mountain–Fan, 9720972), v (Fan–Vaseux, 9720360), and w (Vaseux–Moose, 9720609) use the 12 October collection. All new recorded endpoints are within 30 m of the corresponding mapped water; modeled shoreline extensions are disclosed separately.
+
+The original Rose turnaround T is retained for itinerary C, even though Rose now also connects to Duncan. New terminal-water T points are hypothetical on West Bearskin and Moose. No campsite claim is implied. That earlier revision contained 22 lakes, 23 connections and 42 crossing pairs. The current 80-lake expansion is documented below.
+
+The drawing uses square-root travel-time weighting, not a linear time scale. Lake width uses the longest included pair's midpoint hours; this may cover only a small part of a terminal lake. Geographic anchors and space for labels modify carry lengths. The visual resemblance to source shapes is qualitative; all numerical estimates still come from geographic measurements and the same timing assumptions.
+
+
+## Eighty-lake expansion and visible landmarks
+
+The October 12 expansion adds 58 DNR identities and 51 named USFS portages. Complete acquisition URLs, timestamps and raw responses are in `sources/expanded-acquisition.json`; reviewed identities and links are in `expanded-selection.json` and `expanded-portages.json`. See `../data-expansion-notes.md` for context-only lakes, omitted water paths and geographic extent.
+
+Published lake-view observations support five cliff/rockslide features; three falls are labeled as walking visits. See `LANDMARKS.md` and `sources/landmarks-research.json` for individual sources, vantage descriptions, coordinate basis and uncertainty. These replace generic high-ground candidates on the student chart. Generic DEM candidates remain hidden in the geographic evidence project.
