@@ -31,6 +31,13 @@ Credit DNR, USFS and MnGeo for public geographic evidence. Published GPX and des
 
 Western sources: `sources/western-hydrography.geojson`, `western-hydrography-requests.json`, `western-usfs.json`, and `western-usfs-request.json`, copied from the original atlas. USFS retrieval timestamp: 2026-10-08T00:31:22Z. Connections s (Rose–Duncan, objectid 9634578) and t (Duncan–West Bearskin, 9634447) use that coverage. Connections u (Mountain–Fan, 9720972), v (Fan–Vaseux, 9720360), and w (Vaseux–Moose, 9720609) use the 12 October collection. All new recorded endpoints are within 30 m of the corresponding mapped water; modeled shoreline extensions are disclosed separately.
 
-The original Rose turnaround T is retained for itinerary C, even though Rose now also connects to Duncan. New terminal-water T points are hypothetical on West Bearskin and Moose. No campsite claim is implied. The saved graph now includes 22 lakes, 23 connections and 42 lake-crossing pairs.
+The original Rose turnaround T is retained for itinerary C, even though Rose now also connects to Duncan. New terminal-water T points are hypothetical on West Bearskin and Moose. No campsite claim is implied. That earlier revision contained 22 lakes, 23 connections and 42 crossing pairs. The current 80-lake expansion is documented below.
 
 The drawing uses square-root travel-time weighting, not a linear time scale. Lake width uses the longest included pair's midpoint hours; this may cover only a small part of a terminal lake. Geographic anchors and space for labels modify carry lengths. The visual resemblance to source shapes is qualitative; all numerical estimates still come from geographic measurements and the same timing assumptions.
+
+
+## Eighty-lake expansion and visible landmarks
+
+The October 12 expansion adds 58 DNR identities and 51 named USFS portages. Complete acquisition URLs, timestamps and raw responses are in `sources/expanded-acquisition.json`; reviewed identities and links are in `expanded-selection.json` and `expanded-portages.json`. See `../data-expansion-notes.md` for context-only lakes, omitted water paths and geographic extent.
+
+Published lake-view observations support five cliff/rockslide features; three falls are labeled as walking visits. See `LANDMARKS.md` and `sources/landmarks-research.json` for individual sources, vantage descriptions, coordinate basis and uncertainty. These replace generic high-ground candidates on the student chart. Generic DEM candidates remain hidden in the geographic evidence project.

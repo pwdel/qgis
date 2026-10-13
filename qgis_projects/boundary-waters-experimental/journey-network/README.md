@@ -1,40 +1,42 @@
 # The Canoe Traveller's Network
 
-A black-and-white journey diagram inspired by early engraved canoe-country maps: **22 lakes, 23 connections, 42 lake-crossing pairs, two Clearwater loops and a Rose out-and-back option**. Simplified real lake footprints and source-shaped carry bends are deliberately distorted. Crossing duration influences lake size; carry duration guides spacing, constrained by geographic ordering and legibility. The chart shows rounded ranges of hours, calculated from real-world evidence beneath the drawing.
+A black-and-white engraved teaching diagram: **80 lakes, 74 connections, 132 modeled crossing alternatives, two Clearwater loops and a Rose out-and-back option**. Recognizable lake footprints and recorded carry bends are deliberately distorted. Printed time ranges are based on geographic source geometry, not measurements of the drawing.
+
+The expanded area runs from the Clearwater/Pike lakes west through Poplar, Winchell, Brule and the Long Island country, with Gunflint, Seagull and Saganaga to the north. Six lakes are context only; missing connections are not invented to make a continuous network.
 
 ## Open the saved projects
 
-- **[journey-network.qgz](journey-network.qgz)** — editable diagram, local-CRS GeoPackage, saved styles, five native print layouts. Equivalent [uncompressed project](journey-network.qgs).
-- **[geographic-evidence.qgz](geographic-evidence.qgz)** — real lake outlines, measured base water paths, source/approximate carries, modeled shoreline extensions, candidate landings and high-ground positions in EPSG:26915.
-- **[Journey chart PDF](output/pdf/journey-chart.pdf)** — one 24 × 12 inch panoramic sheet.
-- **[Instructor PDF](output/pdf/journey-instructor.pdf)** — assumptions, three itineraries and a complete leg register (four 17 × 11 inch sheets).
+- **[journey-network.qgz](journey-network.qgz)** — editable diagram, local-CRS GeoPackage, saved styles, ten native print layouts. Equivalent [uncompressed project](journey-network.qgs).
+- **[geographic-evidence.qgz](geographic-evidence.qgz)** — real lake outlines, measured base water paths, source/approximate carries, modeled shoreline extensions, candidate landings, sourced landmarks and hidden unverified terrain points in EPSG:26915.
+- **[Journey chart PDF](output/pdf/journey-chart.pdf)** — one 36 × 24 inch sheet.
+- **[Instructor PDF](output/pdf/journey-instructor.pdf)** — assumptions, three itineraries and a complete leg register (nine 17 × 11 inch sheets).
 - **[Portable project ZIP](output/journey-network-project.zip)** — saved projects and their local dependencies.
 
 Extract the entire ZIP, then open the QGZ. No virtual environment, running script or network connection is required. Tested with the installed QGIS 4.2.3 on macOS. Baskerville is used for the engraving-style lettering; another computer may need the font or a serif substitution. PDFs carry their font resources.
 
 ## Read the chart
 
-Each connecting passage has a letter. Beneath a lake, `a-j` gives a paddling range between those passages. `S` is the hypothetical Clearwater start/finish; `T` is an imagined water turnaround on a terminal lake. `b-c same landing` identifies the shared modeled West Pike landing, not a missing paddle leg.
+Each lake has at most one short hour range: the **longest successfully modeled crossing between its included landings**. Other crossing alternatives remain in the instructor register. The selected endpoint pair and leg ID are attributes of the time-label layer. This is not an estimate for every possible trip across that lake. Lakes without modeled crossings have no time label.
 
-Curved carry labels show derived rods (~) and double-carry hours: two loaded walks, an unloaded return and one handling allowance. Asterisks flag approximate carry geometry. Dashed links are water connections rather than portages. All rod counts are derived from geometry, not official published counts.
+Time ranges sit in the water footprint where they fit. Displaced labels have short leaders to their own lake or passage. Compact carry IDs and hours sit beside source-shaped links. Rod counts remain in the CSV and geographic layer, avoiding repeated text on the drawing. `S` is the Clearwater departure. Asterisks mark approximate geometry; dashed passages are water connections.
+
+Eight sourced landmarks replace generic summit symbols: Clearwater, Rose, Winchell and Seagull cliffs, the Brule rockslide, and Rose, Johnson and Saganaga falls. Cliff/rockslide records describe published lake viewpoints; `(walk)` marks a land visit to a waterfall. A landmark leader associates the feature with its lake; it is not a surveyed sightline. [Landmark evidence](docs/LANDMARKS.md) includes specific vantage descriptions and coordinate uncertainty. None of these schematic anchors is a precise compass-bearing target.
 
 Times include imperfect travel and a favorable-to-adverse wind envelope. They exclude rest, camp time, queues and weatherbound waits. Quarter-hour bounds are deliberately coarse; `0-0.25 h` means a brief nonzero passage. Geographic distances, raw hours, direction axes and individual allowances are in [data/leg-times.csv](data/leg-times.csv); [assumptions](data/assumptions.json) records the model used. Circuit totals sum unrounded leg values, then round outward.
 
-**This is a schematic: measure no bearings or distances from its drawing.** Use the geographic companion for real positions. High-ground IDs are terrain candidates, not field-verified visible landmarks. The diagrams can support route reasoning and recognition exercises; they do not replace compass geometry on an undistorted map.
+**This is a schematic: measure no bearings or distances from its drawing.** Use the geographic companion for real positions. Generic terrain candidates remain hidden in the geographic companion and are not presented as visible landmarks. The diagrams can support route reasoning and recognition exercises; they do not replace compass geometry on an undistorted map.
 
-## Wider, source-shaped revision
+## Source-shaped revision
 
-Added Duncan and West Bearskin to the west, and Fan, Vaseux and Moose to the northeast. DNR calls West Bearskin simply `Bearskin` in the source data and leg register. The chart uses the familiar West Bearskin name.
+Every added lake has explicit DNR feature IDs; duplicate names are disambiguated, including Caribou (Poplar) versus Caribou near Clearwater. DNR's `Bearskin` is labeled West Bearskin on the chart. Source selection, disconnected groups, omitted crossings and narrow-channel routing limits are documented in [the expansion notes](data-expansion-notes.md).
 
-Each lake retains its principal arms and broad orientation after shoreline simplification and unequal horizontal/vertical scaling. Display width follows `18 + 18 × sqrt(representative crossing hours)` in diagram units, where representative hours is the midpoint of the longest modeled crossing between the included points. This is not a full-lake end-to-end travel survey.
-
-Carry spacing targets `7 + 18 × sqrt(midpoint carry hours)` before corrections for trail bends. A layout optimization balances those targets against approximate geographic order and label room. Source bends are mapped between the distorted shores; small portions falling inside the diagram lakes are clipped. Thus longer journeys receive more space, but **neither geographic distance nor time has a uniform ruler scale**. Printed hour ranges remain the quantitative reference.
+Lakes retain broad arms and orientation after simplification and unequal scaling. Display width follows `22 + 20 × sqrt(representative crossing hours)` in diagram units; context-only lake size uses an area-based fallback. Carry spacing is influenced by midpoint travel time, geographic ordering and legibility. The empty northern gap is compressed. **Neither distance nor time has a uniform ruler scale.**
 
 ## Data and editing
 
 `data/diagram.gpkg` contains the actual QGIS diagram layers in an explicit local engineering CRS. `schematic-*.json` are internal drawing records, not GeoJSON or longitude/latitude data. `geographic-*.geojson` contains actual EPSG:26915 geometry. These coordinate spaces live in separate projects.
 
-The five layouts are editable in QGIS under Project → Layouts. Copies are in `layouts/`; styles are in `styles/`. Edit the time-weighted layout and label-placement rules in `scripts/schematic.py`, or edit the GeoPackage directly in QGIS. Rebuilding overwrites generated outputs, so preserve any manual edits first.
+The ten layouts are editable in QGIS under Project → Layouts. Copies are in `layouts/`; styles are in `styles/`. Edit the time-weighted layout and label-placement rules in `scripts/schematic.py`, or edit the GeoPackage directly in QGIS. Rebuilding overwrites generated outputs, so preserve any manual edits first.
 
 Timing assumptions are centralized in `scripts/timing.py`; `data/assumptions.json` is the generated snapshot, not the input configuration. To change speeds or handling, edit that script's `ASSUMPTIONS`, then rerun preparation and export. Indirect-travel allowances are assigned in `prepare.py`.
 

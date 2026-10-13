@@ -27,8 +27,10 @@ def labels(l,s,italic=False):
  props.setProperty(QgsPalLayerSettings.Property.Hali,QgsProperty.fromExpression("'Center'"));props.setProperty(QgsPalLayerSettings.Property.Vali,QgsProperty.fromExpression("'Half'"));p.setDataDefinedProperties(props)
  l.setLabeling(QgsVectorLayerSimpleLabeling(p));l.setLabelsEnabled(True)
 ls=[]
-for file,title,kind,size in [('lakes','Distorted footprints | crossing time emphasis','fill',0),('hatching','Engraved lake hatching','line',.08),('carries','Source-shaped carries | double carry time','line',.22),('rivers','Water connections | not portages','dash',.25),('hills','Engraved terrain candidates','line',.12),('names','Lake names','label',12),('paddle-times','Hours between lettered connections','label',8),('carry-times','Carry letters, rods and hours','label',8),('hill-labels','High-ground reference IDs','label',8),('endpoints','S departure / T hypothetical turnaround','label',9)]:
- data=json.load(open(D/f'schematic-{file}.json'));features=data['features'];l=QgsVectorLayer(features[0]['geometry']['type'],title,'memory');l.setCrs(crs);provider=l.dataProvider()
+for file,title,kind,size in [('lakes','Distorted footprints | crossing time emphasis','fill',0),('hatching','Engraved lake hatching','line',.08),('carries','Source-shaped carries | double carry time','line',.22),('rivers','Water connections | not portages','dash',.25),('hills','Lake-view landmarks and falls','line',.12),('names','Lake names','label',11),('paddle-times','Representative crossing hours','label',9),('carry-times','Carry ID and hours','label',8),('hill-labels','Sourced landmark names','label',9),('endpoints','S departure','label',9),('leaders','Label leaders to lakes and carries','line',.1)]:
+ data=json.load(open(D/f'schematic-{file}.json'));features=data['features']
+ if not features:continue
+ l=QgsVectorLayer(features[0]['geometry']['type'],title,'memory');l.setCrs(crs);provider=l.dataProvider()
  keys=list(dict.fromkeys(k for f in features for k in f['properties']));fields=[]
  for k in keys:
   v=next((f['properties'].get(k) for f in features if f['properties'].get(k) is not None),'')
@@ -44,22 +46,22 @@ for file,title,kind,size in [('lakes','Distorted footprints | crossing time emph
  elif kind in ['line','dash']:l.renderer().setSymbol(line(size,'dash' if kind=='dash' else 'solid'))
  else:labels(l,size,file in ['names','hill-labels'])
  l.saveNamedStyle(str(R/'styles'/f'{file}.qml'))
-order=[ls[i] for i in [9,8,7,6,5,4,1,0,3,2]]
+order=list(reversed(ls[4:]))+[ls[1],ls[0],ls[3],ls[2]]
 root=pr.layerTreeRoot();root.setHasCustomLayerOrder(True);root.setCustomLayerOrder(order)
 pr.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(QgsRectangle(*json.load(open(D/'diagram-layout.json'))['bounds']),crs));pr.setBackgroundColor(QColor('white'))
 def layout(name,subtitle):
  lay=QgsPrintLayout(pr);lay.initializeDefaults();lay.setName(name);lay.pageCollection().page(0).setPageSize(QgsLayoutSize(431.8,279.4));pr.layoutManager().addLayout(lay)
  text(lay,'A DRAUGHT OF THE EASTERN LAKES',14,8,330,7,10,False,True)
  text(lay,'The Canoe Traveller\'s Network',14,16,330,14,27)
- text(lay,subtitle,15,31,550 if name.startswith('01') else 395,7,9,True);rule(lay,15,40,580 if name.startswith('01') else 402,.22)
+ text(lay,subtitle,15,31,880 if name.startswith('01') else 395,7,9,True);rule(lay,15,40,885 if name.startswith('01') else 402,.22)
  return lay
-lay=layout('01 | The journey chart','Twenty-two eastern lakes  /  Shapes remembered; time emphasized  /  A modern hypothetical exercise')
-lay.pageCollection().page(0).setPageSize(QgsLayoutSize(609.6,304.8))
-m=QgsLayoutItemMap(lay);lay.addLayoutItem(m);m.setId('schematic-map');m.attemptMove(QgsLayoutPoint(14,43));m.attemptResize(QgsLayoutSize(581,228));m.setCrs(crs);m.setLayers(order);m.setKeepLayerSet(True);m.setKeepLayerStyles(True);m.zoomToExtent(QgsRectangle(*json.load(open(D/'diagram-layout.json'))['bounds']));m.setBackgroundColor(QColor('white'))
-rule(lay,15,276,580,.2)
-text(lay,'READING THE DRAUGHT',15,279,75,6,9,False,True)
-text(lay,'Lake figures: hours between letters.  Bent carry links: derived rods (~) & double-carry hours.  Dashed: water links.\nS = departure; T = imagined turning place.  * = approximate carry geometry.  Shape and spacing emphasize time, without a uniform scale.',15,286,355,11,8)
-text(lay,'Simplified real footprints & trail bends, deliberately distorted.\nTake no bearings or distances from the drawing.\nWindbound waits fall outside the printed time ranges.',411,281,184,17,8,True)
+lay=layout('01 | The journey chart',f"{len(net['lakes'])} eastern lakes  /  Shapes remembered; time emphasized  /  A modern hypothetical exercise")
+lay.pageCollection().page(0).setPageSize(QgsLayoutSize(914.4,609.6))
+m=QgsLayoutItemMap(lay);lay.addLayoutItem(m);m.setId('schematic-map');m.attemptMove(QgsLayoutPoint(14,43));m.attemptResize(QgsLayoutSize(886,502));m.setCrs(crs);m.setLayers(order);m.setKeepLayerSet(True);m.setKeepLayerStyles(True);m.zoomToExtent(QgsRectangle(*json.load(open(D/'diagram-layout.json'))['bounds']));m.setBackgroundColor(QColor('white'))
+rule(lay,15,557,885,.2)
+text(lay,'THE RECKONING',15,561,100,8,11,False,True)
+text(lay,'All ranges are hours. Lake number = longest modeled crossing between mapped landings; alternatives in the register.\nCarry number = double-carry travel and handling. Small letters/numbers identify the carry; * marks approximate geometry.\nLeader lines attach displaced labels to their lake or passage. Dashed passages are water connections.',15,573,575,25,9)
+text(lay,'Landmarks: named lake views; (walk) = leave the water to visit.\nSource-shaped, deliberately distorted; no uniform scale.\nUse the geographic evidence project for true positions. Windbound waits are extra.',610,563,290,34,9,True)
 # Instructor pages use native QGIS text items for editable tabular content.
 key=layout('02 | Timing and itineraries','The instructor\'s key  /  Ordinary tandem team  /  Double carries  /  Model assumptions, not observed travel times')
 text(key,'I.  THREE PRE-DESIGNED JOURNEYS',15,47,210,8,13,False,True)
@@ -78,15 +80,12 @@ plus {A['handling_minutes'][0]:g}-{A['handling_minutes'][1]:g} minutes of handli
 Bounds round outward to quarter hours. A 0-0.25 h label means
 a brief nonzero leg. All rod counts are derived, not official counts."""
 text(key,model_note,15,197,246,61,10)
-text(key,'III.  HIGH GROUND & UNCERTAINTY',277,47,140,8,13,False,True)
-source={f['properties']['id']:f['properties'] for f in json.load(open(D/'geographic-high-points.geojson'))['features']}
-y=59
-for f in json.load(open(D/'schematic-hill-labels.json'))['features']:
- p=f['properties'];g=source[p['source_id']];text(key,p['label']+'  /  near '+g['near_lake'],277,y,138,7,10);y+=8
-text(key,'These are bare-earth terrain candidates, not verified\nvisible peaks. Tree cover can obscure them. Their\nschematic placement is illustrative; use the separate\ngeographic project for true positions and bearings.',277,y+5,139,28,9)
-text(key,'Carry a: USFS line is incomplete; published digitized\nGPX supplies an approximate full passage.\nCarries h and i: published sketches, no matching\nUSFS geometry. Water links f and m are not carries.\n\nClearwater-Deer was omitted: the recorded trail\nstops short of the lakes. Deer connects via Caribou.\n\nRose retains an imagined T turning point. Others lie\non terminal lakes, including Deer, Alder, Crystal,\nWest Bearskin and Moose; none denotes a campsite.',277,153,139,66,9)
+text(key,'III.  READING THE SPARSE CHART',277,47,140,8,13,False,True)
+text(key,'Each lake has at most one printed time range:\nthe longest modeled landing-to-landing crossing.\nIts exact endpoint pair is recorded in the layer\nand the table below. Shorter crossings may take\nless time. An unnumbered lake has no modeled\ncrossing. All alternatives remain in the register.\n\nBent carries echo recorded trail geometry. Small\nIDs identify them; rods are kept in the CSV.\nNo inference should be made from an absent link.\n\nLandmark leaders associate a feature with a lake,\nnot a measured sight line. Water-visible features\nhave published lake-view evidence. (walk) marks\nwaterfalls reached on foot, not a canoe sighting.\n\nLandmark coordinates and viewing descriptions\nare in the geographic project and LANDMARKS.md.\nGeneric DEM summit candidates are hidden there;\nthey are not shown as visible landmarks here.',277,59,139,116,9)
+text(key,'IV.  THE HYPOTHETICAL EXERCISE',277,182,140,8,13,False,True)
+text(key,'S marks the Clearwater departure. The three\noriginal trips remain in the key. Extra lakes widen\nthe study area; they do not certify a through-route.\nAll time ranges are scenarios, not predictions.\nThe diagram cannot supply bearings or distances.',277,194,139,31,9)
 text(key,'SOURCES & REPRODUCTION',277,231,139,7,10,False,True)
-text(key,'MN DNR waters / USFS trails / MnGeo terrain\nFriends of BWCA digitized loop / Parks Canada history\nTiming context: Poudre Paddlers; NPS wind variability\nFull citations and limitations: docs/SOURCES.md',277,241,139,24,8)
+text(key,'MN DNR waters / USFS trails / published lake views\nFriends of BWCA digitized loop / Parks Canada history\nSources: docs/SOURCES.md and docs/LANDMARKS.md\nAssumptions and original geometry are bundled.',277,241,139,24,8)
 rule(key,15,267,402);text(key,'Model version: 12 October 2026  |  Geographic measurements and diagram units are kept separate.',15,270,390,5,7)
 # Tables: two leg pages, no clipped cells, all current records referenced.
 rows=net['legs'];chunks=[rows[i:i+26] for i in range(0,len(rows),26)]
@@ -102,8 +101,10 @@ for idx,chunk in enumerate(chunks):
   for (s,x),v in zip(headers,vals):text(table,v,x,y,120 if x==31 else 65,6,9)
   rule(table,15,y+6.5,402,.04)
  text(table,'* Approximate passage sketches or short water links. Full source records, exact hours and assumptions: data/leg-times.csv.',15,254,402,8,8,True)
- text(table,'Paddle points are identified by the connecting letters on the chart. S = departure; T = hypothetical turning place.',15,264,402,7,8)
+ text(table,'Paddle points use connecting carry IDs. S = departure; T = imagined turn. Only the longest crossing is printed per lake.',15,264,402,7,8)
 # Save project and portable templates.
+for old in O.glob('sheet-*.pdf'):old.unlink()
+for old in (R/'layouts').glob('*.qpt'):old.unlink()
 for ext in ['qgz','qgs']:
  pr.setFileName(str(R/f'journey-network.{ext}'));assert pr.write()
 for lay in pr.layoutManager().layouts():
@@ -114,14 +115,15 @@ for lay in pr.layoutManager().layouts():
 # Separate true-coordinate project; no schematic layers in it.
 del ex,lay,m,key,table
 pr.clear();crsg=QgsCoordinateReferenceSystem('EPSG:26915');pr.setCrs(crsg);pr.setFilePathStorage(Qgis.FilePathType.Relative);pr.setTitle('Journey network | geographic measurement evidence')
-for n,title,kind in [('lakes','Geographic lakes','fill'),('connections','Recorded or approximate connections','line'),('modeled-connections','Length model with straight shoreline extensions (hidden)','dash'),('paddles','Hypothetical base water paths','dash'),('landings','Source-derived landings and hypothetical turns','point'),('high-points','Terrain candidates (visibility unverified)','point')]:
+for n,title,kind in [('lakes','Geographic lakes','fill'),('connections','Recorded or approximate connections','line'),('modeled-connections','Length model with straight shoreline extensions (hidden)','dash'),('paddles','Hypothetical base water paths','dash'),('landings','Source-derived landings and hypothetical turns','point'),('high-points','Terrain candidates (visibility unverified, hidden)','point'),('landmarks','Sourced lake-view landmarks and walking visits','point')]:
+ if not (D/f'geographic-{n}.geojson').exists():continue
  l=QgsVectorLayer(str(D/f'geographic-{n}.geojson'),title,'ogr');assert l.isValid();pr.addMapLayer(l)
  if kind=='fill':l.renderer().setSymbol(QgsFillSymbol.createSimple({'color':'white','outline_color':'black','outline_width':'.2'}));extent=l.extent()
  elif kind in ['line','dash']:l.renderer().setSymbol(line(.3,'dash' if kind=='dash' else 'solid'))
  else:l.renderer().setSymbol(QgsMarkerSymbol.createSimple({'name':'triangle' if n=='high-points' else 'circle','size':'2','color':'white','outline_color':'black'}))
 
 for node in pr.layerTreeRoot().findLayers():
- if 'shoreline extensions' in node.layer().name():node.setItemVisibilityChecked(False)
+ if 'shoreline extensions' in node.layer().name() or 'visibility unverified' in node.layer().name():node.setItemVisibilityChecked(False)
 pr.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(extent,crsg));pr.setFileName(str(R/'geographic-evidence.qgz'));assert pr.write()
 # Normalize QGIS layout fallback references as well as ordinary datasource paths.
 for p in R.glob('*.qgs'):p.write_text(p.read_text().replace(str(R)+'/', './'))

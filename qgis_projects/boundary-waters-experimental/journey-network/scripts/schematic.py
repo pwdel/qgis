@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 from scipy.optimize import least_squares
 from shapely.geometry import Point,Polygon,LineString,mapping,shape,box
-from shapely.ops import transform,nearest_points,unary_union
+from shapely.ops import transform,nearest_points,unary_union,polylabel
 from shapely.affinity import translate
 R=Path(__file__).resolve().parents[1];D=R/'data';net=json.load(open(D/'network.json'))
 water={f['properties']['name']:shape(f['geometry']) for f in json.load(open(D/'geographic-lakes.geojson'))['features']}
@@ -21,17 +21,20 @@ for n in names:
  if g.geom_type=='MultiPolygon':g=max(g.geoms,key=lambda p:p.area)
  span=max(g.bounds[2]-g.bounds[0],g.bounds[3]-g.bounds[1]);g=Polygon(g.exterior).simplify(span*.009,preserve_topology=True)
  rows=[r for r in net['legs'] if r['mode']=='paddle' and r['from_lake']==n]
- duration=max((r['low_h']+r['high_h'])/2 for r in rows);durations[n]=duration
- target=18+18*math.sqrt(duration)
+ duration=max(((r['low_h']+r['high_h'])/2 for r in rows),default=math.sqrt(g.area)/2500);durations[n]=duration
+ target=22+20*math.sqrt(duration)
  xmin,ymin,xmax,ymax=g.bounds;cx=(xmin+xmax)/2;cy=(ymin+ymax)/2
- sx=target/(xmax-xmin);sy=max(8,min(19,target*((ymax-ymin)/(xmax-xmin))**.7))/(ymax-ymin)
+ sx=target/(xmax-xmin);sy=max(22,min(42,target*((ymax-ymin)/(xmax-xmin))**.7))/(ymax-ymin)
  xf[n]=(cx,cy,sx,sy)
  local[n]=transform(lambda x,y,z=None:((np.asarray(x)-cx)*sx,(np.asarray(y)-cy)*sy),g)
 def lp(n,p):
  cx,cy,sx,sy=xf[n];v=Point((p.x-cx)*sx,(p.y-cy)*sy)
  return nearest_points(v,local[n].boundary)[1]
 # Begin in approximately real geographic order, then allocate space by travel effort.
-cent=np.array([[water[n].centroid.x,water[n].centroid.y] for n in names]);anchor=(cent-cent.min(axis=0))/np.ptp(cent,axis=0)*np.array([470.,155.])
+cent=np.array([[water[n].centroid.x,water[n].centroid.y] for n in names]);anchor=(cent-cent.min(axis=0))/np.ptp(cent,axis=0)*np.array([1050.,650.])
+# Compress the empty northern gap while retaining the northward ordering.
+cap=np.percentile(anchor[:,1],90)+35
+anchor[:,1]=np.where(anchor[:,1]>cap,cap+(anchor[:,1]-cap)*.18,anchor[:,1])
 links=[]
 for c in net['connections']:
  i,j=index[c['from_lake']],index[c['to_lake']];a=np.array(lp(c['from_lake'],geo_lands[(c['from_lake'],c['id'])]).coords[0]);b=np.array(lp(c['to_lake'],geo_lands[(c['to_lake'],c['id'])]).coords[0])
@@ -41,38 +44,47 @@ for c in net['connections']:
  target/=min(1.5,sinuosity)
  direction=anchor[j]-anchor[i];direction/=np.linalg.norm(direction)
  links.append((i,j,a,b,target,direction))
-width={n:max(local[n].bounds[2]-local[n].bounds[0]+9,57 if len([r for r in net['legs'] if r['mode']=='paddle' and r['from_lake']==n])>3 else 40) for n in names}
+width={n:max(local[n].bounds[2]-local[n].bounds[0]+16,42) for n in names}
+pair_i,pair_j=np.triu_indices(len(names),1)
+reqx=np.array([(width[names[i]]+width[names[j]])/2 for i,j in zip(pair_i,pair_j)])
+reqy=np.array([(local[names[i]].bounds[3]-local[names[i]].bounds[1]+local[names[j]].bounds[3]-local[names[j]].bounds[1])/2+20 for i,j in zip(pair_i,pair_j)])
 def objective(flat):
- xy=flat.reshape(-1,2);res=list(((xy-anchor)*.085).ravel())
+ xy=flat.reshape(-1,2);res=list(((xy-anchor)*.3).ravel())
  for i,j,a,b,target,di in links:
-  d=xy[j]+b-xy[i]-a;res.append((np.linalg.norm(d)-target)*1.1)
+  d=xy[j]+b-xy[i]-a;res.append((np.linalg.norm(d)-target)*.35)
   between=xy[j]-xy[i];res.extend([.35*(between[0]*di[1]-between[1]*di[0]),max(0,-np.dot(between,di))])
- for i,j in itertools.combinations(range(len(names)),2):
-  delta=np.abs(xy[i]-xy[j]);reqx=(width[names[i]]+width[names[j]])/2;reqy=40
-  res.append(max(0,min(reqx-delta[0],reqy-delta[1]))*2)
+ delta=np.abs(xy[pair_i]-xy[pair_j]);res.extend((np.maximum(0,np.minimum(reqx-delta[:,0],reqy-delta[:,1]))*3).tolist())
  return res
-fit=least_squares(objective,anchor.ravel(),max_nfev=450,ftol=1e-6);xy=fit.x.reshape(-1,2)
+fit=least_squares(objective,anchor.ravel(),max_nfev=160,ftol=1e-6);xy=fit.x.reshape(-1,2)
 # Positive margins for headings/callouts; preserve the solved distances.
 xy-=xy.min(axis=0);xy+=np.array([45,35]);pos={n:tuple(xy[index[n]]) for n in names}
+# Small manual layout correction keeps the Horseshoe-Gaskin carry clear of Jump.
+if 'Jump' in pos:pos['Jump']=(pos['Jump'][0],pos['Jump'][1]-25)
 polys={n:translate(local[n],*pos[n]) for n in names}
-lakes=[];hatch=[];lake_names=[];times=[];ends=[]
+lakes=[];hatch=[];lake_names=[];times=[];ends=[];leaders=[];label_checks=[]
+# A single range refers to the longest modeled crossing on this lake.
+# Other landing-to-landing alternatives remain in the instructor register.
+from timing import rounded
+def compact(r):
+ a,b=rounded(r['low_h'],r['high_h']);return f'{a:g}-{b:g}'
 for n in names:
  x,y=pos[n];g=polys[n];xmin,ymin,xmax,ymax=g.bounds
- lakes.append(feat(g,name=n,source='simplified DNR footprint',crossing_mid_hours=durations[n],width_rule='18 + 18 sqrt(representative hours)',area_km2=water[n].area/1e6))
+ lakes.append(feat(g,name=n,source='simplified DNR footprint',crossing_mid_hours=durations[n],width_rule='22 + 20 sqrt(representative hours)',area_km2=water[n].area/1e6))
  yy=ymin+.5
  while yy<ymax:
   clip=LineString([(xmin-1,yy),(xmax+1,yy)]).intersection(g.buffer(-.25))
   for gg in list(clip.geoms) if hasattr(clip,'geoms') else [clip]:
    if gg.geom_type=='LineString' and not gg.is_empty:hatch.append(feat(gg,lake=n))
-  yy+=.8
- lake_names.append(label(x,ymax+5,('West Bearskin' if n=='Bearskin' else n)+' Lake'))
- rows=[r for r in net['legs'] if r['mode']=='paddle' and r['from_lake']==n]
- for j,r in enumerate(rows):
-  col=j//3 if len(rows)>3 else 0;row=j%3 if len(rows)>3 else j
-  tx=x+(-17 if col==0 else 17) if len(rows)>3 else x;ty=ymin-5-row*3.9
-  display='same landing' if r['distance_m']<1 else r['display']
-  times.append(label(tx,ty,f"{r['from_point']}-{r['to_point']}  {display}",leg_id=r['id']))
- for eid in ['S','T']:
+  yy+=1.7
+ rows=[r for r in net['legs'] if r['mode']=='paddle' and r['from_lake']==n and r['distance_m']>=1]
+ r=max(rows,key=lambda r:r['distance_m']) if rows else None
+ text=('West Bearskin' if n=='Bearskin' else n)
+ c=polylabel(g,tolerance=.5)
+ # A name and range travel together. If the name cannot fit inside, the
+ # complete block gets a leader to this specific lake in the placement pass.
+ lake_names.append(label(c.x,c.y+2.8,text,lake=n))
+ if r:times.append(label(c.x,c.y-3.1,compact(r),lake=n,leg_id=r['id'],from_point=r['from_point'],to_point=r['to_point']))
+ for eid in ['S']:
   if (n,eid) in geo_lands:ends.append(label(xmin-3,y,eid))
 carry=[];rivers=[];linklabels=[];diagram_landings=[];geometry_checks=[]
 for c in net['connections']:
@@ -91,7 +103,7 @@ for c in net['connections']:
  for n,p in [(na,a),(nb,b)]:diagram_landings.append(feat(Point(p),lake=n,id=c['id']))
  geometry_checks.append({'id':c['id'],'source_vertices':len(coords),'diagram_vertices':len(g.coords),'start_boundary_gap':Point(a).distance(polys[na].boundary),'end_boundary_gap':Point(b).distance(polys[nb].boundary)})
  mid=g.interpolate(.5,normalized=True);tx,ty=mid.x+normal[0]*7,mid.y+normal[1]*7
- suffix='*' if c['approximate'] else '';s=f"{c['id']}{suffix}  ~{c['rod_count']} rd\n{c['display']}" if c['mode']=='carry' else f"{c['id']}  {c['mode']}\n{c['display']}"
+ suffix='*' if c['approximate'] else '';s=f"{c['id']}{suffix}  {compact(c)}"
  linklabels.append(label(tx,ty,s,connection_id=c['id']))
 # Reserve actual footprint and label spaces before placing passage annotations.
 obstacles=unary_union(list(polys.values()));paths=unary_union([shape(f['geometry']) for f in carry+rivers]);occupied=[]
@@ -101,43 +113,80 @@ def text_box(f,size=8):
 def shifted(f,dx,dy):
  p=f['properties'].copy();p['x']+=dx;p['y']+=dy
  return feat(Point(p['x'],p['y']),**p)
-for f in lake_names:occupied.append(text_box(f,12))
 for f in ends:occupied.append(text_box(f,9))
-def cost(rects,dx=0,dy=0):
- u=unary_union(rects)
- return 60*u.intersection(obstacles).area+15*sum(u.intersection(g).area for g in occupied)+12*u.intersection(paths).length+.5*math.hypot(dx,dy)
-# Move crossing groups together, retaining an obvious association with each lake.
-placed=[]
-for n in names:
- ids={r['id'] for r in net['legs'] if r['mode']=='paddle' and r['from_lake']==n};fs=[f for f in times if f['properties']['leg_id'] in ids]
- candidates=[]
- for dx in [0,-6,6,-12,12,-18,18]:
-  for dy in [0,-5,5,-10,10,-16,16]:
-   moved=[shifted(f,dx,dy) for f in fs];rects=[text_box(f) for f in moved];candidates.append((cost(rects,dx,dy),moved,rects))
- _,moved,rects=min(candidates,key=lambda t:t[0]);placed.extend(moved);occupied.extend(rects)
-times=placed
+def cost(rects,dx=0,dy=0,own=None):
+ u=unary_union(rects);obs=obstacles if own is None else obstacles.difference(polys[own])
+ return 60*u.intersection(obs).area+30*sum(u.intersection(g).area for g in occupied)+12*u.intersection(paths).length+.5*math.hypot(dx,dy)
+new_names=[];new_times=[]
+for nf in sorted(lake_names,key=lambda f:-len(f['properties']['label'])):
+ n=nf['properties']['lake'];g=polys[n];tf=next((t for t in times if t['properties']['lake']==n),None);fs=[nf]+([tf] if tf else [])
+ # Time alone fits many irregular arms even when the lake name does not.
+ if tf:
+  c=polylabel(g,tolerance=.2);inside=label(c.x,c.y,tf['properties']['label'],**{k:v for k,v in tf['properties'].items() if k not in ['x','y','label']})
+  if g.buffer(-.3).covers(text_box(inside,9)):
+   new_times.append(inside);occupied.append(text_box(inside,9));tf=None;fs=[nf]
+ rects=[text_box(nf,11)]+([text_box(tf,9)] if tf else [])
+ if g.buffer(-.5).covers(unary_union(rects)) and cost(rects,own=n)<1:
+  moved=fs;chosen=rects;external=False
+ else:
+  candidates=[]
+  # Prefer just above or below the shoreline, then nearby sides.
+  for x,y in [(g.centroid.x,g.bounds[3]+8),(g.centroid.x,g.bounds[1]-8),(g.bounds[0]-15,g.centroid.y),(g.bounds[2]+15,g.centroid.y)]:
+   for dx in [0,-10,10,-20,20]:
+    for dy in [0,-8,8]:
+     sx=x+dx-nf['properties']['x'];sy=y+dy-nf['properties']['y'];m=[shifted(f,sx,sy) for f in fs];rr=[text_box(m[0],11)]+([text_box(m[1],9)] if tf else [])
+     candidates.append((cost(rr,sx,sy)+50*max(0,3-g.distance(unary_union(rr))),m,rr))
+  _,moved,chosen=min(candidates,key=lambda z:z[0]);external=True
+ new_names.append(moved[0]);new_times.extend(moved[1:]);occupied.extend(chosen)
+ if external:
+  # Use the actual name rectangle, never the blank envelope between lines.
+  block=chosen[0];start,end=nearest_points(block,g)
+  if start.distance(end)>.1:leaders.append(feat(LineString([start,end]),lake=n,kind='lake-label'))
+  if tf:
+   start,end=nearest_points(chosen[1],g)
+   if start.distance(end)<=.1:start=shape(moved[1]['geometry']);end=nearest_points(start,g)[1]
+   if start.distance(end)>.1:leaders.append(feat(LineString([start,end]),lake=n,kind='time-label'))
+ label_checks.append({'lake':n,'external':external,'label_x':moved[0]['properties']['x'],'label_y':moved[0]['properties']['y'],'representative_leg':next((t['properties']['leg_id'] for t in new_times if t['properties']['lake']==n),None)})
+lake_names=new_names;times=new_times
 placed=[]
 for f in linklabels:
  c=next(c for c in carry+rivers if c['properties']['id']==f['properties']['connection_id']);g=shape(c['geometry']);pts=np.array(g.coords);direction=pts[-1]-pts[0];direction/=max(np.linalg.norm(direction),.01);normal=np.array([-direction[1],direction[0]]);candidates=[]
  for t in [.5,.35,.65,.2,.8]:
   mid=g.interpolate(t,normalized=True)
-  for offset in [7,-7,11,-11,15,-15]:
+  for offset in [4,-4,7,-7,11,-11]:
    x,y=np.array(mid.coords[0])+normal*offset;nf=label(x,y,f['properties']['label'],connection_id=f['properties']['connection_id']);rect=text_box(nf)
    candidates.append((cost([rect])+abs(offset-7)*.2+abs(t-.5)*6,nf,rect))
  _,nf,rect=min(candidates,key=lambda t:t[0]);placed.append(nf);occupied.append(rect)
+ start,end=nearest_points(rect,g)
+ if start.distance(end)>2:leaders.append(feat(LineString([start,end]),connection_id=f['properties']['connection_id'],kind='carry-label'))
 linklabels=placed
-hills=[];hilllabels=[];source={f['properties']['id']:f for f in json.load(open(D/'geographic-high-points.geojson'))['features']}
-for id in ['H01','H04','H08','H10','H12']:
- f=source[id];p=f['properties'];n=p['near_lake'];gp=shape(f['geometry']);cx,cy,sx,sy=xf[n];x0=pos[n][0]+(gp.x-cx)*sx;y0=polys[n].bounds[3]+17 if gp.y>cy else polys[n].bounds[1]-26;e=5*round(p['elevation_m']/5);candidates=[]
- for dx in [0,-7,7,-14,14,-21,21]:
-  for dy in [0,-7,7,-14,14]:
-   x,y=x0+dx,y0+dy;nf=label(x,y-6,f'{id}  ~{e} m',source_id=id,near_lake=n,visibility=p['visibility']);rects=[box(x-5,y-3,x+6,y+4),text_box(nf)];candidates.append((cost(rects,dx,dy),x,y,nf,rects))
- _,x,y,nf,rects=min(candidates,key=lambda t:t[0]);occupied.extend(rects)
- hills.append(feat(LineString([(x-4,y-3),(x,y+3),(x+5,y-3)]),id=id))
- for i in range(9):
-  dx=-4+i;top=y+3-abs(dx)*1.2;hills.append(feat(LineString([(x+dx,top),(x+dx+1.6,top-3)]),id=id))
- hilllabels.append(nf)
-for n,f in [('lakes',lakes),('hatching',hatch),('names',lake_names),('paddle-times',times),('endpoints',ends),('carries',carry),('rivers',rivers),('carry-times',linklabels),('hills',hills),('hill-labels',hilllabels)]:save(n,f)
-bounds=[min(g.bounds[0] for g in polys.values())-20,min(g.bounds[1] for g in polys.values())-35,max(g.bounds[2] for g in polys.values())+20,max(g.bounds[3] for g in polys.values())+30]
-(D/'diagram-positions.json').write_text(json.dumps(pos,indent=2));(D/'diagram-layout.json').write_text(json.dumps({'bounds':bounds,'method':'source footprints + sqrt(time) spacing stress with geographic order and legibility constraints','connection_checks':geometry_checks},indent=2))
+hills=[];hilllabels=[]
+# Only researched landmarks enter the student diagram. Generic DEM summits stay
+# in the geographic evidence project, hidden by default.
+from pyproj.transformer import TransformerGroup
+ll_to_utm=next(t for t in TransformerGroup(4326,26915,always_xy=True).transformers if '(1)' in t.description)
+research=R/'sources/landmarks-research.json'
+if research.exists():
+ records=json.load(open(research));records=records.get('landmarks',[]) if isinstance(records,dict) else records
+ for p in records:
+  n=p['lake']
+  if n not in polys:continue
+  g=polys[n];gx,gy=ll_to_utm.transform(p['lon'],p['lat']);cx,cy,sx,sy=xf[n];shore=lp(n,Point(gx,gy));x0=pos[n][0]+shore.x;y0=pos[n][1]+shore.y;direction=np.array([x0-g.centroid.x,y0-g.centroid.y]);direction/=max(np.linalg.norm(direction),.1);x0+=direction[0]*16;y0+=direction[1]*16;candidates=[]
+  caption=('Rose Falls' if p['id']=='rose-falls' else p['name'])+(' (walk)' if p['visibility']!='water-visible' else '')
+  for dx in [0,-16,16,-32,32]:
+   for dy in [0,12,24,-45,-57]:
+    x,y=x0+dx,y0+dy;nf=label(x,y-6,caption,source_id=p['id'],near_lake=n,visibility=p['visibility']);rr=[box(x-5,y-3,x+6,y+4),text_box(nf,9)];candidates.append((cost(rr,dx,dy),x,y,nf,rr))
+  _,x,y,nf,rr=min(candidates,key=lambda t:t[0]);occupied.extend(rr)
+  if 'fall' in p['kind'].lower() or 'fall' in p['name'].lower():
+   for dy in [-2,0,2]:hills.append(feat(LineString([(x-4,y+dy),(x,y+dy),(x+1,y+dy-3),(x+4,y+dy-3)]),id=p['id']))
+  else:
+   hills.append(feat(LineString([(x-4,y-3),(x,y+3),(x+5,y-3)]),id=p['id']))
+   for i in range(7):
+    dx=-3+i;top=y+3-abs(dx)*1.2;hills.append(feat(LineString([(x+dx,top),(x+dx+1.4,top-3)]),id=p['id']))
+  hilllabels.append(nf)
+  a,b=nearest_points(unary_union(rr).envelope,g);leaders.append(feat(LineString([a,b]),lake=n,landmark_id=p['id'],kind='landmark-association'))
+for n,f in [('lakes',lakes),('hatching',hatch),('names',lake_names),('paddle-times',times),('endpoints',ends),('carries',carry),('rivers',rivers),('carry-times',linklabels),('hills',hills),('hill-labels',hilllabels),('leaders',leaders)]:save(n,f)
+all_bounds=list(polys.values())+occupied
+bounds=[min(g.bounds[0] for g in all_bounds)-15,min(g.bounds[1] for g in all_bounds)-15,max(g.bounds[2] for g in all_bounds)+15,max(g.bounds[3] for g in all_bounds)+15]
+(D/'diagram-positions.json').write_text(json.dumps(pos,indent=2));(D/'diagram-layout.json').write_text(json.dumps({'bounds':bounds,'method':'source footprints + sqrt(time) spacing stress with geographic order and legibility constraints','connection_checks':geometry_checks,'label_checks':label_checks},indent=2))
 print('Organic schematic:',len(lakes),'lakes;',len(times),'crossings; bounds',bounds,'size',bounds[2]-bounds[0],bounds[3]-bounds[1],flush=True)

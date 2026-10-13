@@ -10,7 +10,7 @@ def check(ok,message):
  checks.append(message)
 A=json.load(open(D/'assumptions.json'))
 net=json.load(open(D/'network.json'));lookup={r['id']:r for r in net['legs']}
-check(len(net['lakes'])==22,'22 named lakes');check(len(net['connections'])==23,'23 supported connections')
+check(len(net['lakes'])==80,'80 named lakes');check(len(set(net['lakes']))==80,'80 unique lake identities');check(len(net['connections'])>=23,'original connections plus sourced expansion')
 water={f['properties']['name']:shape(f['geometry']) for f in json.load(open(D/'geographic-lakes.geojson'))['features']}
 lands={(f['properties']['lake'],f['properties']['point_id']):shape(f['geometry']) for f in json.load(open(D/'geographic-landings.geojson'))['features']}
 for f in json.load(open(D/'geographic-paddles.geojson'))['features']:
@@ -39,6 +39,35 @@ for route in net['routes']:
 for c in json.load(open(D/'diagram-layout.json'))['connection_checks']:
  check(c['start_boundary_gap']<1e-6 and c['end_boundary_gap']<1e-6,c['id']+' distorted carry attaches to source-corresponding shores')
  check(c['source_vertices']>=2 and c['diagram_vertices']>=2,c['id']+' source-shaped curve retained with shoreline clipping')
+
+labels=json.load(open(D/'schematic-names.json'))['features']
+check({f['properties']['lake'] for f in labels}==set(net['lakes']),'one explicitly associated name per lake')
+times=json.load(open(D/'schematic-paddle-times.json'))['features']
+check(len({f['properties']['lake'] for f in times})==len(times),'at most one time range per lake')
+for f in times:
+ p=f['properties'];r=lookup[p['leg_id']]
+ check(p['lake']==r['from_lake'],'time range belongs to '+p['lake'])
+ check(not any(t in p['label'] for t in [' h',' rd','landing']),'compact time label '+p['lake'])
+diagram_water={f['properties']['name']:shape(f['geometry']) for f in json.load(open(D/'schematic-lakes.json'))['features']}
+leaders=json.load(open(D/'schematic-leaders.json'))['features']
+for f in json.load(open(D/'schematic-carries.json'))['features']+json.load(open(D/'schematic-rivers.json'))['features']:
+ props=f['properties'];line=shape(f['geometry'])
+ wrong=[n for n,g in diagram_water.items() if n not in [props['from_lake'],props['to_lake']] and line.intersection(g).length>.01]
+ check(not wrong,'carry avoids unrelated lakes: '+props['id'])
+
+for f in times:
+ n=f['properties']['lake'];inside=diagram_water[n].covers(shape(f['geometry']))
+ has_leader=any(l['properties'].get('lake')==n and l['properties']['kind'] in ['time-label','lake-label'] for l in leaders)
+ check(inside or has_leader,'time inside lake or linked explicitly: '+n)
+landmarks=json.load(open(D/'schematic-hill-labels.json'))['features']
+check(len(landmarks)==8,'eight researched landmarks rendered')
+check(sum(f['properties']['visibility']=='water-visible' for f in landmarks)==5,'five documented water-visible landmarks')
+for f in json.load(open(D/'schematic-leaders.json'))['features']:
+ p=f['properties']
+ if p['kind'] in ['lake-label','time-label']:
+  lake=next(shape(x['geometry']) for x in json.load(open(D/'schematic-lakes.json'))['features'] if x['properties']['name']==p['lake'])
+  check(Point(shape(f['geometry']).coords[-1]).distance(lake)<1e-6,'leader touches intended lake '+p['lake'])
+
 app=QgsApplication([],False);app.initQgis()
 def project(root,fn):
  p=QgsProject();check(p.read(str(root/fn)),fn+' reopens')
@@ -48,7 +77,7 @@ def project(root,fn):
   check(l.crs()==p.crs(),fn+' layer CRS matches project '+l.name())
  if fn.startswith('journey'):
   check(not p.crs().isGeographic() and 'GEOGCRS' not in p.crs().toWkt(),fn+' engineering CRS, not geographic')
-  check(len(p.layoutManager().layouts())==5,fn+' five native editable layouts')
+  check(len(p.layoutManager().layouts())==2+math.ceil(len(net['legs'])/26),fn+' all native editable layouts')
   check(all('diagram.gpkg' in l.source() for l in p.mapLayers().values()),fn+' all diagram layers use local-CRS GeoPackage')
  else:check(p.crs().authid()=='EPSG:26915',fn+' real UTM geographic evidence')
  return p

@@ -25,6 +25,15 @@ for f in hydro:
   g=shapely.make_valid(transform(t.transform,shape(f['geometry'])))
   w[n]=unary_union([w[n],g]) if n in w else g
 assert set(w)==set(names)
+original_names=names.copy()
+# Explicit object IDs prevent accidental merging of separate lakes sharing names.
+selection=json.load(open(S/'expanded-selection.json'))
+expanded_hydro={f['properties']['objectid']:f for f in json.load(open(S/'expanded-hydrography.geojson'))['features']}
+for item in selection:
+ n=item['name'];assert n not in w,n
+ w[n]=unary_union([shapely.make_valid(transform(t.transform,shape(expanded_hydro[oid]['geometry']))) for oid in item['objectids']])
+ names.append(n)
+assert len(names)==80 and len(set(names))==80
 def feat(g,**p):return {'type':'Feature','geometry':mapping(g),'properties':p}
 def save(name,features):
  (D/(name+'.geojson')).write_text(json.dumps({'type':'FeatureCollection','crs':{'type':'name','properties':{'name':'urn:ogc:def:crs:EPSG::26915'}},'features':features}))
@@ -55,13 +64,32 @@ for cid,a,b,oid in [('k','Clearwater','Mountain',9720610),('l','Mountain','Watap
  assert max(p.distance(w[a]),q.distance(w[b]))<30,(cid,p.distance(w[a]),q.distance(w[b]))
  add(cid,a,b,g,p,q,'Complete USFS geometry; shoreline-derived landings',f'USFS objectid {oid}')
 p,q=nearest_points(w['Watap'],w['Rove']);add('m','Watap','Rove',LineString([p,q]),p,q,'Narrow water connection; DNR polygons separated by 3.6 m; not a portage','DNR hydrography + Parks Canada Morse canoe-route history',True,'narrows')
+# Reviewed manifest requires agreement with the USFS trail name, not proximity alone.
+expanded_trails={f['attributes']['objectid']:f for f in json.load(open(S/'expanded-usfs.json'))['features']}
+for item in json.load(open(S/'expanded-portages.json')):
+ oid=item['objectid'];a=item['from_lake'];b=item['to_lake'];f=expanded_trails[oid]
+ assert f['attributes']['trail_name']==item['trail_name']
+ assert len(f['geometry']['paths'])==1
+ g=transform(t.transform,LineString(f['geometry']['paths'][0]));p,q=Point(g.coords[0]),Point(g.coords[-1])
+ assert max(p.distance(w[a]),q.distance(w[b]))<=30,(oid,a,b)
+ add(item['id'],a,b,g,p,q,'Complete named USFS portage geometry; shoreline-derived landings',f"USFS objectid {oid}: {item['trail_name']}")
 start=shape(json.load(open(S/'start.geojson'))['features'][0]['geometry']);endpoints['Clearwater']['S']=start
 for n in names:
  if len(endpoints[n])==1 or n=='Rose':endpoints[n]['T']=w[n].representative_point()
-paths=[];pairs={}
+paths=[];pairs={};omitted_pairs=[];failed_pairs=[]
 for n in names:
- for a,b in itertools.combinations(sorted(endpoints[n]),2):
-  line=waterpath(w[n],endpoints[n][a],endpoints[n][b]);length=line.length
+ all_pairs=list(itertools.combinations(sorted(endpoints[n]),2))
+ # A star plus adjacent landing pairs gives useful examples without a quadratic panel.
+ chosen=all_pairs
+ if n not in original_names and len(endpoints[n])>4:
+  points=sorted(endpoints[n]);chosen=list(dict.fromkeys([(points[0],p) for p in points[1:]]+list(zip(points[1:],points[2:]))))
+  omitted_pairs.extend(dict(lake=n,from_point=a,to_point=b,reason='Representative landing-pair selection') for a,b in all_pairs if (a,b) not in chosen)
+ for a,b in chosen:
+  try:line=waterpath(w[n],endpoints[n][a],endpoints[n][b])
+  except (ValueError,AssertionError) as exc:
+   if n in original_names and not (a.startswith('A') or b.startswith('A')):raise
+   failed_pairs.append(dict(lake=n,from_point=a,to_point=b,reason=str(exc)));continue
+  length=line.length
   # Larger allowance for shoreline complexity measured along a feasible base path.
   direct=endpoints[n][a].distance(endpoints[n][b]);ratio=length/max(direct,1)
   low,high=(.20,.35) if ratio>1.1 else (.15,.30)
@@ -87,11 +115,11 @@ for cid in ['k','l','m','n']:
 legs.append(pairs[('Rose',*sorted(['n','T']))]['id']);legs=legs+list(reversed(legs));lookup={x['id']:x for x in records}
 lo=sum(lookup[x]['low_h'] for x in legs);hi=sum(lookup[x]['high_h'] for x in legs)
 routes.append(dict(name='C - Rose out and back',legs=legs,low_h=lo,high_h=hi,display=hours(lo,hi)))
-save('geographic-lakes',[feat(g,name=n,area_km2=g.area/1e6) for n,g in w.items()]);save('geographic-connections',geoc);save('geographic-paddles',paths)
+save('geographic-lakes',[feat(g,name=n,area_km2=g.area/1e6,connection_count=sum(n in [c['from_lake'],c['to_lake']] for c in connections),context_only=not bool(endpoints[n])) for n,g in w.items()]);save('geographic-connections',geoc);save('geographic-paddles',paths)
 save('geographic-modeled-connections',modeled)
 save('geographic-landings',[feat(p,lake=n,point_id=k,kind='Hypothetical turn point' if k=='T' else 'Departure' if k=='S' else 'Source-derived landing') for n,pts in endpoints.items() for k,p in pts.items()])
 shutil.copy2(S/'high-points.geojson',D/'geographic-high-points.geojson')
-(D/'network.json').write_text(json.dumps(dict(lakes=names,connections=connections,legs=records,routes=routes),indent=2));(D/'assumptions.json').write_text(json.dumps(ASSUMPTIONS,indent=2))
+(D/'network.json').write_text(json.dumps(dict(lakes=names,connections=connections,legs=records,routes=routes,coverage=dict(source_extent_wgs84=[-90.95,47.85,-90.28,48.2],context_only_lakes=[n for n in names if not endpoints[n]],omitted_paddle_pairs=omitted_pairs,failed_paddle_pairs=failed_pairs,portage_acceptance='Reviewed named USFS trail; both ends within 30 metres of corresponding DNR water polygon',paddle_selection='All original lake pairs; star plus adjacent landing pairs for added lakes with more than four landings')),indent=2));(D/'assumptions.json').write_text(json.dumps(ASSUMPTIONS,indent=2))
 keys=list(dict.fromkeys(k for r in records for k in r))
 with (D/'leg-times.csv').open('w') as f:
  out=csv.DictWriter(f,keys,lineterminator="\n");out.writeheader();out.writerows(records)

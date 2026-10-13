@@ -1,9 +1,9 @@
 {
   "bounds": [
-    7.1004751202364815,
-    -6.109214299276871,
-    459.7920866958524,
-    214.46873897063435
+    5.592764379808216,
+    9.0,
+    1129.822181483829,
+    609.0426993070762
   ],
   "method": "source footprints + sqrt(time) spacing stress with geographic order and legibility constraints",
   "connection_checks": [
@@ -11,162 +11,1081 @@
       "id": "a",
       "source_vertices": 9,
       "diagram_vertices": 9,
-      "start_boundary_gap": 9.643942653622439e-15,
-      "end_boundary_gap": 6.625110162608401e-15
+      "start_boundary_gap": 1.1456002490124755e-14,
+      "end_boundary_gap": 1.2535159909409066e-14
     },
     {
       "id": "b",
       "source_vertices": 6,
       "diagram_vertices": 5,
-      "start_boundary_gap": 4.026784552496875e-15,
-      "end_boundary_gap": 5.476662627970187e-15
+      "start_boundary_gap": 1.9685188959022328e-14,
+      "end_boundary_gap": 2.2981098808590926e-15
     },
     {
       "id": "c",
       "source_vertices": 7,
       "diagram_vertices": 6,
-      "start_boundary_gap": 1.732382524858419e-14,
-      "end_boundary_gap": 6.965156088322464e-15
+      "start_boundary_gap": 1.483170959731007e-14,
+      "end_boundary_gap": 1.6516106320450344e-14
     },
     {
       "id": "d",
       "source_vertices": 11,
       "diagram_vertices": 11,
-      "start_boundary_gap": 6.0873902292852286e-15,
-      "end_boundary_gap": 6.7675229361591225e-15
+      "start_boundary_gap": 5.468816120887524e-14,
+      "end_boundary_gap": 2.1504987514544354e-15
     },
     {
       "id": "e",
       "source_vertices": 2,
       "diagram_vertices": 2,
-      "start_boundary_gap": 1.5456738128128472e-14,
-      "end_boundary_gap": 8.017977382602685e-15
+      "start_boundary_gap": 1.389791869072257e-14,
+      "end_boundary_gap": 3.219120211482064e-14
     },
     {
       "id": "f",
       "source_vertices": 2,
       "diagram_vertices": 2,
-      "start_boundary_gap": 1.2586770715196823e-15,
-      "end_boundary_gap": 2.1015429206943215e-15
+      "start_boundary_gap": 6.556509175503316e-14,
+      "end_boundary_gap": 1.615069339092559e-13
     },
     {
       "id": "g",
       "source_vertices": 2,
       "diagram_vertices": 2,
-      "start_boundary_gap": 1.5415778668994657e-14,
-      "end_boundary_gap": 1.6184200711325496e-15
+      "start_boundary_gap": 3.8157440046107177e-14,
+      "end_boundary_gap": 5.172462054113929e-14
     },
     {
       "id": "h",
       "source_vertices": 4,
       "diagram_vertices": 4,
-      "start_boundary_gap": 3.5516609018291176e-15,
-      "end_boundary_gap": 4.794452462387931e-15
+      "start_boundary_gap": 5.159388928631891e-14,
+      "end_boundary_gap": 1.3957267563961275e-14
     },
     {
       "id": "i",
       "source_vertices": 2,
       "diagram_vertices": 2,
-      "start_boundary_gap": 1.448133899173492e-14,
-      "end_boundary_gap": 2.288134077092678e-15
+      "start_boundary_gap": 9.703741318958794e-15,
+      "end_boundary_gap": 4.387913415894696e-15
     },
     {
       "id": "j",
       "source_vertices": 8,
       "diagram_vertices": 8,
-      "start_boundary_gap": 1.7499767930313383e-14,
-      "end_boundary_gap": 6.750148523084226e-15
+      "start_boundary_gap": 1.548564706077304e-14,
+      "end_boundary_gap": 4.370603886323249e-15
     },
     {
       "id": "k",
       "source_vertices": 6,
       "diagram_vertices": 6,
-      "start_boundary_gap": 1.5803644207619872e-14,
-      "end_boundary_gap": 5.121305731115039e-16
+      "start_boundary_gap": 8.908436756426813e-15,
+      "end_boundary_gap": 3.356537832177452e-14
     },
     {
       "id": "l",
       "source_vertices": 3,
       "diagram_vertices": 3,
-      "start_boundary_gap": 1.0691937232028712e-15,
-      "end_boundary_gap": 2.4876522162259953e-14
+      "start_boundary_gap": 5.062595274404604e-14,
+      "end_boundary_gap": 1.9478273986616613e-14
     },
     {
       "id": "n",
       "source_vertices": 25,
       "diagram_vertices": 25,
-      "start_boundary_gap": 2.7281465011917623e-15,
-      "end_boundary_gap": 1.607777802027759e-15
+      "start_boundary_gap": 2.947610103448904e-14,
+      "end_boundary_gap": 1.8911142859624642e-14
     },
     {
       "id": "o",
       "source_vertices": 4,
-      "diagram_vertices": 4,
-      "start_boundary_gap": 4.333852204295017e-15,
-      "end_boundary_gap": 8.452862517365452e-15
+      "diagram_vertices": 3,
+      "start_boundary_gap": 4.940842034962387e-15,
+      "end_boundary_gap": 2.2907856195662178e-14
     },
     {
       "id": "p",
       "source_vertices": 22,
       "diagram_vertices": 22,
-      "start_boundary_gap": 6.842603519762394e-15,
-      "end_boundary_gap": 9.037650032636782e-15
+      "start_boundary_gap": 6.160167772840436e-14,
+      "end_boundary_gap": 3.338550466875946e-14
     },
     {
       "id": "q",
       "source_vertices": 3,
       "diagram_vertices": 3,
-      "start_boundary_gap": 1.536557762883804e-15,
-      "end_boundary_gap": 4.111124144178592e-15
+      "start_boundary_gap": 2.8691039738177398e-15,
+      "end_boundary_gap": 2.924850270211103e-14
     },
     {
       "id": "r",
       "source_vertices": 3,
       "diagram_vertices": 3,
-      "start_boundary_gap": 3.8618559610826965e-15,
-      "end_boundary_gap": 8.727495253597662e-15
+      "start_boundary_gap": 2.1795721636579328e-14,
+      "end_boundary_gap": 5.654338980925269e-15
     },
     {
       "id": "s",
       "source_vertices": 8,
       "diagram_vertices": 8,
-      "start_boundary_gap": 1.1378651495354354e-15,
-      "end_boundary_gap": 6.233134232129653e-15
+      "start_boundary_gap": 4.8419764742726346e-14,
+      "end_boundary_gap": 2.853806986853108e-14
     },
     {
       "id": "t",
       "source_vertices": 5,
       "diagram_vertices": 5,
-      "start_boundary_gap": 4.213057897208263e-15,
-      "end_boundary_gap": 1.8334799308027965e-15
+      "start_boundary_gap": 2.2874334082337017e-14,
+      "end_boundary_gap": 3.3729274065607324e-14
     },
     {
       "id": "u",
       "source_vertices": 4,
       "diagram_vertices": 4,
-      "start_boundary_gap": 3.788693417925481e-15,
-      "end_boundary_gap": 9.106914641577244e-15
+      "start_boundary_gap": 2.0215536917757133e-14,
+      "end_boundary_gap": 3.013115442821953e-14
     },
     {
       "id": "v",
       "source_vertices": 3,
       "diagram_vertices": 3,
-      "start_boundary_gap": 2.8859666613936877e-15,
-      "end_boundary_gap": 1.5480297176676205e-14
+      "start_boundary_gap": 1.0956756173813993e-14,
+      "end_boundary_gap": 3.686294814659604e-15
     },
     {
       "id": "w",
       "source_vertices": 5,
       "diagram_vertices": 3,
-      "start_boundary_gap": 2.203845297761768e-14,
-      "end_boundary_gap": 2.1322763327755735e-14
+      "start_boundary_gap": 4.0002630039324893e-16,
+      "end_boundary_gap": 2.5716565389737513e-14
     },
     {
       "id": "m",
       "source_vertices": 2,
       "diagram_vertices": 2,
-      "start_boundary_gap": 8.283809770013211e-15,
-      "end_boundary_gap": 6.431990513424028e-16
+      "start_boundary_gap": 4.8645984095551815e-14,
+      "end_boundary_gap": 0.0
+    },
+    {
+      "id": "A01",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 6.955418090720624e-16,
+      "end_boundary_gap": 3.544377028594739e-14
+    },
+    {
+      "id": "A02",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 5.325248560037332e-15,
+      "end_boundary_gap": 8.046969231411805e-15
+    },
+    {
+      "id": "A03",
+      "source_vertices": 5,
+      "diagram_vertices": 5,
+      "start_boundary_gap": 4.684326856302136e-14,
+      "end_boundary_gap": 2.5806612327454168e-14
+    },
+    {
+      "id": "A04",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.0499439452821064e-13,
+      "end_boundary_gap": 8.099842191536045e-15
+    },
+    {
+      "id": "A05",
+      "source_vertices": 10,
+      "diagram_vertices": 7,
+      "start_boundary_gap": 1.4373545189200206e-14,
+      "end_boundary_gap": 1.56282457621984e-14
+    },
+    {
+      "id": "A06",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.880096327707829e-14,
+      "end_boundary_gap": 2.602151233234846e-15
+    },
+    {
+      "id": "A07",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.6261427272591744e-14,
+      "end_boundary_gap": 7.083164467661661e-15
+    },
+    {
+      "id": "A08",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 4.5710549541299097e-14,
+      "end_boundary_gap": 1.5825112198014996e-14
+    },
+    {
+      "id": "A09",
+      "source_vertices": 6,
+      "diagram_vertices": 6,
+      "start_boundary_gap": 1.3652037876519539e-14,
+      "end_boundary_gap": 2.4193262340221397e-14
+    },
+    {
+      "id": "A10",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 2.125221581833569e-14,
+      "end_boundary_gap": 1.4732993232509095e-14
+    },
+    {
+      "id": "A11",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 2.117046456179675e-14,
+      "end_boundary_gap": 2.6054866256071348e-14
+    },
+    {
+      "id": "A12",
+      "source_vertices": 6,
+      "diagram_vertices": 6,
+      "start_boundary_gap": 1.3322610069550787e-14,
+      "end_boundary_gap": 4.893249122006865e-15
+    },
+    {
+      "id": "A13",
+      "source_vertices": 5,
+      "diagram_vertices": 5,
+      "start_boundary_gap": 4.719265136804696e-15,
+      "end_boundary_gap": 7.684075631486706e-16
+    },
+    {
+      "id": "A14",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 4.9619501383568825e-14,
+      "end_boundary_gap": 6.193635101333264e-15
+    },
+    {
+      "id": "A15",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.71791736610906e-14,
+      "end_boundary_gap": 1.7803760985669666e-15
+    },
+    {
+      "id": "A16",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 7.385918272684984e-17,
+      "end_boundary_gap": 5.98242880117779e-14
+    },
+    {
+      "id": "A17",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 6.378217761233081e-14,
+      "end_boundary_gap": 3.1945901036316794e-14
+    },
+    {
+      "id": "A18",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.3588974714685009e-14,
+      "end_boundary_gap": 1.3836991320932746e-14
+    },
+    {
+      "id": "A19",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.4977074335254736e-14,
+      "end_boundary_gap": 5.789282518756877e-15
+    },
+    {
+      "id": "A20",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.6394883487856592e-14,
+      "end_boundary_gap": 1.2277982843115172e-14
+    },
+    {
+      "id": "A21",
+      "source_vertices": 7,
+      "diagram_vertices": 7,
+      "start_boundary_gap": 8.796525925092875e-15,
+      "end_boundary_gap": 8.882375878684197e-17
+    },
+    {
+      "id": "A22",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 2.336345280813126e-14,
+      "end_boundary_gap": 1.4582447204418672e-14
+    },
+    {
+      "id": "A23",
+      "source_vertices": 9,
+      "diagram_vertices": 9,
+      "start_boundary_gap": 3.5410430652797087e-14,
+      "end_boundary_gap": 1.4831381467609323e-14
+    },
+    {
+      "id": "A24",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.5257463468668337e-14,
+      "end_boundary_gap": 1.1246573755695302e-14
+    },
+    {
+      "id": "A25",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 4.261736034746526e-15,
+      "end_boundary_gap": 6.036292142012458e-15
+    },
+    {
+      "id": "A26",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.5282865799321416e-14,
+      "end_boundary_gap": 5.753125377771612e-14
+    },
+    {
+      "id": "A27",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 8.170674519777876e-15,
+      "end_boundary_gap": 1.6949014762948775e-14
+    },
+    {
+      "id": "A28",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 8.509955832057137e-16,
+      "end_boundary_gap": 1.9683290295363186e-15
+    },
+    {
+      "id": "A29",
+      "source_vertices": 5,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 3.219344485697379e-15,
+      "end_boundary_gap": 1.4090286420479091e-14
+    },
+    {
+      "id": "A30",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 5.709284980970347e-15,
+      "end_boundary_gap": 2.2040956007595315e-14
+    },
+    {
+      "id": "A31",
+      "source_vertices": 6,
+      "diagram_vertices": 6,
+      "start_boundary_gap": 2.1446860905285144e-14,
+      "end_boundary_gap": 9.341138777711557e-15
+    },
+    {
+      "id": "A32",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 4.495013389805833e-15,
+      "end_boundary_gap": 9.689956878166928e-15
+    },
+    {
+      "id": "A33",
+      "source_vertices": 16,
+      "diagram_vertices": 16,
+      "start_boundary_gap": 3.16962385726176e-14,
+      "end_boundary_gap": 4.9507428944964126e-14
+    },
+    {
+      "id": "A34",
+      "source_vertices": 10,
+      "diagram_vertices": 10,
+      "start_boundary_gap": 9.167595349228804e-15,
+      "end_boundary_gap": 5.531758884737598e-15
+    },
+    {
+      "id": "A35",
+      "source_vertices": 7,
+      "diagram_vertices": 7,
+      "start_boundary_gap": 2.645223663605213e-14,
+      "end_boundary_gap": 5.4015591014137175e-14
+    },
+    {
+      "id": "A36",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 7.20222405255431e-15,
+      "end_boundary_gap": 8.71850775160544e-15
+    },
+    {
+      "id": "A37",
+      "source_vertices": 11,
+      "diagram_vertices": 11,
+      "start_boundary_gap": 1.9036728810454574e-14,
+      "end_boundary_gap": 7.779721907593236e-15
+    },
+    {
+      "id": "A38",
+      "source_vertices": 5,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 1.3189120455761967e-14,
+      "end_boundary_gap": 3.558449390589747e-15
+    },
+    {
+      "id": "A39",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 1.4143633639772337e-14,
+      "end_boundary_gap": 1.3085159140245535e-14
+    },
+    {
+      "id": "A40",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 1.1293476729819597e-14,
+      "end_boundary_gap": 1.2733421549936893e-14
+    },
+    {
+      "id": "A41",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 2.0840181961576048e-14,
+      "end_boundary_gap": 5.107973105839501e-15
+    },
+    {
+      "id": "A42",
+      "source_vertices": 7,
+      "diagram_vertices": 7,
+      "start_boundary_gap": 1.772902756784261e-14,
+      "end_boundary_gap": 1.7113941901545842e-14
+    },
+    {
+      "id": "A43",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.4598479613851222e-15,
+      "end_boundary_gap": 1.2626359502642452e-14
+    },
+    {
+      "id": "A44",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 3.032029095206111e-15,
+      "end_boundary_gap": 2.086064764675596e-14
+    },
+    {
+      "id": "A45",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 1.8945084099440173e-14,
+      "end_boundary_gap": 2.547050342320526e-14
+    },
+    {
+      "id": "A46",
+      "source_vertices": 14,
+      "diagram_vertices": 14,
+      "start_boundary_gap": 3.0379981249361405e-15,
+      "end_boundary_gap": 1.992429175372581e-14
+    },
+    {
+      "id": "A47",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 5.164515606904808e-15,
+      "end_boundary_gap": 5.4011531224452164e-15
+    },
+    {
+      "id": "A48",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 4.1594767390171225e-14,
+      "end_boundary_gap": 6.108200466046386e-15
+    },
+    {
+      "id": "A49",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 1.0219054979971733e-14,
+      "end_boundary_gap": 1.2301358038968028e-14
+    },
+    {
+      "id": "A50",
+      "source_vertices": 5,
+      "diagram_vertices": 5,
+      "start_boundary_gap": 1.9676752614922477e-14,
+      "end_boundary_gap": 8.996552152081352e-14
+    },
+    {
+      "id": "A51",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 6.498662010547166e-14,
+      "end_boundary_gap": 6.707534816163082e-15
+    }
+  ],
+  "label_checks": [
+    {
+      "lake": "Caribou (Poplar)",
+      "external": true,
+      "label_x": 566.8957550781039,
+      "label_y": 314.4140870410331,
+      "representative_leg": "W66"
+    },
+    {
+      "lake": "Little Gunflint",
+      "external": true,
+      "label_x": 417.9029319568717,
+      "label_y": 522.2718631504865,
+      "representative_leg": "W56"
+    },
+    {
+      "lake": "Little Caribou",
+      "external": true,
+      "label_x": 878.2792321047112,
+      "label_y": 424.85857070012173,
+      "representative_leg": "W20"
+    },
+    {
+      "lake": "Bearskin",
+      "external": true,
+      "label_x": 664.5092165945442,
+      "label_y": 386.34850882088074,
+      "representative_leg": "W46"
+    },
+    {
+      "lake": "East Bearskin",
+      "external": true,
+      "label_x": 721.5836552510436,
+      "label_y": 333.5873929818543,
+      "representative_leg": "W109"
+    },
+    {
+      "lake": "Little North",
+      "external": true,
+      "label_x": 450.67764895795045,
+      "label_y": 566.1346261323433,
+      "representative_leg": "W57"
+    },
+    {
+      "lake": "Lower George",
+      "external": true,
+      "label_x": 257.19435682503644,
+      "label_y": 340.83700969782376,
+      "representative_leg": "W103"
+    },
+    {
+      "lake": "Missing Link",
+      "external": true,
+      "label_x": 85.56404341585406,
+      "label_y": 343.50662215827333,
+      "representative_leg": "W105"
+    },
+    {
+      "lake": "Little Trout",
+      "external": true,
+      "label_x": 587.1281554007619,
+      "label_y": 93.29833142784554,
+      "representative_leg": "W129"
+    },
+    {
+      "lake": "Little John",
+      "external": true,
+      "label_x": 1105.6546814838289,
+      "label_y": 404.7169733134174,
+      "representative_leg": "W12"
+    },
+    {
+      "lake": "Hungry Jack",
+      "external": true,
+      "label_x": 644.1478802963402,
+      "label_y": 344.7017640819022,
+      "representative_leg": "W50"
+    },
+    {
+      "lake": "Little Rush",
+      "external": true,
+      "label_x": 449.1794187258398,
+      "label_y": 351.22607889342504,
+      "representative_leg": "W62"
+    },
+    {
+      "lake": "Long Island",
+      "external": true,
+      "label_x": 213.167294866713,
+      "label_y": 234.3742048252453,
+      "representative_leg": "W99"
+    },
+    {
+      "lake": "Clearwater",
+      "external": true,
+      "label_x": 794.1121396721434,
+      "label_y": 436.137765763936,
+      "representative_leg": "W01"
+    },
+    {
+      "lake": "One Island",
+      "external": true,
+      "label_x": 434.13888146164004,
+      "label_y": 392.2040478898191,
+      "representative_leg": "W60"
+    },
+    {
+      "lake": "Kiskadinna",
+      "external": true,
+      "label_x": 312.83830335773365,
+      "label_y": 222.262585874011,
+      "representative_leg": "W97"
+    },
+    {
+      "lake": "West Pike",
+      "external": true,
+      "label_x": 921.6595777673292,
+      "label_y": 471.3257750164767,
+      "representative_leg": "W07"
+    },
+    {
+      "lake": "East Pike",
+      "external": true,
+      "label_x": 1014.915723942179,
+      "label_y": 466.0449078973091,
+      "representative_leg": "W10"
+    },
+    {
+      "lake": "McFarland",
+      "external": true,
+      "label_x": 1054.6886427052918,
+      "label_y": 348.6516234133328,
+      "representative_leg": "W13"
+    },
+    {
+      "lake": "Partridge",
+      "external": true,
+      "label_x": 563.263015444037,
+      "label_y": 460.98302447475794,
+      "representative_leg": "W52"
+    },
+    {
+      "lake": "Horseshoe",
+      "external": true,
+      "label_x": 616.3905886095148,
+      "label_y": 265.44890549865386,
+      "representative_leg": "W72"
+    },
+    {
+      "lake": "Pillsbery",
+      "external": true,
+      "label_x": 490.5693107130025,
+      "label_y": 231.30064487400372,
+      "representative_leg": "W78"
+    },
+    {
+      "lake": "Wanihigan",
+      "external": true,
+      "label_x": 388.47702129896714,
+      "label_y": 169.4136276078837,
+      "representative_leg": "W96"
+    },
+    {
+      "lake": "Cross Bay",
+      "external": true,
+      "label_x": 226.31427639343437,
+      "label_y": 344.748287396439,
+      "representative_leg": "W101"
+    },
+    {
+      "lake": "Tuscarora",
+      "external": true,
+      "label_x": 65.77645965015202,
+      "label_y": 325.67799414196423,
+      "representative_leg": "W107"
+    },
+    {
+      "lake": "Crocodile",
+      "external": true,
+      "label_x": 767.5009844730887,
+      "label_y": 294.53620303211846,
+      "representative_leg": "W124"
+    },
+    {
+      "lake": "Mountain",
+      "external": true,
+      "label_x": 872.7826049811168,
+      "label_y": 485.34594038094474,
+      "representative_leg": "W26"
+    },
+    {
+      "lake": "Gunflint",
+      "external": true,
+      "label_x": 317.974244075026,
+      "label_y": 462.4232696421185,
+      "representative_leg": null
+    },
+    {
+      "lake": "Winchell",
+      "external": true,
+      "label_x": 404.2035027142914,
+      "label_y": 180.046998311126,
+      "representative_leg": "W93"
+    },
+    {
+      "lake": "Saganaga",
+      "external": true,
+      "label_x": 58.23514228585044,
+      "label_y": 591.1776993070762,
+      "representative_leg": null
+    },
+    {
+      "lake": "Caribou",
+      "external": true,
+      "label_x": 792.7755128576982,
+      "label_y": 386.9275952403263,
+      "representative_leg": "W21"
+    },
+    {
+      "lake": "Crystal",
+      "external": true,
+      "label_x": 915.3561107796522,
+      "label_y": 371.731740115042,
+      "representative_leg": "W39"
+    },
+    {
+      "lake": "Daniels",
+      "external": true,
+      "label_x": 680.073744130955,
+      "label_y": 466.10422134639464,
+      "representative_leg": null
+    },
+    {
+      "lake": "Portage",
+      "external": true,
+      "label_x": 476.49821958411457,
+      "label_y": 410.4704751156183,
+      "representative_leg": "W59"
+    },
+    {
+      "lake": "Skipper",
+      "external": true,
+      "label_x": 486.50977875941226,
+      "label_y": 386.75004850864224,
+      "representative_leg": null
+    },
+    {
+      "lake": "Swallow",
+      "external": true,
+      "label_x": 452.4321023788051,
+      "label_y": 280.24136666791026,
+      "representative_leg": "W75"
+    },
+    {
+      "lake": "Misquah",
+      "external": true,
+      "label_x": 566.5809133829931,
+      "label_y": 139.45715611652582,
+      "representative_leg": "W128"
+    },
+    {
+      "lake": "Seagull",
+      "external": false,
+      "label_x": 40.995687906062564,
+      "label_y": 510.07796294628275,
+      "representative_leg": null
+    },
+    {
+      "lake": "Duncan",
+      "external": true,
+      "label_x": 636.9732740561653,
+      "label_y": 434.14712078530357,
+      "representative_leg": "W43"
+    },
+    {
+      "lake": "Vaseux",
+      "external": true,
+      "label_x": 1003.5840285199014,
+      "label_y": 523.901533640043,
+      "representative_leg": "W48"
+    },
+    {
+      "lake": "Poplar",
+      "external": true,
+      "label_x": 556.5746836979405,
+      "label_y": 436.31938549694235,
+      "representative_leg": "W63"
+    },
+    {
+      "lake": "Gaskin",
+      "external": true,
+      "label_x": 509.26048341251465,
+      "label_y": 227.34657212246543,
+      "representative_leg": "W82"
+    },
+    {
+      "lake": "Henson",
+      "external": true,
+      "label_x": 442.20979668997285,
+      "label_y": 230.3036540511267,
+      "representative_leg": "W87"
+    },
+    {
+      "lake": "Muskeg",
+      "external": true,
+      "label_x": 272.5666976132735,
+      "label_y": 264.55355845268934,
+      "representative_leg": "W98"
+    },
+    {
+      "lake": "Morgan",
+      "external": true,
+      "label_x": 666.1008577205852,
+      "label_y": 260.0532015004015,
+      "representative_leg": null
+    },
+    {
+      "lake": "Watap",
+      "external": true,
+      "label_x": 802.2710339701626,
+      "label_y": 527.1674806888302,
+      "representative_leg": "W27"
+    },
+    {
+      "lake": "Canoe",
+      "external": true,
+      "label_x": 857.1433481780733,
+      "label_y": 374.9636714960622,
+      "representative_leg": "W36"
+    },
+    {
+      "lake": "Alder",
+      "external": true,
+      "label_x": 806.5069949363765,
+      "label_y": 355.5110508742155,
+      "representative_leg": null
+    },
+    {
+      "lake": "Moose",
+      "external": true,
+      "label_x": 1049.7226324887517,
+      "label_y": 478.03891103224134,
+      "representative_leg": "W49"
+    },
+    {
+      "lake": "South",
+      "external": true,
+      "label_x": 510.46109343165654,
+      "label_y": 528.081391808151,
+      "representative_leg": "W54"
+    },
+    {
+      "lake": "North",
+      "external": true,
+      "label_x": 512.7937947804904,
+      "label_y": 547.3577172144688,
+      "representative_leg": "W55"
+    },
+    {
+      "lake": "Meeds",
+      "external": true,
+      "label_x": 506.9424600136699,
+      "label_y": 353.30905480934655,
+      "representative_leg": "W74"
+    },
+    {
+      "lake": "Allen",
+      "external": true,
+      "label_x": 540.0939420287303,
+      "label_y": 254.00789850335588,
+      "representative_leg": "W79"
+    },
+    {
+      "lake": "Omega",
+      "external": true,
+      "label_x": 386.56217798394766,
+      "label_y": 256.96858849183906,
+      "representative_leg": "W91"
+    },
+    {
+      "lake": "Brule",
+      "external": true,
+      "label_x": 318.8303794766327,
+      "label_y": 104.32882129660287,
+      "representative_leg": null
+    },
+    {
+      "lake": "Snipe",
+      "external": true,
+      "label_x": 141.8165994962905,
+      "label_y": 348.1946452595901,
+      "representative_leg": null
+    },
+    {
+      "lake": "Round",
+      "external": true,
+      "label_x": 124.94431033154487,
+      "label_y": 416.0434540153083,
+      "representative_leg": "W108"
+    },
+    {
+      "lake": "Flour",
+      "external": true,
+      "label_x": 694.6019152999042,
+      "label_y": 390.472746166261,
+      "representative_leg": "W118"
+    },
+    {
+      "lake": "Aspen",
+      "external": true,
+      "label_x": 667.3275222241616,
+      "label_y": 340.7110770578984,
+      "representative_leg": "W122"
+    },
+    {
+      "lake": "Vista",
+      "external": true,
+      "label_x": 592.1895477606115,
+      "label_y": 194.46259142798482,
+      "representative_leg": "W125"
+    },
+    {
+      "lake": "Kroft",
+      "external": true,
+      "label_x": 624.9401738556938,
+      "label_y": 126.2220349100547,
+      "representative_leg": "W131"
+    },
+    {
+      "lake": "John",
+      "external": true,
+      "label_x": 1079.4394821960032,
+      "label_y": 424.159872490824,
+      "representative_leg": "W11"
+    },
+    {
+      "lake": "Pine",
+      "external": true,
+      "label_x": 966.2591917693112,
+      "label_y": 413.5912682577754,
+      "representative_leg": "W18"
+    },
+    {
+      "lake": "Rove",
+      "external": true,
+      "label_x": 700.3315240130931,
+      "label_y": 487.40362404054525,
+      "representative_leg": "W28"
+    },
+    {
+      "lake": "Rose",
+      "external": true,
+      "label_x": 663.4455950231663,
+      "label_y": 488.7676812131994,
+      "representative_leg": "W30"
+    },
+    {
+      "lake": "Deer",
+      "external": true,
+      "label_x": 727.6332495117634,
+      "label_y": 414.62226928955323,
+      "representative_leg": "W35"
+    },
+    {
+      "lake": "Moss",
+      "external": true,
+      "label_x": 581.7147948316335,
+      "label_y": 405.8845965950198,
+      "representative_leg": "W51"
+    },
+    {
+      "lake": "Iron",
+      "external": true,
+      "label_x": 444.46675792218684,
+      "label_y": 480.71942189568193,
+      "representative_leg": "W58"
+    },
+    {
+      "lake": "Rush",
+      "external": true,
+      "label_x": 392.3670698253922,
+      "label_y": 349.4120870433791,
+      "representative_leg": "W61"
+    },
+    {
+      "lake": "Lizz",
+      "external": true,
+      "label_x": 548.8475770508304,
+      "label_y": 334.0568517497202,
+      "representative_leg": "W73"
+    },
+    {
+      "lake": "Jump",
+      "external": true,
+      "label_x": 533.7326120326112,
+      "label_y": 167.9828877645077,
+      "representative_leg": "W80"
+    },
+    {
+      "lake": "Karl",
+      "external": true,
+      "label_x": 215.04432256475494,
+      "label_y": 250.1986206788767,
+      "representative_leg": "W100"
+    },
+    {
+      "lake": "Moon",
+      "external": true,
+      "label_x": 767.2997762404171,
+      "label_y": 356.05621752411844,
+      "representative_leg": "W123"
+    },
+    {
+      "lake": "Carl",
+      "external": true,
+      "label_x": 665.9456032990203,
+      "label_y": 210.20754131967112,
+      "representative_leg": "W127"
+    },
+    {
+      "lake": "Fan",
+      "external": true,
+      "label_x": 956.7207888591566,
+      "label_y": 529.6574800226085,
+      "representative_leg": "W47"
+    },
+    {
+      "lake": "Rat",
+      "external": true,
+      "label_x": 586.2268143927548,
+      "label_y": 528.3014110488572,
+      "representative_leg": "W53"
+    },
+    {
+      "lake": "Rib",
+      "external": true,
+      "label_x": 228.10685905309526,
+      "label_y": 308.58049820059335,
+      "representative_leg": "W102"
+    },
+    {
+      "lake": "Lux",
+      "external": true,
+      "label_x": 648.4837624319001,
+      "label_y": 203.54192416826743,
+      "representative_leg": "W126"
+    },
+    {
+      "lake": "Rum",
+      "external": true,
+      "label_x": 572.9119956124655,
+      "label_y": 46.0,
+      "representative_leg": "W130"
+    },
+    {
+      "lake": "Ram",
+      "external": true,
+      "label_x": 641.9373358601024,
+      "label_y": 85.25528005222432,
+      "representative_leg": "W132"
     }
   ]
 }
