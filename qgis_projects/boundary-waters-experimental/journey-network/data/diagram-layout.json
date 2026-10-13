@@ -1,8 +1,8 @@
 {
   "bounds": [
     5.592764379808216,
-    9.0,
-    1129.822181483829,
+    2.6698829741593,
+    1129.5832203142465,
     609.0426993070762
   ],
   "method": "source footprints + sqrt(time) spacing stress with geographic order and legibility constraints",
@@ -531,7 +531,7 @@
       "lake": "Caribou (Poplar)",
       "external": true,
       "label_x": 566.8957550781039,
-      "label_y": 314.4140870410331,
+      "label_y": 276.4140870410331,
       "representative_leg": "W66"
     },
     {
@@ -545,7 +545,7 @@
       "lake": "Little Caribou",
       "external": true,
       "label_x": 878.2792321047112,
-      "label_y": 424.85857070012173,
+      "label_y": 386.85857070012173,
       "representative_leg": "W20"
     },
     {
@@ -558,22 +558,22 @@
     {
       "lake": "East Bearskin",
       "external": true,
-      "label_x": 721.5836552510436,
-      "label_y": 333.5873929818543,
+      "label_x": 752.5108312782278,
+      "label_y": 311.94439059312964,
       "representative_leg": "W109"
     },
     {
       "lake": "Little North",
       "external": true,
-      "label_x": 450.67764895795045,
-      "label_y": 566.1346261323433,
+      "label_x": 470.67764895795045,
+      "label_y": 574.1346261323433,
       "representative_leg": "W57"
     },
     {
       "lake": "Lower George",
       "external": true,
       "label_x": 257.19435682503644,
-      "label_y": 340.83700969782376,
+      "label_y": 348.83700969782376,
       "representative_leg": "W103"
     },
     {
@@ -587,14 +587,14 @@
       "lake": "Little Trout",
       "external": true,
       "label_x": 587.1281554007619,
-      "label_y": 93.29833142784554,
+      "label_y": 101.29833142784554,
       "representative_leg": "W129"
     },
     {
       "lake": "Little John",
       "external": true,
-      "label_x": 1105.6546814838289,
-      "label_y": 404.7169733134174,
+      "label_x": 1074.5872267102438,
+      "label_y": 391.5288655912856,
       "representative_leg": "W12"
     },
     {
@@ -608,14 +608,14 @@
       "lake": "Little Rush",
       "external": true,
       "label_x": 449.1794187258398,
-      "label_y": 351.22607889342504,
+      "label_y": 313.22607889342504,
       "representative_leg": "W62"
     },
     {
       "lake": "Long Island",
       "external": true,
       "label_x": 213.167294866713,
-      "label_y": 234.3742048252453,
+      "label_y": 191.52995243752156,
       "representative_leg": "W99"
     },
     {
@@ -642,15 +642,15 @@
     {
       "lake": "West Pike",
       "external": true,
-      "label_x": 921.6595777673292,
+      "label_x": 901.6595777673292,
       "label_y": 471.3257750164767,
       "representative_leg": "W07"
     },
     {
       "lake": "East Pike",
       "external": true,
-      "label_x": 1014.915723942179,
-      "label_y": 466.0449078973091,
+      "label_x": 1030.8686096585136,
+      "label_y": 438.6920450190634,
       "representative_leg": "W10"
     },
     {
@@ -670,8 +670,8 @@
     {
       "lake": "Horseshoe",
       "external": true,
-      "label_x": 616.3905886095148,
-      "label_y": 265.44890549865386,
+      "label_x": 606.3905886095148,
+      "label_y": 273.44890549865386,
       "representative_leg": "W72"
     },
     {
@@ -699,14 +699,14 @@
       "lake": "Tuscarora",
       "external": true,
       "label_x": 65.77645965015202,
-      "label_y": 325.67799414196423,
+      "label_y": 333.67799414196423,
       "representative_leg": "W107"
     },
     {
       "lake": "Crocodile",
       "external": true,
       "label_x": 767.5009844730887,
-      "label_y": 294.53620303211846,
+      "label_y": 264.53620303211846,
       "representative_leg": "W124"
     },
     {
@@ -748,7 +748,7 @@
       "lake": "Crystal",
       "external": true,
       "label_x": 915.3561107796522,
-      "label_y": 371.731740115042,
+      "label_y": 333.731740115042,
       "representative_leg": "W39"
     },
     {
@@ -803,22 +803,22 @@
     {
       "lake": "Vaseux",
       "external": true,
-      "label_x": 1003.5840285199014,
-      "label_y": 523.901533640043,
+      "label_x": 992.4331505009801,
+      "label_y": 498.80335626973033,
       "representative_leg": "W48"
     },
     {
       "lake": "Poplar",
       "external": true,
       "label_x": 556.5746836979405,
-      "label_y": 436.31938549694235,
+      "label_y": 403.5329547407058,
       "representative_leg": "W63"
     },
     {
       "lake": "Gaskin",
       "external": true,
-      "label_x": 509.26048341251465,
-      "label_y": 227.34657212246543,
+      "label_x": 489.26048341251465,
+      "label_y": 197.34657212246543,
       "representative_leg": "W82"
     },
     {
@@ -831,7 +831,7 @@
     {
       "lake": "Muskeg",
       "external": true,
-      "label_x": 272.5666976132735,
+      "label_x": 262.5666976132735,
       "label_y": 264.55355845268934,
       "representative_leg": "W98"
     },
@@ -853,7 +853,7 @@
       "lake": "Canoe",
       "external": true,
       "label_x": 857.1433481780733,
-      "label_y": 374.9636714960622,
+      "label_y": 344.9636714960622,
       "representative_leg": "W36"
     },
     {
@@ -873,8 +873,8 @@
     {
       "lake": "South",
       "external": true,
-      "label_x": 510.46109343165654,
-      "label_y": 528.081391808151,
+      "label_x": 520.4610934316565,
+      "label_y": 498.081391808151,
       "representative_leg": "W54"
     },
     {
@@ -888,7 +888,7 @@
       "lake": "Meeds",
       "external": true,
       "label_x": 506.9424600136699,
-      "label_y": 353.30905480934655,
+      "label_y": 315.30905480934655,
       "representative_leg": "W74"
     },
     {
@@ -901,7 +901,7 @@
     {
       "lake": "Omega",
       "external": true,
-      "label_x": 386.56217798394766,
+      "label_x": 376.56217798394766,
       "label_y": 256.96858849183906,
       "representative_leg": "W91"
     },
@@ -936,8 +936,8 @@
     {
       "lake": "Aspen",
       "external": true,
-      "label_x": 667.3275222241616,
-      "label_y": 340.7110770578984,
+      "label_x": 657.3275222241616,
+      "label_y": 310.7110770578984,
       "representative_leg": "W122"
     },
     {
@@ -957,22 +957,22 @@
     {
       "lake": "John",
       "external": true,
-      "label_x": 1079.4394821960032,
-      "label_y": 424.159872490824,
+      "label_x": 1103.6966924575447,
+      "label_y": 448.11632843176073,
       "representative_leg": "W11"
     },
     {
       "lake": "Pine",
       "external": true,
-      "label_x": 966.2591917693112,
+      "label_x": 976.2591917693112,
       "label_y": 413.5912682577754,
       "representative_leg": "W18"
     },
     {
       "lake": "Rove",
       "external": true,
-      "label_x": 700.3315240130931,
-      "label_y": 487.40362404054525,
+      "label_x": 710.3315240130931,
+      "label_y": 457.40362404054525,
       "representative_leg": "W28"
     },
     {
@@ -1041,8 +1041,8 @@
     {
       "lake": "Carl",
       "external": true,
-      "label_x": 665.9456032990203,
-      "label_y": 210.20754131967112,
+      "label_x": 675.9456032990203,
+      "label_y": 180.20754131967112,
       "representative_leg": "W127"
     },
     {
@@ -1062,29 +1062,29 @@
     {
       "lake": "Rib",
       "external": true,
-      "label_x": 228.10685905309526,
-      "label_y": 308.58049820059335,
+      "label_x": 196.35806871095778,
+      "label_y": 291.3364833483841,
       "representative_leg": "W102"
     },
     {
       "lake": "Lux",
       "external": true,
       "label_x": 648.4837624319001,
-      "label_y": 203.54192416826743,
+      "label_y": 173.54192416826743,
       "representative_leg": "W126"
     },
     {
       "lake": "Rum",
       "external": true,
-      "label_x": 572.9119956124655,
-      "label_y": 46.0,
+      "label_x": 572.6086306449712,
+      "label_y": 27.0698829741593,
       "representative_leg": "W130"
     },
     {
       "lake": "Ram",
       "external": true,
       "label_x": 641.9373358601024,
-      "label_y": 85.25528005222432,
+      "label_y": 47.25528005222432,
       "representative_leg": "W132"
     }
   ]

@@ -1,6 +1,6 @@
 # The Canoe Traveller's Network
 
-A black-and-white engraved teaching diagram: **80 lakes, 74 connections, 132 modeled crossing alternatives, two Clearwater loops and a Rose out-and-back option**. Recognizable lake footprints and recorded carry bends are deliberately distorted. Printed time ranges are based on geographic source geometry, not measurements of the drawing.
+A black-and-white engraved teaching diagram: **80 lakes, 74 connections, 132 modeled crossing alternatives, two Clearwater loops and a Rose out-and-back option**. Recognizable lake footprints and recorded carry bends are deliberately distorted. Paired pie symbols encode a fixed 15-hour period; estimates are based on geographic source geometry, not measurements of the drawing.
 
 The expanded area runs from the Clearwater/Pike lakes west through Poplar, Winchell, Brule and the Long Island country, with Gunflint, Seagull and Saganaga to the north. Six lakes are context only; missing connections are not invented to make a continuous network.
 
@@ -16,9 +16,9 @@ Extract the entire ZIP, then open the QGZ. No virtual environment, running scrip
 
 ## Read the chart
 
-Each lake has at most one short hour range: the **longest successfully modeled crossing between its included landings**. Other crossing alternatives remain in the instructor register. The selected endpoint pair and leg ID are attributes of the time-label layer. This is not an estimate for every possible trip across that lake. Lakes without modeled crossings have no time label.
+Each lake has at most one pair of time pies: the **longest successfully modeled crossing between its included landings**. Other crossing alternatives remain in the instructor register. The selected endpoint pair and leg ID remain in the metadata-anchor layer; the pie layers store hours, fraction and 15-hour denominator. This is not an estimate for every possible trip across that lake. Lakes without modeled crossings have no time label.
 
-Time ranges sit in the water footprint where they fit. Displaced labels have short leaders to their own lake or passage. Compact carry IDs and hours sit beside source-shaped links. Rod counts remain in the CSV and geographic layer, avoiding repeated text on the drawing. `S` is the Clearwater departure. Asterisks mark approximate geometry; dashed passages are water connections.
+Time pies sit in the water footprint where they fit. The left disc is the shorter estimate and the right disc is the longer estimate. White represents zero; clockwise black fill represents elapsed time, with a fully black disc equal to 15 hours and a half-black disc equal to 7.5 hours. This is a fixed teaching unit, not a claim about actual seasonal sunlight. Displaced labels have short leaders to their own lake or passage. Compact carry IDs and paired pies sit beside source-shaped links. Rod counts remain in the CSV and geographic layer, avoiding repeated text on the drawing. `S` is the Clearwater departure. Asterisks mark approximate geometry; dashed passages are water connections.
 
 Eight sourced landmarks replace generic summit symbols: Clearwater, Rose, Winchell and Seagull cliffs, the Brule rockslide, and Rose, Johnson and Saganaga falls. Cliff/rockslide records describe published lake viewpoints; `(walk)` marks a land visit to a waterfall. A landmark leader associates the feature with its lake; it is not a surveyed sightline. [Landmark evidence](docs/LANDMARKS.md) includes specific vantage descriptions and coordinate uncertainty. None of these schematic anchors is a precise compass-bearing target.
 

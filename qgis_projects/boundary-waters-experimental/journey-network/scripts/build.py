@@ -2,8 +2,8 @@
 import json,math,gc,zipfile
 from pathlib import Path
 from qgis.core import *
-from qgis.PyQt.QtGui import QColor,QFont
-from qgis.PyQt.QtCore import Qt,QVariant
+from qgis.PyQt.QtGui import QColor,QFont,QPolygonF
+from qgis.PyQt.QtCore import Qt,QVariant,QPointF
 from shapely.geometry import shape
 R=Path(__file__).resolve().parents[1];D=R/'data';O=R/'output/pdf'
 app=QgsApplication([],False);app.initQgis();pr=QgsProject.instance()
@@ -27,7 +27,7 @@ def labels(l,s,italic=False):
  props.setProperty(QgsPalLayerSettings.Property.Hali,QgsProperty.fromExpression("'Center'"));props.setProperty(QgsPalLayerSettings.Property.Vali,QgsProperty.fromExpression("'Half'"));p.setDataDefinedProperties(props)
  l.setLabeling(QgsVectorLayerSimpleLabeling(p));l.setLabelsEnabled(True)
 ls=[]
-for file,title,kind,size in [('lakes','Distorted footprints | crossing time emphasis','fill',0),('hatching','Engraved lake hatching','line',.08),('carries','Source-shaped carries | double carry time','line',.22),('rivers','Water connections | not portages','dash',.25),('hills','Lake-view landmarks and falls','line',.12),('names','Lake names','label',11),('paddle-times','Representative crossing hours','label',9),('carry-times','Carry ID and hours','label',8),('hill-labels','Sourced landmark names','label',9),('endpoints','S departure','label',9),('leaders','Label leaders to lakes and carries','line',.1)]:
+for file,title,kind,size in [('lakes','Distorted footprints | crossing time emphasis','fill',0),('hatching','Engraved lake hatching','line',.08),('carries','Source-shaped carries | double carry time','line',.22),('rivers','Water connections | not portages','dash',.25),('hills','Lake-view landmarks and falls','line',.12),('names','Lake names','label',11),('paddle-times','Crossing estimates | metadata anchors','hidden',9),('carry-times','Carry identifiers','label',8),('hill-labels','Sourced landmark names','label',9),('endpoints','S departure','label',9),('leaders','Label leaders to lakes and carries','line',.1),('pie-bases','15-hour dials | white background','pie-base',0),('pie-ink','15-hour dials | black elapsed fraction','pie-ink',0)]:
  data=json.load(open(D/f'schematic-{file}.json'));features=data['features']
  if not features:continue
  l=QgsVectorLayer(features[0]['geometry']['type'],title,'memory');l.setCrs(crs);provider=l.dataProvider()
@@ -43,6 +43,9 @@ for file,title,kind,size in [('lakes','Distorted footprints | crossing time emph
  result=QgsVectorFileWriter.writeAsVectorFormatV3(l,str(D/'diagram.gpkg'),pr.transformContext(),options);assert result[0]==QgsVectorFileWriter.WriterError.NoError,result
  l=QgsVectorLayer(str(D/'diagram.gpkg')+'|layername='+file,title,'ogr');assert l.isValid() and l.crs().isValid();assert not l.crs().isGeographic();pr.addMapLayer(l);l.setCustomProperty('teaching/coordinates','local diagram units; not geographic');ls.append(l)
  if kind=='fill':l.renderer().setSymbol(QgsFillSymbol.createSimple({'color':'white','outline_color':INK,'outline_width':'.24','joinstyle':'round'}))
+ elif kind=='pie-base':l.renderer().setSymbol(QgsFillSymbol.createSimple({'color':'white','outline_color':INK,'outline_width':'.12'}))
+ elif kind=='pie-ink':l.renderer().setSymbol(QgsFillSymbol.createSimple({'color':INK,'outline_style':'no'}))
+ elif kind=='hidden':l.renderer().setSymbol(QgsMarkerSymbol.createSimple({'size':'0','color':'transparent','outline_style':'no'}))
  elif kind in ['line','dash']:l.renderer().setSymbol(line(size,'dash' if kind=='dash' else 'solid'))
  else:labels(l,size,file in ['names','hill-labels'])
  l.saveNamedStyle(str(R/'styles'/f'{file}.qml'))
@@ -60,8 +63,16 @@ lay.pageCollection().page(0).setPageSize(QgsLayoutSize(914.4,609.6))
 m=QgsLayoutItemMap(lay);lay.addLayoutItem(m);m.setId('schematic-map');m.attemptMove(QgsLayoutPoint(14,43));m.attemptResize(QgsLayoutSize(886,502));m.setCrs(crs);m.setLayers(order);m.setKeepLayerSet(True);m.setKeepLayerStyles(True);m.zoomToExtent(QgsRectangle(*json.load(open(D/'diagram-layout.json'))['bounds']));m.setBackgroundColor(QColor('white'))
 rule(lay,15,557,885,.2)
 text(lay,'THE RECKONING',15,561,100,8,11,False,True)
-text(lay,'All ranges are hours. Lake number = longest modeled crossing between mapped landings; alternatives in the register.\nCarry number = double-carry travel and handling. Small letters/numbers identify the carry; * marks approximate geometry.\nLeader lines attach displaced labels to their lake or passage. Dashed passages are water connections.',15,573,575,25,9)
-text(lay,'Landmarks: named lake views; (walk) = leave the water to visit.\nSource-shaped, deliberately distorted; no uniform scale.\nUse the geographic evidence project for true positions. Windbound waits are extra.',610,563,290,34,9,True)
+text(lay,'Each pair shows the shorter estimate (left) and longer estimate (right). Black fills clockwise through a fixed 15-hour period.\nLake pies: longest modeled crossing. Carry pies: double-carry travel + handling. Exact hours remain in the instructor register.\nWhite = zero; full black = 15 hours. No pie = no estimate. This daylight-length unit is an assumption, not a seasonal forecast.',15,573,575,25,9)
+text(lay,'(walk) = visit on foot. * = approximate passage. Dashed = water link.\nDeliberately distorted; no scale. Windbound waits are extra.',610,594,290,12,8,True)
+# Native vector legend: the same clockwise area encoding as the map.
+for j,h in enumerate([0,3.75,7.5,11.25,15]):
+ x=625+j*49;y=574;rad=3.4
+ disk=QgsLayoutItemShape(lay);disk.setShapeType(QgsLayoutItemShape.Shape.Ellipse);disk.setSymbol(QgsFillSymbol.createSimple({'color':'white','outline_color':INK,'outline_width':'.15'}));lay.addLayoutItem(disk);disk.attemptMove(QgsLayoutPoint(x-rad,y-rad));disk.attemptResize(QgsLayoutSize(2*rad,2*rad))
+ if h:
+  pts=[QPointF(x,y)]+[QPointF(x+rad*math.sin(2*math.pi*h/15*k/90),y-rad*math.cos(2*math.pi*h/15*k/90)) for k in range(91)]+[QPointF(x,y)]
+  wedge=QgsLayoutItemPolygon(QPolygonF(pts),lay);wedge.setSymbol(QgsFillSymbol.createSimple({'color':INK,'outline_style':'no'}));lay.addLayoutItem(wedge)
+ text(lay,['0','1/4','1/2','3/4','1'][j],x-3,580,20,7,9)
 # Instructor pages use native QGIS text items for editable tabular content.
 key=layout('02 | Timing and itineraries','The instructor\'s key  /  Ordinary tandem team  /  Double carries  /  Model assumptions, not observed travel times')
 text(key,'I.  THREE PRE-DESIGNED JOURNEYS',15,47,210,8,13,False,True)
@@ -81,7 +92,7 @@ Bounds round outward to quarter hours. A 0-0.25 h label means
 a brief nonzero leg. All rod counts are derived, not official counts."""
 text(key,model_note,15,197,246,61,10)
 text(key,'III.  READING THE SPARSE CHART',277,47,140,8,13,False,True)
-text(key,'Each lake has at most one printed time range:\nthe longest modeled landing-to-landing crossing.\nIts exact endpoint pair is recorded in the layer\nand the table below. Shorter crossings may take\nless time. An unnumbered lake has no modeled\ncrossing. All alternatives remain in the register.\n\nBent carries echo recorded trail geometry. Small\nIDs identify them; rods are kept in the CSV.\nNo inference should be made from an absent link.\n\nLandmark leaders associate a feature with a lake,\nnot a measured sight line. Water-visible features\nhave published lake-view evidence. (walk) marks\nwaterfalls reached on foot, not a canoe sighting.\n\nLandmark coordinates and viewing descriptions\nare in the geographic project and LANDMARKS.md.\nGeneric DEM summit candidates are hidden there;\nthey are not shown as visible landmarks here.',277,59,139,116,9)
+text(key,'Each lake has at most one pair of time pies:\nthe longest modeled landing-to-landing crossing.\nLeft = shorter time; right = longer time.\nA full black disc = one fixed 15-hour period.\nIts exact endpoint pair is recorded in the layer\nand the table below. Shorter crossings may take\nless time. A lake without pies has no modeled\ncrossing. All alternatives remain in the register.\n\nBent carries echo recorded trail geometry. Small\nIDs identify them; rods are kept in the CSV.\nNo inference should be made from an absent link.\n\nLandmark leaders associate a feature with a lake,\nnot a measured sight line. Water-visible features\nhave published lake-view evidence. (walk) marks\nwaterfalls reached on foot, not a canoe sighting.\n\nLandmark coordinates and viewing descriptions\nare in the geographic project and LANDMARKS.md.\nGeneric DEM summit candidates are hidden there;\nthey are not shown as visible landmarks here.',277,59,139,116,9)
 text(key,'IV.  THE HYPOTHETICAL EXERCISE',277,182,140,8,13,False,True)
 text(key,'S marks the Clearwater departure. The three\noriginal trips remain in the key. Extra lakes widen\nthe study area; they do not certify a through-route.\nAll time ranges are scenarios, not predictions.\nThe diagram cannot supply bearings or distances.',277,194,139,31,9)
 text(key,'SOURCES & REPRODUCTION',277,231,139,7,10,False,True)
@@ -101,7 +112,7 @@ for idx,chunk in enumerate(chunks):
   for (s,x),v in zip(headers,vals):text(table,v,x,y,120 if x==31 else 65,6,9)
   rule(table,15,y+6.5,402,.04)
  text(table,'* Approximate passage sketches or short water links. Full source records, exact hours and assumptions: data/leg-times.csv.',15,254,402,8,8,True)
- text(table,'Paddle points use connecting carry IDs. S = departure; T = imagined turn. Only the longest crossing is printed per lake.',15,264,402,7,8)
+ text(table,'Paddle points use connecting carry IDs. S = departure; T = imagined turn. Only the longest crossing is drawn as pies per lake.',15,264,402,7,8)
 # Save project and portable templates.
 for old in O.glob('sheet-*.pdf'):old.unlink()
 for old in (R/'layouts').glob('*.qpt'):old.unlink()

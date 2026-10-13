@@ -68,6 +68,20 @@ for f in json.load(open(D/'schematic-leaders.json'))['features']:
   lake=next(shape(x['geometry']) for x in json.load(open(D/'schematic-lakes.json'))['features'] if x['properties']['name']==p['lake'])
   check(Point(shape(f['geometry']).coords[-1]).distance(lake)<1e-6,'leader touches intended lake '+p['lake'])
 
+# Independently check the actual editable ink areas and low/high pair order.
+bases=json.load(open(D/'schematic-pie-bases.json'))['features'];ink=json.load(open(D/'schematic-pie-ink.json'))['features']
+ink_by={(f['properties']['leg_id'],f['properties']['estimate']):f for f in ink}
+check(len(bases)==2*(len(times)+len(net['connections'])),'two daylight discs for each displayed estimate range')
+for f in bases:
+ p=f['properties'];g=shape(f['geometry']);r=lookup[p['leg_id']];expected=rounded(r['low_h'],r['high_h'])[0 if p['estimate']=='low' else 1]
+ check(p['period_hours']==15 and abs(p['hours']-expected)<1e-10,'disc represents rounded hours: '+p['leg_id']+' '+p['estimate'])
+ sector=ink_by.get((p['leg_id'],p['estimate']));area=shape(sector['geometry']).area if sector else 0
+ check(abs(area/g.area-expected/15)<1e-4,'black area equals hours divided by 15: '+p['leg_id']+' '+p['estimate'])
+ if sector:check(g.buffer(1e-8).covers(shape(sector['geometry'])),'black sector stays within white disc: '+p['leg_id'])
+for id in {f['properties']['leg_id'] for f in bases}:
+ pair={f['properties']['estimate']:shape(f['geometry']).centroid for f in bases if f['properties']['leg_id']==id}
+ check(pair['low'].x<pair['high'].x and abs(pair['low'].y-pair['high'].y)<1e-8,'shorter estimate is left disc: '+id)
+
 app=QgsApplication([],False);app.initQgis()
 def project(root,fn):
  p=QgsProject();check(p.read(str(root/fn)),fn+' reopens')

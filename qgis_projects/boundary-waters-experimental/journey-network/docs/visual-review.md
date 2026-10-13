@@ -7,3 +7,10 @@ The final independent review found no unrelated-lake carry crossings, lake overl
 The native validation records 1,944 passing checks, including timing arithmetic, water containment, source-corresponding shore attachments, label associations, local/UTM CRS separation, relative paths, project reopening and relocated offline PDF export. Six timing unit tests passed. Apple PDFKit read the assembled chart (one page) and instructor document (nine pages).
 
 The geographic source graph contains 80 lakes, 74 supported transitions and 132 hypothetical paddle legs. Six lakes are context-only; other missing or failed modeled crossings are documented. Times remain illustrative scenarios. Landmark region anchors do not provide validated bearings.
+
+
+## Fifteen-hour pie revision
+
+Replaced decimal ranges on the student chart with paired editable vector discs. Left is the low estimate; right is the high estimate. Clockwise black area equals the existing outward-rounded hours divided by 15, with white for the remaining portion. No disc means no modeled estimate. Native legend examples show 0, 1/4, 1/2, 3/4 and a full period. The instructor register retains numeric hours. Inspected the revised chart and key renders, including the legend, circle fills and nearby labels. Geometry/area checks independently verify the actual ink polygons against the 15-hour denominator.
+
+Final pie revision: 2,970 native/data checks and six timing tests passed. PDF text check confirms no decimal time labels remain on the chart.

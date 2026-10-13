@@ -108,7 +108,10 @@ for c in net['connections']:
 # Reserve actual footprint and label spaces before placing passage annotations.
 obstacles=unary_union(list(polys.values()));paths=unary_union([shape(f['geometry']) for f in carry+rivers]);occupied=[]
 def text_box(f,size=8):
- p=f['properties'];lines=p['label'].split('\n');width=max(map(len,lines))*size*.135+2;height=len(lines)*size*.43+1
+ p=f['properties']
+ if 'leg_id' in p:return box(p['x']-7.5,p['y']-3.5,p['x']+7.5,p['y']+3.5)
+ if 'connection_id' in p:return box(p['x']-7.5,p['y']-5.5,p['x']+7.5,p['y']+5.5)
+ lines=p['label'].split('\n');width=max(map(len,lines))*size*.135+2;height=len(lines)*size*.43+1
  return box(p['x']-width/2,p['y']-height/2,p['x']+width/2,p['y']+height/2)
 def shifted(f,dx,dy):
  p=f['properties'].copy();p['x']+=dx;p['y']+=dy
@@ -185,6 +188,26 @@ if research.exists():
     dx=-3+i;top=y+3-abs(dx)*1.2;hills.append(feat(LineString([(x+dx,top),(x+dx+1.4,top-3)]),id=p['id']))
   hilllabels.append(nf)
   a,b=nearest_points(unary_union(rr).envelope,g);leaders.append(feat(LineString([a,b]),lake=n,landmark_id=p['id'],kind='landmark-association'))
+# Actual editable vector pies; left = lower estimate, right = upper estimate.
+# White base is zero; black area encodes rounded hours / a fixed 15-hour period.
+pie_bases=[];pie_ink=[];lookup={r['id']:r for r in net['legs']}
+for f in times+linklabels:
+ p=f['properties'];r=lookup[p.get('leg_id',p.get('connection_id'))];lo,hi=rounded(r['low_h'],r['high_h'])
+ x,y=p['x'],p['y'];iscarry='connection_id' in p
+ if iscarry:
+  y-=2;p['label']=r['id']+('*' if r['approximate'] else '');p['y']+=3.5;f['geometry']=mapping(Point(x,p['y']))
+ for side,h in [('low',lo),('high',hi)]:
+  assert 0<=h<=15,(r['id'],h)
+  cx=x+(-3.7 if side=='low' else 3.7);radius=2.8;fraction=h/15
+  props=dict(leg_id=r['id'],lake=r['from_lake'] if not iscarry else '',estimate=side,hours=h,period_hours=15,fraction=fraction)
+  circle=Point(cx,y).buffer(radius,resolution=90);pie_bases.append(feat(circle,**props))
+  if h>0:
+   if h==15:sector=circle
+   else:
+    angles=np.linspace(math.pi/2,math.pi/2-2*math.pi*fraction,max(3,int(360*fraction)+1))
+    sector=Polygon([(cx,y)]+[(cx+radius*math.cos(a),y+radius*math.sin(a)) for a in angles]+[(cx,y)])
+   pie_ink.append(feat(sector,**props))
+save('pie-bases',pie_bases);save('pie-ink',pie_ink)
 for n,f in [('lakes',lakes),('hatching',hatch),('names',lake_names),('paddle-times',times),('endpoints',ends),('carries',carry),('rivers',rivers),('carry-times',linklabels),('hills',hills),('hill-labels',hilllabels),('leaders',leaders)]:save(n,f)
 all_bounds=list(polys.values())+occupied
 bounds=[min(g.bounds[0] for g in all_bounds)-15,min(g.bounds[1] for g in all_bounds)-15,max(g.bounds[2] for g in all_bounds)+15,max(g.bounds[3] for g in all_bounds)+15]
