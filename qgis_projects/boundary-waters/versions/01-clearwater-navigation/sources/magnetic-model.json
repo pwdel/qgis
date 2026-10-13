@@ -1,0 +1,87 @@
+{
+  "url": "https://geomag.bgs.ac.uk/web_service/GMModels/wmm/2025/?altitude=0.5&date=2026-10-12&format=json&latitude=48.07&longitude=-90.2",
+  "retrieved_utc": "2026-10-12T21:06:02.645680+00:00",
+  "response": {
+    "geomagnetic-field-model-result": {
+      "model": "wmm",
+      "model_revision": "2025",
+      "date": {
+        "value": "2026-10-12"
+      },
+      "coordinates": {
+        "latitude": {
+          "units": "deg (north)",
+          "value": 48.07
+        },
+        "longitude": {
+          "units": "deg (east)",
+          "value": -90.2
+        },
+        "altitude": {
+          "units": "km",
+          "value": 0.5
+        }
+      },
+      "field-value": {
+        "total-intensity": {
+          "units": "nT",
+          "value": 55409
+        },
+        "declination": {
+          "units": "deg (east)",
+          "value": -2.912
+        },
+        "inclination": {
+          "units": "deg (down)",
+          "value": 72.955
+        },
+        "north-intensity": {
+          "units": "nT",
+          "value": 16221
+        },
+        "east-intensity": {
+          "units": "nT",
+          "value": -825
+        },
+        "vertical-intensity": {
+          "units": "nT",
+          "value": 52975
+        },
+        "horizontal-intensity": {
+          "units": "nT",
+          "value": 16242
+        }
+      },
+      "secular-variation": {
+        "total-intensity": {
+          "units": "nT/y",
+          "value": -106.2
+        },
+        "declination": {
+          "units": "arcmin/y (east)",
+          "value": -0.4
+        },
+        "inclination": {
+          "units": "arcmin/y (down)",
+          "value": -4.9
+        },
+        "north-intensity": {
+          "units": "nT/y",
+          "value": 44.6
+        },
+        "east-intensity": {
+          "units": "nT/y",
+          "value": -4.2
+        },
+        "vertical-intensity": {
+          "units": "nT/y",
+          "value": -124.8
+        },
+        "horizontal-intensity": {
+          "units": "nT/y",
+          "value": 44.8
+        }
+      }
+    }
+  }
+}

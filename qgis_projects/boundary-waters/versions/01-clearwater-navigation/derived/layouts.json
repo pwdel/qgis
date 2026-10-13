@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Student 01 - All the eastern lakes",
+    "audience": "Student",
+    "num": "01",
+    "scale": 66928.2387903682,
+    "extent": [
+      694044.7543296891,
+      5322727.641552478,
+      720949.9063234171,
+      5332833.805609824
+    ]
+  },
+  {
+    "name": "Student 02 - Clearwater & the inner circuit",
+    "audience": "Student",
+    "num": "02",
+    "scale": 45286.680771917716,
+    "extent": [
+      694044.7543296891,
+      5324511.579182872,
+      712250.0,
+      5331349.867979431
+    ]
+  },
+  {
+    "name": "Student 03 - The Pike lakes & eastern passage",
+    "audience": "Student",
+    "num": "03",
+    "scale": 44044.605506362226,
+    "extent": [
+      706171.9874549297,
+      5324405.355865421,
+      723877.9188684874,
+      5331056.091296881
+    ]
+  },
+  {
+    "name": "Instructor 01 - Circuit A - the inner loop",
+    "audience": "Instructor",
+    "num": "01",
+    "scale": 66928.2387903682,
+    "extent": [
+      694044.7543296891,
+      5322727.641552478,
+      720949.9063234171,
+      5332833.805609824
+    ]
+  },
+  {
+    "name": "Instructor 02 - Circuit B - the eastern loop",
+    "audience": "Instructor",
+    "num": "02",
+    "scale": 66928.2387903682,
+    "extent": [
+      694044.7543296891,
+      5322727.641552478,
+      720949.9063234171,
+      5332833.805609824
+    ]
+  },
+  {
+    "name": "Instructor 03 - Circuit A - Clearwater & inner passage",
+    "audience": "Instructor",
+    "num": "03",
+    "scale": 45286.680771917716,
+    "extent": [
+      694044.7543296891,
+      5324511.579182872,
+      712250.0,
+      5331349.867979431
+    ]
+  },
+  {
+    "name": "Instructor 04 - Circuit B - the eastern passage",
+    "audience": "Instructor",
+    "num": "04",
+    "scale": 44044.605506362226,
+    "extent": [
+      706171.9874549297,
+      5324405.355865421,
+      723877.9188684874,
+      5331056.091296881
+    ]
+  }
+]

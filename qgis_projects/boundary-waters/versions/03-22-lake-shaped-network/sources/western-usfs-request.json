@@ -1,0 +1,18 @@
+{
+  "retrieved_utc": "2026-10-08T00:31:22.260982+00:00",
+  "urls": {
+    "layer": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TrailNFSPublish_01/MapServer/0?f=pjson",
+    "query": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TrailNFSPublish_01/MapServer/0/query?f=json&where=1%3D1&geometry=-90.48%2C48.045%2C-90.085%2C48.12&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=%2A&returnGeometry=true"
+  },
+  "parameters": {
+    "f": "json",
+    "where": "1=1",
+    "geometry": "-90.48,48.045,-90.085,48.12",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": 4326,
+    "spatialRel": "esriSpatialRelIntersects",
+    "outSR": 4326,
+    "outFields": "*",
+    "returnGeometry": "true"
+  }
+}
