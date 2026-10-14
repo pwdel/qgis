@@ -1,5 +1,7 @@
 # Boundary Waters — 2008 canoe route atlas
 
+**Navigation-teaching experiments:** [Browse all five saved map versions](versions/README.md), from the Clearwater teaching chart to the 80-lake daylight-pie network.
+
 A six-page, **17 × 11 inch landscape** atlas based on the supplied “2008 Boundary Waters Trip” KML. It pairs the historical route with Minnesota DNR lake-depth maps, dated fish-survey and stocking evidence, and twelve experimental canoe-eye terrain views. Source review: **October 8, 2026 UTC**.
 
 **[Download the full-quality six-page PDF](output/pdf/boundary-waters-six-page-atlas.pdf)** · **[Open the editable QGIS project](boundary-waters.qgz)** · [Source register](docs/SOURCES.md) · [Validation](docs/validation.json)

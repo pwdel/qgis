@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:EPSG::26915"}},"features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[695016.3497079856,5327380.212373554]},"properties":{"label":"Departure","kind":"hypothetical start / finish"}}]}

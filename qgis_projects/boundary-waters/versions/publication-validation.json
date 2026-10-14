@@ -1,0 +1,87 @@
+{
+  "snapshot_count": 5,
+  "verified_files": 499,
+  "projects": [
+    {
+      "version": "01-clearwater-navigation",
+      "project": "clearwater-navigation.qgz",
+      "layers": 15,
+      "layouts": 7,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": true
+    },
+    {
+      "version": "02-17-lake-network",
+      "project": "geographic-evidence.qgz",
+      "layers": 6,
+      "layouts": 0,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": false
+    },
+    {
+      "version": "02-17-lake-network",
+      "project": "journey-network.qgz",
+      "layers": 10,
+      "layouts": 4,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": true
+    },
+    {
+      "version": "03-22-lake-shaped-network",
+      "project": "geographic-evidence.qgz",
+      "layers": 6,
+      "layouts": 0,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": false
+    },
+    {
+      "version": "03-22-lake-shaped-network",
+      "project": "journey-network.qgz",
+      "layers": 10,
+      "layouts": 5,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": true
+    },
+    {
+      "version": "04-80-lake-hour-ranges",
+      "project": "geographic-evidence.qgz",
+      "layers": 7,
+      "layouts": 0,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": false
+    },
+    {
+      "version": "04-80-lake-hour-ranges",
+      "project": "journey-network.qgz",
+      "layers": 11,
+      "layouts": 10,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": true
+    },
+    {
+      "version": "05-80-lake-daylight-pies",
+      "project": "geographic-evidence.qgz",
+      "layers": 7,
+      "layouts": 0,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": false
+    },
+    {
+      "version": "05-80-lake-daylight-pies",
+      "project": "journey-network.qgz",
+      "layers": 13,
+      "layouts": 10,
+      "all_layers_valid": true,
+      "all_sources_local": true,
+      "first_layout_exported": true
+    }
+  ]
+}

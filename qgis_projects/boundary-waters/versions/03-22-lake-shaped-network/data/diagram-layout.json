@@ -1,0 +1,172 @@
+{
+  "bounds": [
+    7.1004751202364815,
+    -6.109214299276871,
+    459.7920866958524,
+    214.46873897063435
+  ],
+  "method": "source footprints + sqrt(time) spacing stress with geographic order and legibility constraints",
+  "connection_checks": [
+    {
+      "id": "a",
+      "source_vertices": 9,
+      "diagram_vertices": 9,
+      "start_boundary_gap": 9.643942653622439e-15,
+      "end_boundary_gap": 6.625110162608401e-15
+    },
+    {
+      "id": "b",
+      "source_vertices": 6,
+      "diagram_vertices": 5,
+      "start_boundary_gap": 4.026784552496875e-15,
+      "end_boundary_gap": 5.476662627970187e-15
+    },
+    {
+      "id": "c",
+      "source_vertices": 7,
+      "diagram_vertices": 6,
+      "start_boundary_gap": 1.732382524858419e-14,
+      "end_boundary_gap": 6.965156088322464e-15
+    },
+    {
+      "id": "d",
+      "source_vertices": 11,
+      "diagram_vertices": 11,
+      "start_boundary_gap": 6.0873902292852286e-15,
+      "end_boundary_gap": 6.7675229361591225e-15
+    },
+    {
+      "id": "e",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 1.5456738128128472e-14,
+      "end_boundary_gap": 8.017977382602685e-15
+    },
+    {
+      "id": "f",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 1.2586770715196823e-15,
+      "end_boundary_gap": 2.1015429206943215e-15
+    },
+    {
+      "id": "g",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 1.5415778668994657e-14,
+      "end_boundary_gap": 1.6184200711325496e-15
+    },
+    {
+      "id": "h",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 3.5516609018291176e-15,
+      "end_boundary_gap": 4.794452462387931e-15
+    },
+    {
+      "id": "i",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 1.448133899173492e-14,
+      "end_boundary_gap": 2.288134077092678e-15
+    },
+    {
+      "id": "j",
+      "source_vertices": 8,
+      "diagram_vertices": 8,
+      "start_boundary_gap": 1.7499767930313383e-14,
+      "end_boundary_gap": 6.750148523084226e-15
+    },
+    {
+      "id": "k",
+      "source_vertices": 6,
+      "diagram_vertices": 6,
+      "start_boundary_gap": 1.5803644207619872e-14,
+      "end_boundary_gap": 5.121305731115039e-16
+    },
+    {
+      "id": "l",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.0691937232028712e-15,
+      "end_boundary_gap": 2.4876522162259953e-14
+    },
+    {
+      "id": "n",
+      "source_vertices": 25,
+      "diagram_vertices": 25,
+      "start_boundary_gap": 2.7281465011917623e-15,
+      "end_boundary_gap": 1.607777802027759e-15
+    },
+    {
+      "id": "o",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 4.333852204295017e-15,
+      "end_boundary_gap": 8.452862517365452e-15
+    },
+    {
+      "id": "p",
+      "source_vertices": 22,
+      "diagram_vertices": 22,
+      "start_boundary_gap": 6.842603519762394e-15,
+      "end_boundary_gap": 9.037650032636782e-15
+    },
+    {
+      "id": "q",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 1.536557762883804e-15,
+      "end_boundary_gap": 4.111124144178592e-15
+    },
+    {
+      "id": "r",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 3.8618559610826965e-15,
+      "end_boundary_gap": 8.727495253597662e-15
+    },
+    {
+      "id": "s",
+      "source_vertices": 8,
+      "diagram_vertices": 8,
+      "start_boundary_gap": 1.1378651495354354e-15,
+      "end_boundary_gap": 6.233134232129653e-15
+    },
+    {
+      "id": "t",
+      "source_vertices": 5,
+      "diagram_vertices": 5,
+      "start_boundary_gap": 4.213057897208263e-15,
+      "end_boundary_gap": 1.8334799308027965e-15
+    },
+    {
+      "id": "u",
+      "source_vertices": 4,
+      "diagram_vertices": 4,
+      "start_boundary_gap": 3.788693417925481e-15,
+      "end_boundary_gap": 9.106914641577244e-15
+    },
+    {
+      "id": "v",
+      "source_vertices": 3,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 2.8859666613936877e-15,
+      "end_boundary_gap": 1.5480297176676205e-14
+    },
+    {
+      "id": "w",
+      "source_vertices": 5,
+      "diagram_vertices": 3,
+      "start_boundary_gap": 2.203845297761768e-14,
+      "end_boundary_gap": 2.1322763327755735e-14
+    },
+    {
+      "id": "m",
+      "source_vertices": 2,
+      "diagram_vertices": 2,
+      "start_boundary_gap": 8.283809770013211e-15,
+      "end_boundary_gap": 6.431990513424028e-16
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::26915"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          697379.9539344859,
+          5328101.2773422
+        ]
+      },
+      "properties": {
+        "id": "clearwater-palisades",
+        "name": "Clearwater Palisades",
+        "lake": "Clearwater",
+        "kind": "cliff",
+        "visibility": "water-visible",
+        "lon": -90.350022,
+        "lat": 48.07561,
+        "location_accuracy_m": 850,
+        "vantage_description": "Western Clearwater Lake and the lodge waterfront, looking east; paddle toward the first cliff.",
+        "source_url": "https://clearwaterhistoriclodge.com/gunflint-trail-activities/canoe-day-trips-2/",
+        "evidence": "The lodge describes two tall basalt cliffs dominating the eastward view from its waterfront and a paddle to the first cliff base.",
+        "coordinate_source_url": "https://bwcawild.com/BWCA-Hiking-Trails/Clearwater-Lake-Palisades-Trail/Clearwater-Lake-Palisades-Trail.html",
+        "coordinate_basis": "Published GPS is the landing WEST of the cliff. This is an anchor for a broad landmark region, not the cliff summit or face.",
+        "uncertainty": "Do not use this coordinate as a precise target for a bearing or viewshed. The source describes two cliffs; record intentionally groups them.",
+        "location_type": "region-anchor",
+        "bearing_ready": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          677590.0943730874,
+          5317886.004576311
+        ]
+      },
+      "properties": {
+        "id": "winchell-cliffs",
+        "name": "Winchell cliffs",
+        "lake": "Winchell",
+        "kind": "cliff",
+        "visibility": "water-visible",
+        "lon": -90.6197,
+        "lat": 47.9896,
+        "location_accuracy_m": 250,
+        "vantage_description": "Winchell Lake water north of the southern-shore cliffs; the field account explicitly describes looking at the cliffs from the water.",
+        "source_url": "https://bwca.com/index.cfm/index.cfm?confID=1&forumID=16&fuseaction=forum.thread&threadId=1019094",
+        "evidence": "First-person discussion and photographs document viewing the cliffs from water and a canoe landing to their west.",
+        "coordinate_source_url": "https://bwca.com/index.cfm?fuseaction=maps.point_info&pt_id=3445&scode=N",
+        "coordinate_basis": "Published approximate point of interest named Cliffs of Winchell lake.",
+        "uncertainty": "Community waypoint, not surveyed. Trail directions conflict across older accounts; no hiking route is asserted here.",
+        "location_type": "approximate-target",
+        "bearing_ready": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          688132.2155270593,
+          5330654.681499012
+        ]
+      },
+      "properties": {
+        "id": "rose-cliffs",
+        "name": "Rose Lake cliffs",
+        "lake": "Rose",
+        "kind": "cliff",
+        "visibility": "water-visible",
+        "lon": -90.472927,
+        "lat": 48.101356,
+        "location_accuracy_m": 700,
+        "vantage_description": "Rose Lake western arm and the approach from Rat Lake; cliffs also appear eastward from western South Lake.",
+        "source_url": "https://bwcawild.com/BWCA-Lakes/Gunflint-District/Rose-Lake/Rose-Lake.html",
+        "evidence": "Field guide describes tall shoreline cliffs and the scenic paddle through the long western arm. A canoe-trip photograph independently documents Rose cliffs eastward from South Lake.",
+        "coordinate_source_url": "https://www.backpacker.com/trips/50-views-50-states-best-views-united-states?scope=anon",
+        "coordinate_basis": "Published Rose Lake Cliffs overlook coordinate, used to anchor a broad cliff region.",
+        "uncertainty": "Overlook coordinate is not a surveyed cliff face. Visibility is regional, not an all-lake or all-direction claim.",
+        "location_type": "region-anchor",
+        "bearing_ready": false,
+        "additional_source_url": "https://elspethronnander.com/2020/06/15/canoeing-the-minnesota-ontario-border/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          668300.3496378473,
+          5312882.593427227
+        ]
+      },
+      "properties": {
+        "id": "brule-rockslide",
+        "name": "Brule rockslide",
+        "lake": "Brule",
+        "kind": "rockslide",
+        "visibility": "water-visible",
+        "lon": -90.74607,
+        "lat": 47.94713,
+        "location_accuracy_m": 350,
+        "vantage_description": "Western Brule Lake bay beside the Wench portage; photographed from the lake at the published Brule Rockslide photo point.",
+        "source_url": "https://bwca.com/index.cfm?fid=55&fuseaction=bwca_routes.trip_report&trid=3885",
+        "evidence": "The paddler describes crossing to the rockslide, the striking escarpment, and landing beneath its cliffs at the Wench portage.",
+        "coordinate_source_url": "https://www.paddleplanner.com/photos/albumphotos.aspx?album=163",
+        "coordinate_basis": "Published View from Brule Rockslide photo coordinate; the same album locates the on-water Brule Rockslide photo nearby.",
+        "uncertainty": "Photo geotags are not surveyed feature geometry; approximate region only.",
+        "location_type": "approximate-target",
+        "bearing_ready": false,
+        "vantage_lon": -90.74329,
+        "vantage_lat": 47.94706,
+        "vantage_accuracy_m": 200,
+        "vantage_coordinate_basis": "Published photo geotag titled Brule Rockslide, 2015-07-10."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          654609.5404123082,
+          5334131.3715155255
+        ]
+      },
+      "properties": {
+        "id": "seagull-palisades",
+        "name": "Seagull Palisades",
+        "lake": "Seagull",
+        "kind": "cliff",
+        "visibility": "water-visible",
+        "lon": -90.92161666666667,
+        "lat": 48.14163333333333,
+        "location_accuracy_m": 100,
+        "vantage_description": "North side of Seagull Lake beside Miles Island; canoe past the cliff face.",
+        "source_url": "https://voyageuroutfitters.com/resort-activities/",
+        "evidence": "Outfitter explicitly describes canoeing past the palisades before stopping for a hike.",
+        "coordinate_source_url": "https://www.seagulloutfitters.com/gps-navigation/",
+        "coordinate_basis": "Outfitter publishes Seagull Palisades waypoint N 48 degrees 08.498 minutes, W 090 degrees 55.297 minutes; converted to decimal degrees.",
+        "uncertainty": "Waypoint may identify top rather than exposed face; lake visibility supported but no exact bearing validated.",
+        "location_type": "published-waypoint",
+        "bearing_ready": false,
+        "additional_source_url": "https://voyageuroutfitters.com/seagull-base/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          690265.6724624594,
+          5329709.819285395
+        ]
+      },
+      "properties": {
+        "id": "rose-falls",
+        "name": "Rose Falls / Stairway Falls",
+        "lake": "Rose",
+        "kind": "waterfall",
+        "visibility": "walk-from-portage",
+        "lon": -90.44472,
+        "lat": 48.09223,
+        "location_accuracy_m": 100,
+        "vantage_description": "Walk from the Duncan\u2013Rose Stairway Portage landing; viewpoint is on land beside the falls.",
+        "source_url": "https://clearwaterhistoriclodge.com/gunflint-trail-activities/canoe-day-trips-2/",
+        "evidence": "The lodge instructs visitors to leave the canoe at the landing and walk to the falls.",
+        "coordinate_source_url": "https://mapcarta.com/N5883313942",
+        "coordinate_basis": "OpenStreetMap waterfall node 5883313942 coordinates as published by Mapcarta.",
+        "uncertainty": "Waterfall access is documented; no claim of seeing the falls from a canoe. Falls and trail viewpoints are different locations.",
+        "location_type": "mapped-waterfall",
+        "bearing_ready": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          703749.9189080704,
+          5326631.703019842
+        ]
+      },
+      "properties": {
+        "id": "johnson-falls",
+        "name": "Johnson Falls",
+        "lake": "Pine",
+        "kind": "waterfall",
+        "visibility": "walk-from-portage",
+        "lon": -90.2653,
+        "lat": 48.0604,
+        "location_accuracy_m": 250,
+        "vantage_description": "Trail at far western Pine Lake, reached after the Little Caribou\u2013Pine carry; about a quarter-mile walk to the falls.",
+        "source_url": "https://clearwaterhistoriclodge.com/gunflint-trail-activities/canoe-day-trips-2/",
+        "evidence": "Outfitter describes a quarter-mile hike from the west end of Pine to the two-tier falls.",
+        "coordinate_source_url": "https://bwca.com/index.cfm?fuseaction=maps.point_info&pt_id=10035&scode=N",
+        "coordinate_basis": "Published approximate Lower Johnson Falls waypoint; this record groups both tiers.",
+        "uncertainty": "Community point is approximate and marks lower falls. The source website miscategorizes it as Pictographs; that category is not adopted.",
+        "location_type": "approximate-target",
+        "bearing_ready": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          660430.7553915998,
+          5343954.837283316
+        ]
+      },
+      "properties": {
+        "id": "saganaga-falls",
+        "name": "Saganaga Falls",
+        "lake": "Saganaga",
+        "kind": "waterfall",
+        "visibility": "walk-from-portage",
+        "lon": -90.83971,
+        "lat": 48.22851,
+        "location_accuracy_m": 150,
+        "vantage_description": "Beside the final Granite River\u2013Saganaga carry; use the portage-side area as the viewing region.",
+        "source_url": "https://voyageuroutfitters.com/granite/",
+        "evidence": "Outfitter describes arrival at Saganaga Falls and the 34-rod portage around them before entering Saganaga.",
+        "coordinate_source_url": "https://geogratis.gc.ca/services/geoname/en/geonames.html?category=O%2CP%2CM&expand=items.status%2Citems.concise%2Citems.generic%2Citems.province&q=falls&select=items.status.term%2Citems.concise.term%2Citems.generic.term%2Citems.province.description&skip=1000&sort-field=name",
+        "coordinate_basis": "Canadian Geographical Names Database official feature FCNHV, published 48.22851,-90.83971, with 100 m location descriptor; corroborated by GNIS/OSM-derived waterfall point 48.2286,-90.8398.",
+        "uncertainty": "Conservatively classified as a portage stop; no safe open-water viewing position asserted. A separate GeoNames-derived Mapcarta point lies hundreds of metres northeast and was rejected.",
+        "location_type": "official-name-point",
+        "bearing_ready": false,
+        "additional_source_url": "https://www.thewaterfallmap.com/waterfalls/saganaga-falls/"
+      }
+    }
+  ]
+}

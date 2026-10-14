@@ -4,6 +4,9 @@
 
 ## Canoe maps
 
+- [Boundary Waters — five navigation-teaching map versions](qgis_projects/boundary-waters/versions/README.md): separate editable projects and PDFs for the Clearwater, 17-lake, 22-lake, 80-lake hour-range and 80-lake daylight-pie editions.
+
+- [Clearwater navigation teaching experiment](qgis_projects/boundary-waters-experimental/README.md): black-and-white historical-style charts, two hypothetical loops, hidden portage evidence, and editable QGIS projects with student/instructor PDFs.
 - [Boundary Waters — 2008 canoe route atlas](qgis_projects/boundary-waters/README.md): six pages with DNR depth maps, dated fisheries and stocking records, an editable QGIS project, and experimental lidar portage-approach views.
 
 ## Horse-riding maps

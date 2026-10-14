@@ -1,0 +1,83 @@
+{
+  "utc": "2026-10-12T21:21:09.408499+00:00",
+  "pdfs": {
+    "student": {
+      "pages": 3,
+      "page_inches": [
+        17,
+        11
+      ],
+      "text_extracts": true,
+      "student_answer_legend_absent": true,
+      "optional_content_layers": false
+    },
+    "instructor": {
+      "pages": 4,
+      "page_inches": [
+        17,
+        11
+      ],
+      "text_extracts": true,
+      "student_answer_legend_absent": null,
+      "optional_content_layers": false
+    }
+  },
+  "renders": [
+    {
+      "page": "student-1",
+      "monochrome": true,
+      "rendered_pixels": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "page": "student-2",
+      "monochrome": true,
+      "rendered_pixels": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "page": "student-3",
+      "monochrome": true,
+      "rendered_pixels": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "page": "instructor-1",
+      "monochrome": true,
+      "rendered_pixels": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "page": "instructor-2",
+      "monochrome": true,
+      "rendered_pixels": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "page": "instructor-3",
+      "monochrome": true,
+      "rendered_pixels": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "page": "instructor-4",
+      "monochrome": true,
+      "rendered_pixels": [
+        1295,
+        2000
+      ]
+    }
+  ]
+}
