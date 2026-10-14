@@ -1,0 +1,19 @@
+{
+  "id": "04-red-canyon",
+  "center_wgs84": [
+    -112.29,
+    37.771
+  ],
+  "bbox_utm12": [
+    369887.7418846864,
+    4170006.382494424,
+    402887.7418846864,
+    4192375.510011202
+  ],
+  "crs": "EPSG:26912",
+  "width_m": 33000.0,
+  "height_m": 22369.127516778186,
+  "extent_basis": "provisional editorial extent; Peter extent not supplied",
+  "expansion_linear": 1.5,
+  "created": "2026-10-14"
+}

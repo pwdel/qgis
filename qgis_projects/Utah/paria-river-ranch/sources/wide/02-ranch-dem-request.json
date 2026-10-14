@@ -1,0 +1,31 @@
+{
+  "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=387613.79105503653%2C4096301.059231693%2C437113.79105503653%2C4129854.75050686&bboxSR=26912&imageSR=26912&size=3300%2C2237&f=json&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=RSP_BilinearInterpolation",
+  "parameters": {
+    "bbox": "387613.79105503653,4096301.059231693,437113.79105503653,4129854.75050686",
+    "bboxSR": 26912,
+    "imageSR": 26912,
+    "size": "3300,2237",
+    "f": "json",
+    "format": "tiff",
+    "pixelType": "F32",
+    "renderingRule": "{\"rasterFunction\": \"None\"}",
+    "interpolation": "RSP_BilinearInterpolation"
+  },
+  "response": {
+    "href": "https://elevation.nationalmap.gov/arcgis/rest/directories/elevation_output/3DEPElevation_ImageServer/_ags_feb34ae8_adc5_4533_93cf_9642a52b5aba.tif",
+    "width": 3300,
+    "height": 2237,
+    "extent": {
+      "xmin": 387613.79105503653,
+      "ymin": 4096300.4048692766,
+      "xmax": 437113.79105503653,
+      "ymax": 4129855.4048692766,
+      "spatialReference": {
+        "wkid": 26912,
+        "latestWkid": 26912
+      }
+    },
+    "scale": 0
+  },
+  "retrieved_utc": "2026-10-14T15:38:50.811106+00:00"
+}

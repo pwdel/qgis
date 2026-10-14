@@ -1,0 +1,17 @@
+{
+  "url": "https://gis.trustlands.utah.gov/mapping/rest/services/Land_Ownership/FeatureServer/0/query",
+  "parameters": {
+    "f": "json",
+    "where": "1=1",
+    "geometry": "387613.79105503653,4096301.059231693,437113.79105503653,4129854.75050686",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": 26912,
+    "spatialRel": "esriSpatialRelIntersects"
+  },
+  "retrieved_utc": "2026-10-14T15:38:31.101409+00:00",
+  "count": 43,
+  "id_count": 43,
+  "downloaded_count": 43,
+  "complete_ids_match": true,
+  "batch_size": 100
+}

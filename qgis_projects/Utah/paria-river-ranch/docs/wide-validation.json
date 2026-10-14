@@ -1,0 +1,54 @@
+{
+  "passed": 14901,
+  "failed": 0,
+  "device_tested": false,
+  "raster_coverage_exceptions": [
+    {
+      "area": "red-canyon",
+      "theme": "access",
+      "layer": "Native 1m slope screening | 30-45 / 45+ degrees",
+      "covers_map_bbox": false,
+      "source": "derived/thunder-slope-screen.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "access",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif",
+      "coverage_note": "Full coverage within one micrometre coordinate rounding tolerance."
+    },
+    {
+      "area": "red-canyon",
+      "theme": "terrain",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif",
+      "coverage_note": "Full coverage within one micrometre coordinate rounding tolerance."
+    },
+    {
+      "area": "red-canyon",
+      "theme": "snow",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif",
+      "coverage_note": "Full coverage within one micrometre coordinate rounding tolerance."
+    },
+    {
+      "area": "red-canyon",
+      "theme": "camping",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif",
+      "coverage_note": "Full coverage within one micrometre coordinate rounding tolerance."
+    },
+    {
+      "area": "red-canyon",
+      "theme": "wildfire",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif",
+      "coverage_note": "Full coverage within one micrometre coordinate rounding tolerance."
+    }
+  ]
+}

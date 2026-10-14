@@ -1,0 +1,817 @@
+{
+  "created": "2026-10-14",
+  "linear_expansion": 1.5,
+  "area_multiplier": 2.25,
+  "device_tested": false,
+  "pdfs": [
+    {
+      "file": "output/pdf/wide/ranch/ranch-access-wide.pdf",
+      "area": "ranch",
+      "theme": "access",
+      "bounds": [
+        387613.79105503653,
+        4096301.059231693,
+        437113.79105503653,
+        4129854.75050686
+      ],
+      "corners_lonlat": [
+        [
+          -112.26317944299868,
+          37.00615634024684
+        ],
+        [
+          -112.26822117876458,
+          37.308541691027855
+        ],
+        [
+          -111.70969340883158,
+          37.31320967811916
+        ],
+        [
+          -111.70687143676994,
+          37.01077374089712
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/ranch/ranch-terrain-wide.pdf",
+      "area": "ranch",
+      "theme": "terrain",
+      "bounds": [
+        387613.79105503653,
+        4096301.059231693,
+        437113.79105503653,
+        4129854.75050686
+      ],
+      "corners_lonlat": [
+        [
+          -112.26317944299868,
+          37.00615634024684
+        ],
+        [
+          -112.26822117876458,
+          37.308541691027855
+        ],
+        [
+          -111.70969340883158,
+          37.31320967811916
+        ],
+        [
+          -111.70687143676994,
+          37.01077374089712
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/ranch/ranch-snow-wide.pdf",
+      "area": "ranch",
+      "theme": "snow",
+      "bounds": [
+        387613.79105503653,
+        4096301.059231693,
+        437113.79105503653,
+        4129854.75050686
+      ],
+      "corners_lonlat": [
+        [
+          -112.26317944299868,
+          37.00615634024684
+        ],
+        [
+          -112.26822117876458,
+          37.308541691027855
+        ],
+        [
+          -111.70969340883158,
+          37.31320967811916
+        ],
+        [
+          -111.70687143676994,
+          37.01077374089712
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/ranch/ranch-camping-wide.pdf",
+      "area": "ranch",
+      "theme": "camping",
+      "bounds": [
+        387613.79105503653,
+        4096301.059231693,
+        437113.79105503653,
+        4129854.75050686
+      ],
+      "corners_lonlat": [
+        [
+          -112.26317944299868,
+          37.00615634024684
+        ],
+        [
+          -112.26822117876458,
+          37.308541691027855
+        ],
+        [
+          -111.70969340883158,
+          37.31320967811916
+        ],
+        [
+          -111.70687143676994,
+          37.01077374089712
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/ranch/ranch-wildfire-wide.pdf",
+      "area": "ranch",
+      "theme": "wildfire",
+      "bounds": [
+        387613.79105503653,
+        4096301.059231693,
+        437113.79105503653,
+        4129854.75050686
+      ],
+      "corners_lonlat": [
+        [
+          -112.26317944299868,
+          37.00615634024684
+        ],
+        [
+          -112.26822117876458,
+          37.308541691027855
+        ],
+        [
+          -111.70969340883158,
+          37.31320967811916
+        ],
+        [
+          -111.70687143676994,
+          37.01077374089712
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/mount-carmel-access-wide.pdf",
+      "area": "mount-carmel",
+      "theme": "access",
+      "bounds": [
+        334491.4597146199,
+        4111547.2521860027,
+        358491.4597146199,
+        4127815.708561842
+      ],
+      "corners_lonlat": [
+        [
+          -112.86337271416745,
+          37.13566366714428
+        ],
+        [
+          -112.86698136175418,
+          37.28223143796094
+        ],
+        [
+          -112.59635891335363,
+          37.28619160455623
+        ],
+        [
+          -112.59327276021213,
+          37.13960298467927
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/mount-carmel-terrain-wide.pdf",
+      "area": "mount-carmel",
+      "theme": "terrain",
+      "bounds": [
+        334491.4597146199,
+        4111547.2521860027,
+        358491.4597146199,
+        4127815.708561842
+      ],
+      "corners_lonlat": [
+        [
+          -112.86337271416745,
+          37.13566366714428
+        ],
+        [
+          -112.86698136175418,
+          37.28223143796094
+        ],
+        [
+          -112.59635891335363,
+          37.28619160455623
+        ],
+        [
+          -112.59327276021213,
+          37.13960298467927
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/mount-carmel-snow-wide.pdf",
+      "area": "mount-carmel",
+      "theme": "snow",
+      "bounds": [
+        334491.4597146199,
+        4111547.2521860027,
+        358491.4597146199,
+        4127815.708561842
+      ],
+      "corners_lonlat": [
+        [
+          -112.86337271416745,
+          37.13566366714428
+        ],
+        [
+          -112.86698136175418,
+          37.28223143796094
+        ],
+        [
+          -112.59635891335363,
+          37.28619160455623
+        ],
+        [
+          -112.59327276021213,
+          37.13960298467927
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/mount-carmel-camping-wide.pdf",
+      "area": "mount-carmel",
+      "theme": "camping",
+      "bounds": [
+        334491.4597146199,
+        4111547.2521860027,
+        358491.4597146199,
+        4127815.708561842
+      ],
+      "corners_lonlat": [
+        [
+          -112.86337271416745,
+          37.13566366714428
+        ],
+        [
+          -112.86698136175418,
+          37.28223143796094
+        ],
+        [
+          -112.59635891335363,
+          37.28619160455623
+        ],
+        [
+          -112.59327276021213,
+          37.13960298467927
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/mount-carmel-wildfire-wide.pdf",
+      "area": "mount-carmel",
+      "theme": "wildfire",
+      "bounds": [
+        334491.4597146199,
+        4111547.2521860027,
+        358491.4597146199,
+        4127815.708561842
+      ],
+      "corners_lonlat": [
+        [
+          -112.86337271416745,
+          37.13566366714428
+        ],
+        [
+          -112.86698136175418,
+          37.28223143796094
+        ],
+        [
+          -112.59635891335363,
+          37.28619160455623
+        ],
+        [
+          -112.59327276021213,
+          37.13960298467927
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/red-canyon-access-wide.pdf",
+      "area": "red-canyon",
+      "theme": "access",
+      "bounds": [
+        369887.7418846864,
+        4170006.382494424,
+        402887.7418846864,
+        4192375.510011202
+      ],
+      "corners_lonlat": [
+        [
+          -112.47529391749325,
+          37.66802384517695
+        ],
+        [
+          -112.47930441312165,
+          37.8695753054252
+        ],
+        [
+          -112.10418762356711,
+          37.873691549119016
+        ],
+        [
+          -112.10119350837748,
+          37.67211047497372
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/red-canyon-terrain-wide.pdf",
+      "area": "red-canyon",
+      "theme": "terrain",
+      "bounds": [
+        369887.7418846864,
+        4170006.382494424,
+        402887.7418846864,
+        4192375.510011202
+      ],
+      "corners_lonlat": [
+        [
+          -112.47529391749325,
+          37.66802384517695
+        ],
+        [
+          -112.47930441312165,
+          37.8695753054252
+        ],
+        [
+          -112.10418762356711,
+          37.873691549119016
+        ],
+        [
+          -112.10119350837748,
+          37.67211047497372
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/red-canyon-snow-wide.pdf",
+      "area": "red-canyon",
+      "theme": "snow",
+      "bounds": [
+        369887.7418846864,
+        4170006.382494424,
+        402887.7418846864,
+        4192375.510011202
+      ],
+      "corners_lonlat": [
+        [
+          -112.47529391749325,
+          37.66802384517695
+        ],
+        [
+          -112.47930441312165,
+          37.8695753054252
+        ],
+        [
+          -112.10418762356711,
+          37.873691549119016
+        ],
+        [
+          -112.10119350837748,
+          37.67211047497372
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/red-canyon-camping-wide.pdf",
+      "area": "red-canyon",
+      "theme": "camping",
+      "bounds": [
+        369887.7418846864,
+        4170006.382494424,
+        402887.7418846864,
+        4192375.510011202
+      ],
+      "corners_lonlat": [
+        [
+          -112.47529391749325,
+          37.66802384517695
+        ],
+        [
+          -112.47930441312165,
+          37.8695753054252
+        ],
+        [
+          -112.10418762356711,
+          37.873691549119016
+        ],
+        [
+          -112.10119350837748,
+          37.67211047497372
+        ]
+      ]
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/red-canyon-wildfire-wide.pdf",
+      "area": "red-canyon",
+      "theme": "wildfire",
+      "bounds": [
+        369887.7418846864,
+        4170006.382494424,
+        402887.7418846864,
+        4192375.510011202
+      ],
+      "corners_lonlat": [
+        [
+          -112.47529391749325,
+          37.66802384517695
+        ],
+        [
+          -112.47930441312165,
+          37.8695753054252
+        ],
+        [
+          -112.10418762356711,
+          37.873691549119016
+        ],
+        [
+          -112.10119350837748,
+          37.67211047497372
+        ]
+      ]
+    }
+  ],
+  "geojson": [
+    {
+      "file": "output/pdf/wide/ranch/geojson/02-ranch-planning-references.geojson",
+      "features": 1,
+      "repaired_input_geometries": 0,
+      "layer": "02-ranch | planning references"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/named-approach-roads-source-names.geojson",
+      "features": 49,
+      "repaired_input_geometries": 0,
+      "layer": "Named approach roads | source names"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/state-trails-published-horse-use-attributes.geojson",
+      "features": 44,
+      "repaired_input_geometries": 0,
+      "layer": "State trails | published horse-use attributes"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/road-classes-trailer-fit-unverified.geojson",
+      "features": 954,
+      "repaired_input_geometries": 0,
+      "layer": "Road classes | trailer fit unverified"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/ranch-area-references.geojson",
+      "features": 1,
+      "repaired_input_geometries": 0,
+      "layer": "ranch | area references"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/ranch-official-campsite-staging-references.geojson",
+      "features": 0,
+      "repaired_input_geometries": 0,
+      "layer": "ranch | official campsite/staging references"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/ranch-official-utah-ownership.geojson",
+      "features": 43,
+      "repaired_input_geometries": 1,
+      "layer": "ranch | official Utah ownership"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/ranch-reported-fire-discovery-points-1992-2024.geojson",
+      "features": 415,
+      "repaired_input_geometries": 0,
+      "layer": "ranch | reported fire discovery points 1992-2024"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/ranch-historical-fire-perimeters.geojson",
+      "features": 5,
+      "repaired_input_geometries": 0,
+      "layer": "ranch | historical fire perimeters"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/all-source-trailhead-references.geojson",
+      "features": 0,
+      "repaired_input_geometries": 0,
+      "layer": "All source trailhead references"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/usfs-trail-records-inspect-attributes.geojson",
+      "features": 0,
+      "repaired_input_geometries": 0,
+      "layer": "USFS trail records | inspect attributes"
+    },
+    {
+      "file": "output/pdf/wide/ranch/geojson/ranch-profile-routes-and-ascent-estimates.geojson",
+      "features": 3,
+      "repaired_input_geometries": 0,
+      "layer": "ranch | profile routes and ascent estimates"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/03-mount-carmel-planning-references.geojson",
+      "features": 3,
+      "repaired_input_geometries": 0,
+      "layer": "03-mount-carmel | planning references"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/named-approach-roads-source-names.geojson",
+      "features": 28,
+      "repaired_input_geometries": 0,
+      "layer": "Named approach roads | source names"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/state-trails-published-horse-use-attributes.geojson",
+      "features": 44,
+      "repaired_input_geometries": 0,
+      "layer": "State trails | published horse-use attributes"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/road-classes-trailer-fit-unverified.geojson",
+      "features": 582,
+      "repaired_input_geometries": 0,
+      "layer": "Road classes | trailer fit unverified"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/mount-carmel-area-references.geojson",
+      "features": 3,
+      "repaired_input_geometries": 0,
+      "layer": "mount-carmel | area references"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/mount-carmel-official-campsite-staging-references.geojson",
+      "features": 1,
+      "repaired_input_geometries": 0,
+      "layer": "mount-carmel | official campsite/staging references"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/mount-carmel-official-utah-ownership.geojson",
+      "features": 45,
+      "repaired_input_geometries": 1,
+      "layer": "mount-carmel | official Utah ownership"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/mount-carmel-reported-fire-discovery-points-1992-2024.geojson",
+      "features": 251,
+      "repaired_input_geometries": 0,
+      "layer": "mount-carmel | reported fire discovery points 1992-2024"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/all-source-trailhead-references.geojson",
+      "features": 0,
+      "repaired_input_geometries": 0,
+      "layer": "All source trailhead references"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/usfs-trail-records-inspect-attributes.geojson",
+      "features": 0,
+      "repaired_input_geometries": 0,
+      "layer": "USFS trail records | inspect attributes"
+    },
+    {
+      "file": "output/pdf/wide/mount-carmel/geojson/mount-carmel-profile-routes-and-ascent-estimates.geojson",
+      "features": 2,
+      "repaired_input_geometries": 0,
+      "layer": "mount-carmel | profile routes and ascent estimates"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/04-red-canyon-planning-references.geojson",
+      "features": 5,
+      "repaired_input_geometries": 0,
+      "layer": "04-red-canyon | planning references"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/named-approach-roads-source-names.geojson",
+      "features": 73,
+      "repaired_input_geometries": 0,
+      "layer": "Named approach roads | source names"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/state-trails-published-horse-use-attributes.geojson",
+      "features": 309,
+      "repaired_input_geometries": 0,
+      "layer": "State trails | published horse-use attributes"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/road-classes-trailer-fit-unverified.geojson",
+      "features": 1731,
+      "repaired_input_geometries": 0,
+      "layer": "Road classes | trailer fit unverified"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/native-1m-analysis-footprint.geojson",
+      "features": 1,
+      "repaired_input_geometries": 0,
+      "layer": "Native 1m analysis footprint"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/red-canyon-area-references.geojson",
+      "features": 5,
+      "repaired_input_geometries": 0,
+      "layer": "red-canyon | area references"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/red-canyon-official-campsite-staging-references.geojson",
+      "features": 0,
+      "repaired_input_geometries": 0,
+      "layer": "red-canyon | official campsite/staging references"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/red-canyon-official-utah-ownership.geojson",
+      "features": 88,
+      "repaired_input_geometries": 0,
+      "layer": "red-canyon | official Utah ownership"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/red-canyon-reported-fire-discovery-points-1992-2024.geojson",
+      "features": 136,
+      "repaired_input_geometries": 0,
+      "layer": "red-canyon | reported fire discovery points 1992-2024"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/red-canyon-historical-fire-perimeters.geojson",
+      "features": 2,
+      "repaired_input_geometries": 0,
+      "layer": "red-canyon | historical fire perimeters"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/all-source-trailhead-references.geojson",
+      "features": 7,
+      "repaired_input_geometries": 0,
+      "layer": "All source trailhead references"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/usfs-trail-records-inspect-attributes.geojson",
+      "features": 46,
+      "repaired_input_geometries": 0,
+      "layer": "USFS trail records | inspect attributes"
+    },
+    {
+      "file": "output/pdf/wide/red-canyon/geojson/red-canyon-profile-routes-and-ascent-estimates.geojson",
+      "features": 43,
+      "repaired_input_geometries": 0,
+      "layer": "red-canyon | profile routes and ascent estimates"
+    }
+  ],
+  "raster_coverage": [
+    {
+      "area": "ranch",
+      "theme": "access",
+      "layer": "02-ranch | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/02-ranch-topo.tif"
+    },
+    {
+      "area": "ranch",
+      "theme": "terrain",
+      "layer": "ranch | terrain slopes within 150m of mapped trails",
+      "covers_map_bbox": true,
+      "source": "derived/wide/02-ranch-slope-overlay.tif"
+    },
+    {
+      "area": "ranch",
+      "theme": "terrain",
+      "layer": "02-ranch | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/02-ranch-topo.tif"
+    },
+    {
+      "area": "ranch",
+      "theme": "snow",
+      "layer": "Snow context 10 | exploratory satellite ensemble",
+      "covers_map_bbox": true,
+      "source": "sources/expansion-snow/snowcover-ensemble-p50-10.tif"
+    },
+    {
+      "area": "ranch",
+      "theme": "snow",
+      "layer": "02-ranch | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/02-ranch-topo.tif"
+    },
+    {
+      "area": "ranch",
+      "theme": "camping",
+      "layer": "02-ranch | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/02-ranch-topo.tif"
+    },
+    {
+      "area": "ranch",
+      "theme": "wildfire",
+      "layer": "02-ranch | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/02-ranch-topo.tif"
+    },
+    {
+      "area": "mount-carmel",
+      "theme": "access",
+      "layer": "03-mount-carmel | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/03-mount-carmel-topo.tif"
+    },
+    {
+      "area": "mount-carmel",
+      "theme": "terrain",
+      "layer": "mount-carmel | terrain slopes within 150m of mapped trails",
+      "covers_map_bbox": true,
+      "source": "derived/wide/03-mount-carmel-slope-overlay.tif"
+    },
+    {
+      "area": "mount-carmel",
+      "theme": "terrain",
+      "layer": "03-mount-carmel | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/03-mount-carmel-topo.tif"
+    },
+    {
+      "area": "mount-carmel",
+      "theme": "snow",
+      "layer": "Snow context 10 | exploratory satellite ensemble",
+      "covers_map_bbox": true,
+      "source": "sources/expansion-snow/snowcover-ensemble-p50-10.tif"
+    },
+    {
+      "area": "mount-carmel",
+      "theme": "snow",
+      "layer": "03-mount-carmel | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/03-mount-carmel-topo.tif"
+    },
+    {
+      "area": "mount-carmel",
+      "theme": "camping",
+      "layer": "03-mount-carmel | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/03-mount-carmel-topo.tif"
+    },
+    {
+      "area": "mount-carmel",
+      "theme": "wildfire",
+      "layer": "03-mount-carmel | USGS topographic context",
+      "covers_map_bbox": true,
+      "source": "sources/wide/03-mount-carmel-topo.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "access",
+      "layer": "Native 1m slope screening | 30-45 / 45+ degrees",
+      "covers_map_bbox": false,
+      "source": "derived/thunder-slope-screen.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "access",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "terrain",
+      "layer": "red-canyon | terrain slopes within 150m of mapped trails",
+      "covers_map_bbox": true,
+      "source": "derived/wide/04-red-canyon-slope-overlay.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "terrain",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "snow",
+      "layer": "Snow context 10 | exploratory satellite ensemble",
+      "covers_map_bbox": true,
+      "source": "sources/expansion-snow/snowcover-ensemble-p50-10.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "snow",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "camping",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif"
+    },
+    {
+      "area": "red-canyon",
+      "theme": "wildfire",
+      "layer": "04-red-canyon | USGS topographic context",
+      "covers_map_bbox": false,
+      "source": "sources/wide/04-red-canyon-topo.tif"
+    }
+  ]
+}

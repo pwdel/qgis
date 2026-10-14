@@ -1,0 +1,19 @@
+{
+  "id": "02-ranch",
+  "center_wgs84": [
+    -111.987,
+    37.16
+  ],
+  "bbox_utm12": [
+    387613.79105503653,
+    4096301.059231693,
+    437113.79105503653,
+    4129854.75050686
+  ],
+  "crs": "EPSG:26912",
+  "width_m": 49500.0,
+  "height_m": 33553.69127516728,
+  "extent_basis": "provisional editorial extent; Peter extent not supplied",
+  "expansion_linear": 1.5,
+  "created": "2026-10-14"
+}

@@ -111,3 +111,7 @@ Rebuilding uses local snapshots. `fetch_sources.py` and `fetch_rasters.py` refre
 ## Before a trip / second pass
 
 Supply the desired center/extent, trip dates, horse count, truck/trailer dimensions and target apps. Confirm actual staging permission and dimensions, current water/refill arrangements, snow/mud, road condition and applicable closures with the relevant managers. The dated/expired sources and conflicting coordinates are documented rather than silently resolved. Then narrow the ride areas, collect route-specific observations and prepare/test georeferenced Avenza sheets.
+
+## Expanded sharing maps
+
+[Download the expanded GeoPDF and GeoJSON packages](docs/WIDE-EXPORTS.md): five maps per area, with each map 1.5 times its original width and height.

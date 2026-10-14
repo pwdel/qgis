@@ -1,0 +1,11 @@
+UTAH RIDING MAPS - EXPANDED EDITION
+
+Five individual GeoPDFs: access, terrain, October snow, camping and wildfire history. Import each PDF as a separate map. GeoJSON files are separate vector layers, not PDFs. GeoPDF keeps the visual styling; GeoJSON imports may require styling in your app. The PDF map frame has GPS metadata; headings/footers do not. iPhone app behavior has not been field-tested.
+
+Each new map is 1.5 times the previous width AND height (2.25 times its area), with the same center. New USGS topography, regional elevation and official trail/road, land ownership and fire-history queries cover the wider area. Elevation is a service DEM, not verified native lidar. Terrain colors describe cell slope within 150m of mapped trails, not trail grade or cliff height. Blank slope color is not proof of safety. Original profile and review evidence has not been extended or resurveyed.
+
+Companion atlas and original trail profiles retain ORIGINAL extents, legends, charts and dated research. Do not apply their fire counts to the wider maps. Snow is exploratory satellite context, not a calibrated trip probability. Ownership does not grant camping permission. No source establishes horse-trailer clearance or guaranteed water. The original restriction research is dated October 2026; check current orders before travel.
+
+GeoJSON preserves source attributes and adds atlas_source and atlas_input citation links. Geometry is clipped to the expanded map; disconnected segments remain disconnected. Invalid source geometry is repaired before clipping; counts are recorded in the public wide-manifest.json. Raster imagery (snow and terrain) remains in PDFs and is not misrepresented as vector GeoJSON.
+
+Full evidence: https://github.com/pwdel/qgis/blob/main/qgis_projects/Utah/paria-river-ranch/docs/RIDING-SOURCES.md
